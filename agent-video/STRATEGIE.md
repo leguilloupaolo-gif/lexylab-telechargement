@@ -10,7 +10,10 @@ temps de visionnage, partages et sauvegardes. Les abonnés et les clics viendron
 
 ## 2. Cibles (par ordre de priorité)
 1. **Élèves et étudiants dys (15-25 ans)** : cours, examens, devoirs, mails aux profs, jobs étudiants. → TikTok surtout.
-2. **Parents d'enfants dys** : école, devoirs, dictées, confiance en soi. → Instagram surtout.
+2. **Mamans (et parents) d'enfants dys** : cible **prioritaire sur Instagram**. Devoirs du soir, dictées, mots du prof,
+   rendez-vous chez le logopède, peur pour l'avenir, fierté des progrès, culpabilité (« est-ce que j'en fais assez ? »).
+   Ce qu'elles veulent : se sentir comprises, des astuces concrètes, un outil qui rend leur enfant plus autonome.
+   Ton : doux, rassurant, complice (« entre mamans »), jamais culpabilisant. **Au moins 2 posts par semaine pour elles.**
 3. **Adultes dys au travail** : mails, rapports, CV.
 4. **Logopèdes et enseignants** : ils recommandent. Contenus éducatifs, sérieux, bienveillants.
 
@@ -30,6 +33,7 @@ temps de visionnage, partages et sauvegardes. Les abonnés et les clics viendron
 | **emotion** : souvenirs d'école, remarques blessantes | kinetic sombre, sketch | commentaires, portée |
 | **engagement** : jeux, quiz, questions | quiz, kinetic « commente » | commentaires, algorithme |
 | **fondateur** : l'histoire derrière LexyLab (sans prénom) | kinetic | confiance, meilleur score TikTok |
+| **mamans** : le quotidien des mamans d'enfants dys | sketch maman/enfant, kinetic « entre mamans », astuces devoirs, demo mot au prof | communauté, partages entre mamans |
 
 ## 5. Formats disponibles (dossier `formats/`)
 - `sketch` : sketch bâton (~39 s), 2 personnages, bulles, écran avec fautes puis correction.
@@ -60,4 +64,5 @@ temps de visionnage, partages et sauvegardes. Les abonnés et les clics viendron
 
 ## 8. Mix de la semaine (mis à jour chaque lundi)
 Semaine du 6/11 : phase de découverte, chaque format testé au moins 2 fois.
-Ordre conseillé : demo → sketch → kinetic éducation → quiz → kinetic émotion → sketch → kinetic fondateur.
+Ordre conseillé : demo → kinetic mamans → sketch → quiz → kinetic émotion → sketch maman/enfant → kinetic fondateur.
+Les posts « mamans » passent de préférence le soir (après les devoirs) ou le mercredi.

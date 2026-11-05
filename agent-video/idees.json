@@ -24,6 +24,47 @@
   "tiktok_title": "Un mail corrigé en direct ✨"
  },
  {
+  "id": "kin-mamans-message",
+  "format": "kinetic",
+  "pilier": "mamans",
+  "hypothese": "Un message direct aux mamans crée de l'identification et des partages entre mamans",
+  "params": {
+   "theme": "vert",
+   "music": "calme",
+   "slides": [
+    {
+     "text": "À toutes les mamans d'enfants *dys*",
+     "emoji": "💚",
+     "size": "xl"
+    },
+    {
+     "text": "Les devoirs qui durent *des heures*…",
+     "size": "l"
+    },
+    {
+     "text": "Les mots dans le cahier : « _doit faire plus d'efforts_ »",
+     "size": "l"
+    },
+    {
+     "text": "Et toi qui te demandes : « est-ce que j'en fais *assez* ? »",
+     "emoji": "🫶",
+     "size": "l"
+    },
+    {
+     "text": "Tu en fais *déjà beaucoup*.",
+     "sub": "Et ton enfant n'est pas paresseux : son cerveau fonctionne autrement.",
+     "size": "l"
+    },
+    {
+     "text": "Partage à une maman qui a besoin de lire ça 💚",
+     "size": "l"
+    }
+   ]
+  },
+  "post_text": "À toutes les mamans d'enfants dys 💚 Tu en fais déjà beaucoup. Partage à une maman qui a besoin de lire ça.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "tiktok_title": "À toutes les mamans d'enfants dys 💚"
+ },
+ {
   "id": "sketch-devoir-francais",
   "format": "sketch",
   "pilier": "situations",
@@ -64,6 +105,27 @@
   },
   "post_text": "Écrire à un prof sans avoir honte de ses fautes 🙌 LexyLab comprend les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire à mon prof pour un retard…"
+ },
+ {
+  "id": "sketch-maman-devoirs",
+  "format": "sketch",
+  "pilier": "mamans",
+  "hypothese": "Une scène maman/enfant parle directement aux mamans",
+  "params": {
+   "caption": "Mardi soir, les devoirs…",
+   "hero_hair": "short",
+   "friend_hair": "long",
+   "p1": "Maman, j'y arrive pas à mon exposé…",
+   "p2": "Toutes mes phrases sont pleines de fautes 😢",
+   "screen": "Les [dofins|dauphins] [vive|vivent] en groupe et [comuniquent|communiquent] avec des [sifflemen|sifflements].",
+   "f1": "Et si on essayait *LexyLab* ensemble ?",
+   "f2": "Il souligne les fautes et te propose *le bon mot*.",
+   "f3": "Comme ça, tu peux écrire *tout seul*, mon grand 💚",
+   "p3": "J'ai fini tout seul !! 🤩",
+   "f4": "Je suis fière de toi ❤️"
+  },
+  "post_text": "Le soir où il a fini son exposé tout seul 🥹 Maman d'un enfant dys, tu connais ces soirées de devoirs ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "tiktok_title": "Le soir où il a fini son exposé tout seul 🥹"
  },
  {
   "id": "kin-mythes-dyslexie",
@@ -135,6 +197,53 @@
   },
   "post_text": "Ton devoir dans Word, sans une seule faute 😮 LexyLab souligne, explique la règle, et corrige en un clic.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Un devoir sans fautes dans Word"
+ },
+ {
+  "id": "kin-mamans-astuces-devoirs",
+  "format": "kinetic",
+  "pilier": "mamans",
+  "hypothese": "Les astuces concrètes pour les devoirs sont sauvegardées par les mamans",
+  "params": {
+   "theme": "clair",
+   "music": "joyeux",
+   "slides": [
+    {
+     "text": "Devoirs + dyslexie : 4 astuces de maman",
+     "emoji": "📚",
+     "size": "l"
+    },
+    {
+     "num": 1,
+     "text": "Découpe en *petites étapes*",
+     "sub": "Et fais des pauses entre chaque.",
+     "size": "l"
+    },
+    {
+     "num": 2,
+     "text": "Félicite *l'effort*, pas seulement la note",
+     "sub": "La confiance, ça se construit chaque soir.",
+     "size": "l"
+    },
+    {
+     "num": 3,
+     "text": "Parle avec l'enseignant des *aménagements*",
+     "sub": "Plus de temps, consignes lues à voix haute…",
+     "size": "l"
+    },
+    {
+     "num": 4,
+     "text": "Laisse l'ordi *aider* pour l'orthographe",
+     "sub": "LexyLab souligne les fautes pendant qu'il écrit : il devient plus autonome.",
+     "size": "m"
+    },
+    {
+     "text": "Enregistre pour ce soir 📌",
+     "size": "l"
+    }
+   ]
+  },
+  "post_text": "Devoirs + dyslexie : 4 astuces de maman 📚 Enregistre pour ce soir 📌 Et toi, c'est quoi ton astuce ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "tiktok_title": "Devoirs + dyslexie : 4 astuces de maman"
  },
  {
   "id": "sketch-examen-blanc",
@@ -214,6 +323,30 @@
   },
   "post_text": "POV : t'es dys et le prof rend les dictées 😶 Tu connais ce moment ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "POV : t'es dys et le prof rend les dictées"
+ },
+ {
+  "id": "demo-maman-mot-prof",
+  "format": "demo",
+  "pilier": "mamans",
+  "hypothese": "Les mamans dys elles-mêmes ont aussi besoin de l'outil",
+  "params": {
+   "hook": "Maman dys toi aussi ?\nLe mot au prof, *sans stress* ✍️",
+   "app": "gmail",
+   "to": "ecole.primaire@ecole.be",
+   "subject": "Absence jeudi",
+   "screen": "Bonjour Madame, mon fils sera [absan|absent] [jeudie|jeudi] pour un rendez-vous chez la [logopaide|logopède]. [Mersi|Merci] !",
+   "explain": "« logopède » : le son [è] s'écrit ici *« è »*.",
+   "subs": [
+    "Le mot pour l'école…",
+    "LexyLab souligne les fautes",
+    "Il propose le bon mot",
+    "Un clic, c'est corrigé",
+    "Envoyé, l'esprit tranquille 💚"
+   ],
+   "badge": "✓ Mot envoyé, zéro faute"
+  },
+  "post_text": "Maman dys toi aussi ? Le mot au prof, sans stress ✍️ La dyslexie, souvent, c'est de famille 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "tiktok_title": "Maman dys : le mot au prof sans stress"
  },
  {
   "id": "kin-fondateur",
