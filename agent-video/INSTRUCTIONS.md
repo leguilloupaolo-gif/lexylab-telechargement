@@ -45,7 +45,7 @@ post_text     légende du post Instagram/TikTok (avec hashtags)
 ## Publication Metricool
 - Marque (blogId) : `7384289`, fuseau `Europe/Brussels`.
 - URL de la vidéo : `https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/<fichier>.mp4`
-  (vérifier qu'elle répond avant de programmer ; laisser ~1 min après le push).
+  (attendre ~1 min après le push. Le shell ne peut pas vérifier l'URL (proxy) : si Metricool renvoie une URL static.metricool.com dans `media`, c'est bon).
 - Heure : `getBestTimeToPostByNetwork` pour le jour même ; prendre la meilleure heure entre maintenant + 1 h et 21 h.
   Instagram et TikTok peuvent avoir des heures différentes (2 posts séparés).
 - Instagram : `providers:[{"network":"instagram"}]`, `instagramData: {"type":"REEL","showReelOnFeed":true}`, `autoPublish: true`.
