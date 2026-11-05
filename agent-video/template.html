@@ -1,0 +1,249 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#FAF8F3;}
+  #stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#FAF8F3;font-family:'Poppins','Noto Color Emoji',sans-serif;color:#111;}
+  svg#scene{position:absolute;left:0;top:0}
+  .hdr{position:absolute;left:50px;top:62px;display:flex;align-items:center;gap:14px;font-weight:700;font-size:38px}
+  .hdr img{width:58px;height:auto}
+  .hdr .lab{color:#1DB584}
+  #cap{position:absolute;left:52px;top:150px;font-size:34px;color:#777;font-weight:500}
+  .bub{position:absolute;opacity:0;transform-origin:var(--ox) 100%;}
+  .bub .frame{position:absolute;inset:0;background:#fff;border:6px solid #111;border-radius:40px;filter:url(#r)}
+  .bub .tail{position:absolute;bottom:-40px;width:60px;height:48px;filter:url(#r)}
+  .bub .txt{position:relative;padding:30px 38px;font-weight:700;font-size:48px;line-height:1.25}
+  .g{color:#1DB584}
+  #scr{position:absolute;left:0;top:0;width:1080px;height:1920px;opacity:0;transform-origin:540px 960px}
+  #scr .card{position:absolute;left:70px;top:600px;width:940px;height:680px;box-sizing:border-box;background:#fff;border:7px solid #111;border-radius:26px;filter:url(#r)}
+  #scr .base{position:absolute;left:28px;top:1284px;width:1024px;height:34px;background:#fff;border:7px solid #111;border-radius:0 0 30px 30px;filter:url(#r)}
+  #scr .stxt{position:absolute;left:125px;top:660px;width:830px;font-size:52px;line-height:1.5;font-weight:500}
+  .err{color:#E23B3B;font-weight:700}
+  .wavy{text-decoration:underline wavy #E23B3B;text-decoration-thickness:4px;text-underline-offset:12px}
+  .fix{color:#1DB584;font-weight:700}
+  .caret{display:inline-block;width:5px;height:56px;background:#111;vertical-align:-8px;margin-left:2px}
+  #end{position:absolute;inset:0;background:#FAF8F3;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  #end img{width:300px}
+  #end .name{font-size:150px;font-weight:700;margin-top:60px;background:linear-gradient(90deg,#3B7BF0,#1DB584);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+  #end .tag{font-size:56px;color:#444;text-align:center;line-height:1.35;margin-top:30px}
+  #end .btn{margin-top:70px;background:#1DB584;color:#fff;font-weight:700;font-size:58px;padding:34px 74px;border:7px solid #111;border-radius:90px}
+</style></head>
+<body>
+<div id="stage">
+  <svg id="scene" width="1080" height="1920" viewBox="0 0 1080 1920">
+    <defs>
+      <filter id="r" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence id="turb" type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="1"/>
+        <feDisplacementMap in="SourceGraphic" scale="7"/>
+      </filter>
+    </defs>
+    <g id="world" filter="url(#r)" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"></g>
+  </svg>
+  <div class="hdr"><img src="logo.png"><span>Lexy<span class="lab">Lab</span></span></div>
+  <div id="cap"></div>
+  <div class="bub" id="b_hero"></div>
+  <div class="bub" id="b_friend"></div>
+  <div id="scr"><div class="card"></div><div class="base"></div><div class="stxt" id="stxt"></div></div>
+  <div id="end"><img src="logo.png"><div class="name">LexyLab</div>
+    <div class="tag" id="endtag">Le correcteur pensé<br>pour la dyslexie</div>
+    <div class="btn" id="endbtn">Lien en bio 👆</div></div>
+</div>
+<script>
+// ---------- Timeline ----------
+const TL = {
+  p1:[0.6,4.3], p2:[4.5,8.0],
+  s1:[8.2,12.0], s1type:[8.6,10.6], s1red:10.9,
+  enter:[12.2,13.2],
+  f1:[13.4,16.0], f2:[16.2,20.2],
+  s2:[20.4,27.0], s2type:[20.8,22.8], s2wavy:23.0, s2fix0:23.7, s2fixStep:0.65,
+  f3:[27.2,30.6], p3:[30.8,32.9], f4:[33.1,35.3],
+  end:[35.5,39.0]
+};
+const DUR = TL.end[1];
+let SC = null;
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function md(s){return esc(s).replace(/\*([^*]+)\*/g,'<span class="g">$1</span>');}
+function parseScreen(s){ // "Je vous [envoi|envoie] le ..." -> segments
+  const out=[]; const re=/\[([^|\]]+)\|([^\]]+)\]/g; let last=0,m;
+  while((m=re.exec(s))){ if(m.index>last) out.push({t:s.slice(last,m.index)}); out.push({e:m[1],f:m[2]}); last=re.lastIndex; }
+  if(last<s.length) out.push({t:s.slice(last)}); return out;
+}
+function clamp(x,a,b){return Math.max(a,Math.min(b,x));}
+function ease(x){x=clamp(x,0,1);return 1-Math.pow(1-x,3);}
+function popScale(x){ // 0..1 overshoot
+  x=clamp(x,0,1); const c=1.70158*1.3; return 1+ (c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);
+}
+function inWin(t,w){return t>=w[0]&&t<w[1];}
+
+// ---------- Drawing helpers ----------
+const L=(x1,y1,x2,y2,extra='')=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" ${extra}/>`;
+const C=(cx,cy,r,extra='')=>`<circle cx="${cx}" cy="${cy}" r="${r}" ${extra}/>`;
+const P=(d,extra='')=>`<path d="${d}" ${extra}/>`;
+
+function hair(kind,cx,cy,r){
+  switch(kind){
+    case 'curly': { let s=''; for(let i=0;i<7;i++){const a=Math.PI*(1.05+i*0.15); s+=C(cx+Math.cos(a)*r*0.95,cy+Math.sin(a)*r*0.95,r*0.26,'fill="#fff"');} return s; }
+    case 'short': return P(`M${cx-r*0.9},${cy-r*0.35} Q${cx-r*0.6},${cy-r*1.25} ${cx},${cy-r*1.05} Q${cx+r*0.6},${cy-r*1.25} ${cx+r*0.92},${cy-r*0.35}`)+L(cx-r*0.2,cy-r*1.02,cx-r*0.05,cy-r*0.7)+L(cx+r*0.25,cy-r*1.0,cx+r*0.3,cy-r*0.72);
+    case 'bun': return C(cx,cy-r*1.22,r*0.36,'fill="#111"');
+    case 'ponytail': return P(`M${cx-r*0.95},${cy-r*0.2} Q${cx-r*0.2},${cy-r*1.3} ${cx+r*0.95},${cy-r*0.3}`,'stroke-width="9"')+P(`M${cx+r*0.85},${cy-r*0.55} q${r*0.9},${r*0.1} ${r*0.55},${r*1.2}`,'stroke-width="12"');
+    case 'cap': return P(`M${cx-r*0.95},${cy-r*0.2} Q${cx},${cy-r*1.45} ${cx+r*0.95},${cy-r*0.2} Z`,'fill="#3B7BF0"')+L(cx+r*0.6,cy-r*0.22,cx+r*1.55,cy-r*0.18,'stroke-width="9"');
+    case 'long': return P(`M${cx-r*0.95},${cy+r*0.9} Q${cx-r*1.25},${cy-r*1.3} ${cx},${cy-r*1.05} Q${cx+r*1.25},${cy-r*1.3} ${cx+r*0.95},${cy+r*0.9}`,'stroke-width="8"');
+    default: return '';
+  }
+}
+function face(cx,cy,r,mood,talk,t,lookX=0){
+  let s=C(cx,cy,r,'fill="#fff"');
+  const ex=cx+lookX, ey=cy-r*0.12;
+  if(mood==='surprised'){ s+=C(ex-r*0.33,ey,6,'fill="#111"')+C(ex+r*0.33,ey,6,'fill="#111"'); }
+  else { s+=C(ex-r*0.32,ey,5.5,'fill="#111" stroke-width="3"')+C(ex+r*0.32,ey,5.5,'fill="#111" stroke-width="3"'); }
+  const my=cy+r*0.42, mx=cx+lookX*0.8;
+  if(mood==='worried'){ s+=L(ex-r*0.52,ey-r*0.42,ex-r*0.15,ey-r*0.3,'stroke-width="5"')+L(ex+r*0.52,ey-r*0.42,ex+r*0.15,ey-r*0.3,'stroke-width="5"'); }
+  if(talk){ const o=(Math.sin(t*24)+1)/2; s+=`<ellipse cx="${mx}" cy="${my}" rx="${r*0.2}" ry="${3+o*r*0.2}" fill="#111" stroke-width="4"/>`; return s; }
+  switch(mood){
+    case 'happy': s+=P(`M${mx-r*0.38},${my-6} Q${mx},${my+r*0.32} ${mx+r*0.38},${my-6}`,'stroke-width="6"'); break;
+    case 'surprised': s+=C(mx,my+4,r*0.15,'stroke-width="5"'); break;
+    case 'worried': s+=P(`M${mx-r*0.32},${my+8} Q${mx},${my-r*0.2} ${mx+r*0.32},${my+8}`,'stroke-width="6"'); break;
+    default: s+=L(mx-r*0.25,my,mx+r*0.25,my,'stroke-width="6"');
+  }
+  return s;
+}
+
+function drawWorld(t){
+  const sc=SC; let s='';
+  // ground
+  s+=L(-20,1320,1100,1320);
+  // shelf + books
+  s+=L(50,560,270,560)+`<rect x="70" y="470" width="34" height="90" stroke="#3B7BF0" stroke-width="6"/><rect x="112" y="490" width="34" height="70" stroke-width="6"/><rect x="154" y="455" width="30" height="105" stroke="#1DB584" stroke-width="6"/>`+L(200,480,240,555,'stroke-width="6"');
+  // door
+  s+=`<rect x="820" y="640" width="150" height="680" stroke-width="7"/>`+C(845,990,7,'fill="#111"');
+  // desk
+  s+=L(410,1010,770,1010,'stroke-width="9"')+L(430,1010,430,1320)+L(750,1010,750,1320);
+  // lamp
+  s+=L(700,1005,680,1005)+L(690,1005,705,905)+`<path d="M690,880 L745,905 L712,935 Z" fill="#F7C948" stroke-width="6"/>`;
+  // laptop (side view)
+  s+=L(500,1003,640,1003,'stroke-width="8"')+L(500,1003,470,880,'stroke-width="8"');
+  // chair
+  s+=L(250,1085,380,1085)+L(250,1085,250,890)+L(262,1085,262,1320)+L(368,1085,368,1320);
+  // hero (seated)
+  const typing = inWin(t,TL.s1type)||inWin(t,TL.s2type);
+  const bob = typing? Math.sin(t*30)*6 : 0;
+  const hx=355, hy=840, r=52;
+  let mood='worried';
+  if(t>=TL.f1[0]&&t<TL.f1[0]+1.2) mood='surprised';
+  else if(t>=TL.s2fix0) mood='happy';
+  else if(t>=TL.f2[0]) mood='neutral';
+  const heroTalk = inWin(t,[TL.p1[0],TL.p1[0]+2.2])||inWin(t,[TL.p2[0],TL.p2[0]+2.2])||inWin(t,[TL.p3[0],TL.p3[0]+1.6]);
+  s+=L(355,892,335,1075)+L(335,1075,470,1080)+L(470,1080,470,1320)+L(470,1320,505,1320);
+  s+=L(350,935,425,1010)+L(425,1010,520,995+bob);
+  s+=L(352,945,440,1000)+L(440,1000,535,990-bob);
+  s+=face(hx,hy,r,mood,heroTalk,t, t>=TL.enter[0]&&t<TL.s2[0]? 10: 6);
+  s+=hair(sc.hero_hair||'curly',hx,hy,r);
+  // friend
+  if(t>=TL.enter[0]){
+    const k=ease((t-TL.enter[0])/(TL.enter[1]-TL.enter[0]));
+    const fx=1180-(1180-900)*k, walk=k<1? Math.sin(t*16)*28:0;
+    const fy=780, fr=50;
+    const ftalk = [TL.f1,TL.f2,TL.f3,TL.f4].some(w=>inWin(t,[w[0],w[0]+Math.min(2.6,w[1]-w[0]-0.3)]));
+    const fmood = (t>=TL.f1[0])? 'happy':'neutral';
+    s+=L(fx,830,fx,1060)+L(fx,1060,fx-30-walk,1320)+L(fx,1060,fx+30+walk,1320);
+    const gest = ftalk? Math.sin(t*6)*25:0;
+    s+=L(fx,890,fx-45,1000+gest*0.3)+L(fx-45,1000+gest*0.3,fx-70,980-gest)+L(fx,890,fx+40,1010)+L(fx+40,1010,fx+45,1050);
+    s+=face(fx,fy,fr,fmood,ftalk,t+0.3,-8);
+    s+=hair(sc.friend_hair||'bun',fx,fy,fr);
+  }
+  return s;
+}
+
+// ---------- Bubbles ----------
+function bubbleHTML(text,who){
+  const tail = who==='hero'
+    ? `<svg class="tail" style="left:250px" viewBox="0 0 60 48"><path d="M4,0 L18,44 L50,0" fill="#fff" stroke="#111" stroke-width="6" stroke-linejoin="round"/><rect x="0" y="-8" width="60" height="10" fill="#fff"/></svg>`
+    : `<svg class="tail" style="right:110px" viewBox="0 0 60 48"><path d="M10,0 L44,44 L56,0" fill="#fff" stroke="#111" stroke-width="6" stroke-linejoin="round"/><rect x="0" y="-8" width="60" height="10" fill="#fff"/></svg>`;
+  return `<div class="frame"></div>${tail}<div class="txt">${md(text)}</div>`;
+}
+function setupBubble(id,who){
+  const el=document.getElementById(id);
+  if(who==='hero'){ el.style.left='45px'; el.style.bottom=(1920-745)+'px'; el.style.maxWidth='700px'; el.style.setProperty('--ox','280px'); }
+  else { el.style.right='45px'; el.style.bottom=(1920-685)+'px'; el.style.maxWidth='720px'; el.style.setProperty('--ox','85%'); }
+}
+let curB={hero:null,friend:null};
+function showBubble(who,text,t,w){
+  const el=document.getElementById('b_'+who);
+  if(!text||!inWin(t,w)){ el.style.opacity=0; return; }
+  if(curB[who]!==text){ el.innerHTML=bubbleHTML(text,who); curB[who]=text; }
+  const a=(t-w[0])/0.28, outA=(w[1]-t)/0.18;
+  const sc=popScale(a)*(outA<1? (0.85+0.15*clamp(outA,0,1)):1);
+  el.style.opacity= Math.min(clamp(a*2,0,1), clamp(outA,0,1));
+  el.style.transform=`scale(${sc})`;
+}
+
+// ---------- Screen ----------
+let segs=null, wrongLen=0;
+function screenHTML(t,mode){
+  const typeW = mode===1? TL.s1type: TL.s2type;
+  const n = Math.floor(wrongLen*clamp((t-typeW[0])/(typeW[1]-typeW[0]),0,1));
+  let left=n, html='', ei=0;
+  for(const sg of segs){
+    if(left<=0) break;
+    if(sg.t!==undefined){ html+=esc(sg.t.slice(0,left)); left-=sg.t.length; }
+    else {
+      const full = left>=sg.e.length;
+      const part = sg.e.slice(0,left); left-=sg.e.length;
+      let cls='';
+      if(mode===1){ if(t>=TL.s1red && full) cls='err'; html+=`<span class="${cls}">${esc(part)}</span>`; }
+      else {
+        const fixT = TL.s2fix0 + ei*TL.s2fixStep;
+        if(full && t>=fixT) html+=`<span class="fix">${esc(sg.f)}</span>`;
+        else { if(full && t>=TL.s2wavy) cls='wavy'; html+=`<span class="${cls}">${esc(part)}</span>`; }
+      }
+      ei++;
+    }
+  }
+  if(n<wrongLen || Math.floor(t*2.5)%2===0) html+='<span class="caret"></span>';
+  return html;
+}
+function showScreen(t){
+  const el=document.getElementById('scr');
+  let w=null, mode=0;
+  if(inWin(t,TL.s1)){w=TL.s1;mode=1;} else if(inWin(t,TL.s2)){w=TL.s2;mode=2;}
+  const world=document.getElementById('world');
+  if(!w){ el.style.opacity=0; world.style.opacity=1; return; }
+  const a=ease((t-w[0])/0.35), b=ease((w[1]-t)/0.3), k=Math.min(a,b);
+  el.style.opacity=k; el.style.transform=`translate(${(1-k)*20}px,${(1-k)*-40}px) scale(${0.35+0.65*k})`;
+  world.style.opacity = 1-0.82*k;
+  document.getElementById('stxt').innerHTML=screenHTML(t,mode);
+}
+
+// ---------- Main render ----------
+function init(sc){
+  SC=sc; segs=parseScreen(sc.screen); wrongLen=segs.reduce((a,s)=>a+(s.t!==undefined? s.t.length: s.e.length),0);
+  document.getElementById('cap').textContent=sc.caption||'';
+  setupBubble('b_hero','hero'); setupBubble('b_friend','friend');
+  const nfix=segs.filter(s=>s.e).length;
+  // events for the soundtrack
+  const ev=[];
+  [['p1',sc.p1],['p2',sc.p2],['f1',sc.f1],['f2',sc.f2],['f3',sc.f3],['p3',sc.p3],['f4',sc.f4]].forEach(([k,v])=>{ if(v) ev.push({t:TL[k][0],type:'pop'}); });
+  ev.push({t:TL.s1[0],type:'whoosh'},{t:TL.s1[1]-0.3,type:'whoosh'},{t:TL.s2[0],type:'whoosh'},{t:TL.s2[1]-0.3,type:'whoosh'});
+  ev.push({t:TL.s1red,type:'buzz'});
+  for(let i=0;i<nfix;i++) ev.push({t:TL.s2fix0+i*TL.s2fixStep,type:'ding'});
+  ev.push({t:TL.enter[0],type:'steps'},{t:TL.end[0],type:'chime'});
+  return {duration:DUR, events:ev, typing:[TL.s1type,TL.s2type]};
+}
+function render(t){
+  document.getElementById('turb').setAttribute('seed', 1+Math.floor(t*8)%6);
+  document.getElementById('world').innerHTML=drawWorld(t);
+  showBubble('hero', null,t,[0,0]);
+  const heroW=[['p1',SC.p1],['p2',SC.p2],['p3',SC.p3]].find(([k])=>inWin(t,TL[k]));
+  showBubble('hero', heroW?heroW[1]:null, t, heroW?TL[heroW[0]]:[0,0]);
+  const frW=[['f1',SC.f1],['f2',SC.f2],['f3',SC.f3],['f4',SC.f4]].find(([k])=>inWin(t,TL[k]));
+  showBubble('friend', frW?frW[1]:null, t, frW?TL[frW[0]]:[0,0]);
+  showScreen(t);
+  const e=document.getElementById('end'); const k=ease((t-TL.end[0])/0.5);
+  e.style.opacity=k;
+  const bt=document.getElementById('endbtn'); bt.style.transform=`scale(${t>TL.end[0]+0.5? popScale((t-TL.end[0]-0.5)/0.3):0})`;
+  // global fade in
+  document.getElementById('stage').style.opacity=clamp(t/0.4,0,1);
+}
+window.init=init; window.render=render;
+</script>
+</body></html>
