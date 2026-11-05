@@ -1,3 +1,12 @@
 [
- {"date": "2026-11-05", "id": "cv", "fichier": "reseaux-sociaux/auto/2026-11-05-cv.mp4", "instagram": "18:30 (Metricool 417979712)", "tiktok": "18:30 (Metricool 417979781)"}
+ {
+  "date": "2026-11-05",
+  "id": "cv",
+  "fichier": "reseaux-sociaux/auto/2026-11-05-cv.mp4",
+  "instagram": "18:30 (Metricool 417979712)",
+  "tiktok": "18:30 (Metricool 417979781)",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Le sujet job étudiant/CV a bien marché sur TikTok (lettre de motivation 740 vues)"
+ }
 ]

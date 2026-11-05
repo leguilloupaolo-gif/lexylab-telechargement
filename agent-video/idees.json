@@ -1,0 +1,857 @@
+[
+ {
+  "id": "demo-mail-prof",
+  "format": "demo",
+  "pilier": "demo",
+  "hypothese": "Montrer le produit en action convertit mieux que raconter",
+  "params": {
+   "hook": "Regarde LexyLab corriger\nun mail *en direct* 👇",
+   "app": "gmail",
+   "to": "prof.martin@ecole.be",
+   "subject": "Absence demain",
+   "screen": "Bonjour Monsieur, je ne [pourai|pourrai] pas venir [demin|demain] car [jé|j'ai] un [rendé-vous|rendez-vous] chez le médecin.",
+   "explain": "Au futur, « pouvoir » prend *deux r* : je pourrai.",
+   "subs": [
+    "Tu écris *comme d'habitude*…",
+    "LexyLab souligne les fautes *en direct*",
+    "Un clic sur le mot…",
+    "…et c'est *corrigé* ✨",
+    "Ton mail est prêt 💚"
+   ],
+   "badge": "✓ Zéro faute, envoyé !"
+  },
+  "post_text": "Un mail au prof, corrigé en direct ✨ Tu écris comme d'habitude, LexyLab souligne, tu cliques, c'est corrigé.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Un mail corrigé en direct ✨"
+ },
+ {
+  "id": "sketch-devoir-francais",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "À la maison, 21h…",
+   "hero_hair": "curly",
+   "friend_hair": "bun",
+   "p1": "Mon devoir de français est pour demain…",
+   "p2": "Mon prof dit que je fais trop de fautes 😩",
+   "screen": "Le [personage|personnage] [prinsipal|principal] est [tré|très] courageux.",
+   "f1": "T'as pas *LexyLab* ?",
+   "f2": "Il souligne tes fautes *en direct* et te propose le bon mot.",
+   "f3": "Et il marche *sans internet* : rien ne part de ton ordi.",
+   "p3": "Rendu ! Et sans fautes 💚",
+   "f4": "Tu vois, c'était pas sorcier 😉"
+  },
+  "post_text": "Rendre un devoir sans stress d'orthographe ✍️ LexyLab souligne tes fautes en direct, même quand tu écris comme tu entends.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Mon devoir de français est pour demain…"
+ },
+ {
+  "id": "sketch-message-prof",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Au calme, avant le cours…",
+   "hero_hair": "short",
+   "friend_hair": "ponytail",
+   "p1": "Je dois écrire à mon prof pour un retard…",
+   "p2": "J'ai peur qu'il voie toutes mes fautes 😰",
+   "screen": "Bonjour Monsieur, je [serré|serai] en [retare|retard] [demin|demain], [escusez|excusez]-moi.",
+   "f1": "Fais-le avec *LexyLab* !",
+   "f2": "Il comprend les mots *écrits comme on les entend*.",
+   "f3": "Et ça marche dans *Gmail*, Word, Google Docs…",
+   "p3": "Envoyé, nickel 👌",
+   "f4": "Simple comme bonjour 😄"
+  },
+  "post_text": "Écrire à un prof sans avoir honte de ses fautes 🙌 LexyLab comprend les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois écrire à mon prof pour un retard…"
+ },
+ {
+  "id": "kin-mythes-dyslexie",
+  "format": "kinetic",
+  "pilier": "education",
+  "hypothese": "Le contenu éducatif sur la dyslexie est sauvegardé et partagé",
+  "params": {
+   "theme": "clair",
+   "music": "calme",
+   "slides": [
+    {
+     "text": "3 idées *fausses* sur la dyslexie",
+     "emoji": "🧠",
+     "size": "xl"
+    },
+    {
+     "mythe": "Les dys sont moins intelligents.",
+     "realite": "La dyslexie n'a *rien à voir* avec l'intelligence."
+    },
+    {
+     "mythe": "Il suffit de faire plus attention.",
+     "realite": "Le cerveau traite les sons et les lettres *autrement*."
+    },
+    {
+     "mythe": "Ça passe avec l'âge.",
+     "realite": "On apprend à *compenser*, mais la dyslexie reste."
+    },
+    {
+     "text": "Partage à quelqu'un qui doit *voir ça* 💚",
+     "size": "l"
+    }
+   ]
+  },
+  "post_text": "3 idées fausses sur la dyslexie 🧠 Partage à quelqu'un qui doit voir ça 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "3 idées fausses sur la dyslexie"
+ },
+ {
+  "id": "quiz-courses",
+  "format": "quiz",
+  "pilier": "engagement",
+  "hypothese": "Un quiz pousse les gens à commenter",
+  "params": {
+   "question": "Trouve les *4 fautes*\nen 5 secondes 👀",
+   "sentence": "Je [passerré|passerai] te [cherché|chercher] [ver|vers] huit heures [demin|demain] matin.",
+   "seconds": 5
+  },
+  "post_text": "Trouve les 4 fautes en 5 secondes 👀 T'en as trouvé combien ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Trouve les 4 fautes en 5 secondes 👀"
+ },
+ {
+  "id": "demo-word-devoir",
+  "format": "demo",
+  "pilier": "demo",
+  "hypothese": "Montrer le produit en action convertit mieux que raconter",
+  "params": {
+   "hook": "Ton devoir dans Word,\nsans *une seule faute* 😮",
+   "app": "word",
+   "title": "Devoir histoire.docx",
+   "screen": "La [révolussion|révolution] française [commance|commence] en 1789 quand le peuple [prand|prend] la [bastile|Bastille].",
+   "explain": "« révolution » : le son [sion] s'écrit souvent *« tion »*.",
+   "subs": [
+    "Tu tapes ton devoir…",
+    "Les fautes sont *soulignées*",
+    "LexyLab t'explique la règle 💡",
+    "Un clic, c'est réglé",
+    "Devoir nickel 🎉"
+   ],
+   "badge": "✓ Devoir sans fautes"
+  },
+  "post_text": "Ton devoir dans Word, sans une seule faute 😮 LexyLab souligne, explique la règle, et corrige en un clic.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Un devoir sans fautes dans Word"
+ },
+ {
+  "id": "sketch-examen-blanc",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "En révision…",
+   "hero_hair": "short",
+   "friend_hair": "bun",
+   "p1": "Je relis mes fiches pour l'examen…",
+   "p2": "Je comprends même plus ce que j'ai écrit 😵",
+   "screen": "La [fotosintèse|photosynthèse] [produi|produit] de [loxigène|l'oxygène] grâce au [soleille|soleil].",
+   "f1": "Essaie *LexyLab* pour tes fiches !",
+   "f2": "Tu écris comme tu penses, il *corrige en direct*.",
+   "f3": "Et tes notes restent *sur ton ordi*.",
+   "p3": "Mes fiches sont lisibles ! 🤩",
+   "f4": "Révise bien 💪"
+  },
+  "post_text": "Des fiches de révision enfin lisibles 📚 LexyLab corrige en direct pendant que tu écris.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je relis mes fiches pour l'examen…"
+ },
+ {
+  "id": "sketch-whatsapp-famille",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Le dimanche soir…",
+   "hero_hair": "cap",
+   "friend_hair": "ponytail",
+   "p1": "Je veux écrire dans le groupe de la famille…",
+   "p2": "Mon oncle corrige toujours mes fautes 🙄",
+   "screen": "Je [ramaine|ramène] le [desère|dessert] [dimenche|dimanche], [sa|ça] vous va ?",
+   "f1": "Avec *LexyLab*, plus de remarques !",
+   "f2": "Il corrige aussi tes *messages* sur l'ordi.",
+   "f3": "Pensé pour *la dyslexie*, pas juste pour les fautes de frappe.",
+   "p3": "Personne n'a rien dit 😂",
+   "f4": "Victoire 🏆"
+  },
+  "post_text": "Fini les remarques dans le groupe famille 😅 LexyLab corrige aussi tes messages sur ordi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je veux écrire dans le groupe de la famille…"
+ },
+ {
+  "id": "kin-pov-dictee",
+  "format": "kinetic",
+  "pilier": "emotion",
+  "hypothese": "Les souvenirs d'école des dys créent beaucoup d'identification",
+  "params": {
+   "theme": "sombre",
+   "music": "tension",
+   "slides": [
+    {
+     "text": "POV : t'es dys et le prof rend les dictées",
+     "emoji": "😶",
+     "size": "l"
+    },
+    {
+     "text": "Ta copie revient *toute rouge*… encore.",
+     "size": "l"
+    },
+    {
+     "text": "« Tu dois faire _plus attention_ ! »",
+     "size": "l"
+    },
+    {
+     "text": "Mais tu faisais *déjà* attention.",
+     "emoji": "💔",
+     "size": "l"
+    },
+    {
+     "text": "Aujourd'hui, un correcteur pensé *pour toi* existe.",
+     "sub": "Il souligne les fautes en direct, sur l'ordi.",
+     "size": "m"
+    }
+   ]
+  },
+  "post_text": "POV : t'es dys et le prof rend les dictées 😶 Tu connais ce moment ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "POV : t'es dys et le prof rend les dictées"
+ },
+ {
+  "id": "kin-fondateur",
+  "format": "kinetic",
+  "pilier": "fondateur",
+  "hypothese": "L'histoire du fondateur a fait le meilleur score TikTok (1864 vues)",
+  "params": {
+   "theme": "bleu",
+   "music": "calme",
+   "slides": [
+    {
+     "text": "Pendant mes études, mes copies revenaient *pleines de rouge*.",
+     "emoji": "📝",
+     "size": "l"
+    },
+    {
+     "text": "Pas parce que je n'avais rien à dire.",
+     "size": "l"
+    },
+    {
+     "text": "Parce que je suis *dyslexique* et *dysorthographique*.",
+     "size": "l"
+    },
+    {
+     "text": "Aucun correcteur ne comprenait ma façon d'écrire.",
+     "emoji": "🤷",
+     "size": "l"
+    },
+    {
+     "text": "Alors j'ai créé *LexyLab*.",
+     "sub": "Le correcteur que j'aurais voulu avoir.",
+     "size": "xl"
+    }
+   ]
+  },
+  "post_text": "Mes copies revenaient pleines de rouge… alors j'ai créé l'outil que j'aurais voulu avoir 💚 Tu es dys toi aussi ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Pourquoi j'ai créé LexyLab"
+ },
+ {
+  "id": "kin-astuces-relire",
+  "format": "kinetic",
+  "pilier": "education",
+  "hypothese": "Les astuces pratiques sont sauvegardées",
+  "params": {
+   "theme": "vert",
+   "music": "joyeux",
+   "slides": [
+    {
+     "text": "3 astuces pour se *relire* quand on est dys",
+     "emoji": "👀",
+     "size": "l"
+    },
+    {
+     "num": 1,
+     "text": "Relis *à voix haute*",
+     "sub": "Ton oreille repère ce que ton œil rate.",
+     "size": "l"
+    },
+    {
+     "num": 2,
+     "text": "Fais une *pause* avant de relire",
+     "sub": "Quelques minutes suffisent pour un regard neuf.",
+     "size": "l"
+    },
+    {
+     "num": 3,
+     "text": "Laisse un *correcteur pensé pour les dys* t'aider",
+     "sub": "LexyLab souligne les fautes pendant que tu écris.",
+     "size": "m"
+    },
+    {
+     "text": "Enregistre pour plus tard 📌",
+     "size": "l"
+    }
+   ]
+  },
+  "post_text": "3 astuces pour se relire quand on est dys 👀 Enregistre pour plus tard 📌\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "3 astuces pour se relire quand on est dys"
+ },
+ {
+  "id": "quiz-message",
+  "format": "quiz",
+  "pilier": "engagement",
+  "hypothese": "Un quiz pousse les gens à commenter",
+  "params": {
+   "question": "Ce message a *5 fautes*.\nTu les vois ? 🔍",
+   "sentence": "[Ojourdui|Aujourd'hui] [jé|j'ai] [rater|raté] mon bus, je [sérai|serai] en [retare|retard].",
+   "seconds": 6
+  },
+  "post_text": "Ce message a 5 fautes. Tu les vois ? 🔍 Commente ton score 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "5 fautes cachées, tu les vois ? 🔍"
+ },
+ {
+  "id": "demo-notes-cours",
+  "format": "demo",
+  "pilier": "demo",
+  "hypothese": "Le hors-ligne est un argument fort pour les étudiants",
+  "params": {
+   "hook": "Même *sans internet*,\nen plein cours 📚",
+   "app": "notes",
+   "title": "Cours de bio",
+   "screen": "La [sélule|cellule] est [luniter|l'unité] de base du [vivan|vivant], elle [contien|contient] un noyau.",
+   "explain": "« cellule » : ici le son [s] s'écrit avec un *c*.",
+   "subs": [
+    "Pas de wifi en amphi ? 😅",
+    "LexyLab marche *hors ligne*",
+    "Il te propose le bon mot",
+    "Et tes notes restent *sur ton ordi*",
+    "Révisions sans galère 💪"
+   ],
+   "badge": "✓ Notes lisibles"
+  },
+  "post_text": "Pas de wifi en amphi ? LexyLab marche hors ligne 📚 Tes notes sont corrigées en direct et restent sur ton ordi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Prendre des notes sans fautes, même hors ligne"
+ },
+ {
+  "id": "sketch-rapport-stage",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Dernière semaine de stage…",
+   "hero_hair": "curly",
+   "friend_hair": "short",
+   "p1": "Je dois rendre mon rapport de stage…",
+   "p2": "Vingt pages… et mes fautes partout 😩",
+   "screen": "Durant ce [stache|stage], [jai|j'ai] [aprit|appris] à [gérais|gérer] des [proger|projets].",
+   "f1": "Ouvre *LexyLab* !",
+   "f2": "Il souligne au fur et à mesure, *pas besoin de tout relire 5 fois*.",
+   "f3": "Et ça reste *privé* : aucun texte envoyé sur internet.",
+   "p3": "Rapport rendu à l'heure ✅",
+   "f4": "Bien joué ! 🎉"
+  },
+  "post_text": "Un rapport de stage sans fautes 📄 LexyLab souligne au fur et à mesure, et tes textes restent privés.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois rendre mon rapport de stage…"
+ },
+ {
+  "id": "sketch-post-linkedin",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Je veux partager une bonne nouvelle…",
+   "hero_hair": "short",
+   "friend_hair": "long",
+   "p1": "Je veux poster sur LinkedIn…",
+   "p2": "Tout le monde va voir mes fautes 😬",
+   "screen": "Je suis [fiére|fier] [dannoncé|d'annoncer] que [jé|j'ai] [obtenue|obtenu] mon [diplome|diplôme] !",
+   "f1": "Vérifie avec *LexyLab* avant !",
+   "f2": "Il connaît *les erreurs typiques des dys*.",
+   "f3": "Et il marche sur *Mac et Windows*.",
+   "p3": "Posté ! 120 likes 😍",
+   "f4": "Félicitations 🎓"
+  },
+  "post_text": "Poster sur LinkedIn sans peur des fautes 💼 LexyLab connaît les erreurs typiques des dys.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je veux poster sur LinkedIn…"
+ },
+ {
+  "id": "sketch-lettre-proprio",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Problème dans l'appart…",
+   "hero_hair": "curly",
+   "friend_hair": "ponytail",
+   "p1": "Je dois écrire au propriétaire…",
+   "p2": "Il va pas me prendre au sérieux avec mes fautes 😞",
+   "screen": "Le [chofage|chauffage] ne [fonctione|fonctionne] plus [depui|depuis] [lundie|lundi].",
+   "f1": "Écris-le avec *LexyLab* !",
+   "f2": "Il te propose *le bon mot*, même si tu l'écris comme tu l'entends.",
+   "f3": "Et ça marche *dans Word* aussi.",
+   "p3": "Il a répondu en 10 minutes 😮",
+   "f4": "Respect 😎"
+  },
+  "post_text": "Un mail pro et sans fautes, même pour le proprio 🏠 LexyLab propose le bon mot, même écrit comme on l'entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois écrire au propriétaire…"
+ },
+ {
+  "id": "sketch-invitation-anniv",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Bientôt mon anniversaire…",
+   "hero_hair": "cap",
+   "friend_hair": "bun",
+   "p1": "J'écris les invitations pour ma fête…",
+   "p2": "Je veux pas que ça fasse « bébé » 😅",
+   "screen": "Venez [fétté|fêter] mes 20 ans [samdi|samedi] [soire|soir], [aporté|apportez] de la musique !",
+   "f1": "*LexyLab* va t'aider !",
+   "f2": "Il corrige en direct, *sans te juger*.",
+   "f3": "Il est fait par un étudiant dys, *pour les dys*.",
+   "p3": "Invitations envoyées 🥳",
+   "f4": "Je viens avec le gâteau 🎂"
+  },
+  "post_text": "Des invitations sans fautes pour la fête 🥳 LexyLab corrige en direct, sans te juger.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "J'écris les invitations pour ma fête…"
+ },
+ {
+  "id": "sketch-formulaire-admin",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "À la commune…",
+   "hero_hair": "short",
+   "friend_hair": "ponytail",
+   "p1": "Je remplis un formulaire en ligne…",
+   "p2": "J'ai peur de faire des fautes partout 😰",
+   "screen": "Je [souaite|souhaite] [changé|changer] mon adresse suite à mon [déménajement|déménagement].",
+   "f1": "*LexyLab* t'accompagne partout !",
+   "f2": "Il souligne les fautes *dans ton navigateur* aussi.",
+   "f3": "Tu restes *autonome*, sans demander à quelqu'un de relire.",
+   "p3": "Formulaire envoyé ! 🙌",
+   "f4": "Trop fort 💪"
+  },
+  "post_text": "Remplir un formulaire seul, sans stress 📝 LexyLab souligne aussi les fautes dans ton navigateur.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je remplis un formulaire en ligne…"
+ },
+ {
+  "id": "sketch-mail-recruteur",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Après un entretien…",
+   "hero_hair": "curly",
+   "friend_hair": "long",
+   "p1": "Je veux remercier le recruteur…",
+   "p2": "Un mail plein de fautes, c'est mort 😬",
+   "screen": "Merci pour [lentretien|l'entretien], je reste très [motivait|motivé] par ce [posse|poste].",
+   "f1": "Relis-le avec *LexyLab* !",
+   "f2": "Il comprend *les mots écrits phonétiquement*.",
+   "f3": "Et il marche dans *Outlook et Gmail*.",
+   "p3": "Il m'a rappelé ! 📞",
+   "f4": "Je te l'avais dit 😉"
+  },
+  "post_text": "Le mail de remerciement parfait après un entretien 📧 LexyLab comprend les mots écrits phonétiquement.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je veux remercier le recruteur…"
+ },
+ {
+  "id": "sketch-dissertation",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "À la bibliothèque…",
+   "hero_hair": "short",
+   "friend_hair": "bun",
+   "p1": "Ma dissertation fait 6 pages…",
+   "p2": "Je mets plus de temps à corriger qu'à écrire 😩",
+   "screen": "Selon [lotteur|l'auteur], la [liberter|liberté] est un [droie|droit] [fondamantal|fondamental].",
+   "f1": "Laisse *LexyLab* t'aider !",
+   "f2": "Écris tes idées, il *corrige au fil de l'eau*.",
+   "f3": "Tu gagnes un temps fou ⏱️",
+   "p3": "J'ai fini en avance 😮",
+   "f4": "Le temps, c'est précieux 😎"
+  },
+  "post_text": "Écrire sa dissertation sans passer des heures à corriger ⏱️ LexyLab corrige au fil de l'eau.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Ma dissertation fait 6 pages…"
+ },
+ {
+  "id": "sketch-carte-mamie",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "La fête des grands-mères…",
+   "hero_hair": "cap",
+   "friend_hair": "long",
+   "p1": "J'écris une carte pour ma mamie…",
+   "p2": "Elle était institutrice… 😅",
+   "screen": "Je [tème|t'aime] fort mamie, [merssi|merci] pour tes bons [gato|gâteaux] !",
+   "f1": "Tape-la avec *LexyLab* d'abord !",
+   "f2": "Il te corrige *gentiment*, sans te juger.",
+   "f3": "Même les mots *écrits comme on les entend*.",
+   "p3": "Mamie a pleuré de joie 🥹",
+   "f4": "Trop mignon 💚"
+  },
+  "post_text": "Une carte pour mamie… sans fautes 💚 LexyLab te corrige gentiment, même les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "J'écris une carte pour ma mamie…"
+ },
+ {
+  "id": "sketch-compte-rendu-reunion",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Fin de réunion…",
+   "hero_hair": "curly",
+   "friend_hair": "ponytail",
+   "p1": "Je dois envoyer le compte rendu…",
+   "p2": "Toute l'équipe va le lire 😰",
+   "screen": "Nous [avont|avons] [désidé|décidé] de [reporté|reporter] la réunion à [jeudie|jeudi].",
+   "f1": "Utilise *LexyLab* !",
+   "f2": "Il souligne tes fautes *en direct* dans Word.",
+   "f3": "Et rien ne quitte ton ordi : *100 % privé*.",
+   "p3": "Compte rendu envoyé ✔️",
+   "f4": "Pro 👔"
+  },
+  "post_text": "Un compte rendu de réunion propre en 2 minutes 👔 LexyLab souligne tes fautes en direct dans Word.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois envoyer le compte rendu…"
+ },
+ {
+  "id": "sketch-demande-bourse",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Dossier de bourse…",
+   "hero_hair": "short",
+   "friend_hair": "long",
+   "p1": "Je dois écrire ma lettre pour la bourse…",
+   "p2": "C'est super important 😬",
+   "screen": "Je [solicite|sollicite] cette bourse afin de poursuivre mes [étude|études] en [comerce|commerce].",
+   "f1": "Fais-la avec *LexyLab* !",
+   "f2": "Il est *pensé pour la dyslexie*.",
+   "f3": "Il repère les fautes que les autres *laissent passer*.",
+   "p3": "Dossier envoyé ! 🤞",
+   "f4": "Croise les doigts 🤞"
+  },
+  "post_text": "Une lettre de demande de bourse sans fautes 🎓 LexyLab repère les fautes que les autres laissent passer.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois écrire ma lettre pour la bourse…"
+ },
+ {
+  "id": "sketch-annonce-vinted",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Je vide mon armoire…",
+   "hero_hair": "cap",
+   "friend_hair": "bun",
+   "p1": "Je mets une veste en vente…",
+   "p2": "Les gens se moquent des annonces mal écrites 😅",
+   "screen": "Veste en [jin|jean], [trés|très] bon [éta|état], [porter|portée] deux [foi|fois].",
+   "f1": "Écris-la avec *LexyLab* !",
+   "f2": "Il comprend ce que tu *voulais écrire*.",
+   "f3": "Et il marche dans *ton navigateur*.",
+   "p3": "Vendue en 1 heure 🤑",
+   "f4": "Business 😎"
+  },
+  "post_text": "Une annonce sans fautes, vendue plus vite 🤑 LexyLab comprend ce que tu voulais écrire.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je mets une veste en vente…"
+ },
+ {
+  "id": "sketch-journal-intime",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Le soir, dans ma chambre…",
+   "hero_hair": "curly",
+   "friend_hair": "long",
+   "p1": "Je veux écrire mon journal sur l'ordi…",
+   "p2": "Mais les fautes me bloquent 😔",
+   "screen": "[Ojourdui|Aujourd'hui] [jé|j'ai] passé une super [journé|journée] avec mes [amie|amis].",
+   "f1": "*LexyLab* fonctionne *sans internet* !",
+   "f2": "Tes textes restent *sur ton ordi*. Rien n'est envoyé.",
+   "f3": "Tu écris librement, il corrige en douceur.",
+   "p3": "J'écris enfin sans me bloquer ✨",
+   "f4": "C'est ton espace 💚"
+  },
+  "post_text": "Écrire librement, sans que les fautes te bloquent ✨ LexyLab fonctionne sans internet : tes textes restent chez toi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je veux écrire mon journal sur l'ordi…"
+ },
+ {
+  "id": "sketch-presentation-oral",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Veille d'oral…",
+   "hero_hair": "short",
+   "friend_hair": "ponytail",
+   "p1": "Je prépare mes slides pour l'oral…",
+   "p2": "Une faute en grand sur l'écran… la honte 😱",
+   "screen": "Les [résultat|résultats] [monte|montrent] une [ogmentation|augmentation] des [vente|ventes].",
+   "f1": "Passe tes textes dans *LexyLab* !",
+   "f2": "Il corrige *avant* que toute la classe voie.",
+   "f3": "Pensé *par un dys, pour les dys*.",
+   "p3": "Slides parfaites 🔥",
+   "f4": "Tu vas gérer 💪"
+  },
+  "post_text": "Pas de faute géante sur tes slides 😱 LexyLab corrige avant que toute la classe voie.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je prépare mes slides pour l'oral…"
+ },
+ {
+  "id": "sketch-reclamation",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Colis jamais arrivé…",
+   "hero_hair": "curly",
+   "friend_hair": "bun",
+   "p1": "Je dois faire une réclamation…",
+   "p2": "Avec des fautes, ils me prendront pas au sérieux 😤",
+   "screen": "Je n'ai [toujour|toujours] pas [resu|reçu] ma [comande|commande] [passé|passée] le 3 [mé|mai].",
+   "f1": "*LexyLab* va t'aider !",
+   "f2": "Il corrige *en direct*, même les fautes de son.",
+   "f3": "Ton message sera *clair et pro*.",
+   "p3": "Remboursé en 2 jours 💸",
+   "f4": "Efficace 👊"
+  },
+  "post_text": "Une réclamation claire qui se fait respecter 👊 LexyLab corrige en direct, même les fautes de son.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois faire une réclamation…"
+ },
+ {
+  "id": "sketch-parent-ecole",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Un mot pour l'école…",
+   "hero_hair": "short",
+   "friend_hair": "long",
+   "p1": "Je dois écrire un mot à l'instit de mon fils…",
+   "p2": "Je suis dys moi aussi… 😓",
+   "screen": "Mon fils sera [absan|absent] [vandredi|vendredi] pour un [rendé-vous|rendez-vous] [médicale|médical].",
+   "f1": "*LexyLab*, c'est aussi pour les parents !",
+   "f2": "Il souligne les fautes *sans jugement*.",
+   "f3": "Et il marche sur *Mac et Windows*.",
+   "p3": "Mot envoyé, zéro faute 🙌",
+   "f4": "Les dys adultes aussi méritent un bon outil 💚"
+  },
+  "post_text": "Parents dys aussi 💚 LexyLab souligne les fautes sans jugement, sur Mac et Windows.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois écrire un mot à l'instit de mon fils…"
+ },
+ {
+  "id": "sketch-commentaire-insta",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Je scrolle sur Insta…",
+   "hero_hair": "cap",
+   "friend_hair": "ponytail",
+   "p1": "Je veux commenter la photo d'une amie…",
+   "p2": "Mais j'ai toujours peur des fautes 🙈",
+   "screen": "[Tro|Trop] belle cette photo, tu [ét|es] [magnifik|magnifique] ! [Bizou|Bisous]",
+   "f1": "*LexyLab* corrige sur l'ordi !",
+   "f2": "Il comprend les mots *écrits comme on les entend*.",
+   "f3": "Fait *pour la dyslexie*, pas pour les fautes de frappe.",
+   "p3": "Commenté 😍",
+   "f4": "Elle va adorer 💕"
+  },
+  "post_text": "Même un petit commentaire, sans peur des fautes 🙈 LexyLab comprend les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je veux commenter la photo d'une amie…"
+ },
+ {
+  "id": "sketch-note-de-service",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Au bureau, lundi matin…",
+   "hero_hair": "curly",
+   "friend_hair": "bun",
+   "p1": "Je dois écrire une note pour toute l'équipe…",
+   "p2": "Ils vont tous la lire 😬",
+   "screen": "Le [parquing|parking] sera [fermer|fermé] toute la [semène|semaine] pour [travau|travaux].",
+   "f1": "Fais-la dans *LexyLab* !",
+   "f2": "Il souligne *en direct*, tu corriges en un clic.",
+   "f3": "Et tout reste *privé*, sans internet.",
+   "p3": "Note envoyée 📢",
+   "f4": "Chef, oui chef 😄"
+  },
+  "post_text": "Une note de service sans fautes en un clic 📢 LexyLab souligne en direct et reste 100 % privé.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois écrire une note pour toute l'équipe…"
+ },
+ {
+  "id": "sketch-candidature-erasmus",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Candidature Erasmus…",
+   "hero_hair": "short",
+   "friend_hair": "long",
+   "p1": "Je dois expliquer pourquoi je veux partir…",
+   "p2": "Ma lettre doit être parfaite ✈️",
+   "screen": "Je [souette|souhaite] partir en Erasmus pour [découvrire|découvrir] une [nouvel|nouvelle] [culturre|culture].",
+   "f1": "Écris-la avec *LexyLab* !",
+   "f2": "Il est pensé *pour les dys*.",
+   "f3": "Il t'aide à écrire *comme tu penses*.",
+   "p3": "Candidature envoyée ✈️",
+   "f4": "Bon voyage d'avance 🌍"
+  },
+  "post_text": "Une lettre Erasmus sans fautes ✈️ LexyLab t'aide à écrire comme tu penses.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois expliquer pourquoi je veux partir…"
+ },
+ {
+  "id": "sketch-excuse-ami",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Après une dispute…",
+   "hero_hair": "curly",
+   "friend_hair": "ponytail",
+   "p1": "Je veux m'excuser auprès de mon ami…",
+   "p2": "Je veux que ce soit sincère, pas plein de fautes 😔",
+   "screen": "[Désoler|Désolé] pour hier, je [tenait|tenais] pas à te [blésser|blesser]. On se [voie|voit] ?",
+   "f1": "*LexyLab* va t'aider !",
+   "f2": "Il te laisse écrire avec ton cœur, *il gère l'orthographe*.",
+   "f3": "Doucement, *sans jugement*.",
+   "p3": "Il m'a répondu « bien sûr » 🥹",
+   "f4": "Ça fait plaisir 💚"
+  },
+  "post_text": "Écris avec ton cœur, LexyLab gère l'orthographe 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je veux m'excuser auprès de mon ami…"
+ },
+ {
+  "id": "sketch-tfe-memoire",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Mon mémoire de fin d'études…",
+   "hero_hair": "short",
+   "friend_hair": "bun",
+   "p1": "40 pages de mémoire à rendre…",
+   "p2": "Mon promoteur va devenir fou 😵",
+   "screen": "Cette [reserche|recherche] [analise|analyse] [limpacte|l'impact] des [réseau|réseaux] [sossiaux|sociaux].",
+   "f1": "Installe *LexyLab* !",
+   "f2": "Il souligne au fur et à mesure, *même dans Word*.",
+   "f3": "Tu peux te concentrer sur *tes idées*.",
+   "p3": "Mémoire déposé 🎓",
+   "f4": "Diplômé bientôt 🥳"
+  },
+  "post_text": "Un mémoire sans fautes, même pour les dys 🎓 LexyLab souligne au fur et à mesure dans Word.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "40 pages de mémoire à rendre…"
+ },
+ {
+  "id": "sketch-recette-blog",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Je partage ma recette…",
+   "hero_hair": "cap",
+   "friend_hair": "long",
+   "p1": "Je poste ma recette de crêpes sur mon blog…",
+   "p2": "Mais les fautes, ça fait pas pro 😅",
+   "screen": "[Mélanger|Mélangez] la [farinne|farine], les [œuf|œufs] et le [lé|lait] [doussement|doucement].",
+   "f1": "Tape-la avec *LexyLab* !",
+   "f2": "Il comprend *ce que tu voulais dire*.",
+   "f3": "Sur *Mac et Windows*, même hors ligne.",
+   "p3": "Ma recette cartonne 🥞",
+   "f4": "Miam 😋"
+  },
+  "post_text": "Partager sa recette sans fautes 🥞 LexyLab comprend ce que tu voulais dire, même hors ligne.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je poste ma recette de crêpes sur mon blog…"
+ },
+ {
+  "id": "sketch-devis-client",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Je lance ma petite activité…",
+   "hero_hair": "curly",
+   "friend_hair": "bun",
+   "p1": "Je dois envoyer un devis à un client…",
+   "p2": "Une faute et il ira voir ailleurs 😬",
+   "screen": "Je vous [propause|propose] un [tarife|tarif] de 50 euros pour la [réparassion|réparation] [conplète|complète].",
+   "f1": "Envoie-le avec *LexyLab* !",
+   "f2": "Il rend tes textes *clairs et pros*.",
+   "f3": "Et tes données restent *sur ton ordi*.",
+   "p3": "Devis accepté 🤝",
+   "f4": "L'entrepreneur dys 😎"
+  },
+  "post_text": "Un devis propre qui inspire confiance 🤝 LexyLab rend tes textes clairs et pros.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Je dois envoyer un devis à un client…"
+ },
+ {
+  "id": "sketch-prise-de-notes-cours",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "En plein cours…",
+   "hero_hair": "short",
+   "friend_hair": "ponytail",
+   "p1": "Le prof parle trop vite…",
+   "p2": "Je note n'importe comment 😫",
+   "screen": "La [révolussion|révolution] française [commance|commence] en [mile|mille] sept cent [quatre-vin|quatre-vingt]-neuf.",
+   "f1": "Prends tes notes avec *LexyLab* !",
+   "f2": "Il corrige *en direct* pendant que tu écris.",
+   "f3": "Tu relis tes notes *sans galérer*.",
+   "p3": "Mes notes sont parfaites 😍",
+   "f4": "Prends ça, l'histoire 📜"
+  },
+  "post_text": "Prendre des notes vite et sans fautes 📜 LexyLab corrige en direct pendant que tu écris.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Le prof parle trop vite…"
+ },
+ {
+  "id": "sketch-mail-medecin",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Prise de rendez-vous…",
+   "hero_hair": "curly",
+   "friend_hair": "long",
+   "p1": "J'écris au cabinet médical…",
+   "p2": "J'ai toujours honte de mes fautes 😓",
+   "screen": "Bonjour, je [voudré|voudrais] un [rendevou|rendez-vous] la [semène|semaine] [prochène|prochaine] svp.",
+   "f1": "*LexyLab* t'aide au quotidien !",
+   "f2": "Il est pensé pour la dyslexie, *pas juste les fautes de frappe*.",
+   "f3": "Simple, rapide, *privé*.",
+   "p3": "Rendez-vous confirmé ✅",
+   "f4": "Prends soin de toi 💚"
+  },
+  "post_text": "Même les petits mails du quotidien, sans honte 💚 LexyLab est pensé pour la dyslexie.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "J'écris au cabinet médical…"
+ },
+ {
+  "id": "sketch-histoire-enfant",
+  "format": "sketch",
+  "pilier": "situations",
+  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "params": {
+   "caption": "Le soir, avant de dormir…",
+   "hero_hair": "short",
+   "friend_hair": "bun",
+   "p1": "J'écris une histoire pour ma petite sœur…",
+   "p2": "Je veux pas qu'elle apprenne mes fautes 😅",
+   "screen": "Il était une [foie|fois] un petit [dragont|dragon] qui [avai|avait] peur du [noire|noir].",
+   "f1": "*LexyLab* va t'aider !",
+   "f2": "Il corrige *gentiment*, sans casser ton imagination.",
+   "f3": "Tu écris, *il gère le reste*.",
+   "p3": "Elle l'a adorée 🐉",
+   "f4": "Futur écrivain 📖"
+  },
+  "post_text": "Écrire des histoires sans que les fautes cassent l'imagination 🐉 LexyLab gère l'orthographe pour toi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "J'écris une histoire pour ma petite sœur…"
+ }
+]

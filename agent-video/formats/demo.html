@@ -1,0 +1,136 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../lib/common.css">
+<style>
+  #hook{position:absolute;left:60px;right:60px;top:170px;text-align:center;font-weight:700;font-size:66px;line-height:1.22;z-index:10}
+  #win{position:absolute;left:55px;top:500px;width:970px;height:800px;background:#fff;border:6px solid #111;border-radius:28px;box-shadow:0 30px 60px rgba(0,0,0,.12);overflow:hidden}
+  #bar{height:78px;background:#F1EFEA;border-bottom:4px solid #111;display:flex;align-items:center;padding:0 26px;gap:14px}
+  #bar i{width:22px;height:22px;border-radius:50%;display:inline-block;border:3px solid #111}
+  #title{margin-left:20px;font-size:34px;font-weight:600;color:#444}
+  #tools{display:flex;gap:16px;padding:20px 30px;border-bottom:3px solid #eee}
+  #tools b{display:block;height:30px;border-radius:8px;background:#E8E6E1}
+  .fld{padding:18px 34px;border-bottom:3px solid #eee;font-size:36px;color:#888}
+  .fld b{color:#111;font-weight:600}
+  #doc{padding:40px 46px;font-size:54px;line-height:1.55;font-weight:500}
+  #pop{position:absolute;box-sizing:border-box;width:600px;background:#fff;border:5px solid #111;border-radius:24px;box-shadow:0 18px 40px rgba(0,0,0,.18);padding:22px 26px;opacity:0;z-index:15;transform-origin:30px 0}
+  #pop .h{display:flex;align-items:center;gap:10px;font-weight:700;font-size:30px}
+  #pop .h img{width:38px}
+  #pop .s{display:inline-block;margin-top:16px;background:#1DB584;color:#fff;font-weight:700;font-size:44px;padding:10px 26px;border-radius:16px}
+  #pop .x{margin-top:14px;font-size:34px;color:#555;line-height:1.35}
+  #cursor{position:absolute;width:64px;z-index:30;opacity:0}
+  #badge{position:absolute;left:50%;top:1180px;transform:translateX(-50%);background:#1DB584;color:#fff;font-weight:700;font-size:52px;padding:20px 44px;border-radius:60px;border:6px solid #111;opacity:0;white-space:nowrap}
+  #cap{position:absolute;inset:0;background:#FAF8F3;opacity:0;z-index:40;overflow:hidden}
+  #cap img{position:absolute;left:50%;top:50%;width:1000px;border:6px solid #111;border-radius:22px;box-shadow:0 30px 60px rgba(0,0,0,.18)}
+  #cap .lbl{position:absolute;left:60px;right:60px;top:220px;text-align:center;font-weight:700;font-size:62px;line-height:1.2}
+  .call{position:absolute;border:8px solid #E23B3B;border-radius:20px;opacity:0}
+</style></head>
+<body>
+<div id="stage">
+  <div class="hdr"><img src="../lib/logo.png"><span>Lexy<span class="lab">Lab</span></span></div>
+  <div id="hook"></div>
+  <div id="win"><div id="bar"><i style="background:#FF6B6B"></i><i style="background:#FFD166"></i><i style="background:#3EE0A6"></i><span id="title"></span></div>
+    <div id="head"></div><div id="doc"></div></div>
+  <div id="pop"><div class="h"><img src="../lib/logo.png">LexyLab</div><div class="s" id="popS"></div><div class="x" id="popX"></div></div>
+  <div id="badge"></div>
+  <svg id="cursor" viewBox="0 0 40 52"><path d="M3,3 L3,44 L13,34 L20,50 L27,47 L20,31 L34,31 Z" fill="#fff" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/></svg>
+  <div class="sub" id="sub"></div>
+  <div id="cap"><div class="lbl" id="capL"></div><img id="capI"><div id="calls"></div></div>
+  <div id="endwrap"></div>
+</div>
+<script src="../lib/common.js"></script>
+<script>
+/* params :
+  hook        texte d'accroche en haut (ex. "Regarde LexyLab corriger un mail en direct 👇")
+  app         "word" | "gmail" | "docs" | "notes"   (look générique de la fenêtre)
+  title       titre de la fenêtre (ex. "Lettre de motivation.docx")
+  to, subject (gmail seulement)
+  screen      texte tapé avec les fautes [faute|correction] (2 à 5 fautes, 50-110 caractères)
+  explain     explication affichée dans la bulle LexyLab pour la 1re faute (court)
+  subs        5 sous-titres "voix off" : [tape, souligne, propose, corrige, fin]
+  badge       texte du badge final (ex. "✓ 0 faute, envoyé !")
+  capture     (optionnel) image réelle dans captures/ (ex. "captures/word-1.png")
+  capture_label, capture_callouts [{x,y,w,h}] en fractions 0-1 de l'image
+  end_tag     (optionnel) phrase sous le logo de fin
+  music       calme | joyeux | tension | aucune
+*/
+let P, segs, wl, T={};
+function init(p){
+  P=p; segs=U.parseErr(p.screen); wl=U.wrongLen(segs);
+  document.getElementById('hook').innerHTML=U.md(p.hook||'');
+  const ttl={word:'Document.docx',gmail:'Nouveau message',docs:'Document sans titre',notes:'Notes de cours'};
+  document.getElementById('title').textContent=p.title||ttl[p.app]||'Document';
+  let head='';
+  if(p.app==='gmail') head=`<div class="fld">À : <b>${U.esc(p.to||'')}</b></div><div class="fld">Objet : <b>${U.esc(p.subject||'')}</b></div>`;
+  else head=`<div id="tools">${[90,60,120,70,50,110].map(w=>`<b style="width:${w}px"></b>`).join('')}</div>`;
+  document.getElementById('head').innerHTML=head;
+  document.getElementById('endwrap').innerHTML=U.endHTML(p.end_tag);
+  const nerr=segs.filter(s=>s.e).length;
+  const typeDur=U.clamp(wl*0.055,2.5,5.5);
+  T.type=[1.2,1.2+typeDur]; T.wavy=T.type[1]+0.4; T.move=[T.wavy+0.9,T.wavy+1.9]; T.popIn=T.move[1]+0.1;
+  T.click=T.popIn+2.8; T.fixes=[]; for(let i=0;i<nerr;i++) T.fixes.push(i===0?T.click:T.click+0.7+i*0.65);
+  T.badge=T.fixes[T.fixes.length-1]+0.8; T.demoEnd=T.badge+2.4;
+  T.cap = p.capture? [T.demoEnd, T.demoEnd+4.5]: null;
+  T.end = (T.cap? T.cap[1]: T.demoEnd);
+  T.dur = T.end+3.4;
+  const s=p.subs||[];
+  T.subs=[[0.3,T.wavy,s[0]],[T.wavy,T.popIn,s[1]],[T.popIn,T.click+0.4,s[2]],[T.click+0.4,T.badge,s[3]],[T.badge,T.demoEnd,s[4]]];
+  if(p.capture){ document.getElementById('capI').src='../'+p.capture; document.getElementById('capL').innerHTML=U.md(p.capture_label||'Et en vrai, sur ton ordi 👇');
+    document.getElementById('calls').innerHTML=(p.capture_callouts||[]).map((c,i)=>`<div class="call" id="call${i}"></div>`).join(''); }
+  const ev=[{t:0.2,type:'pop'},{t:T.wavy,type:'buzz'},{t:T.popIn,type:'pop'},{t:T.click,type:'click'}];
+  T.fixes.forEach(f=>ev.push({t:f,type:'ding'}));
+  ev.push({t:T.badge,type:'chime'});
+  if(T.cap) ev.push({t:T.cap[0],type:'whoosh'});
+  ev.push({t:T.end,type:'whoosh'});
+  return {duration:T.dur, events:ev, typing:[T.type], music:p.music||'joyeux'};
+}
+function docHTML(t){
+  const n=Math.floor(wl*U.clamp((t-T.type[0])/(T.type[1]-T.type[0]),0,1));
+  let left=n,h='',ei=0;
+  for(const sg of segs){ if(left<=0)break;
+    if(sg.t!==undefined){h+=U.esc(sg.t.slice(0,left));left-=sg.t.length;}
+    else{ const full=left>=sg.e.length, part=sg.e.slice(0,left); left-=sg.e.length;
+      if(full&&t>=T.fixes[ei]) h+=`<span class="fix" id="e${ei}">${U.esc(sg.f)}</span>`;
+      else h+=`<span id="e${ei}" class="${full&&t>=T.wavy?'wavy':''}">${U.esc(part)}</span>`; ei++; } }
+  if(n<wl||Math.floor(t*2.5)%2===0) h+='<span class="caret"></span>';
+  return h;
+}
+function render(t){
+  document.getElementById('stage').style.opacity=U.clamp(t/0.3,0,1);
+  const hk=document.getElementById('hook'); hk.style.transform=`scale(${U.pop((t-0.15)/0.35)})`;
+  document.getElementById('doc').innerHTML=docHTML(t);
+  // curseur + bulle
+  const e0=document.getElementById('e0'), cur=document.getElementById('cursor'), pop=document.getElementById('pop');
+  if(e0 && t>=T.move[0]-0.3 && t<T.click+0.6){
+    const r=e0.getBoundingClientRect(); const tx=r.left+r.width*0.5, ty=r.top+r.height*0.75;
+    const k=U.easeIO((t-T.move[0])/(T.move[1]-T.move[0])); const sx=900, sy=1500;
+    cur.style.left=(sx+(tx-sx)*k)+'px'; cur.style.top=(sy+(ty-sy)*k)+'px';
+    cur.style.opacity=U.clamp((t-T.move[0]+0.3)/0.3,0,1)*U.clamp((T.click+0.6-t)/0.3,0,1);
+    cur.style.transform=`scale(${(t>=T.click&&t<T.click+0.15)?0.85:1})`;
+    if(t>=T.popIn && t<T.click+0.3){
+      pop.style.left=Math.max(40,Math.min(r.left-10, 1080-640))+'px'; pop.style.top=(r.bottom+16)+'px';
+      document.getElementById('popS').textContent=segs.filter(s=>s.e)[0].f;
+      document.getElementById('popX').innerHTML=U.md(P.explain||'');
+      pop.style.opacity=U.clamp((t-T.popIn)/0.15,0,1)*U.clamp((T.click+0.3-t)/0.2,0,1);
+      pop.style.transform=`scale(${U.pop((t-T.popIn)/0.3)})`;
+    } else pop.style.opacity=0;
+  } else { cur.style.opacity=0; pop.style.opacity=0; }
+  const bd=document.getElementById('badge'); bd.textContent=P.badge||'✓ Zéro faute !';
+  bd.style.opacity=t>=T.badge&&t<T.demoEnd?1:0; bd.style.transform=`translateX(-50%) scale(${U.pop((t-T.badge)/0.3)})`;
+  // sous-titres
+  const s=T.subs.find(x=>x[2]&&t>=x[0]&&t<x[1]); const sub=document.getElementById('sub');
+  sub.innerHTML=s?`<span>${U.md(s[2])}</span>`:''; sub.style.opacity=(t<T.demoEnd)?1:0;
+  // capture réelle
+  const cap=document.getElementById('cap');
+  if(T.cap&&t>=T.cap[0]-0.1){
+    const k=U.ease((t-T.cap[0])/0.4); cap.style.opacity=k;
+    const z=1+0.12*U.clamp((t-T.cap[0])/(T.cap[1]-T.cap[0]),0,1);
+    const img=document.getElementById('capI'); img.style.transform=`translate(-50%,-45%) scale(${z})`;
+    (P.capture_callouts||[]).forEach((c,i)=>{ const el=document.getElementById('call'+i); const ir=img.getBoundingClientRect();
+      el.style.left=(ir.left+c.x*ir.width)+'px'; el.style.top=(ir.top+c.y*ir.height)+'px'; el.style.width=(c.w*ir.width)+'px'; el.style.height=(c.h*ir.height)+'px';
+      el.style.opacity=t>T.cap[0]+1+i*0.5?1:0; });
+  } else cap.style.opacity=0;
+  U.renderEnd(t,T.end);
+}
+window.init=init; window.render=render;
+</script>
+</body></html>

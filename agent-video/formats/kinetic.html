@@ -1,0 +1,101 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../lib/common.css">
+<style>
+  #bg{position:absolute;inset:0}
+  .blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:.55}
+  #prog{position:absolute;left:50px;right:50px;top:150px;height:12px;border-radius:8px;background:rgba(0,0,0,.08);z-index:6}
+  #prog b{display:block;height:100%;border-radius:8px;background:#1DB584;width:0}
+  #slide{position:absolute;left:70px;right:70px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;z-index:4}
+  #slide .emo{font-size:170px;line-height:1;margin-bottom:40px}
+  #slide .txt{font-weight:700;line-height:1.18}
+  #slide .sub2{font-weight:500;font-size:48px;line-height:1.4;margin-top:34px;opacity:.8}
+  .w{display:inline-block;white-space:pre}
+  body.dark #stage{background:#111}
+  body.dark #stage, body.dark #slide{color:#fff}
+  body.dark .hl{color:#111}
+  body.green #stage{background:#E6F7EF}
+  body.blue #stage{background:#E8F0FE}
+  .num{display:inline-flex;align-items:center;justify-content:center;width:110px;height:110px;border-radius:50%;background:#1DB584;color:#fff;font-weight:700;font-size:64px;margin-bottom:36px;border:6px solid #111}
+  .vs{display:flex;flex-direction:column;gap:36px}
+  .vs div{border:6px solid #111;border-radius:30px;padding:34px 40px;font-size:66px;font-weight:700;line-height:1.25;background:#fff;color:#111}
+  .vs .a{border-color:#E23B3B} .vs .a small,.vs .b small{display:block;font-size:40px;font-weight:600;margin-bottom:8px}
+  .vs .a small{color:#E23B3B} .vs .b{border-color:#1DB584} .vs .b small{color:#1DB584}
+</style></head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div class="hdr"><img src="../lib/logo.png"><span>Lexy<span class="lab">Lab</span></span></div>
+  <div id="prog"><b></b></div>
+  <div id="slide"></div>
+  <div id="endwrap"></div>
+</div>
+<script src="../lib/common.js"></script>
+<script>
+/* params :
+  theme   clair | sombre | vert | bleu
+  music   calme | joyeux | tension | aucune
+  slides  liste de cartes, chacune :
+     {text:"Texte *vert* _surligné_", emoji:"😩", sub:"petite phrase", size:"xl|l|m", num:1, dur:3.5}
+     ou {mythe:"…", realite:"…"}   (carte « Mythe / Réalité »)
+  end_tag (optionnel)
+  Les mots du texte apparaissent un par un. Durée auto selon la longueur (ou dur).
+*/
+let P,S=[],END=0;
+function words(text){ // garde le markdown par mot
+  return text.split(/(\s+)/).filter(x=>x.length);
+}
+function init(p){
+  P=p; const th={sombre:'dark',vert:'green',bleu:'blue'}[p.theme]; if(th) document.body.classList.add(th);
+  let t=0.2; const ev=[];
+  p.slides.forEach((s,i)=>{
+    const len=(s.text||'').length+(s.sub||'').length+(s.mythe||'').length+(s.realite||'').length;
+    const d=s.dur||U.clamp(1.4+len*0.055,2.4,6.5);
+    S.push({...s,t0:t,t1:t+d}); ev.push({t:t,type:i===0?'boom':'swoosh-up'});
+    if(s.mythe) ev.push({t:t+d*0.45,type:'ding'});
+    t+=d;
+  });
+  END=t; ev.push({t:END,type:'chime'});
+  document.getElementById('endwrap').innerHTML=U.endHTML(p.end_tag);
+  // décor
+  const cols=['#3B7BF0','#1DB584','#FFD166','#FF8FA3'];
+  document.getElementById('bg').innerHTML=[0,1,2,3].map(i=>`<div class="blob" id="bl${i}" style="width:${380+i*90}px;height:${380+i*90}px;background:${cols[i]}22"></div>`).join('');
+  return {duration:END+3.4, events:ev, typing:[], music:p.music||'calme'};
+}
+let cur=-1;
+function render(t){
+  document.getElementById('stage').style.opacity=U.clamp(t/0.3,0,1);
+  for(let i=0;i<4;i++){const b=document.getElementById('bl'+i); b.style.left=(540+Math.cos(t*0.3+i*1.7)*420-200)+'px'; b.style.top=(960+Math.sin(t*0.25+i*2.1)*700-200)+'px';}
+  document.querySelector('#prog b').style.width=(100*U.clamp(t/END,0,1))+'%';
+  const i=S.findIndex(s=>t>=s.t0&&t<s.t1); const el=document.getElementById('slide');
+  if(i<0){ el.style.opacity=0; } else {
+    const s=S[i]; const lt=t-s.t0;
+    if(cur!==i){ cur=i;
+      if(s.mythe){ el.innerHTML=`<div class="vs"><div class="a" id="va"><small>❌ MYTHE</small>${U.md(s.mythe)}</div><div class="b" id="vb"><small>✅ RÉALITÉ</small>${U.md(s.realite)}</div></div>`; }
+      else{
+        const size={xl:118,l:92,m:72}[s.size||(s.text.length<40?'xl':s.text.length<90?'l':'m')];
+        let k=0, ws='';
+        s.text.split(/(\*[^*]+\*|_[^_]+_|\n)/).filter(x=>x).forEach(part=>{
+          if(part==='\n'){ws+='<br>';return;}
+          const cls=part[0]==='*'?'g':part[0]==='_'?'hl':''; const body=cls?part.slice(1,-1):part;
+          body.split(/(\s+)/).filter(x=>x).forEach(w=>{ ws+=/^\s+$/.test(w)?' ':`<span class="w" data-k="${k++}"><span class="${cls}">${U.esc(w)}</span></span>`; });
+        });
+        el.innerHTML=(s.num?`<div><span class="num">${s.num}</span></div>`:'')+(s.emoji?`<div class="emo" id="emo">${s.emoji}</div>`:'')+
+          `<div class="txt" style="font-size:${size}px">${ws}</div>`+(s.sub?`<div class="sub2" id="sb">${U.md(s.sub)}</div>`:'');
+      }
+    }
+    const out=U.clamp((s.t1-t)/0.25,0,1); el.style.opacity=out; el.style.transform=`translateY(${(1-U.ease(lt/0.3))*60}px)`;
+    if(s.mythe){ document.getElementById('va').style.transform=`scale(${U.pop(lt/0.3)})`;
+      const vb=document.getElementById('vb'); const k=lt-(s.t1-s.t0)*0.45; vb.style.opacity=k>0?1:0; vb.style.transform=`scale(${U.pop(k/0.3)})`; }
+    else{
+      const ws=el.querySelectorAll('.w'); const per=Math.min(0.12,((s.t1-s.t0)*0.45)/Math.max(1,ws.length));
+      ws.forEach((w,k)=>{const x=(lt-0.1-k*per)/0.22; w.style.opacity=U.clamp(x,0,1); w.style.transform=`translateY(${(1-U.ease(x))*30}px) scale(${0.9+0.1*U.ease(x)})`;});
+      const em=document.getElementById('emo'); if(em) em.style.transform=`scale(${U.pop(lt/0.35)}) rotate(${Math.sin(t*3)*6}deg)`;
+      const sb=document.getElementById('sb'); if(sb) sb.style.opacity=U.clamp((lt-ws.length*per-0.3)/0.3,0,1)*0.8;
+    }
+  }
+  U.renderEnd(t,END);
+}
+window.init=init; window.render=render;
+</script>
+</body></html>

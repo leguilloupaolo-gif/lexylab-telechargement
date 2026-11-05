@@ -1,0 +1,19 @@
+html,body{margin:0;padding:0;background:#FAF8F3}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#FAF8F3;font-family:'Poppins','Noto Color Emoji',sans-serif;color:#111}
+.hdr{position:absolute;left:50px;top:62px;display:flex;align-items:center;gap:14px;font-weight:700;font-size:38px;z-index:5}
+.hdr img{width:58px;height:auto}
+.hdr .lab,.g{color:#1DB584}
+.hl{background:linear-gradient(transparent 55%,#FFE27A 55%);padding:0 6px}
+.err{color:#E23B3B;font-weight:700}
+.wavy{text-decoration:underline wavy #E23B3B;text-decoration-thickness:4px;text-underline-offset:12px}
+.fix{color:#1DB584;font-weight:700}
+.caret{display:inline-block;width:5px;height:1.05em;background:#111;vertical-align:-0.15em;margin-left:2px}
+#end{position:absolute;inset:0;background:#FAF8F3;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:50}
+#end img{width:300px}
+#end .name{font-size:150px;font-weight:700;margin-top:60px;background:linear-gradient(90deg,#3B7BF0,#1DB584);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+#end .tag{font-size:56px;color:#444;text-align:center;line-height:1.35;margin-top:30px;padding:0 60px}
+#end .btn{margin-top:70px;background:#1DB584;color:#fff;font-weight:700;font-size:58px;padding:34px 74px;border:7px solid #111;border-radius:90px}
+/* sous-titres façon voix off */
+.sub{position:absolute;left:60px;right:60px;bottom:440px;text-align:center;z-index:20}
+.sub span{display:inline;background:#111;color:#fff;font-weight:700;font-size:50px;line-height:1.55;padding:8px 22px;border-radius:14px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.sub .g{color:#3EE0A6}

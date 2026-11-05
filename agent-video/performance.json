@@ -1,0 +1,123 @@
+{
+ "derniere_analyse": "2026-11-05",
+ "posts": [
+  {
+   "date": "2026-10-16",
+   "id": "fondateur-v1",
+   "format": "carrousel/video",
+   "pilier": "fondateur",
+   "reseau": "tiktok",
+   "vues": 1864
+  },
+  {
+   "date": "2026-10-17",
+   "id": "dictee",
+   "format": "video",
+   "pilier": "emotion",
+   "reseau": "tiktok",
+   "vues": 862,
+   "partages": 1
+  },
+  {
+   "date": "2026-10-19",
+   "id": "faire-attention",
+   "format": "video",
+   "pilier": "emotion",
+   "reseau": "tiktok",
+   "vues": 356
+  },
+  {
+   "date": "2026-10-24",
+   "id": "notes-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "tiktok",
+   "vues": 276
+  },
+  {
+   "date": "2026-10-26",
+   "id": "mail-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "tiktok",
+   "vues": 280,
+   "partages": 1
+  },
+  {
+   "date": "2026-10-28",
+   "id": "groupe-classe-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "tiktok",
+   "vues": 280
+  },
+  {
+   "date": "2026-10-30",
+   "id": "lettre-motivation-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "tiktok",
+   "vues": 740,
+   "partages": 1
+  },
+  {
+   "date": "2026-10-15",
+   "id": "fondateur-v1",
+   "format": "carrousel",
+   "pilier": "fondateur",
+   "reseau": "instagram",
+   "vues": 86
+  },
+  {
+   "date": "2026-10-16",
+   "id": "dictee",
+   "format": "video",
+   "pilier": "emotion",
+   "reseau": "instagram",
+   "vues": 582
+  },
+  {
+   "date": "2026-10-19",
+   "id": "faire-attention",
+   "format": "video",
+   "pilier": "emotion",
+   "reseau": "instagram",
+   "vues": 616,
+   "partages": 1,
+   "commentaires": 1
+  },
+  {
+   "date": "2026-10-24",
+   "id": "notes-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 184
+  },
+  {
+   "date": "2026-10-26",
+   "id": "mail-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 182
+  },
+  {
+   "date": "2026-10-28",
+   "id": "groupe-classe-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 340,
+   "commentaires": 5
+  },
+  {
+   "date": "2026-10-30",
+   "id": "lettre-motivation-baton",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 258
+  }
+ ]
+}
