@@ -26,3 +26,7 @@ U.renderEnd = (t,t0)=>{
 U.ROUGH_SVG = `<svg width="0" height="0" style="position:absolute"><defs><filter id="r" x="-5%" y="-5%" width="110%" height="110%">
   <feTurbulence id="turb" type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="1"/><feDisplacementMap in="SourceGraphic" scale="7"/></filter></defs></svg>`;
 U.HEADER = `<div class="hdr"><img src="../lib/logo.png"><span>Lexy<span class="lab">Lab</span></span></div>`;
+
+// Voix off génériques : params.voix = [{fichier:"voix/xxx.m4a", debut:1.2}] -> évènements son (fichiers existants seulement)
+U.voiceEvents = (p)=>(p.voix||[]).filter(v=>p._voix_dur&&p._voix_dur[v.fichier]).map(v=>({t:v.debut||0,type:'voice',file:v.fichier}));
+U.voiceEnd = (p)=>Math.max(0,...(p.voix||[]).filter(v=>p._voix_dur&&p._voix_dur[v.fichier]).map(v=>(v.debut||0)+p._voix_dur[v.fichier]));

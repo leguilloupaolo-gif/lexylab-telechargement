@@ -1,0 +1,20 @@
+# Voix off à fabriquer sur le Mac (une ligne = un fichier).  Format :  voix/<fichier>.m4a|texte à dire
+# L'agent ajoute ici les textes de la semaine (le lundi). Paolo lance generer_voix.sh. Les fichiers déjà créés sont ignorés.
+voix/kin-mamans-message-0.m4a|À toutes les mamans d'enfants dys.
+voix/kin-mamans-message-1.m4a|Les devoirs qui durent des heures.
+voix/kin-mamans-message-2.m4a|Les mots dans le cahier : doit faire plus d'efforts.
+voix/kin-mamans-message-3.m4a|Et toi qui te demandes : est-ce que j'en fais assez ?
+voix/kin-mamans-message-4.m4a|Tu en fais déjà beaucoup. Et ton enfant n'est pas paresseux : son cerveau fonctionne autrement.
+voix/kin-mamans-message-5.m4a|Partage cette vidéo à une maman qui a besoin de l'entendre.
+voix/kin-mythes-dyslexie-0.m4a|Trois idées fausses sur la dyslexie.
+voix/kin-mythes-dyslexie-1.m4a|Les dys sont moins intelligents ? Faux. La dyslexie n'a rien à voir avec l'intelligence.
+voix/kin-mythes-dyslexie-2.m4a|Il suffit de faire plus attention ? Faux. Le cerveau traite les sons et les lettres autrement.
+voix/kin-mythes-dyslexie-3.m4a|Ça passe avec l'âge ? Pas vraiment. On apprend à compenser, mais la dyslexie reste.
+voix/kin-mythes-dyslexie-4.m4a|Partage à quelqu'un qui doit voir ça.
+voix/kin-astuces-relire-0.m4a|Trois astuces pour se relire quand on est dys.
+voix/kin-astuces-relire-1.m4a|Un. Relis à voix haute : ton oreille repère ce que ton œil rate.
+voix/kin-astuces-relire-2.m4a|Deux. Fais une pause avant de relire, pour avoir un regard neuf.
+voix/kin-astuces-relire-3.m4a|Trois. Laisse un correcteur pensé pour les dys t'aider. LexyLab souligne les fautes pendant que tu écris.
+voix/kin-astuces-relire-4.m4a|Enregistre cette vidéo pour plus tard.
+voix/quiz-courses-0.m4a|Trouve les quatre fautes en cinq secondes. C'est parti !
+voix/quiz-courses-1.m4a|LexyLab les a toutes trouvées. Et toi, tu en as trouvé combien ? Dis-le en commentaire.

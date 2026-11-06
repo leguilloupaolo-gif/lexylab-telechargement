@@ -50,7 +50,7 @@ function init(p){
   for(let k=0;k<sec;k++) ev.push({t:T.c[0]+k,type:'tick'});
   ev.push({t:T.c[1],type:'buzz'}); T.rings.forEach(r=>ev.push({t:r,type:'pop'})); T.fixes.forEach(f=>ev.push({t:f,type:'ding'}));
   ev.push({t:T.cta,type:'pop'},{t:T.end,type:'chime'});
-  return {duration:T.end+3.4, events:ev, typing:[], music:p.music||'tension'};
+  ev.push(...U.voiceEvents(p)); return {duration:Math.max(T.end+3.4, U.voiceEnd(p)+1), events:ev, typing:[], music:p.music||'tension'};
 }
 function render(t){
   document.getElementById('stage').style.opacity=U.clamp(t/0.3,0,1);

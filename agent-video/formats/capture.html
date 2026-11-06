@@ -46,7 +46,7 @@ function init(p){
   END=t; ev.push({t:END,type:'chime'});
   document.getElementById('calls').innerHTML=PL.map(pl=>(pl.callouts||[]).map((c,k)=>`<div class="call" id="c${pl.i}_${k}"></div><div class="clbl" id="l${pl.i}_${k}">${U.esc(c.label||'')}</div>`).join('')).join('');
   document.getElementById('endwrap').innerHTML=U.endHTML(p.end_tag);
-  return {duration:END+3.4, events:ev, typing:[], music:p.music||'joyeux'};
+  ev.push(...U.voiceEvents(p)); return {duration:Math.max(END+3.4, U.voiceEnd(p)+1), events:ev, typing:[], music:p.music||'joyeux'};
 }
 function lerpZoom(z,lt){
   if(!z||!z.length) return {x:0,y:0,s:1};

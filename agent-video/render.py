@@ -13,6 +13,8 @@ Contrat d'une page de format (formats/<nom>.html) :
   window.init(params)  -> {duration: secondes, events: [{t, type}], typing: [[debut, fin], ...], music: "calme|joyeux|tension|aucune"}
   window.render(t)     -> dessine l'image au temps t (secondes)
   types de sons : pop, whoosh, buzz, ding, steps, chime, click, tick, boom, swoosh-up
+  voix off : évènement {t, type:"voice", file:"voix/xxx.m4a"} ; la musique baisse automatiquement pendant la voix.
+  params._voix_dur = {"voix/xxx.m4a": durée en s} est ajouté par render.py (seulement pour les fichiers qui existent).
 """
 import json, os, subprocess, sys, tempfile, wave
 import numpy as np
@@ -58,6 +60,33 @@ MOODS = {
     "joyeux": dict(chords=[[261.6, 329.6, 392.0, 523.3], [196.0, 246.9, 293.7, 392.0], [220.0, 261.6, 329.6, 440.0], [174.6, 220.0, 261.6, 349.2]], bar=1.6, arp=8, gain=1.1),
     "tension": dict(chords=[[220.0, 261.6, 329.6, 415.3], [207.7, 246.9, 311.1, 392.0], [196.0, 233.1, 293.7, 349.2], [207.7, 246.9, 311.1, 392.0]], bar=2.0, arp=4, gain=0.9),
 }
+
+
+def decode_audio(path):
+    if not os.path.exists(path):
+        return None
+    out = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
+                         capture_output=True)
+    if out.returncode != 0:
+        return None
+    return np.frombuffer(out.stdout, dtype=np.int16).astype(np.float64) / 32768
+
+
+def audio_duration(path):
+    a = decode_audio(path)
+    return None if a is None else len(a) / SR
+
+
+def voice_durations(obj, acc):
+    """Cherche tous les chemins 'voix/...' dans les paramètres et mesure leur durée (s). Fichier absent = ignoré."""
+    if isinstance(obj, dict):
+        for v in obj.values(): voice_durations(v, acc)
+    elif isinstance(obj, list):
+        for v in obj: voice_durations(v, acc)
+    elif isinstance(obj, str) and obj.startswith("voix/"):
+        d = audio_duration(os.path.join(HERE, obj))
+        if d: acc[obj] = round(d, 3)
+    return acc
 
 
 def soundtrack(info, path):
@@ -112,7 +141,19 @@ def soundtrack(info, path):
         while tt < b:
             m = int(0.025 * SR); add(sfx, rng.standard_normal(m) * env(m, 0.0005, 0.006), tt, 0.35)
             tt += 0.06 + rng.random() * 0.07
-    mix = music + sfx
+    # voix off : fichiers audio (voix/*.m4a) placés par le format avec des évènements {t, type:"voice", file}
+    voice = np.zeros(n)
+    for e in info.get("events", []):
+        if e.get("type") == "voice" and e.get("file"):
+            v = decode_audio(os.path.join(HERE, e["file"]))
+            if v is not None:
+                add(voice, v, e["t"], 1.0)
+    if np.abs(voice).max() > 0:
+        voice = voice / np.abs(voice).max() * 0.95
+        envv = np.convolve(np.abs(voice), np.ones(int(0.25 * SR)) / (0.25 * SR), "same")
+        duck = 1 - 0.7 * np.clip(envv / max(1e-6, envv.max()) * 4, 0, 1)
+        music *= duck; sfx *= (0.5 + 0.5 * duck)
+    mix = music + sfx + voice * 0.9
     mix = mix / max(1e-6, np.abs(mix).max()) * 0.85
     with wave.open(path, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((mix * 32767).astype(np.int16).tobytes())
@@ -150,6 +191,7 @@ def open_page(p, idea):
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.goto("file://" + page_path)
     page.wait_for_load_state("networkidle")
+    idea["params"]["_voix_dur"] = voice_durations(idea["params"], {})
     info = page.evaluate("p => init(p)", idea["params"])
     page.evaluate("document.fonts.ready")
     page.evaluate("t => render(t)", 0)   # précharge la 1re image

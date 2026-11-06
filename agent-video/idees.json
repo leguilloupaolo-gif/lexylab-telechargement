@@ -36,29 +36,35 @@
     {
      "text": "À toutes les mamans d'enfants *dys*",
      "emoji": "💚",
-     "size": "xl"
+     "size": "xl",
+     "voix": "voix/kin-mamans-message-0.m4a"
     },
     {
      "text": "Les devoirs qui durent *des heures*…",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-mamans-message-1.m4a"
     },
     {
      "text": "Les mots dans le cahier : « _doit faire plus d'efforts_ »",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-mamans-message-2.m4a"
     },
     {
      "text": "Et toi qui te demandes : « est-ce que j'en fais *assez* ? »",
      "emoji": "🫶",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-mamans-message-3.m4a"
     },
     {
      "text": "Tu en fais *déjà beaucoup*.",
      "sub": "Et ton enfant n'est pas paresseux : son cerveau fonctionne autrement.",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-mamans-message-4.m4a"
     },
     {
      "text": "Partage à une maman qui a besoin de lire ça 💚",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-mamans-message-5.m4a"
     }
    ]
   },
@@ -140,23 +146,28 @@
     {
      "text": "3 idées *fausses* sur la dyslexie",
      "emoji": "🧠",
-     "size": "xl"
+     "size": "xl",
+     "voix": "voix/kin-mythes-dyslexie-0.m4a"
     },
     {
      "mythe": "Les dys sont moins intelligents.",
-     "realite": "La dyslexie n'a *rien à voir* avec l'intelligence."
+     "realite": "La dyslexie n'a *rien à voir* avec l'intelligence.",
+     "voix": "voix/kin-mythes-dyslexie-1.m4a"
     },
     {
      "mythe": "Il suffit de faire plus attention.",
-     "realite": "Le cerveau traite les sons et les lettres *autrement*."
+     "realite": "Le cerveau traite les sons et les lettres *autrement*.",
+     "voix": "voix/kin-mythes-dyslexie-2.m4a"
     },
     {
      "mythe": "Ça passe avec l'âge.",
-     "realite": "On apprend à *compenser*, mais la dyslexie reste."
+     "realite": "On apprend à *compenser*, mais la dyslexie reste.",
+     "voix": "voix/kin-mythes-dyslexie-3.m4a"
     },
     {
      "text": "Partage à quelqu'un qui doit *voir ça* 💚",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-mythes-dyslexie-4.m4a"
     }
    ]
   },
@@ -171,7 +182,17 @@
   "params": {
    "question": "Trouve les *4 fautes*\nen 5 secondes 👀",
    "sentence": "Je [passerré|passerai] te [cherché|chercher] [ver|vers] huit heures [demin|demain] matin.",
-   "seconds": 5
+   "seconds": 5,
+   "voix": [
+    {
+     "fichier": "voix/quiz-courses-0.m4a",
+     "debut": 0.3
+    },
+    {
+     "fichier": "voix/quiz-courses-1.m4a",
+     "debut": 10.2
+    }
+   ]
   },
   "post_text": "Trouve les 4 fautes en 5 secondes 👀 T'en as trouvé combien ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Trouve les 4 fautes en 5 secondes 👀"
@@ -398,29 +419,34 @@
     {
      "text": "3 astuces pour se *relire* quand on est dys",
      "emoji": "👀",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-astuces-relire-0.m4a"
     },
     {
      "num": 1,
      "text": "Relis *à voix haute*",
      "sub": "Ton oreille repère ce que ton œil rate.",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-astuces-relire-1.m4a"
     },
     {
      "num": 2,
      "text": "Fais une *pause* avant de relire",
      "sub": "Quelques minutes suffisent pour un regard neuf.",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-astuces-relire-2.m4a"
     },
     {
      "num": 3,
      "text": "Laisse un *correcteur pensé pour les dys* t'aider",
      "sub": "LexyLab souligne les fautes pendant que tu écris.",
-     "size": "m"
+     "size": "m",
+     "voix": "voix/kin-astuces-relire-3.m4a"
     },
     {
      "text": "Enregistre pour plus tard 📌",
-     "size": "l"
+     "size": "l",
+     "voix": "voix/kin-astuces-relire-4.m4a"
     }
    ]
   },

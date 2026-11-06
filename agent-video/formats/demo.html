@@ -81,7 +81,7 @@ function init(p){
   ev.push({t:T.badge,type:'chime'});
   if(T.cap) ev.push({t:T.cap[0],type:'whoosh'});
   ev.push({t:T.end,type:'whoosh'});
-  return {duration:T.dur, events:ev, typing:[T.type], music:p.music||'joyeux'};
+  ev.push(...U.voiceEvents(p)); return {duration:Math.max(T.dur, U.voiceEnd(p)+1), events:ev, typing:[T.type], music:p.music||'joyeux'};
 }
 function docHTML(t){
   const n=Math.floor(wl*U.clamp((t-T.type[0])/(T.type[1]-T.type[0]),0,1));
