@@ -3,25 +3,26 @@
   "id": "demo-mail-prof",
   "format": "demo",
   "pilier": "demo",
-  "hypothese": "Montrer le produit en action convertit mieux que raconter",
+  "hypothese": "Première demo : montrer le produit en action sur un sujet école (gagnant) convertit mieux que raconter ; accroche-question en 1re seconde",
   "params": {
-   "hook": "Regarde LexyLab corriger\nun mail *en direct* 👇",
+   "hook": "Ton mail au prof\nplein de fautes ? 😬\nRegarde 👇",
    "app": "gmail",
-   "to": "prof.martin@ecole.be",
+   "to": "mon.prof@ecole.be",
    "subject": "Absence demain",
    "screen": "Bonjour Monsieur, je ne [pourai|pourrai] pas venir [demin|demain] car [jé|j'ai] un [rendé-vous|rendez-vous] chez le médecin.",
-   "explain": "Au futur, « pouvoir » prend *deux r* : je pourrai.",
+   "explain": "Au futur, « pouvoir » prend *deux r* : je pourrai.",
    "subs": [
     "Tu écris *comme d'habitude*…",
-    "LexyLab souligne les fautes *en direct*",
+    "Fautes soulignées *en direct*",
     "Un clic sur le mot…",
     "…et c'est *corrigé* ✨",
     "Ton mail est prêt 💚"
    ],
    "badge": "✓ Zéro faute, envoyé !"
   },
-  "post_text": "Un mail au prof, corrigé en direct ✨ Tu écris comme d'habitude, LexyLab souligne, tu cliques, c'est corrigé.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
-  "tiktok_title": "Un mail corrigé en direct ✨"
+  "post_text": "Le mail au prof qu'on relit 10 fois avant d'oser l'envoyer… 😅 Avec LexyLab, tu écris comme d'habitude : les fautes sont soulignées en direct, tu cliques, c'est corrigé.\n\nEt toi, c'est quoi le message que tu as le plus peur d'envoyer ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe #etudiant #ecole",
+  "tiktok_title": "Un mail corrigé en direct ✨",
+  "tiktok_text": "Le mail au prof qu'on relit 10 fois 😅 LexyLab corrige en direct. Et toi, quel message tu as peur d'envoyer ? #dyslexie #dys #etudiant #orthographe #lexylab"
  },
  {
   "id": "kin-mamans-message",
