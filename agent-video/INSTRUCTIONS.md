@@ -59,9 +59,10 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
      Écris les nombres en lettres. Évite les sigles et l'anglais. Pas d'émojis.
   2. Dans l'idée, tu relies les fichiers : format `kinetic` → `"voix"` sur chaque carte (la carte s'allonge toute seule) ;
      formats `demo`, `capture`, `quiz`, `sketch` → `params.voix = [{"fichier":"voix/...m4a","debut":secondes}]`.
-  3. Paolo lance `voix/generer_voix.sh` sur son Mac, qui crée les fichiers et les pousse sur GitHub.
+  3. Une tâche planifiée séparée (« voix off (Mac) », lundi, mercredi et vendredi à 19h43) fabrique les fichiers sur le Mac
+     et les pousse sur GitHub. Paolo ne fait rien. Écris donc les textes au moins 1 à 2 jours à l'avance.
   4. Si une voix prévue n'existe pas encore le jour J, publie quand même la vidéo sans voix (sous-titres) et écris dans
-     le résumé : « Voix off manquantes : lance la commande des voix sur ton Mac ».
+     le résumé : « Voix off manquantes (le Mac était peut-être éteint) ».
   La musique baisse automatiquement pendant la voix. Garde aussi les textes à l'écran : beaucoup regardent sans le son.
 - Musique : uniquement celle générée par `render.py`. Pas de musique protégée.
 
