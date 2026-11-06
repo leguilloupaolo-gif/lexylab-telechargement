@@ -18,3 +18,253 @@ voix/kin-astuces-relire-3.m4a|Trois. Laisse un correcteur pensé pour les dys t'
 voix/kin-astuces-relire-4.m4a|Enregistre cette vidéo pour plus tard.
 voix/quiz-courses-0.m4a|Trouve les quatre fautes en cinq secondes. C'est parti !
 voix/quiz-courses-1.m4a|LexyLab les a toutes trouvées. Et toi, tu en as trouvé combien ? Dis-le en commentaire.
+voix/sketch-devoir-francais-p1.m4a|Mon devoir de français est pour demain…|Thomas
+voix/sketch-devoir-francais-p2.m4a|Mon prof dit que je fais trop de fautes.|Thomas
+voix/sketch-devoir-francais-f1.m4a|T'as pas LexyLab ?|Amélie
+voix/sketch-devoir-francais-f2.m4a|Il souligne tes fautes en direct et te propose le bon mot.|Amélie
+voix/sketch-devoir-francais-f3.m4a|Et il marche sans internet : rien ne part de ton ordi.|Amélie
+voix/sketch-devoir-francais-p3.m4a|Rendu ! Et sans fautes.|Thomas
+voix/sketch-devoir-francais-f4.m4a|Tu vois, c'était pas sorcier.|Amélie
+voix/sketch-message-prof-p1.m4a|Je dois écrire à mon prof pour un retard…|Thomas
+voix/sketch-message-prof-p2.m4a|J'ai peur qu'il voie toutes mes fautes.|Thomas
+voix/sketch-message-prof-f1.m4a|Fais-le avec LexyLab !|Amélie
+voix/sketch-message-prof-f2.m4a|Il comprend les mots écrits comme on les entend.|Amélie
+voix/sketch-message-prof-f3.m4a|Et ça marche dans Gmail, Word, Google Docs…|Amélie
+voix/sketch-message-prof-p3.m4a|Envoyé, nickel.|Thomas
+voix/sketch-message-prof-f4.m4a|Simple comme bonjour.|Amélie
+voix/sketch-maman-devoirs-p1.m4a|Maman, j'y arrive pas à mon exposé…|Thomas
+voix/sketch-maman-devoirs-p2.m4a|Toutes mes phrases sont pleines de fautes.|Thomas
+voix/sketch-maman-devoirs-f1.m4a|Et si on essayait LexyLab ensemble ?|Amélie
+voix/sketch-maman-devoirs-f2.m4a|Il souligne les fautes et te propose le bon mot.|Amélie
+voix/sketch-maman-devoirs-f3.m4a|Comme ça, tu peux écrire tout seul, mon grand.|Amélie
+voix/sketch-maman-devoirs-p3.m4a|J'ai fini tout seul !!|Thomas
+voix/sketch-maman-devoirs-f4.m4a|Je suis fière de toi.|Amélie
+voix/quiz-courses-q.m4a|Trouve les 4 fautes en 5 secondes.|Thomas
+voix/quiz-courses-a.m4a|LexyLab les a toutes trouvées.|Thomas
+voix/quiz-courses-c.m4a|Tu en as trouvé combien ? Dis-le en commentaire.|Thomas
+voix/demo-word-devoir-hook.m4a|Ton devoir dans Word, sans une seule faute.|Thomas
+voix/demo-word-devoir-s0.m4a|Tu tapes ton devoir…|Thomas
+voix/demo-word-devoir-s1.m4a|Les fautes sont soulignées.|Thomas
+voix/demo-word-devoir-s2.m4a|LexyLab t'explique la règle.|Thomas
+voix/demo-word-devoir-s3.m4a|Un clic, c'est réglé.|Thomas
+voix/demo-word-devoir-s4.m4a|Devoir nickel.|Thomas
+voix/kin-mamans-astuces-devoirs-0.m4a|Devoirs + dyslexie : 4 astuces de maman.|Amélie
+voix/kin-mamans-astuces-devoirs-1.m4a|Découpe en petites étapes. Et fais des pauses entre chaque.|Amélie
+voix/kin-mamans-astuces-devoirs-2.m4a|Félicite l'effort, pas seulement la note. La confiance, ça se construit chaque soir.|Amélie
+voix/kin-mamans-astuces-devoirs-3.m4a|Parle avec l'enseignant des aménagements. Plus de temps, consignes lues à voix haute…|Amélie
+voix/kin-mamans-astuces-devoirs-4.m4a|Laisse l'ordi aider pour l'orthographe. LexyLab souligne les fautes pendant qu'il écrit : il devient plus autonome.|Amélie
+voix/kin-mamans-astuces-devoirs-5.m4a|Enregistre pour ce soir.|Amélie
+voix/sketch-examen-blanc-p1.m4a|Je relis mes fiches pour l'examen…|Thomas
+voix/sketch-examen-blanc-p2.m4a|Je comprends même plus ce que j'ai écrit.|Thomas
+voix/sketch-examen-blanc-f1.m4a|Essaie LexyLab pour tes fiches !|Amélie
+voix/sketch-examen-blanc-f2.m4a|Tu écris comme tu penses, il corrige en direct.|Amélie
+voix/sketch-examen-blanc-f3.m4a|Et tes notes restent sur ton ordi.|Amélie
+voix/sketch-examen-blanc-p3.m4a|Mes fiches sont lisibles !|Thomas
+voix/sketch-examen-blanc-f4.m4a|Révise bien.|Amélie
+voix/sketch-whatsapp-famille-p1.m4a|Je veux écrire dans le groupe de la famille…|Thomas
+voix/sketch-whatsapp-famille-p2.m4a|Mon oncle corrige toujours mes fautes.|Thomas
+voix/sketch-whatsapp-famille-f1.m4a|Avec LexyLab, plus de remarques !|Amélie
+voix/sketch-whatsapp-famille-f2.m4a|Il corrige aussi tes messages sur l'ordi.|Amélie
+voix/sketch-whatsapp-famille-f3.m4a|Pensé pour la dyslexie, pas juste pour les fautes de frappe.|Amélie
+voix/sketch-whatsapp-famille-p3.m4a|Personne n'a rien dit.|Thomas
+voix/sketch-whatsapp-famille-f4.m4a|Victoire.|Amélie
+voix/kin-pov-dictee-0.m4a|Point de vue : t'es dys et le prof rend les dictées.|Thomas
+voix/kin-pov-dictee-1.m4a|Ta copie revient toute rouge… encore.|Thomas
+voix/kin-pov-dictee-2.m4a|Tu dois faire plus attention !|Thomas
+voix/kin-pov-dictee-3.m4a|Mais tu faisais déjà attention.|Thomas
+voix/kin-pov-dictee-4.m4a|Aujourd'hui, un correcteur pensé pour toi existe. Il souligne les fautes en direct, sur l'ordi.|Thomas
+voix/demo-maman-mot-prof-hook.m4a|Maman dys toi aussi ? Le mot au prof, sans stress.|Amélie
+voix/demo-maman-mot-prof-s0.m4a|Le mot pour l'école…|Amélie
+voix/demo-maman-mot-prof-s1.m4a|LexyLab souligne les fautes.|Amélie
+voix/demo-maman-mot-prof-s2.m4a|Il propose le bon mot.|Amélie
+voix/demo-maman-mot-prof-s3.m4a|Un clic, c'est corrigé.|Amélie
+voix/demo-maman-mot-prof-s4.m4a|Envoyé, l'esprit tranquille.|Amélie
+voix/kin-fondateur-0.m4a|Pendant mes études, mes copies revenaient pleines de rouge.|Thomas
+voix/kin-fondateur-1.m4a|Pas parce que je n'avais rien à dire.|Thomas
+voix/kin-fondateur-2.m4a|Parce que je suis dyslexique et dysorthographique.|Thomas
+voix/kin-fondateur-3.m4a|Aucun correcteur ne comprenait ma façon d'écrire.|Thomas
+voix/kin-fondateur-4.m4a|Alors j'ai créé LexyLab. Le correcteur que j'aurais voulu avoir.|Thomas
+voix/quiz-message-q.m4a|Ce message a 5 fautes. Tu les vois ?|Thomas
+voix/quiz-message-a.m4a|LexyLab les a toutes trouvées.|Thomas
+voix/quiz-message-c.m4a|Tu en as trouvé combien ? Dis-le en commentaire.|Thomas
+voix/demo-notes-cours-hook.m4a|Même sans internet, en plein cours.|Thomas
+voix/demo-notes-cours-s0.m4a|Pas de wifi en amphi ?|Thomas
+voix/demo-notes-cours-s1.m4a|LexyLab marche hors ligne.|Thomas
+voix/demo-notes-cours-s2.m4a|Il te propose le bon mot.|Thomas
+voix/demo-notes-cours-s3.m4a|Et tes notes restent sur ton ordi.|Thomas
+voix/demo-notes-cours-s4.m4a|Révisions sans galère.|Thomas
+voix/sketch-rapport-stage-p1.m4a|Je dois rendre mon rapport de stage…|Thomas
+voix/sketch-rapport-stage-p2.m4a|Vingt pages… et mes fautes partout.|Thomas
+voix/sketch-rapport-stage-f1.m4a|Ouvre LexyLab !|Amélie
+voix/sketch-rapport-stage-f2.m4a|Il souligne au fur et à mesure, pas besoin de tout relire 5 fois.|Amélie
+voix/sketch-rapport-stage-f3.m4a|Et ça reste privé : aucun texte envoyé sur internet.|Amélie
+voix/sketch-rapport-stage-p3.m4a|Rapport rendu à l'heure.|Thomas
+voix/sketch-rapport-stage-f4.m4a|Bien joué !|Amélie
+voix/sketch-post-linkedin-p1.m4a|Je veux poster sur LinkedIn…|Thomas
+voix/sketch-post-linkedin-p2.m4a|Tout le monde va voir mes fautes.|Thomas
+voix/sketch-post-linkedin-f1.m4a|Vérifie avec LexyLab avant !|Amélie
+voix/sketch-post-linkedin-f2.m4a|Il connaît les erreurs typiques des dys.|Amélie
+voix/sketch-post-linkedin-f3.m4a|Et il marche sur Mac et Windows.|Amélie
+voix/sketch-post-linkedin-p3.m4a|Posté ! 120 likes.|Thomas
+voix/sketch-post-linkedin-f4.m4a|Félicitations.|Amélie
+voix/sketch-lettre-proprio-p1.m4a|Je dois écrire au propriétaire…|Thomas
+voix/sketch-lettre-proprio-p2.m4a|Il va pas me prendre au sérieux avec mes fautes.|Thomas
+voix/sketch-lettre-proprio-f1.m4a|Écris-le avec LexyLab !|Amélie
+voix/sketch-lettre-proprio-f2.m4a|Il te propose le bon mot, même si tu l'écris comme tu l'entends.|Amélie
+voix/sketch-lettre-proprio-f3.m4a|Et ça marche dans Word aussi.|Amélie
+voix/sketch-lettre-proprio-p3.m4a|Il a répondu en 10 minutes.|Thomas
+voix/sketch-lettre-proprio-f4.m4a|Respect.|Amélie
+voix/sketch-invitation-anniv-p1.m4a|J'écris les invitations pour ma fête…|Thomas
+voix/sketch-invitation-anniv-p2.m4a|Je veux pas que ça fasse bébé.|Thomas
+voix/sketch-invitation-anniv-f1.m4a|LexyLab va t'aider !|Amélie
+voix/sketch-invitation-anniv-f2.m4a|Il corrige en direct, sans te juger.|Amélie
+voix/sketch-invitation-anniv-f3.m4a|Il est fait par un étudiant dys, pour les dys.|Amélie
+voix/sketch-invitation-anniv-p3.m4a|Invitations envoyées.|Thomas
+voix/sketch-invitation-anniv-f4.m4a|Je viens avec le gâteau.|Amélie
+voix/sketch-formulaire-admin-p1.m4a|Je remplis un formulaire en ligne…|Thomas
+voix/sketch-formulaire-admin-p2.m4a|J'ai peur de faire des fautes partout.|Thomas
+voix/sketch-formulaire-admin-f1.m4a|LexyLab t'accompagne partout !|Amélie
+voix/sketch-formulaire-admin-f2.m4a|Il souligne les fautes dans ton navigateur aussi.|Amélie
+voix/sketch-formulaire-admin-f3.m4a|Tu restes autonome, sans demander à quelqu'un de relire.|Amélie
+voix/sketch-formulaire-admin-p3.m4a|Formulaire envoyé !|Thomas
+voix/sketch-formulaire-admin-f4.m4a|Trop fort.|Amélie
+voix/sketch-mail-recruteur-p1.m4a|Je veux remercier le recruteur…|Thomas
+voix/sketch-mail-recruteur-p2.m4a|Un mail plein de fautes, c'est mort.|Thomas
+voix/sketch-mail-recruteur-f1.m4a|Relis-le avec LexyLab !|Amélie
+voix/sketch-mail-recruteur-f2.m4a|Il comprend les mots écrits phonétiquement.|Amélie
+voix/sketch-mail-recruteur-f3.m4a|Et il marche dans Outlook et Gmail.|Amélie
+voix/sketch-mail-recruteur-p3.m4a|Il m'a rappelé !|Thomas
+voix/sketch-mail-recruteur-f4.m4a|Je te l'avais dit.|Amélie
+voix/sketch-dissertation-p1.m4a|Ma dissertation fait 6 pages…|Thomas
+voix/sketch-dissertation-p2.m4a|Je mets plus de temps à corriger qu'à écrire.|Thomas
+voix/sketch-dissertation-f1.m4a|Laisse LexyLab t'aider !|Amélie
+voix/sketch-dissertation-f2.m4a|Écris tes idées, il corrige au fil de l'eau.|Amélie
+voix/sketch-dissertation-f3.m4a|Tu gagnes un temps fou ⏱.|Amélie
+voix/sketch-dissertation-p3.m4a|J'ai fini en avance.|Thomas
+voix/sketch-dissertation-f4.m4a|Le temps, c'est précieux.|Amélie
+voix/sketch-carte-mamie-p1.m4a|J'écris une carte pour ma mamie…|Thomas
+voix/sketch-carte-mamie-p2.m4a|Elle était institutrice…|Thomas
+voix/sketch-carte-mamie-f1.m4a|Tape-la avec LexyLab d'abord !|Amélie
+voix/sketch-carte-mamie-f2.m4a|Il te corrige gentiment, sans te juger.|Amélie
+voix/sketch-carte-mamie-f3.m4a|Même les mots écrits comme on les entend.|Amélie
+voix/sketch-carte-mamie-p3.m4a|Mamie a pleuré de joie.|Thomas
+voix/sketch-carte-mamie-f4.m4a|Trop mignon.|Amélie
+voix/sketch-compte-rendu-reunion-p1.m4a|Je dois envoyer le compte rendu…|Thomas
+voix/sketch-compte-rendu-reunion-p2.m4a|Toute l'équipe va le lire.|Thomas
+voix/sketch-compte-rendu-reunion-f1.m4a|Utilise LexyLab !|Amélie
+voix/sketch-compte-rendu-reunion-f2.m4a|Il souligne tes fautes en direct dans Word.|Amélie
+voix/sketch-compte-rendu-reunion-f3.m4a|Et rien ne quitte ton ordi : 100 % privé.|Amélie
+voix/sketch-compte-rendu-reunion-p3.m4a|Compte rendu envoyé.|Thomas
+voix/sketch-compte-rendu-reunion-f4.m4a|Pro.|Amélie
+voix/sketch-demande-bourse-p1.m4a|Je dois écrire ma lettre pour la bourse…|Thomas
+voix/sketch-demande-bourse-p2.m4a|C'est super important.|Thomas
+voix/sketch-demande-bourse-f1.m4a|Fais-la avec LexyLab !|Amélie
+voix/sketch-demande-bourse-f2.m4a|Il est pensé pour la dyslexie.|Amélie
+voix/sketch-demande-bourse-f3.m4a|Il repère les fautes que les autres laissent passer.|Amélie
+voix/sketch-demande-bourse-p3.m4a|Dossier envoyé !|Thomas
+voix/sketch-demande-bourse-f4.m4a|Croise les doigts.|Amélie
+voix/sketch-annonce-vinted-p1.m4a|Je mets une veste en vente…|Thomas
+voix/sketch-annonce-vinted-p2.m4a|Les gens se moquent des annonces mal écrites.|Thomas
+voix/sketch-annonce-vinted-f1.m4a|Écris-la avec LexyLab !|Amélie
+voix/sketch-annonce-vinted-f2.m4a|Il comprend ce que tu voulais écrire.|Amélie
+voix/sketch-annonce-vinted-f3.m4a|Et il marche dans ton navigateur.|Amélie
+voix/sketch-annonce-vinted-p3.m4a|Vendue en 1 heure.|Thomas
+voix/sketch-annonce-vinted-f4.m4a|Business.|Amélie
+voix/sketch-journal-intime-p1.m4a|Je veux écrire mon journal sur l'ordi…|Thomas
+voix/sketch-journal-intime-p2.m4a|Mais les fautes me bloquent.|Thomas
+voix/sketch-journal-intime-f1.m4a|LexyLab fonctionne sans internet !|Amélie
+voix/sketch-journal-intime-f2.m4a|Tes textes restent sur ton ordi. Rien n'est envoyé.|Amélie
+voix/sketch-journal-intime-f3.m4a|Tu écris librement, il corrige en douceur.|Amélie
+voix/sketch-journal-intime-p3.m4a|J'écris enfin sans me bloquer.|Thomas
+voix/sketch-journal-intime-f4.m4a|C'est ton espace.|Amélie
+voix/sketch-presentation-oral-p1.m4a|Je prépare mes slides pour l'oral…|Thomas
+voix/sketch-presentation-oral-p2.m4a|Une faute en grand sur l'écran… la honte.|Thomas
+voix/sketch-presentation-oral-f1.m4a|Passe tes textes dans LexyLab !|Amélie
+voix/sketch-presentation-oral-f2.m4a|Il corrige avant que toute la classe voie.|Amélie
+voix/sketch-presentation-oral-f3.m4a|Pensé par un dys, pour les dys.|Amélie
+voix/sketch-presentation-oral-p3.m4a|Slides parfaites.|Thomas
+voix/sketch-presentation-oral-f4.m4a|Tu vas gérer.|Amélie
+voix/sketch-reclamation-p1.m4a|Je dois faire une réclamation…|Thomas
+voix/sketch-reclamation-p2.m4a|Avec des fautes, ils me prendront pas au sérieux.|Thomas
+voix/sketch-reclamation-f1.m4a|LexyLab va t'aider !|Amélie
+voix/sketch-reclamation-f2.m4a|Il corrige en direct, même les fautes de son.|Amélie
+voix/sketch-reclamation-f3.m4a|Ton message sera clair et pro.|Amélie
+voix/sketch-reclamation-p3.m4a|Remboursé en 2 jours.|Thomas
+voix/sketch-reclamation-f4.m4a|Efficace.|Amélie
+voix/sketch-parent-ecole-p1.m4a|Je dois écrire un mot à l'instit de mon fils…|Thomas
+voix/sketch-parent-ecole-p2.m4a|Je suis dys moi aussi…|Thomas
+voix/sketch-parent-ecole-f1.m4a|LexyLab, c'est aussi pour les parents !|Amélie
+voix/sketch-parent-ecole-f2.m4a|Il souligne les fautes sans jugement.|Amélie
+voix/sketch-parent-ecole-f3.m4a|Et il marche sur Mac et Windows.|Amélie
+voix/sketch-parent-ecole-p3.m4a|Mot envoyé, zéro faute.|Thomas
+voix/sketch-parent-ecole-f4.m4a|Les dys adultes aussi méritent un bon outil.|Amélie
+voix/sketch-commentaire-insta-p1.m4a|Je veux commenter la photo d'une amie…|Thomas
+voix/sketch-commentaire-insta-p2.m4a|Mais j'ai toujours peur des fautes.|Thomas
+voix/sketch-commentaire-insta-f1.m4a|LexyLab corrige sur l'ordi !|Amélie
+voix/sketch-commentaire-insta-f2.m4a|Il comprend les mots écrits comme on les entend.|Amélie
+voix/sketch-commentaire-insta-f3.m4a|Fait pour la dyslexie, pas pour les fautes de frappe.|Amélie
+voix/sketch-commentaire-insta-p3.m4a|Commenté.|Thomas
+voix/sketch-commentaire-insta-f4.m4a|Elle va adorer.|Amélie
+voix/sketch-note-de-service-p1.m4a|Je dois écrire une note pour toute l'équipe…|Thomas
+voix/sketch-note-de-service-p2.m4a|Ils vont tous la lire.|Thomas
+voix/sketch-note-de-service-f1.m4a|Fais-la dans LexyLab !|Amélie
+voix/sketch-note-de-service-f2.m4a|Il souligne en direct, tu corriges en un clic.|Amélie
+voix/sketch-note-de-service-f3.m4a|Et tout reste privé, sans internet.|Amélie
+voix/sketch-note-de-service-p3.m4a|Note envoyée.|Thomas
+voix/sketch-note-de-service-f4.m4a|Chef, oui chef.|Amélie
+voix/sketch-candidature-erasmus-p1.m4a|Je dois expliquer pourquoi je veux partir…|Thomas
+voix/sketch-candidature-erasmus-p2.m4a|Ma lettre doit être parfaite.|Thomas
+voix/sketch-candidature-erasmus-f1.m4a|Écris-la avec LexyLab !|Amélie
+voix/sketch-candidature-erasmus-f2.m4a|Il est pensé pour les dys.|Amélie
+voix/sketch-candidature-erasmus-f3.m4a|Il t'aide à écrire comme tu penses.|Amélie
+voix/sketch-candidature-erasmus-p3.m4a|Candidature envoyée.|Thomas
+voix/sketch-candidature-erasmus-f4.m4a|Bon voyage d'avance.|Amélie
+voix/sketch-excuse-ami-p1.m4a|Je veux m'excuser auprès de mon ami…|Thomas
+voix/sketch-excuse-ami-p2.m4a|Je veux que ce soit sincère, pas plein de fautes.|Thomas
+voix/sketch-excuse-ami-f1.m4a|LexyLab va t'aider !|Amélie
+voix/sketch-excuse-ami-f2.m4a|Il te laisse écrire avec ton cœur, il gère l'orthographe.|Amélie
+voix/sketch-excuse-ami-f3.m4a|Doucement, sans jugement.|Amélie
+voix/sketch-excuse-ami-p3.m4a|Il m'a répondu bien sûr.|Thomas
+voix/sketch-excuse-ami-f4.m4a|Ça fait plaisir.|Amélie
+voix/sketch-tfe-memoire-p1.m4a|40 pages de mémoire à rendre…|Thomas
+voix/sketch-tfe-memoire-p2.m4a|Mon promoteur va devenir fou.|Thomas
+voix/sketch-tfe-memoire-f1.m4a|Installe LexyLab !|Amélie
+voix/sketch-tfe-memoire-f2.m4a|Il souligne au fur et à mesure, même dans Word.|Amélie
+voix/sketch-tfe-memoire-f3.m4a|Tu peux te concentrer sur tes idées.|Amélie
+voix/sketch-tfe-memoire-p3.m4a|Mémoire déposé.|Thomas
+voix/sketch-tfe-memoire-f4.m4a|Diplômé bientôt.|Amélie
+voix/sketch-recette-blog-p1.m4a|Je poste ma recette de crêpes sur mon blog…|Thomas
+voix/sketch-recette-blog-p2.m4a|Mais les fautes, ça fait pas pro.|Thomas
+voix/sketch-recette-blog-f1.m4a|Tape-la avec LexyLab !|Amélie
+voix/sketch-recette-blog-f2.m4a|Il comprend ce que tu voulais dire.|Amélie
+voix/sketch-recette-blog-f3.m4a|Sur Mac et Windows, même hors ligne.|Amélie
+voix/sketch-recette-blog-p3.m4a|Ma recette cartonne.|Thomas
+voix/sketch-recette-blog-f4.m4a|Miam.|Amélie
+voix/sketch-devis-client-p1.m4a|Je dois envoyer un devis à un client…|Thomas
+voix/sketch-devis-client-p2.m4a|Une faute et il ira voir ailleurs.|Thomas
+voix/sketch-devis-client-f1.m4a|Envoie-le avec LexyLab !|Amélie
+voix/sketch-devis-client-f2.m4a|Il rend tes textes clairs et pros.|Amélie
+voix/sketch-devis-client-f3.m4a|Et tes données restent sur ton ordi.|Amélie
+voix/sketch-devis-client-p3.m4a|Devis accepté.|Thomas
+voix/sketch-devis-client-f4.m4a|L'entrepreneur dys.|Amélie
+voix/sketch-prise-de-notes-cours-p1.m4a|Le prof parle trop vite…|Thomas
+voix/sketch-prise-de-notes-cours-p2.m4a|Je note n'importe comment.|Thomas
+voix/sketch-prise-de-notes-cours-f1.m4a|Prends tes notes avec LexyLab !|Amélie
+voix/sketch-prise-de-notes-cours-f2.m4a|Il corrige en direct pendant que tu écris.|Amélie
+voix/sketch-prise-de-notes-cours-f3.m4a|Tu relis tes notes sans galérer.|Amélie
+voix/sketch-prise-de-notes-cours-p3.m4a|Mes notes sont parfaites.|Thomas
+voix/sketch-prise-de-notes-cours-f4.m4a|Prends ça, l'histoire.|Amélie
+voix/sketch-mail-medecin-p1.m4a|J'écris au cabinet médical…|Thomas
+voix/sketch-mail-medecin-p2.m4a|J'ai toujours honte de mes fautes.|Thomas
+voix/sketch-mail-medecin-f1.m4a|LexyLab t'aide au quotidien !|Amélie
+voix/sketch-mail-medecin-f2.m4a|Il est pensé pour la dyslexie, pas juste les fautes de frappe.|Amélie
+voix/sketch-mail-medecin-f3.m4a|Simple, rapide, privé.|Amélie
+voix/sketch-mail-medecin-p3.m4a|Rendez-vous confirmé.|Thomas
+voix/sketch-mail-medecin-f4.m4a|Prends soin de toi.|Amélie
+voix/sketch-histoire-enfant-p1.m4a|J'écris une histoire pour ma petite sœur…|Thomas
+voix/sketch-histoire-enfant-p2.m4a|Je veux pas qu'elle apprenne mes fautes.|Thomas
+voix/sketch-histoire-enfant-f1.m4a|LexyLab va t'aider !|Amélie
+voix/sketch-histoire-enfant-f2.m4a|Il corrige gentiment, sans casser ton imagination.|Amélie
+voix/sketch-histoire-enfant-f3.m4a|Tu écris, il gère le reste.|Amélie
+voix/sketch-histoire-enfant-p3.m4a|Elle l'a adorée.|Thomas
+voix/sketch-histoire-enfant-f4.m4a|Futur écrivain.|Amélie

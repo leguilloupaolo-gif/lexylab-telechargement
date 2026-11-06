@@ -81,7 +81,9 @@ function init(p){
   ev.push({t:T.badge,type:'chime'});
   if(T.cap) ev.push({t:T.cap[0],type:'whoosh'});
   ev.push({t:T.end,type:'whoosh'});
-  ev.push(...U.voiceEvents(p)); return {duration:Math.max(T.dur, U.voiceEnd(p)+1), events:ev, typing:[T.type], music:p.music||'joyeux'};
+  const av=U.autoVoices(p,T.subs.map((x,i)=>[x[0]+0.1,'s'+i]).concat([[0.1,'hook']])); ev.push(...U.voiceEvents(p),...av);
+  if(av.end>T.end){ const dx=av.end-T.end+0.3; T.demoEnd+=dx; T.subs[4][1]+=dx; T.end+=dx; if(T.cap){T.cap[0]+=dx;T.cap[1]+=dx;} T.dur+=dx; ev.forEach(e=>{if(e.type==='whoosh'&&e.t>=T.end-dx-0.01)e.t+=dx;}); }
+  return {duration:Math.max(T.dur, U.voiceEnd(p)+1), events:ev, typing:[T.type], music:p.music||'joyeux'};
 }
 function docHTML(t){
   const n=Math.floor(wl*U.clamp((t-T.type[0])/(T.type[1]-T.type[0]),0,1));

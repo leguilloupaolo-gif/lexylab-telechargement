@@ -89,6 +89,17 @@ def voice_durations(obj, acc):
     return acc
 
 
+def auto_voice_durations(idea_id):
+    d = {}
+    vdir = os.path.join(HERE, "voix")
+    if os.path.isdir(vdir):
+        for f in os.listdir(vdir):
+            if f.startswith(idea_id + "-") and f.endswith((".m4a", ".wav", ".aiff")):
+                dur = audio_duration(os.path.join(vdir, f))
+                if dur: d["voix/" + f] = round(dur, 3)
+    return d
+
+
 def soundtrack(info, path):
     dur = info["duration"]; n = int(dur * SR)
     rng = np.random.default_rng(7)
@@ -191,7 +202,8 @@ def open_page(p, idea):
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.goto("file://" + page_path)
     page.wait_for_load_state("networkidle")
-    idea["params"]["_voix_dur"] = voice_durations(idea["params"], {})
+    idea["params"]["_id"] = idea["id"]
+    idea["params"]["_voix_dur"] = {**voice_durations(idea["params"], {}), **auto_voice_durations(idea["id"])}
     info = page.evaluate("p => init(p)", idea["params"])
     page.evaluate("document.fonts.ready")
     page.evaluate("t => render(t)", 0)   # précharge la 1re image

@@ -30,3 +30,14 @@ U.HEADER = `<div class="hdr"><img src="../lib/logo.png"><span>Lexy<span class="l
 // Voix off génériques : params.voix = [{fichier:"voix/xxx.m4a", debut:1.2}] -> évènements son (fichiers existants seulement)
 U.voiceEvents = (p)=>(p.voix||[]).filter(v=>p._voix_dur&&p._voix_dur[v.fichier]).map(v=>({t:v.debut||0,type:'voice',file:v.fichier}));
 U.voiceEnd = (p)=>Math.max(0,...(p.voix||[]).filter(v=>p._voix_dur&&p._voix_dur[v.fichier]).map(v=>(v.debut||0)+p._voix_dur[v.fichier]));
+
+// Voix off automatiques par nom de fichier : voix/<id_idee>-<suffixe>.m4a (fichiers existants seulement).
+// wanted = [[instant souhaité, suffixe], ...] ; les voix ne se chevauchent jamais (décalées si besoin).
+U.autoVoices = (p, wanted)=>{
+  const ev=[]; let free=0; const d=p._voix_dur||{};
+  wanted.sort((a,b)=>a[0]-b[0]).forEach(([t,suf])=>{
+    const f=`voix/${p._id}-${suf}.m4a`; if(!d[f]) return;
+    const st=Math.max(t,free); ev.push({t:st,type:'voice',file:f}); free=st+d[f]+0.15;
+  });
+  ev.end=free; return ev;
+};

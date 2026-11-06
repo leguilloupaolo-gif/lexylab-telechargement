@@ -52,6 +52,7 @@ function init(p){
   p.slides.forEach((s,i)=>{
     const len=(s.text||'').length+(s.sub||'').length+(s.mythe||'').length+(s.realite||'').length;
     let d=s.dur||U.clamp(1.4+len*0.055,2.4,6.5);
+    if(!s.voix && p._voix_dur && p._voix_dur[`voix/${p._id}-${i}.m4a`]) s.voix=`voix/${p._id}-${i}.m4a`;
     const vd = s.voix && p._voix_dur ? p._voix_dur[s.voix] : 0;
     if(vd){ d=Math.max(d, vd+0.7); ev.push({t:t+0.25,type:'voice',file:s.voix}); }
     S.push({...s,t0:t,t1:t+d}); ev.push({t:t,type:i===0?'boom':'swoosh-up'});

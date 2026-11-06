@@ -52,17 +52,20 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
 - Pas de nom de concurrent. Pas de moquerie envers les dys. Pas de sujet politique ou polémique.
 - Fautes réalistes pour la dyslexie : phonétiques, lettres confondues, accents oubliés, mots collés.
   Format `[faute|correction]`, faute ≠ correction. **Les textes « corrects » doivent être sans faute.**
-- **Voix off** (demande de Paolo) : l'environnement de l'agent n'a pas de synthèse vocale, donc les voix sont fabriquées
-  sur le Mac de Paolo avec la voix française d'Apple :
-  1. **Le lundi** (et dès qu'il en manque), tu écris dans `voix/a-generer.txt` les textes des voix off des 7 prochains posts.
-     Une ligne par fichier : `voix/<idee_id>-<n>.m4a|texte`. Phrases courtes, simples, faciles à prononcer, environ 2,5 mots par seconde.
-     Écris les nombres en lettres. Évite les sigles et l'anglais. Pas d'émojis.
-  2. Dans l'idée, tu relies les fichiers : format `kinetic` → `"voix"` sur chaque carte (la carte s'allonge toute seule) ;
-     formats `demo`, `capture`, `quiz`, `sketch` → `params.voix = [{"fichier":"voix/...m4a","debut":secondes}]`.
-  3. Une tâche planifiée séparée (« voix off (Mac) », lundi, mercredi et vendredi à 19h43) fabrique les fichiers sur le Mac
-     et les pousse sur GitHub. Paolo ne fait rien. Écris donc les textes au moins 1 à 2 jours à l'avance.
-  4. Si une voix prévue n'existe pas encore le jour J, publie quand même la vidéo sans voix (sous-titres) et écris dans
-     le résumé : « Voix off manquantes (le Mac était peut-être éteint) ».
+- **Voix off sur TOUTES les vidéos** (demande de Paolo) : chaque texte affiché est aussi dit par une voix off.
+  L'environnement de l'agent n'a pas de synthèse vocale : les voix sont fabriquées **automatiquement sur le Mac de Paolo**
+  (voix d'Apple : Thomas = voix masculine, Amélie = voix féminine) tous les jours à 12h30 et 19h45, puis poussées sur GitHub.
+  1. **Toujours 2 à 3 jours d'avance** : chaque jour, vérifie que les idées des 3 prochains jours ont leurs voix.
+     Sinon, lance `python3 voix/preparer_voix.py <idee_id> …` (ou `--a-venir`). Ce script écrit les lignes dans `voix/a-generer.txt`
+     à partir des textes de l'idée. Relis et retouche les textes si besoin : phrases courtes, nombres en lettres si c'est ambigu,
+     pas d'anglais, pas de sigles. Puis commit et push.
+  2. Les formats trouvent les voix tout seuls grâce au nom du fichier (voir l'en-tête de `voix/preparer_voix.py`) :
+     kinetic `<id>-<n>`, sketch `<id>-p1/-p2/-f1…` (personne dys = Thomas, ami(e) ou maman = Amélie), demo `<id>-hook/-s0…`,
+     quiz `<id>-q/-a/-c`, capture `<id>-hook/-p<plan>-s<n>`. Les voix ne se chevauchent jamais et la vidéo s'allonge si besoin.
+  3. Pilier « mamans » : narratrice Amélie. Ailleurs : Thomas. Tu peux tester d'autres choix dans les 10 % de paris.
+  4. **Le jour J, ne publie que des idées dont les voix existent.** Si une idée nouvelle n'a pas encore ses voix,
+     garde-la pour plus tard et prends-en une qui les a. Si aucune n'est prête (le Mac était éteint), publie sans voix
+     et écris dans le résumé : « Voix off manquantes (le Mac était peut-être éteint) ».
   La musique baisse automatiquement pendant la voix. Garde aussi les textes à l'écran : beaucoup regardent sans le son.
 - Musique : uniquement celle générée par `render.py`. Pas de musique protégée.
 

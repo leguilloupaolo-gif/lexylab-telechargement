@@ -229,7 +229,7 @@ function init(sc){
   ev.push({t:TL.s1red,type:'buzz'});
   for(let i=0;i<nfix;i++) ev.push({t:TL.s2fix0+i*TL.s2fixStep,type:'ding'});
   ev.push({t:TL.enter[0],type:'steps'},{t:TL.end[0],type:'chime'});
-  ev.push(...U_voice(sc)); return {duration:DUR, events:ev, typing:[TL.s1type,TL.s2type], music:sc.music||'calme'};
+  const av=U.autoVoices(sc,['p1','p2','f1','f2','f3','p3','f4'].filter(k=>sc[k]).map(k=>[TL[k][0]+0.15,k])); ev.push(...U_voice(sc),...av); return {duration:DUR, events:ev, typing:[TL.s1type,TL.s2type], music:sc.music||'calme'};
 }
 function render(t){
   document.getElementById('turb').setAttribute('seed', 1+Math.floor(t*8)%6);
