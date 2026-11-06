@@ -7,14 +7,14 @@ Usage :
   python3 render.py --preview <idee_id|fichier.json> <dossier>   12 images PNG pour vérifier
 
 Une idée = {"id", "format", "params", "post_text", "tiktok_title", "pilier", "hypothese"}
-"format" = nom d'un fichier de formats/ (sketch, demo, kinetic, quiz, ... ou un nouveau format créé par l'agent).
+"format" = nom d'un fichier de formats/ (capture, sketch, demo, kinetic, quiz, ... ou un nouveau format créé par l'agent).
 
 Contrat d'une page de format (formats/<nom>.html) :
   window.init(params)  -> {duration: secondes, events: [{t, type}], typing: [[debut, fin], ...], music: "calme|joyeux|tension|aucune"}
   window.render(t)     -> dessine l'image au temps t (secondes)
   types de sons : pop, whoosh, buzz, ding, steps, chime, click, tick, boom, swoosh-up
 """
-import json, os, subprocess, sys, wave
+import json, os, subprocess, sys, tempfile, wave
 import numpy as np
 from playwright.sync_api import sync_playwright
 
@@ -119,7 +119,28 @@ def soundtrack(info, path):
 
 
 # ---------------- image ----------------
+def prepare_videos(idea):
+    """Pour le format capture : extrait les images des enregistrements d'écran (30 i/s)."""
+    plans = idea.get("params", {}).get("plans", [])
+    for i, pl in enumerate(plans):
+        if pl.get("video"):
+            src = os.path.join(HERE, pl["video"])
+            if not os.path.exists(src):
+                sys.exit(f"Vidéo introuvable : {src}")
+            d = tempfile.mkdtemp(prefix=f"plan{i}_")
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(pl.get("start", 0)), "-i", src,
+                            "-t", str(pl["end"] - pl.get("start", 0)), "-vf", f"fps={FPS},scale='min(1600,iw)':-2",
+                            "-q:v", "3", os.path.join(d, "f%05d.jpg")], check=True)
+            pl["_frames"] = "file://" + d
+            pl["_count"] = len(os.listdir(d))
+            pl["end"] = pl["end"] - pl.get("start", 0)  # les images commencent au début de l'extrait
+            pl["start"] = 0
+    if plans:
+        idea["params"]["_fps"] = FPS
+
+
 def open_page(p, idea):
+    prepare_videos(idea)
     page_path = os.path.join(HERE, "formats", idea["format"] + ".html")
     if not os.path.exists(page_path):
         sys.exit(f"Format introuvable : {page_path}")
@@ -131,7 +152,8 @@ def open_page(p, idea):
     page.wait_for_load_state("networkidle")
     info = page.evaluate("p => init(p)", idea["params"])
     page.evaluate("document.fonts.ready")
-    page.wait_for_timeout(300)
+    page.evaluate("t => render(t)", 0)   # précharge la 1re image
+    page.wait_for_timeout(500)
     if errors:
         sys.exit("Erreur JavaScript dans le format : " + " | ".join(errors))
     return b, page, info

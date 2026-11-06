@@ -36,6 +36,12 @@ temps de visionnage, partages et sauvegardes. Les abonnés et les clics viendron
 | **mamans** : le quotidien des mamans d'enfants dys | sketch maman/enfant, kinetic « entre mamans », astuces devoirs, demo mot au prof | communauté, partages entre mamans |
 
 ## 5. Formats disponibles (dossier `formats/`)
+**Règle n°1 (demande de Paolo) : priorité aux VRAIS visuels de LexyLab.** Dès qu'il y a des captures ou des
+enregistrements d'écran dans `captures/`, le format `capture` devient le format principal pour le pilier demo
+(au moins 3 posts par semaine), et la maquette `demo` n'est plus utilisée que si aucune vraie capture ne convient.
+Les visuels dessinés (sketch, kinetic, quiz) restent possibles pour l'humour, l'éducation et l'engagement,
+mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
+- `capture` : montage de **vraies** captures ou vidéos d'écran de LexyLab, avec zoom, cadres rouges, sous-titres, musique et fin. Le badge « ● Vraie capture » s'affiche.
 - `sketch` : sketch bâton (~39 s), 2 personnages, bulles, écran avec fautes puis correction.
 - `demo` : fenêtre Word, Gmail, Docs ou Notes, frappe, soulignement, bulle LexyLab, clic, correction, sous-titres façon voix off (~20 s). Peut finir sur une **vraie capture** de `captures/`.
 - `kinetic` : texte animé mot par mot, cartes « mythe / réalité », listes numérotées, POV (~15-30 s).

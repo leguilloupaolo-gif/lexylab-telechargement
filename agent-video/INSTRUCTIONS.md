@@ -10,8 +10,15 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
 - `journal.json` : tout ce qui a été publié (date, id, format, pilier, hypothèse, heures, ids Metricool).
 - `performance.json` : les chiffres relevés chaque lundi pour chaque post.
 - `formats/*.html` : les formats vidéo. `lib/` : logo, styles et outils communs.
-- `captures/` : **vraies captures d'écran de LexyLab** fournies par Paolo. Utilise-les dans le format `demo`
-  (paramètre `capture`) dès qu'il y en a. Ne jamais inventer une capture en la faisant passer pour réelle.
+- `captures/` : **vraies captures d'écran (PNG) et enregistrements d'écran (MP4/MOV) de LexyLab** fournis par Paolo.
+  **Priorité absolue** : utilise-les avec le format `capture` (voir l'en-tête de `formats/capture.html`).
+  Regarde d'abord chaque fichier : les images avec Read, les vidéos en extrayant quelques images avec ffmpeg.
+  Repère ce qu'on y voit (faute soulignée, bulle de suggestion, correction) et place zoom, cadres et sous-titres
+  aux bons moments. Varie les montages : extrait court, accroche différente, cible différente.
+  Une même capture peut servir plusieurs fois avec un angle différent. Ne jamais faire passer un dessin pour une capture.
+  Fichiers déjà vus et utilisés : à noter dans `captures/inventaire.json` (fichier, contenu, durée, utilisations).
+- **S'il n'y a aucune capture** (ou toutes déjà beaucoup utilisées), le signaler dans le résumé du jour :
+  « Il me faut de nouvelles captures de LexyLab ».
 - `render.py` : le moteur. `python3 render.py <idee_id> <sortie.mp4>` ; `--preview <idee_id> <dossier>` donne 12 images de contrôle.
 
 ## Routine quotidienne

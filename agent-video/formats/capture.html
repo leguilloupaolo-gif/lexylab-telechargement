@@ -1,0 +1,89 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../lib/common.css">
+<style>
+  #hook{position:absolute;left:60px;right:60px;top:165px;text-align:center;font-weight:700;font-size:64px;line-height:1.2;z-index:10}
+  #frame{position:absolute;left:40px;top:470px;width:1000px;height:900px;border:7px solid #111;border-radius:30px;overflow:hidden;background:#fff;box-shadow:0 30px 60px rgba(0,0,0,.15)}
+  #media{position:absolute;left:0;top:0;transform-origin:0 0}
+  .call{position:absolute;border:8px solid #E23B3B;border-radius:18px;opacity:0;z-index:12;box-shadow:0 0 0 4000px rgba(0,0,0,0)}
+  .clbl{position:absolute;background:#E23B3B;color:#fff;font-weight:700;font-size:40px;padding:10px 22px;border-radius:14px;white-space:nowrap;z-index:13;opacity:0}
+  #real{position:absolute;right:56px;top:488px;z-index:14;background:#111;color:#fff;font-weight:700;font-size:28px;padding:8px 18px;border-radius:30px}
+</style></head>
+<body>
+<div id="stage">
+  <div class="hdr"><img src="../lib/logo.png"><span>Lexy<span class="lab">Lab</span></span></div>
+  <div id="hook"></div>
+  <div id="frame"><img id="media"></div>
+  <div id="real">● Vraie capture</div>
+  <div id="calls"></div>
+  <div class="sub" id="sub"></div>
+  <div id="endwrap"></div>
+</div>
+<script src="../lib/common.js"></script>
+<script>
+/* Format « capture » : montage de VRAIES captures d'écran ou d'enregistrements d'écran de LexyLab (dossier captures/).
+params :
+  hook    accroche en haut (reste affichée)
+  plans   liste de plans, joués l'un après l'autre :
+    { image:"captures/word-1.png", dur:4,                     ← capture d'écran
+      video:"captures/demo-word.mp4", start:0, end:8,         ← OU enregistrement d'écran (extrait de start à end secondes)
+      zoom:[{t:0,x:0,y:0,s:1},{t:3,x:0.4,y:0.3,s:2}],         ← cadrage : (x,y) = coin haut-gauche visible, en fraction de l'image ; s = zoom (1 = largeur entière)
+      callouts:[{t0:1,t1:3,x:0.42,y:0.31,w:0.2,h:0.06,label:"Faute soulignée"}],   ← cadres rouges (fractions de l'image)
+      subs:[{t0:0,t1:2.5,text:"Tu écris *comme d'habitude*"}] }                     ← sous-titres « voix off »
+  end_tag, music
+  (render.py ajoute tout seul : _frames = dossier des images extraites de chaque vidéo, _fps)
+*/
+let P, PL=[], END=0, nat={};
+function init(p){
+  P=p; let t=0.4; const ev=[{t:0.2,type:'pop'}];
+  document.getElementById('hook').innerHTML=U.md(p.hook||'');
+  p.plans.forEach((pl,i)=>{
+    const d = pl.video? (pl.end-pl.start) : (pl.dur||4);
+    PL.push({...pl,t0:t,t1:t+d,i}); if(i>0) ev.push({t:t,type:'whoosh'});
+    (pl.callouts||[]).forEach(c=>ev.push({t:t+c.t0,type:'pop'}));
+    t+=d;
+  });
+  END=t; ev.push({t:END,type:'chime'});
+  document.getElementById('calls').innerHTML=PL.map(pl=>(pl.callouts||[]).map((c,k)=>`<div class="call" id="c${pl.i}_${k}"></div><div class="clbl" id="l${pl.i}_${k}">${U.esc(c.label||'')}</div>`).join('')).join('');
+  document.getElementById('endwrap').innerHTML=U.endHTML(p.end_tag);
+  return {duration:END+3.4, events:ev, typing:[], music:p.music||'joyeux'};
+}
+function lerpZoom(z,lt){
+  if(!z||!z.length) return {x:0,y:0,s:1};
+  if(lt<=z[0].t) return z[0];
+  for(let k=0;k<z.length-1;k++){ const a=z[k],b=z[k+1]; if(lt<=b.t){ const f=U.easeIO((lt-a.t)/(b.t-a.t)); return {x:a.x+(b.x-a.x)*f,y:a.y+(b.y-a.y)*f,s:a.s+(b.s-a.s)*f}; } }
+  return z[z.length-1];
+}
+function srcFor(pl,lt){
+  if(pl.image) return '../'+pl.image;
+  const fps=P._fps||30; const n=Math.min(pl._count||1e9, Math.floor((pl.start+lt)*fps)+1);
+  return `${pl._frames}/f${String(n).padStart(5,'0')}.jpg`;
+}
+async function render(t){
+  document.getElementById('stage').style.opacity=U.clamp(t/0.3,0,1);
+  document.getElementById('hook').style.transform=`scale(${U.pop((t-0.1)/0.35)})`;
+  const pl=PL.find(x=>t>=x.t0&&t<x.t1)||PL[PL.length-1]; const lt=Math.min(t,pl.t1-0.001)-pl.t0;
+  const img=document.getElementById('media'); const src=srcFor(pl,lt);
+  if(img.getAttribute('src')!==src){ img.src=src; try{ await img.decode(); }catch(e){} }
+  const W=1000-14, H=900-14, iw=img.naturalWidth||1, ih=img.naturalHeight||1;
+  const z=lerpZoom(pl.zoom,lt); const base=W/iw; const sc=base*z.s;
+  let ox=-z.x*iw*sc, oy=-z.y*ih*sc;
+  ox=Math.min(0,Math.max(ox,W-iw*sc)); oy=Math.min(0,Math.max(oy,Math.min(0,H-ih*sc)));
+  img.style.transform=`translate(${ox}px,${oy}px) scale(${sc})`;
+  const fr=document.getElementById('frame').getBoundingClientRect();
+  // fondu entre plans
+  const fin=U.clamp((t-pl.t0)/0.25,0,1); img.style.opacity = pl.i===0?1:fin;
+  PL.forEach(q=>(q.callouts||[]).forEach((c,k)=>{
+    const on=q===pl && lt>=c.t0 && lt<c.t1; const el=document.getElementById(`c${q.i}_${k}`), lb=document.getElementById(`l${q.i}_${k}`);
+    el.style.opacity=on?1:0; lb.style.opacity=on&&c.label?1:0; if(!on) return;
+    const x=fr.left+7+ox+c.x*iw*sc, y=fr.top+7+oy+c.y*ih*sc, w=c.w*iw*sc, h=c.h*ih*sc;
+    el.style.left=(x-10)+'px'; el.style.top=(y-10)+'px'; el.style.width=(w+20)+'px'; el.style.height=(h+20)+'px';
+    el.style.transform=`scale(${U.pop((lt-c.t0)/0.3)})`;
+    lb.style.left=Math.max(30,Math.min(x, 1050-lb.offsetWidth))+'px'; lb.style.top=(y+h+22)+'px';
+  }));
+  const s=(pl.subs||[]).find(x=>lt>=x.t0&&lt<x.t1); document.getElementById('sub').innerHTML=s?`<span>${U.md(s.text)}</span>`:'';
+  U.renderEnd(t,END);
+}
+window.init=init; window.render=render;
+</script>
+</body></html>
