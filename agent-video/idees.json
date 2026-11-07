@@ -28,7 +28,7 @@
   "id": "kin-mamans-message",
   "format": "kinetic",
   "pilier": "mamans",
-  "hypothese": "Un message direct aux mamans crée de l'identification et des partages entre mamans",
+  "hypothese": "Émotion + parents gagne sur Instagram : un message direct et doux aux mamans, publié le soir, crée identification et partages",
   "params": {
    "theme": "vert",
    "music": "calme",
@@ -62,7 +62,7 @@
      "voix": "voix/kin-mamans-message-4.m4a"
     },
     {
-     "text": "Partage à une maman qui a besoin de lire ça 💚",
+     "text": "Partage à une maman qui a besoin de l'entendre 💚",
      "size": "l",
      "voix": "voix/kin-mamans-message-5.m4a"
     }
