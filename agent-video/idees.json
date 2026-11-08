@@ -75,7 +75,7 @@
   "id": "sketch-devoir-francais",
   "format": "sketch",
   "pilier": "situations",
-  "hypothese": "Une situation vécue + humour donne envie de partager",
+  "hypothese": "1er sketch école (sujet gagnant) : une galère de devoirs du soir vécue + humour pousse au partage et aux commentaires ; légende avec question. Créneau 10:00 un dimanche.",
   "params": {
    "caption": "À la maison, 21h…",
    "hero_hair": "curly",
@@ -89,8 +89,9 @@
    "p3": "Rendu ! Et sans fautes 💚",
    "f4": "Tu vois, c'était pas sorcier 😉"
   },
-  "post_text": "Rendre un devoir sans stress d'orthographe ✍️ LexyLab souligne tes fautes en direct, même quand tu écris comme tu entends.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
-  "tiktok_title": "Mon devoir de français est pour demain…"
+  "post_text": "Le devoir de français pour demain, 21h, et toutes ces fautes… 😩 Ça vous parle ?\n\nLexyLab souligne tes fautes en direct, même quand tu écris les mots comme tu les entends. Et il marche sans internet.\n\nEt toi, c'est quel devoir qui te stressait le plus ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #devoirs #orthographe #ecole #etudiant",
+  "tiktok_title": "Mon devoir de français est pour demain…",
+  "post_text_tiktok": "Devoir pour demain + fautes partout 😩 Et toi, c'était quel devoir le pire ? 👇 LexyLab, le correcteur pensé pour la dyslexie. Lien en bio. #dyslexie #dys #devoirs #ecole #lexylab #orthographe"
  },
  {
   "id": "sketch-message-prof",
