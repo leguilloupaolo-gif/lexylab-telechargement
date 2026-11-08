@@ -25,6 +25,9 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
 - **Ne jamais refaire le même décor ni le même style deux vidéos de suite.** Vérifie les 3 dernières entrées du journal.
 - Sketch : `params.decor` = bureau, chambre, salon, cuisine, bibliotheque, classe, cafe (choisis le décor qui va avec l'histoire)
   et `params.style` = papier, cahier, pastel, nuit, tableau, couleur. Le style « nuit » va bien avec les scènes du soir.
+  Et `params.rendu` = apparence des personnages : baton (bonhommes bâton), cartoon (personnages en couleur, gros yeux),
+  bd (bande dessinée : cadre, trame de points, cartouche jaune, « ?! »), flat (aplats sans contour).
+  Varie aussi le rendu : jamais le même deux sketchs de suite. Tu peux inventer d'autres rendus, mais vérifie-les toujours avec `--preview`.
 - Kinetic : varier `theme` (clair, sombre, vert, bleu). Tu peux aussi créer de nouveaux décors ou styles dans les formats
   (en gardant les anciens), puis les vérifier avec `--preview`.
 - Note `decor` et `style` dans le journal, et compare-les le lundi : certains styles retiennent peut-être mieux l'attention.

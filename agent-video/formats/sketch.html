@@ -50,7 +50,8 @@
 <script src="../lib/common.js"></script>
 <script>
 /* params en plus : decor = bureau | chambre | salon | cuisine | bibliotheque | classe | cafe ;
-   style = papier | cahier | pastel | nuit | tableau | couleur  (varier d'une vidéo à l'autre) */
+   style = papier | cahier | pastel | nuit | tableau | couleur ;
+   rendu = baton | cartoon | bd | flat   (apparence des personnages : varier d'une vidéo à l'autre) */
 const U_voice=p=>U.voiceEvents(p);
 // ---------- Timeline ----------
 const TL = {
@@ -132,6 +133,13 @@ function applyStyle(){
   document.querySelector('.hdr').style.color=st.ink;
   if(st.grid) stage.style.backgroundImage='linear-gradient(#DCE6F5 2px,transparent 2px),linear-gradient(90deg,#DCE6F5 2px,transparent 2px)', stage.style.backgroundSize='54px 54px';
   if(st.chalk||st.night) document.getElementById('end').style.background='#FAF8F3';
+  const R=RENDU(); const dm=document.querySelector('#r feDisplacementMap');
+  if(R==='flat'){ document.getElementById('world').removeAttribute('filter'); }
+  if(R==='bd'){ dm.setAttribute('scale','3');
+    stage.style.backgroundImage='radial-gradient(rgba(0,0,0,.10) 22%, transparent 24%)'; stage.style.backgroundSize='22px 22px';
+    const cap=document.getElementById('cap'); Object.assign(cap.style,{background:'#FFE45C',border:'5px solid #111',padding:'10px 22px',color:'#111',fontStyle:'italic',fontWeight:'800',textTransform:'uppercase',borderRadius:'4px'});
+    const fr=document.createElement('div'); Object.assign(fr.style,{position:'absolute',left:'24px',right:'24px',top:'130px',height:'1240px',border:'10px solid #111',borderRadius:'6px',pointerEvents:'none'}); stage.insertBefore(fr,stage.children[1]); }
+  if(R==='cartoon') dm.setAttribute('scale','4');
 }
 // ---------- Décors ----------
 const DECORS = {
@@ -160,6 +168,69 @@ const DECORS = {
      + `<rect x="740" y="960" width="34" height="44" rx="6" stroke-width="5" ${fl('#fff')}/>`+P('M774,972 q16,6 0,20','stroke-width="4"')+P('M748,950 q6,-14 0,-26 M764,950 q6,-14 0,-26','stroke-width="3"'),
 };
 
+
+// ---------- Rendus des personnages : baton | cartoon | bd | flat ----------
+function RENDU(){ return SC.rendu||'baton'; }
+function hashStr(x){ let h=7; for(const c of String(x)) h=(h*31+c.charCodeAt(0))>>>0; return h; }
+const SKINS=['#F6D2B8','#EDBB94','#D19A6A','#A86B42','#7A4A2A'], SHIRTS=['#3B7BF0','#1DB584','#E2574C','#F2A93B','#8E6CF0','#F27BA6','#2E3A59'],
+      PANTS=['#2E4A7D','#3A3A44','#6B4F3A','#4F6D5A'], HAIRS=['#2B1D14','#5A3A22','#C98B3E','#B5452A','#1A1A1A','#E3C27A'];
+function palette(who){ const h=hashStr((SC._id||'x')+who); return {skin:SKINS[h%5], shirt:SHIRTS[(h>>>3)%7], pants:PANTS[(h>>>6)%4], hair:HAIRS[(h>>>9)%6]}; }
+function OUT(){ return RENDU()==='flat'? 'stroke="none"' : `stroke="${STYLE().ink}" stroke-width="${RENDU()==='bd'?7:5}"`; }
+function limb(d,color,w){ const o=RENDU()!=='flat'; return (o?P(d,`stroke="${STYLE().ink}" stroke-width="${w+(RENDU()==='bd'?14:10)}" fill="none"`):'')+P(d,`stroke="${color}" stroke-width="${w}" fill="none"`); }
+function toonHairBack(kind,cx,cy,r,col){
+  if(kind==='long') return P(`M${cx-r*1.05},${cy+r*1.1} Q${cx-r*1.35},${cy-r*1.35} ${cx},${cy-r*1.12} Q${cx+r*1.35},${cy-r*1.35} ${cx+r*1.05},${cy+r*1.1} Z`,`fill="${col}" ${OUT()}`);
+  if(kind==='ponytail') return P(`M${cx+r*0.7},${cy-r*0.6} q${r*1.0},${r*0.1} ${r*0.6},${r*1.3} q-${r*0.3},-${r*0.6} -${r*0.75},-${r*0.9} Z`,`fill="${col}" ${OUT()}`);
+  return '';
+}
+function toonHairFront(kind,cx,cy,r,col){
+  const capTop=`M${cx-r*1.0},${cy-r*0.15} Q${cx-r*0.95},${cy-r*1.25} ${cx},${cy-r*1.15} Q${cx+r*0.95},${cy-r*1.25} ${cx+r*1.0},${cy-r*0.15} Q${cx+r*0.5},${cy-r*0.65} ${cx},${cy-r*0.6} Q${cx-r*0.5},${cy-r*0.65} ${cx-r*1.0},${cy-r*0.15} Z`;
+  switch(kind){
+    case 'curly': { let o=''; for(let i=0;i<9;i++){const a=Math.PI*(1.0+i*0.125); o+=C(cx+Math.cos(a)*r*0.92,cy+Math.sin(a)*r*0.92,r*0.3,`fill="${col}" ${OUT()}`);} return o; }
+    case 'cap': return P(`M${cx-r*1.0},${cy-r*0.2} Q${cx},${cy-r*1.5} ${cx+r*1.0},${cy-r*0.2} Z`,`fill="#3B7BF0" ${OUT()}`)+P(`M${cx+r*0.5},${cy-r*0.25} L${cx+r*1.6},${cy-r*0.15} L${cx+r*0.5},${cy-r*0.05} Z`,`fill="#2A5CC0" ${OUT()}`);
+    case 'bun': return C(cx,cy-r*1.25,r*0.4,`fill="${col}" ${OUT()}`)+P(capTop,`fill="${col}" ${OUT()}`);
+    default: return P(capTop,`fill="${col}" ${OUT()}`);
+  }
+}
+function toonFace(cx,cy,r,mood,talk,t,lookX,pal){
+  const ink=STYLE().ink; let o=C(cx,cy,r,`fill="${pal.skin}" ${OUT()}`);
+  const ex=cx+lookX, ey=cy-r*0.08, dx=r*0.34;
+  const eyeH = mood==='surprised'? r*0.24 : r*0.2;
+  [ -1, 1 ].forEach(sg=>{ o+=`<ellipse cx="${ex+sg*dx}" cy="${ey}" rx="${r*0.16}" ry="${eyeH}" fill="#fff" stroke="${ink}" stroke-width="3"/>`+C(ex+sg*dx+lookX*0.25,ey+2,r*0.09,`fill="${ink}" stroke="none"`)+C(ex+sg*dx+lookX*0.25-3,ey-3,r*0.03,'fill="#fff" stroke="none"'); });
+  if(mood==='worried') o+=L(ex-dx-r*0.2,ey-r*0.36,ex-dx+r*0.15,ey-r*0.28,`stroke="${ink}" stroke-width="5"`)+L(ex+dx+r*0.2,ey-r*0.36,ex+dx-r*0.15,ey-r*0.28,`stroke="${ink}" stroke-width="5"`);
+  else o+=P(`M${ex-dx-r*0.17},${ey-r*0.32} q${r*0.17},-${r*0.1} ${r*0.34},0`,`stroke="${ink}" stroke-width="4" fill="none"`)+P(`M${ex+dx-r*0.17},${ey-r*0.32} q${r*0.17},-${r*0.1} ${r*0.34},0`,`stroke="${ink}" stroke-width="4" fill="none"`);
+  o+=C(ex-dx-r*0.08,cy+r*0.3,r*0.13,'fill="#FF8FA3" opacity=".45" stroke="none"')+C(ex+dx+r*0.08,cy+r*0.3,r*0.13,'fill="#FF8FA3" opacity=".45" stroke="none"');
+  const my=cy+r*0.45, mx=cx+lookX*0.8;
+  if(talk){ const k=(Math.sin(t*24)+1)/2; o+=`<ellipse cx="${mx}" cy="${my}" rx="${r*0.2}" ry="${4+k*r*0.18}" fill="#7A2230" stroke="${ink}" stroke-width="3"/>`; return o; }
+  if(mood==='happy') o+=P(`M${mx-r*0.32},${my-6} Q${mx},${my+r*0.35} ${mx+r*0.32},${my-6} Z`,`fill="#7A2230" stroke="${ink}" stroke-width="4"`);
+  else if(mood==='surprised') o+=C(mx,my+3,r*0.13,`fill="#7A2230" stroke="${ink}" stroke-width="4"`);
+  else if(mood==='worried') o+=P(`M${mx-r*0.28},${my+8} Q${mx},${my-r*0.18} ${mx+r*0.28},${my+8}`,`stroke="${ink}" stroke-width="5" fill="none"`);
+  else o+=L(mx-r*0.2,my,mx+r*0.2,my,`stroke="${ink}" stroke-width="5"`);
+  return o;
+}
+function toonHero(t,mood,talk,bob,lookX){
+  const pal=palette('hero'), hx=355, hy=832, r=62, kind=SC.hero_hair||'curly'; let o='';
+  o+=limb('M345,1072 L470,1082 L470,1296',pal.pants,34)+`<ellipse cx="492" cy="1306" rx="36" ry="15" fill="#333" ${OUT()}/>`;
+  o+=limb(`M378,938 L452,1002 L585,${992-bob}`,shade(pal.shirt),22)+C(590,992-bob,13,`fill="${pal.skin}" ${OUT()}`);
+  o+=P('M316,905 Q355,880 394,905 L390,1085 L308,1085 Z',`fill="${pal.shirt}" ${OUT()}`);
+  o+=`<rect x="342" y="880" width="26" height="22" fill="${pal.skin}" stroke="none"/>`;
+  o+=limb(`M350,938 L430,1014 L555,${996+bob}`,pal.shirt,22)+C(560,996+bob,13,`fill="${pal.skin}" ${OUT()}`);
+  o+=toonHairBack(kind,hx,hy,r,pal.hair)+toonFace(hx,hy,r,mood,talk,t,lookX,pal)+toonHairFront(kind,hx,hy,r,pal.hair);
+  return o;
+}
+function toonFriend(t,fx,walk,mood,talk,gest){
+  const pal=palette('friend'), fy=770, r=58, kind=SC.friend_hair||'bun'; let o='';
+  o+=limb(`M${fx-14},1060 L${fx-30-walk},1296`,pal.pants,30)+limb(`M${fx+14},1060 L${fx+30+walk},1296`,pal.pants,30);
+  o+=`<ellipse cx="${fx-38-walk}" cy="1306" rx="30" ry="13" fill="#333" ${OUT()}/><ellipse cx="${fx+22+walk}" cy="1306" rx="30" ry="13" fill="#333" ${OUT()}/>`;
+  o+=P(`M${fx-42},${fy+70} Q${fx},${fy+52} ${fx+42},${fy+70} L${fx+46},${1070} L${fx-46},${1070} Z`,`fill="${pal.shirt}" ${OUT()}`);
+  o+=limb(`M${fx-36},${fy+92} L${fx-62},${1000+gest*0.3} L${fx-84},${978-gest}`,pal.shirt,20)+C(fx-86,976-gest,12,`fill="${pal.skin}" ${OUT()}`);
+  o+=limb(`M${fx+36},${fy+92} L${fx+52},1010 L${fx+52},1048`,pal.shirt,20)+C(fx+52,1052,12,`fill="${pal.skin}" ${OUT()}`);
+  o+=toonHairBack(kind,fx,fy,r,pal.hair)+toonFace(fx,fy,r,mood,talk,t,-8,pal)+toonHairFront(kind,fx,fy,r,pal.hair);
+  return o;
+}
+function shade(hex){ const n=parseInt(hex.slice(1),16); const f=v=>Math.max(0,Math.round(v*0.78)); return '#'+[n>>16,(n>>8)&255,n&255].map(f).map(v=>v.toString(16).padStart(2,'0')).join(''); }
+function bdBurst(cx,cy,txt,col){ let pts=''; for(let i=0;i<16;i++){const a=i*Math.PI/8, rr=i%2?42:70; pts+=`${cx+Math.cos(a)*rr*1.3},${cy+Math.sin(a)*rr} `;}
+  return `<polygon points="${pts}" fill="${col}" stroke="${STYLE().ink}" stroke-width="6"/><text x="${cx}" y="${cy+16}" text-anchor="middle" font-family="Poppins" font-weight="800" font-style="italic" font-size="46" fill="#111" stroke="none">${txt}</text>`; }
+
 function drawWorld(t){
   const sc=SC; let s='';
   // ---- décor (params.decor) et style graphique (params.style) ----
@@ -186,11 +257,15 @@ function drawWorld(t){
   else if(t>=TL.s2fix0) mood='happy';
   else if(t>=TL.f2[0]) mood='neutral';
   const heroTalk = inWin(t,[TL.p1[0],TL.p1[0]+2.2])||inWin(t,[TL.p2[0],TL.p2[0]+2.2])||inWin(t,[TL.p3[0],TL.p3[0]+1.6]);
+  const lookH = t>=TL.enter[0]&&t<TL.s2[0]? 10: 6;
+  if(RENDU()==='baton'){
   s+=L(355,892,335,1075)+L(335,1075,470,1080)+L(470,1080,470,1320)+L(470,1320,505,1320);
   s+=L(350,935,430,1010)+L(430,1010,555,995+bob);
   s+=L(352,945,450,1000)+L(450,1000,585,992-bob);
-  s+=face(hx,hy,r,mood,heroTalk,t, t>=TL.enter[0]&&t<TL.s2[0]? 10: 6);
+  s+=face(hx,hy,r,mood,heroTalk,t, lookH);
   s+=hair(sc.hero_hair||'curly',hx,hy,r);
+  } else s+=toonHero(t,mood,heroTalk,bob,lookH);
+  if(RENDU()==='bd'){ if(t>=TL.f1[0]&&t<TL.f1[0]+1.3) s+=bdBurst(250,700,'?!','#FFE45C'); if(t>=TL.p3[0]&&t<TL.p3[1]) s+=bdBurst(230,690,'YES !','#7CF0B8'); }
   // friend
   if(t>=TL.enter[0]){
     const k=ease((t-TL.enter[0])/(TL.enter[1]-TL.enter[0]));
@@ -198,11 +273,13 @@ function drawWorld(t){
     const fy=780, fr=50;
     const ftalk = [TL.f1,TL.f2,TL.f3,TL.f4].some(w=>inWin(t,[w[0],w[0]+Math.min(2.6,w[1]-w[0]-0.3)]));
     const fmood = (t>=TL.f1[0])? 'happy':'neutral';
-    s+=L(fx,830,fx,1060)+L(fx,1060,fx-30-walk,1320)+L(fx,1060,fx+30+walk,1320);
     const gest = ftalk? Math.sin(t*6)*25:0;
+    if(RENDU()==='baton'){
+    s+=L(fx,830,fx,1060)+L(fx,1060,fx-30-walk,1320)+L(fx,1060,fx+30+walk,1320);
     s+=L(fx,890,fx-45,1000+gest*0.3)+L(fx-45,1000+gest*0.3,fx-70,980-gest)+L(fx,890,fx+40,1010)+L(fx+40,1010,fx+45,1050);
     s+=face(fx,fy,fr,fmood,ftalk,t+0.3,-8);
     s+=hair(sc.friend_hair||'bun',fx,fy,fr);
+    } else s+=toonFriend(t+0.3,fx,walk,fmood,ftalk,gest);
   }
   return s;
 }
