@@ -70,6 +70,7 @@ mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
 - Pas encore de données sur les formats demo, quiz, kinetic : à tester dans les 2 premières semaines.
 
 ## 8. Mix de la semaine (mis à jour chaque lundi)
+**Rythme (décision de Paolo, 8/11) : 10 posts par semaine.** 2 posts le lundi, le mercredi et le vendredi, 1 post les autres jours. Toujours avec voix off (sauf carrousels).
 Semaine du 6/11 : phase de découverte, chaque format testé au moins 2 fois.
 Ordre conseillé : demo → kinetic mamans → sketch → quiz → kinetic émotion → sketch maman/enfant → kinetic fondateur.
 Les posts « mamans » passent de préférence le soir (après les devoirs) ou le mercredi.

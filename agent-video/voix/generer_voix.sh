@@ -1,39 +1,51 @@
 #!/bin/bash
-# Fabrique les voix off de l'agent LexyLab avec la voix française du Mac, puis les envoie sur GitHub.
-# À lancer sur le Mac de Paolo :  bash agent-video/voix/generer_voix.sh   (depuis le dossier lexylab-telechargement)
+# Fabrique les voix off de l'agent LexyLab avec les voix françaises du Mac, puis les envoie sur GitHub.
+# Lancé automatiquement par macOS (LaunchAgent eu.lexylab.voix) à 12h30 et 19h45.
+# Choisit toujours la voix la PLUS NATURELLE installée : (Premium) > (Enhanced/Améliorée) > voix de base.
+# Si une meilleure voix est installée plus tard, les anciennes voix sont refaites automatiquement.
 set -e
 cd "$(dirname "$0")/../.."
 git pull -q --rebase origin main
-VOIX="${VOIX_MAC:-Thomas}"
-if ! say -v '?' | grep -q "^$VOIX "; then
-  VOIX=$(say -v '?' | grep -E "fr_FR|fr_BE" | head -1 | awk '{print $1}')
-fi
-echo "Voix utilisée : $VOIX"
+LISTE=$(say -v '?')
+
+meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le nom exact de la meilleure voix fr installée
+  for qual in "Premium" "Enhanced" "Améliorée" "Amélioré" ""; do
+    for nom in $1; do
+      ligne=$(echo "$LISTE" | grep -E "^$nom" | grep -E "fr_(FR|BE|CA|CH)" | { if [ -n "$qual" ]; then grep "($qual)"; else grep -v "("; fi; } | head -1)
+      if [ -n "$ligne" ]; then echo "$ligne" | sed -E 's/ +fr_.*$//' | sed -E 's/ +$//'; return; fi
+    done
+  done
+}
+HOMME=$(meilleure "Thomas Jacques Daniel Nicolas")
+FEMME=$(meilleure "Audrey Aurélie Amélie Marie Céline")
+[ -z "$HOMME" ] && HOMME=$(echo "$LISTE" | grep -E "fr_FR" | head -1 | sed -E 's/ +fr_.*$//')
+[ -z "$FEMME" ] && FEMME="$HOMME"
+echo "Voix homme : $HOMME | Voix femme : $FEMME"
+
+MANIF="agent-video/voix/voix-utilisees.txt"; touch "$MANIF"
 n=0
-FEMME="${VOIX_FEMME:-Amélie}"
-if ! say -v '?' | grep -q "^$FEMME "; then
-  FEMME=$(say -v '?' | grep -E "fr_FR|fr_BE|fr_CA" | grep -v "^$VOIX " | head -1 | awk '{print $1}')
-  [ -z "$FEMME" ] && FEMME="$VOIX"
-fi
 while IFS='|' read -r fichier texte voixligne; do
   [ -z "$fichier" ] && continue
   case "$fichier" in \#*) continue;; esac
+  v="$HOMME"; case "$voixligne" in Am*|am*|Au*|femme|Femme) v="$FEMME";; esac
   cible="agent-video/$fichier"
-  if [ ! -f "$cible" ]; then
+  deja=$(grep -F "$fichier|" "$MANIF" | tail -1 | cut -d'|' -f2)
+  if [ ! -f "$cible" ] || { [ -n "$deja" ] && [ "$deja" != "$v" ]; } || { [ -z "$deja" ] && [ -f "$cible" ] && [[ "$v" == *"("* ]]; }; then
     mkdir -p "$(dirname "$cible")"
-    v="$VOIX"
-    case "$voixligne" in Am*|am*|femme|Femme) v="$FEMME";; esac
-    say -v "$v" -r 175 -o /tmp/lexy_voix.aiff "$texte"
+    # petites pauses naturelles après les points et virgules
+    t2=$(echo "$texte" | sed -E 's/([.!?…]) /\1 [[slnc 250]] /g; s/, /, [[slnc 120]] /g')
+    say -v "$v" -o /tmp/lexy_voix.aiff "$t2"
     afconvert -f m4af -d aac /tmp/lexy_voix.aiff "$cible"
-    echo "  ✓ $fichier"
+    grep -vF "$fichier|" "$MANIF" > "$MANIF.tmp" || true; mv "$MANIF.tmp" "$MANIF"; echo "$fichier|$v" >> "$MANIF"
+    echo "  ✓ $fichier ($v)"
     n=$((n+1))
   fi
 done < agent-video/voix/a-generer.txt
 if [ $n -gt 0 ]; then
   git add agent-video/voix
-  git commit -q -m "Voix off : $n nouvelle(s) voix (Mac, $VOIX)"
+  git commit -q -m "Voix off : $n voix (Mac : $HOMME / $FEMME)"
   git push -q origin HEAD
-  echo "$n voix envoyées à l'agent. Merci !"
+  echo "$n voix envoyées à l'agent."
 else
   echo "Rien de nouveau à fabriquer."
 fi
