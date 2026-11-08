@@ -121,9 +121,10 @@ function drawWorld(t){
   // desk
   s+=L(410,1010,770,1010,'stroke-width="9"')+L(430,1010,430,1320)+L(750,1010,750,1320);
   // lamp
-  s+=L(700,1005,680,1005)+L(690,1005,705,905)+`<path d="M690,880 L745,905 L712,935 Z" fill="#F7C948" stroke-width="6"/>`;
+  s+=L(730,1005,710,1005)+L(720,1005,735,905)+`<path d="M720,880 L775,905 L742,935 Z" fill="#F7C948" stroke-width="6"/>`;
   // laptop (side view)
-  s+=L(500,1003,640,1003,'stroke-width="8"')+L(500,1003,470,880,'stroke-width="8"');
+  // ordinateur vu de côté : clavier côté personnage, écran au fond tourné VERS le personnage
+  s+=L(500,1003,650,1003,'stroke-width="8"')+L(650,1003,676,880,'stroke-width="8"');
   // chair
   s+=L(250,1085,380,1085)+L(250,1085,250,890)+L(262,1085,262,1320)+L(368,1085,368,1320);
   // hero (seated)
@@ -136,8 +137,8 @@ function drawWorld(t){
   else if(t>=TL.f2[0]) mood='neutral';
   const heroTalk = inWin(t,[TL.p1[0],TL.p1[0]+2.2])||inWin(t,[TL.p2[0],TL.p2[0]+2.2])||inWin(t,[TL.p3[0],TL.p3[0]+1.6]);
   s+=L(355,892,335,1075)+L(335,1075,470,1080)+L(470,1080,470,1320)+L(470,1320,505,1320);
-  s+=L(350,935,425,1010)+L(425,1010,520,995+bob);
-  s+=L(352,945,440,1000)+L(440,1000,535,990-bob);
+  s+=L(350,935,430,1010)+L(430,1010,555,995+bob);
+  s+=L(352,945,450,1000)+L(450,1000,585,992-bob);
   s+=face(hx,hy,r,mood,heroTalk,t, t>=TL.enter[0]&&t<TL.s2[0]? 10: 6);
   s+=hair(sc.hero_hair||'curly',hx,hy,r);
   // friend
