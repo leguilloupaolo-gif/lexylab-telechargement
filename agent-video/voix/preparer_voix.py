@@ -11,6 +11,7 @@ Noms de fichiers (lus automatiquement par les formats) :
   demo    : <id>-hook, -s0 … -s4   (accroche + sous-titres)
   quiz    : <id>-q, -a, -c          (question, réponse, appel à commenter)
   capture : <id>-hook, -p<plan>-s<n>
+  presentation (vidéo) : <id>-<n> (n = numéro de scène) ; les carrousels n'ont pas de voix
 Format d'une ligne : voix/<fichier>.m4a|texte|voix (voix = Thomas ou Amélie ; vide = Thomas)
 Tu peux ensuite retoucher les textes à la main dans a-generer.txt (prononciation, rythme).
 """
@@ -23,7 +24,7 @@ EMOJI = re.compile("[\U0001F000-\U0001FFFF☀-➿️‍⭐⬆↔-⇿✅❌✨]+"
 def clean(t):
     t = (t or "").replace("\n", " ")
     t = re.sub(r"\[([^|\]]+)\|([^\]]+)\]", r"\2", t)
-    t = t.replace("*", "").replace("_", "").replace("«", "").replace("»", "")
+    t = t.replace("*", "").replace("_", "").replace("~", "").replace("«", "").replace("»", "")
     t = EMOJI.sub("", t)
     t = re.sub(r"\s+", " ", t).strip(" :")
     t = t.replace("POV", "Point de vue").replace("✓", "")
@@ -54,6 +55,14 @@ def lines_for(idea):
     elif f == "quiz":
         out += [(f"{i}-q", clean(p.get("question")), narr), (f"{i}-a", clean(p.get("answer") or "LexyLab les a toutes trouvées."), narr),
                 (f"{i}-c", clean(p.get("cta") or "Tu en as trouvé combien ? Dis-le en commentaire."), narr)]
+    elif f == "presentation" and idea.get("type") != "carrousel":
+        for n, sc in enumerate(p.get("scenes", [])):
+            parts = [" ".join(sc.get("lignes", [])), sc.get("titre", ""), sc.get("avant", ""), sc.get("sub", "")]
+            if sc.get("type") == "logo": parts.append("LexyLab.")
+            if sc.get("type") == "liste": parts += sc.get("items", [])
+            if sc.get("type") == "duel": parts += [sc["ko"]["titre"] + " : " + sc["ko"]["texte"], sc["ok"]["titre"] + " : " + sc["ok"]["texte"]]
+            if sc.get("type") == "editeur": parts.append(re.sub(r"\[([^|\]]+)\|([^\]]+)\]", r"\2", sc.get("ecran", "")))
+            out.append((f"{i}-{n}", " ".join(re.sub(r"[.,;:]+$", "", clean(x)) + "." for x in parts if clean(x)).replace(",.", ","), narr))
     elif f == "capture":
         out.append((f"{i}-hook", clean(p.get("hook")), narr))
         for a, pl in enumerate(p.get("plans", [])):

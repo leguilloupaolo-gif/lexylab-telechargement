@@ -41,6 +41,7 @@ enregistrements d'écran dans `captures/`, le format `capture` devient le format
 (au moins 3 posts par semaine), et la maquette `demo` n'est plus utilisée que si aucune vraie capture ne convient.
 Les visuels dessinés (sketch, kinetic, quiz) restent possibles pour l'humour, l'éducation et l'engagement,
 mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
+- `presentation` : présentation produit premium (motion design sombre ou clair) ; existe aussi en **carrousel** (images à faire glisser).
 - `capture` : montage de **vraies** captures ou vidéos d'écran de LexyLab, avec zoom, cadres rouges, sous-titres, musique et fin. Le badge « ● Vraie capture » s'affiche.
 - `sketch` : sketch bâton (~39 s), 2 personnages, bulles, écran avec fautes puis correction.
 - `demo` : fenêtre Word, Gmail, Docs ou Notes, frappe, soulignement, bulle LexyLab, clic, correction, sous-titres façon voix off (~20 s). Peut finir sur une **vraie capture** de `captures/`.

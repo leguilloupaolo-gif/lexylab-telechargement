@@ -1,0 +1,115 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../lib/common.css">
+<style>
+  /* Style « présentation produit » : fond sombre premium, gros texte, mots-clés en dégradé */
+  #stage{background:#0A1228;color:#fff}
+  #bg{position:absolute;inset:0;background:radial-gradient(120% 70% at 20% 10%,#16264F 0%,rgba(10,18,40,0) 60%),radial-gradient(90% 60% at 90% 95%,#0F3B39 0%,rgba(10,18,40,0) 65%),#0A1228}
+  body.light #stage{background:#F6F8FC;color:#0B1530}
+  body.light #bg{background:radial-gradient(120% 70% at 20% 10%,#DCE7FF 0%,rgba(246,248,252,0) 60%),radial-gradient(90% 60% at 90% 95%,#D2F4E8 0%,rgba(246,248,252,0) 65%),#F6F8FC}
+  .hdr{color:inherit}
+  #sc{position:absolute;left:84px;right:84px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+  .ln{font-weight:800;font-size:104px;line-height:1.08;letter-spacing:-2px;margin:0 0 6px}
+  .ln.m{font-size:80px} .ln.s{font-size:62px;letter-spacing:-1px}
+  .gr{background:linear-gradient(90deg,#3B7BF0,#22C3A6);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rd{color:#FF5A5F}
+  .sub{position:static;font-weight:500;font-size:46px;line-height:1.4;opacity:.75;margin-top:30px;text-align:left}
+  .ed{margin-top:60px;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.12);border-radius:30px;padding:36px 44px 48px;font-size:66px;font-weight:500}
+  body.light .ed{background:#fff;border-color:#DDE3EE;box-shadow:0 20px 50px rgba(20,40,90,.08)}
+  .dots{display:flex;gap:14px;margin-bottom:26px}.dots i{width:22px;height:22px;border-radius:50%;display:block}
+  .wavy{text-decoration:underline wavy #FF5A5F;text-decoration-thickness:4px;text-underline-offset:14px}
+  .fix{color:#22C3A6;font-weight:700;text-shadow:0 0 30px rgba(34,195,166,.5)}
+  .caret{background:currentColor}
+  .logo{display:flex;flex-direction:column;align-items:center;text-align:center}
+  .logo img{width:320px;margin-bottom:50px}
+  .logo .brand{font-weight:800;font-size:170px;letter-spacing:-4px;line-height:1}
+  .item{display:flex;align-items:flex-start;gap:28px;font-size:60px;font-weight:700;line-height:1.2;margin:22px 0}
+  .item b{flex:none;width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#3B7BF0,#22C3A6);display:flex;align-items:center;justify-content:center;font-size:44px;color:#fff}
+  .cta{display:inline-block;margin-top:60px;background:linear-gradient(90deg,#3B7BF0,#22C3A6);color:#fff;font-weight:800;font-size:60px;padding:30px 64px;border-radius:80px}
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:50px}
+  .vs div{border-radius:28px;padding:34px;font-size:46px;font-weight:600;line-height:1.3;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.12)}
+  .vs .ko{border-color:#FF5A5F55}.vs .ok{border-color:#22C3A6AA}
+  .vs small{display:block;font-size:34px;font-weight:800;margin-bottom:14px}
+  #count{position:absolute;right:60px;top:70px;font-weight:700;font-size:34px;opacity:.6;display:none}
+  #swipe{position:absolute;right:70px;bottom:70px;font-weight:700;font-size:38px;opacity:.7;display:none}
+  .sub.sub2{display:block}
+</style></head>
+<body>
+<div id="stage">
+  <div id="bg"></div>
+  <div class="hdr"><img src="../lib/logo.png"><span>Lexy<span class="lab">Lab</span></span></div>
+  <div id="count"></div>
+  <div id="sc"></div>
+  <div id="swipe">Glisse →</div>
+</div>
+<script src="../lib/common.js"></script>
+<script>
+/* Format « presentation » : vidéo de présentation produit (motion design sombre et premium),
+   et aussi CARROUSEL (images 1080x1350) avec : python3 render.py --carrousel <id> <dossier>
+params :
+  theme  sombre (défaut) | clair
+  music  calme | joyeux | tension | aucune
+  scenes : liste de scènes jouées dans l'ordre (= une image par scène en carrousel) :
+    {type:"texte",   lignes:["Pendant toutes mes études,", "mes copies revenaient ~pleines de rouge~."], sub:"…", taille:"l|m|s"}
+    {type:"editeur", titre:"Les correcteurs classiques ne me comprenaient pas.", ecran:"Je suis allé [o sinéma|au cinéma]"}
+    {type:"logo",    avant:"Alors j'ai créé", apres:"…"}              (logo + LexyLab en grand)
+    {type:"liste",   titre:"Ce que fait LexyLab", items:["Souligne en direct","…"]}
+    {type:"duel",    titre:"…", ko:{titre:"Correcteur classique", texte:"…"}, ok:{titre:"LexyLab", texte:"…"}}
+    {type:"cta",     lignes:["Essaie *LexyLab*"], sub:"Mac et Windows · lien en bio", bouton:"Lien en bio 👆"}
+  Markdown : *mot* = dégradé bleu-vert ; ~mot~ = rouge ; dur:secondes possible sur chaque scène.
+  Voix off auto : voix/<id>-<n>.m4a (n = numéro de scène).
+*/
+let P, S=[], MODE='video';
+const mdx=s=>U.esc(s).replace(/\*([^*]+)\*/g,'<span class="gr">$1</span>').replace(/~([^~]+)~/g,'<span class="rd">$1</span>').replace(/\n/g,'<br>');
+function sceneLen(s){ const txt=JSON.stringify(s).length; return s.dur || ({texte:1.6+txt*0.03, editeur:6.5, logo:3.6, liste:2+ (s.items||[]).length*1.1, duel:5.5, cta:3.4}[s.type]||3.5); }
+function init(p){
+  P=p; MODE=p._mode||'video'; if(p.theme==='clair') document.body.classList.add('light');
+  let t=0.2; const ev=[];
+  p.scenes.forEach((s,i)=>{ let d=Math.min(9,Math.max(2.2,sceneLen(s)));
+    const vf=`voix/${p._id}-${i}.m4a`, vd=p._voix_dur&&p._voix_dur[vf];
+    if(vd){ d=Math.max(d,vd+0.8); ev.push({t:t+0.25,type:'voice',file:vf}); }
+    S.push({...s,i,t0:t,t1:t+d}); ev.push({t:t,type:i===0?'boom':'swoosh-up'});
+    if(s.type==='editeur'){ ev.push({t:t+d*0.62,type:'ding'}); }
+    t+=d; });
+  if(MODE==='carrousel'){ document.getElementById('count').style.display='block'; return {count:S.length}; }
+  const ty=S.filter(s=>s.type==='editeur').map(s=>[s.t0+1.0,s.t0+1.0+(s.t1-s.t0)*0.35]);
+  return {duration:t+0.3, events:ev, typing:ty, music:p.music||'calme'};
+}
+function htmlFor(s,lt,dur,still){
+  const k=x=>still?1:U.clamp(x,0,1);
+  const fade=(i,delay=0.18)=>`style="opacity:${k((lt-0.1-i*delay)/0.35)};transform:translateY(${(1-U.ease(still?1:(lt-0.1-i*delay)/0.35))*40}px)"`;
+  if(s.type==='texte'){ const longest=Math.max(...(s.lignes||['']).join(' ').replace(/[*~]/g,'').split(/\s+/).map(w=>w.length));
+    let cls=s.taille==='m'?'m':s.taille==='s'?'s':''; if(longest>=15&&!cls) cls='m'; if(longest>=19) cls='s';
+    return (s.lignes||[]).map((l,i)=>`<div class="ln ${cls}" ${fade(i)}>${mdx(l)}</div>`).join('')+(s.sub?`<div class="sub" ${fade((s.lignes||[]).length)}>${mdx(s.sub)}</div>`:''); }
+  if(s.type==='editeur'){
+    const segs=U.parseErr(s.ecran), wl=U.wrongLen(segs); const typeEnd=dur*0.35+1.0, fixT=dur*0.62;
+    const n=still?wl:Math.floor(wl*U.clamp((lt-1.0)/(typeEnd-1.0),0,1)); let left=n,h='';
+    for(const g of segs){ if(left<=0)break; if(g.t!==undefined){h+=U.esc(g.t.slice(0,left));left-=g.t.length;}
+      else{ const full=left>=g.e.length; const part=g.e.slice(0,left); left-=g.e.length;
+        if((still&&s.montrer!=='faute')||(!still&&full&&lt>=fixT)) h+=`<span class="fix">${U.esc(g.f)}</span>`; else h+=`<span class="${full&&(still||lt>=typeEnd+0.2)?'wavy':''}">${U.esc(part)}</span>`; } }
+    if(!still && (n<wl||Math.floor(lt*2.5)%2===0)) h+='<span class="caret"></span>';
+    return `<div class="ln s" ${fade(0)}>${mdx(s.titre||'')}</div><div class="ed" ${fade(1)}><div class="dots"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i></div>${h}</div>`; }
+  if(s.type==='logo'){ const sc=still?1:U.pop((lt-0.1)/0.5);
+    return `<div class="logo"><img src="../lib/logo.png" style="transform:scale(${sc}) rotate(${still?0:(1-U.ease(lt/0.8))*-90}deg)">
+      <div class="ln m" ${fade(1,0.4)}>${mdx(s.avant||'')}</div><div class="brand gr" ${fade(2,0.4)}>LexyLab.</div>${s.apres?`<div class="sub" style="text-align:center;opacity:${k((lt-1.4)/0.4)*0.75}">${mdx(s.apres)}</div>`:''}</div>`; }
+  if(s.type==='liste'){ return `<div class="ln m" ${fade(0)}>${mdx(s.titre||'')}</div><div style="margin-top:40px">`+(s.items||[]).map((it,i)=>`<div class="item" ${fade(i+1,0.9)}><b>✓</b><span>${mdx(it)}</span></div>`).join('')+`</div>`; }
+  if(s.type==='duel'){ return `<div class="ln s" ${fade(0)}>${mdx(s.titre||'')}</div><div class="vs"><div class="ko" ${fade(1,0.5)}><small class="rd">✗ ${U.esc(s.ko.titre)}</small>${mdx(s.ko.texte)}</div><div class="ok" ${fade(2,1.2)}><small class="gr">✓ ${U.esc(s.ok.titre)}</small>${mdx(s.ok.texte)}</div></div>`; }
+  if(s.type==='cta'){ return (s.lignes||[]).map((l,i)=>`<div class="ln" ${fade(i)}>${mdx(l)}</div>`).join('')+(s.sub?`<div class="sub" ${fade(2)}>${mdx(s.sub)}</div>`:'')+`<div><span class="cta" style="transform:scale(${still?1:U.pop((lt-0.8)/0.35)})">${U.esc(s.bouton||'Lien en bio 👆')}</span></div>`; }
+  return '';
+}
+let cur=-1, lastHTML='';
+function render(t){
+  document.getElementById('stage').style.opacity=U.clamp(t/0.3,0,1);
+  const s=S.find(x=>t>=x.t0&&t<x.t1)||S[S.length-1]; const lt=t-s.t0, d=s.t1-s.t0;
+  const out=s===S[S.length-1]?1:U.clamp((s.t1-t)/0.3,0,1);
+  const el=document.getElementById('sc'); el.innerHTML=htmlFor(s,lt,d,false); el.style.opacity=out;
+  el.style.justifyContent = s.type==='logo'?'center':'center';
+}
+function renderSlide(i){
+  const s=S[i]; const el=document.getElementById('sc'); el.innerHTML=htmlFor(s,99,sceneLen(s),true); el.style.opacity=1;
+  document.getElementById('count').textContent=`${i+1}/${S.length}`;
+  document.getElementById('swipe').style.display = i<S.length-1? 'block':'none';
+}
+window.init=init; window.render=render; window.renderSlide=renderSlide;
+</script>
+</body></html>

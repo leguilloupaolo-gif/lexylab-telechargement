@@ -72,6 +72,62 @@
   "tiktok_title": "À toutes les mamans d'enfants dys 💚"
  },
  {
+  "id": "pres-pourquoi-lexylab",
+  "format": "presentation",
+  "pilier": "fondateur",
+  "hypothese": "Une présentation produit premium (style motion design) inspire confiance",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Pendant toutes mes études,",
+      "mes copies revenaient ~pleines de rouge~."
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Je suis",
+      "*dyslexique*",
+      "et *dysorthographique*."
+     ]
+    },
+    {
+     "type": "editeur",
+     "titre": "Les correcteurs classiques ne me comprenaient pas.",
+     "ecran": "Je suis allé [o sinéma|au cinéma]."
+    },
+    {
+     "type": "logo",
+     "avant": "Alors j'ai créé"
+    },
+    {
+     "type": "liste",
+     "titre": "Un correcteur *pensé pour la dyslexie*",
+     "items": [
+      "Comprend les mots écrits *comme on les entend*",
+      "Souligne les fautes *en direct*",
+      "*Hors ligne* : tes textes restent sur ton ordi",
+      "Word, Gmail, Google Docs… sur *Mac et Windows*"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Écris comme tu penses.",
+      "*LexyLab* s'occupe du reste."
+     ],
+     "bouton": "Lien en bio 👆"
+    }
+   ]
+  },
+  "post_text": "Pendant toutes mes études, mes copies revenaient pleines de rouge… Alors j'ai créé LexyLab 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Pourquoi j'ai créé LexyLab"
+ },
+ {
   "id": "sketch-devoir-francais",
   "format": "sketch",
   "pilier": "situations",
@@ -119,6 +175,78 @@
   },
   "post_text": "Écrire à un prof sans avoir honte de ses fautes 🙌 LexyLab comprend les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire à mon prof pour un retard…"
+ },
+ {
+  "id": "car-5-raisons",
+  "format": "presentation",
+  "type": "carrousel",
+  "pilier": "demo",
+  "hypothese": "Un carrousel est sauvegardé et partagé plus qu'une vidéo",
+  "params": {
+   "theme": "sombre",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "5 raisons",
+      "d'essayer *LexyLab*",
+      "quand on est dys"
+     ],
+     "sub": "Glisse pour voir →"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "1.",
+      "Il comprend les mots",
+      "écrits *comme on les entend*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "2. Il souligne les fautes *en direct*.",
+     "ecran": "Je vous [envoi|envoie] le [raport|rapport] demain."
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "3.",
+      "Il marche *hors ligne*.",
+      "Tes textes restent sur ton ordi."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "4.",
+      "Word, Gmail, Google Docs…",
+      "sur *Mac et Windows*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "5.",
+      "Il a été créé",
+      "par un étudiant *dys*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Prêt à écrire",
+      "*sans stress* ?"
+     ],
+     "bouton": "Lien en bio 👆"
+    }
+   ]
+  },
+  "post_text": "5 raisons d'essayer LexyLab quand on est dys 👉 Glisse pour tout voir, et enregistre pour plus tard 📌\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "5 raisons d'essayer LexyLab"
  },
  {
   "id": "sketch-maman-devoirs",
@@ -185,6 +313,61 @@
   "tiktok_title": "3 idées fausses sur la dyslexie"
  },
  {
+  "id": "pres-classique-vs-lexylab",
+  "format": "presentation",
+  "pilier": "demo",
+  "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence",
+  "params": {
+   "theme": "sombre",
+   "music": "joyeux",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Pourquoi les correcteurs",
+      "*ratent* les fautes des dys ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Parce qu'on écrit",
+      "souvent les mots",
+      "*comme on les entend*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "duel",
+     "titre": "« ojourdui » :",
+     "ko": {
+      "titre": "Correcteur classique",
+      "texte": "Aucune suggestion… ou un mot qui n'a rien à voir."
+     },
+     "ok": {
+      "titre": "LexyLab",
+      "texte": "Propose *aujourd'hui*, en un clic."
+     }
+    },
+    {
+     "type": "editeur",
+     "titre": "Exemple :",
+     "ecran": "[Ojourdui|Aujourd'hui] [jé|j'ai] [u|eu] un bon [bultin|bulletin] !"
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Un correcteur",
+      "*qui te comprend*."
+     ],
+     "sub": "Mac et Windows · hors ligne"
+    }
+   ]
+  },
+  "post_text": "Pourquoi les correcteurs classiques ratent les fautes des dys ? Parce qu'on écrit souvent comme on entend 👂\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
+  "tiktok_title": "Pourquoi les correcteurs ratent les fautes des dys"
+ },
+ {
   "id": "quiz-courses",
   "format": "quiz",
   "pilier": "engagement",
@@ -229,6 +412,72 @@
   },
   "post_text": "Ton devoir dans Word, sans une seule faute 😮 LexyLab souligne, explique la règle, et corrige en un clic.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Un devoir sans fautes dans Word"
+ },
+ {
+  "id": "car-mamans-signes",
+  "format": "presentation",
+  "type": "carrousel",
+  "pilier": "mamans",
+  "hypothese": "Un carrousel pratique pour les mamans est sauvegardé",
+  "params": {
+   "theme": "clair",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Maman d'un enfant *dys* ?",
+      "4 phrases qui font du bien"
+     ],
+     "sub": "Glisse →"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "« Je vois",
+      "tous les *efforts*",
+      "que tu fais. »"
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "« Une faute,",
+      "ce n'est pas",
+      "*une bêtise*. »"
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "« Ton cerveau",
+      "fonctionne *autrement*,",
+      "pas moins bien. »"
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "« On va trouver",
+      "*des outils*",
+      "qui t'aident. »"
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "LexyLab aide ton enfant",
+      "à écrire *en autonomie*."
+     ],
+     "sub": "Mac et Windows · lien en bio"
+    }
+   ]
+  },
+  "post_text": "Maman d'un enfant dys ? 4 phrases qui font du bien 💚 Enregistre-les, et partage à une maman qui en a besoin.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #mamandys #parentsdys",
+  "tiktok_title": "4 phrases qui font du bien à un enfant dys"
  },
  {
   "id": "kin-mamans-astuces-devoirs",

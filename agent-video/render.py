@@ -5,6 +5,7 @@ Usage :
   python3 render.py <idee_id> <sortie.mp4>                 idée lue dans idees.json
   python3 render.py --json <fichier.json> <sortie.mp4>     idée lue dans un fichier (un objet)
   python3 render.py --preview <idee_id|fichier.json> <dossier>   12 images PNG pour vérifier
+  python3 render.py --carrousel <idee_id|fichier.json> <dossier>  carrousel : 1 image 1080x1350 par scène (format presentation)
 
 Une idée = {"id", "format", "params", "post_text", "tiktok_title", "pilier", "hypothese"}
 "format" = nom d'un fichier de formats/ (capture, sketch, demo, kinetic, quiz, ... ou un nouveau format créé par l'agent).
@@ -213,8 +214,27 @@ def open_page(p, idea):
     return b, page, info
 
 
+def carrousel(ref, outdir):
+    """Carrousel Instagram/TikTok : une image PNG 1080x1350 par scène (format presentation)."""
+    idea = load_idea(ref); os.makedirs(outdir, exist_ok=True)
+    idea["params"]["_mode"] = "carrousel"; idea["params"]["_id"] = idea["id"]
+    page_path = os.path.join(HERE, "formats", idea.get("format", "presentation") + ".html")
+    files = []
+    with sync_playwright() as p:
+        b = p.chromium.launch(); page = b.new_page(viewport={"width": 1080, "height": 1350})
+        page.goto("file://" + page_path); page.wait_for_load_state("networkidle")
+        info = page.evaluate("p => init(p)", idea["params"]); page.evaluate("document.fonts.ready")
+        for i in range(info["count"]):
+            page.evaluate(f"renderSlide({i})"); page.wait_for_timeout(150)
+            f = os.path.join(outdir, f"{idea['id']}-{i+1}.png"); page.screenshot(path=f); files.append(f)
+        b.close()
+    print("OK ->", " ".join(files))
+
+
 def main():
     a = sys.argv[1:]
+    if a[0] == "--carrousel":
+        return carrousel(a[1], a[2])
     if a[0] == "--preview":
         idea = load_idea(a[1]); outdir = a[2]; os.makedirs(outdir, exist_ok=True)
         with sync_playwright() as p:

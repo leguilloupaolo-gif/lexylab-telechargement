@@ -268,3 +268,14 @@ voix/sketch-histoire-enfant-f2.m4a|Il corrige gentiment, sans casser ton imagina
 voix/sketch-histoire-enfant-f3.m4a|Tu écris, il gère le reste.|Amélie
 voix/sketch-histoire-enfant-p3.m4a|Elle l'a adorée.|Thomas
 voix/sketch-histoire-enfant-f4.m4a|Futur écrivain.|Amélie
+voix/pres-pourquoi-lexylab-0.m4a|Pendant toutes mes études, mes copies revenaient pleines de rouge.|Thomas
+voix/pres-pourquoi-lexylab-1.m4a|Je suis dyslexique et dysorthographique.|Thomas
+voix/pres-pourquoi-lexylab-2.m4a|Les correcteurs classiques ne me comprenaient pas. Je suis allé au cinéma.|Thomas
+voix/pres-pourquoi-lexylab-3.m4a|Alors j'ai créé. LexyLab.|Thomas
+voix/pres-pourquoi-lexylab-4.m4a|Un correcteur pensé pour la dyslexie. Comprend les mots écrits comme on les entend. Souligne les fautes en direct. Hors ligne : tes textes restent sur ton ordi. Word, Gmail, Google Docs… sur Mac et Windows.|Thomas
+voix/pres-pourquoi-lexylab-5.m4a|Écris comme tu penses. LexyLab s'occupe du reste.|Thomas
+voix/pres-classique-vs-lexylab-0.m4a|Pourquoi les correcteurs ratent les fautes des dys ?.|Thomas
+voix/pres-classique-vs-lexylab-1.m4a|Parce qu'on écrit souvent les mots comme on les entend.|Thomas
+voix/pres-classique-vs-lexylab-2.m4a|ojourdui. Correcteur classique : Aucune suggestion… ou un mot qui n'a rien à voir. LexyLab : Propose aujourd'hui, en un clic.|Thomas
+voix/pres-classique-vs-lexylab-3.m4a|Exemple. Aujourd'hui j'ai eu un bon bulletin !.|Thomas
+voix/pres-classique-vs-lexylab-4.m4a|Un correcteur qui te comprend. Mac et Windows · hors ligne.|Thomas

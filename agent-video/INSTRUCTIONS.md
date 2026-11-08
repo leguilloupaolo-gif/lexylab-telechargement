@@ -21,6 +21,18 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   « Il me faut de nouvelles captures de LexyLab ».
 - `render.py` : le moteur. `python3 render.py <idee_id> <sortie.mp4>` ; `--preview <idee_id> <dossier>` donne 12 images de contrôle.
 
+## Présentations produit et carrousels (demande de Paolo)
+- Format `presentation` (voir l'en-tête de `formats/presentation.html`) : vidéo de **présentation produit** en motion design
+  (fond sombre premium, gros texte animé, mots-clés en dégradé, faux éditeur avec faute soulignée puis corrigée, logo).
+  Ce n'est pas un sketch : c'est la vitrine de la marque. Thèmes `sombre` et `clair`.
+- **Carrousels** : une idée avec `"type":"carrousel"` et le format `presentation` donne des images 1080x1350 (une par scène) :
+  `python3 render.py --carrousel <id> ../reseaux-sociaux/auto/<AAAA-MM-JJ>-<id>/`. Première image = accroche forte + « Glisse → » ;
+  dernière image = appel à l'action. 5 à 8 images.
+  Publication : Instagram `instagramData {"type":"POST"}` avec toutes les URLs d'images dans `media` (dans l'ordre) ;
+  TikTok en mode photo : mêmes images, `tiktokData {"privacyOption":"PUBLIC_TO_EVERYONE","commercialContentOwnBrand":true,"autoAddMusic":true,"photoCoverIndex":0,"title":"…"}`.
+  Les carrousels n'ont pas de voix off.
+- Mix conseillé : environ 1 carrousel et 1 présentation produit par semaine, à ajuster selon les chiffres.
+
 ## Variété visuelle (demande de Paolo)
 - **Ne jamais refaire le même décor ni le même style deux vidéos de suite.** Vérifie les 3 dernières entrées du journal.
 - Sketch : `params.decor` = bureau, chambre, salon, cuisine, bibliotheque, classe, cafe (choisis le décor qui va avec l'histoire)
