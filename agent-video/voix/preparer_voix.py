@@ -28,9 +28,10 @@ def clean(t):
     t = EMOJI.sub("", t)
     t = re.sub(r"\s+", " ", t).strip(" :")
     t = t.replace("POV", "Point de vue").replace("✓", "")
+    t = t.replace(" · ", ", ")
     if t and t[-1] not in ".!?…":
         t += "."
-    return t.strip()
+    return t.replace("?.", "?").replace("!.", "!").strip()
 
 
 def lines_for(idea):
@@ -62,7 +63,7 @@ def lines_for(idea):
             if sc.get("type") == "liste": parts += sc.get("items", [])
             if sc.get("type") == "duel": parts += [sc["ko"]["titre"] + " : " + sc["ko"]["texte"], sc["ok"]["titre"] + " : " + sc["ok"]["texte"]]
             if sc.get("type") == "editeur": parts.append(re.sub(r"\[([^|\]]+)\|([^\]]+)\]", r"\2", sc.get("ecran", "")))
-            out.append((f"{i}-{n}", " ".join(re.sub(r"[.,;:]+$", "", clean(x)) + "." for x in parts if clean(x)).replace(",.", ","), narr))
+            out.append((f"{i}-{n}", " ".join(re.sub(r"[.,;:]+$", "", clean(x)) + "." for x in parts if clean(x)).replace(",.", ",").replace("?.", "?").replace("!.", "!"), narr))
     elif f == "capture":
         out.append((f"{i}-hook", clean(p.get("hook")), narr))
         for a, pl in enumerate(p.get("plans", [])):
