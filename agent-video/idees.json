@@ -87,7 +87,9 @@
    "f2": "Il souligne tes fautes *en direct* et te propose le bon mot.",
    "f3": "Et il marche *sans internet* : rien ne part de ton ordi.",
    "p3": "Rendu ! Et sans fautes 💚",
-   "f4": "Tu vois, c'était pas sorcier 😉"
+   "f4": "Tu vois, c'était pas sorcier 😉",
+   "decor": "chambre",
+   "style": "nuit"
   },
   "post_text": "Le devoir de français pour demain, 21h, et toutes ces fautes… 😩 Ça vous parle ?\n\nLexyLab souligne tes fautes en direct, même quand tu écris les mots comme tu les entends. Et il marche sans internet.\n\nEt toi, c'est quel devoir qui te stressait le plus ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #devoirs #orthographe #ecole #etudiant",
   "tiktok_title": "Mon devoir de français est pour demain…",
@@ -109,7 +111,9 @@
    "f2": "Il comprend les mots *écrits comme on les entend*.",
    "f3": "Et ça marche dans *Gmail*, Word, Google Docs…",
    "p3": "Envoyé, nickel 👌",
-   "f4": "Simple comme bonjour 😄"
+   "f4": "Simple comme bonjour 😄",
+   "decor": "classe",
+   "style": "nuit"
   },
   "post_text": "Écrire à un prof sans avoir honte de ses fautes 🙌 LexyLab comprend les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire à mon prof pour un retard…"
@@ -130,7 +134,9 @@
    "f2": "Il souligne les fautes et te propose *le bon mot*.",
    "f3": "Comme ça, tu peux écrire *tout seul*, mon grand 💚",
    "p3": "J'ai fini tout seul !! 🤩",
-   "f4": "Je suis fière de toi ❤️"
+   "f4": "Je suis fière de toi ❤️",
+   "decor": "chambre",
+   "style": "nuit"
   },
   "post_text": "Le soir où il a fini son exposé tout seul 🥹 Maman d'un enfant dys, tu connais ces soirées de devoirs ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
   "tiktok_title": "Le soir où il a fini son exposé tout seul 🥹"
@@ -284,7 +290,9 @@
    "f2": "Tu écris comme tu penses, il *corrige en direct*.",
    "f3": "Et tes notes restent *sur ton ordi*.",
    "p3": "Mes fiches sont lisibles ! 🤩",
-   "f4": "Révise bien 💪"
+   "f4": "Révise bien 💪",
+   "decor": "classe",
+   "style": "cahier"
   },
   "post_text": "Des fiches de révision enfin lisibles 📚 LexyLab corrige en direct pendant que tu écris.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je relis mes fiches pour l'examen…"
@@ -305,7 +313,9 @@
    "f2": "Il corrige aussi tes *messages* sur l'ordi.",
    "f3": "Pensé pour *la dyslexie*, pas juste pour les fautes de frappe.",
    "p3": "Personne n'a rien dit 😂",
-   "f4": "Victoire 🏆"
+   "f4": "Victoire 🏆",
+   "decor": "chambre",
+   "style": "nuit"
   },
   "post_text": "Fini les remarques dans le groupe famille 😅 LexyLab corrige aussi tes messages sur ordi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je veux écrire dans le groupe de la famille…"
@@ -506,7 +516,9 @@
    "f2": "Il souligne au fur et à mesure, *pas besoin de tout relire 5 fois*.",
    "f3": "Et ça reste *privé* : aucun texte envoyé sur internet.",
    "p3": "Rapport rendu à l'heure ✅",
-   "f4": "Bien joué ! 🎉"
+   "f4": "Bien joué ! 🎉",
+   "decor": "bureau",
+   "style": "tableau"
   },
   "post_text": "Un rapport de stage sans fautes 📄 LexyLab souligne au fur et à mesure, et tes textes restent privés.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois rendre mon rapport de stage…"
@@ -527,7 +539,9 @@
    "f2": "Il connaît *les erreurs typiques des dys*.",
    "f3": "Et il marche sur *Mac et Windows*.",
    "p3": "Posté ! 120 likes 😍",
-   "f4": "Félicitations 🎓"
+   "f4": "Félicitations 🎓",
+   "decor": "bureau",
+   "style": "pastel"
   },
   "post_text": "Poster sur LinkedIn sans peur des fautes 💼 LexyLab connaît les erreurs typiques des dys.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je veux poster sur LinkedIn…"
@@ -548,7 +562,9 @@
    "f2": "Il te propose *le bon mot*, même si tu l'écris comme tu l'entends.",
    "f3": "Et ça marche *dans Word* aussi.",
    "p3": "Il a répondu en 10 minutes 😮",
-   "f4": "Respect 😎"
+   "f4": "Respect 😎",
+   "decor": "salon",
+   "style": "nuit"
   },
   "post_text": "Un mail pro et sans fautes, même pour le proprio 🏠 LexyLab propose le bon mot, même écrit comme on l'entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire au propriétaire…"
@@ -569,7 +585,9 @@
    "f2": "Il corrige en direct, *sans te juger*.",
    "f3": "Il est fait par un étudiant dys, *pour les dys*.",
    "p3": "Invitations envoyées 🥳",
-   "f4": "Je viens avec le gâteau 🎂"
+   "f4": "Je viens avec le gâteau 🎂",
+   "decor": "salon",
+   "style": "couleur"
   },
   "post_text": "Des invitations sans fautes pour la fête 🥳 LexyLab corrige en direct, sans te juger.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "J'écris les invitations pour ma fête…"
@@ -590,7 +608,9 @@
    "f2": "Il souligne les fautes *dans ton navigateur* aussi.",
    "f3": "Tu restes *autonome*, sans demander à quelqu'un de relire.",
    "p3": "Formulaire envoyé ! 🙌",
-   "f4": "Trop fort 💪"
+   "f4": "Trop fort 💪",
+   "decor": "salon",
+   "style": "cahier"
   },
   "post_text": "Remplir un formulaire seul, sans stress 📝 LexyLab souligne aussi les fautes dans ton navigateur.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je remplis un formulaire en ligne…"
@@ -611,7 +631,9 @@
    "f2": "Il comprend *les mots écrits phonétiquement*.",
    "f3": "Et il marche dans *Outlook et Gmail*.",
    "p3": "Il m'a rappelé ! 📞",
-   "f4": "Je te l'avais dit 😉"
+   "f4": "Je te l'avais dit 😉",
+   "decor": "bureau",
+   "style": "papier"
   },
   "post_text": "Le mail de remerciement parfait après un entretien 📧 LexyLab comprend les mots écrits phonétiquement.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je veux remercier le recruteur…"
@@ -632,7 +654,9 @@
    "f2": "Écris tes idées, il *corrige au fil de l'eau*.",
    "f3": "Tu gagnes un temps fou ⏱️",
    "p3": "J'ai fini en avance 😮",
-   "f4": "Le temps, c'est précieux 😎"
+   "f4": "Le temps, c'est précieux 😎",
+   "decor": "bibliotheque",
+   "style": "tableau"
   },
   "post_text": "Écrire sa dissertation sans passer des heures à corriger ⏱️ LexyLab corrige au fil de l'eau.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Ma dissertation fait 6 pages…"
@@ -653,7 +677,9 @@
    "f2": "Il te corrige *gentiment*, sans te juger.",
    "f3": "Même les mots *écrits comme on les entend*.",
    "p3": "Mamie a pleuré de joie 🥹",
-   "f4": "Trop mignon 💚"
+   "f4": "Trop mignon 💚",
+   "decor": "cuisine",
+   "style": "pastel"
   },
   "post_text": "Une carte pour mamie… sans fautes 💚 LexyLab te corrige gentiment, même les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "J'écris une carte pour ma mamie…"
@@ -674,7 +700,9 @@
    "f2": "Il souligne tes fautes *en direct* dans Word.",
    "f3": "Et rien ne quitte ton ordi : *100 % privé*.",
    "p3": "Compte rendu envoyé ✔️",
-   "f4": "Pro 👔"
+   "f4": "Pro 👔",
+   "decor": "bureau",
+   "style": "nuit"
   },
   "post_text": "Un compte rendu de réunion propre en 2 minutes 👔 LexyLab souligne tes fautes en direct dans Word.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois envoyer le compte rendu…"
@@ -695,7 +723,9 @@
    "f2": "Il est *pensé pour la dyslexie*.",
    "f3": "Il repère les fautes que les autres *laissent passer*.",
    "p3": "Dossier envoyé ! 🤞",
-   "f4": "Croise les doigts 🤞"
+   "f4": "Croise les doigts 🤞",
+   "decor": "bureau",
+   "style": "couleur"
   },
   "post_text": "Une lettre de demande de bourse sans fautes 🎓 LexyLab repère les fautes que les autres laissent passer.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire ma lettre pour la bourse…"
@@ -716,7 +746,9 @@
    "f2": "Il comprend ce que tu *voulais écrire*.",
    "f3": "Et il marche dans *ton navigateur*.",
    "p3": "Vendue en 1 heure 🤑",
-   "f4": "Business 😎"
+   "f4": "Business 😎",
+   "decor": "cafe",
+   "style": "cahier"
   },
   "post_text": "Une annonce sans fautes, vendue plus vite 🤑 LexyLab comprend ce que tu voulais écrire.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je mets une veste en vente…"
@@ -737,7 +769,9 @@
    "f2": "Tes textes restent *sur ton ordi*. Rien n'est envoyé.",
    "f3": "Tu écris librement, il corrige en douceur.",
    "p3": "J'écris enfin sans me bloquer ✨",
-   "f4": "C'est ton espace 💚"
+   "f4": "C'est ton espace 💚",
+   "decor": "chambre",
+   "style": "nuit"
   },
   "post_text": "Écrire librement, sans que les fautes te bloquent ✨ LexyLab fonctionne sans internet : tes textes restent chez toi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je veux écrire mon journal sur l'ordi…"
@@ -758,7 +792,9 @@
    "f2": "Il corrige *avant* que toute la classe voie.",
    "f3": "Pensé *par un dys, pour les dys*.",
    "p3": "Slides parfaites 🔥",
-   "f4": "Tu vas gérer 💪"
+   "f4": "Tu vas gérer 💪",
+   "decor": "classe",
+   "style": "cahier"
   },
   "post_text": "Pas de faute géante sur tes slides 😱 LexyLab corrige avant que toute la classe voie.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je prépare mes slides pour l'oral…"
@@ -779,7 +815,9 @@
    "f2": "Il corrige *en direct*, même les fautes de son.",
    "f3": "Ton message sera *clair et pro*.",
    "p3": "Remboursé en 2 jours 💸",
-   "f4": "Efficace 👊"
+   "f4": "Efficace 👊",
+   "decor": "salon",
+   "style": "pastel"
   },
   "post_text": "Une réclamation claire qui se fait respecter 👊 LexyLab corrige en direct, même les fautes de son.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois faire une réclamation…"
@@ -800,7 +838,9 @@
    "f2": "Il souligne les fautes *sans jugement*.",
    "f3": "Et il marche sur *Mac et Windows*.",
    "p3": "Mot envoyé, zéro faute 🙌",
-   "f4": "Les dys adultes aussi méritent un bon outil 💚"
+   "f4": "Les dys adultes aussi méritent un bon outil 💚",
+   "decor": "bureau",
+   "style": "nuit"
   },
   "post_text": "Parents dys aussi 💚 LexyLab souligne les fautes sans jugement, sur Mac et Windows.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire un mot à l'instit de mon fils…"
@@ -821,7 +861,9 @@
    "f2": "Il comprend les mots *écrits comme on les entend*.",
    "f3": "Fait *pour la dyslexie*, pas pour les fautes de frappe.",
    "p3": "Commenté 😍",
-   "f4": "Elle va adorer 💕"
+   "f4": "Elle va adorer 💕",
+   "decor": "cafe",
+   "style": "couleur"
   },
   "post_text": "Même un petit commentaire, sans peur des fautes 🙈 LexyLab comprend les mots écrits comme on les entend.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je veux commenter la photo d'une amie…"
@@ -842,7 +884,9 @@
    "f2": "Il souligne *en direct*, tu corriges en un clic.",
    "f3": "Et tout reste *privé*, sans internet.",
    "p3": "Note envoyée 📢",
-   "f4": "Chef, oui chef 😄"
+   "f4": "Chef, oui chef 😄",
+   "decor": "bureau",
+   "style": "cahier"
   },
   "post_text": "Une note de service sans fautes en un clic 📢 LexyLab souligne en direct et reste 100 % privé.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois écrire une note pour toute l'équipe…"
@@ -863,7 +907,9 @@
    "f2": "Il est pensé *pour les dys*.",
    "f3": "Il t'aide à écrire *comme tu penses*.",
    "p3": "Candidature envoyée ✈️",
-   "f4": "Bon voyage d'avance 🌍"
+   "f4": "Bon voyage d'avance 🌍",
+   "decor": "cafe",
+   "style": "papier"
   },
   "post_text": "Une lettre Erasmus sans fautes ✈️ LexyLab t'aide à écrire comme tu penses.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois expliquer pourquoi je veux partir…"
@@ -884,7 +930,9 @@
    "f2": "Il te laisse écrire avec ton cœur, *il gère l'orthographe*.",
    "f3": "Doucement, *sans jugement*.",
    "p3": "Il m'a répondu « bien sûr » 🥹",
-   "f4": "Ça fait plaisir 💚"
+   "f4": "Ça fait plaisir 💚",
+   "decor": "bureau",
+   "style": "tableau"
   },
   "post_text": "Écris avec ton cœur, LexyLab gère l'orthographe 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je veux m'excuser auprès de mon ami…"
@@ -905,7 +953,9 @@
    "f2": "Il souligne au fur et à mesure, *même dans Word*.",
    "f3": "Tu peux te concentrer sur *tes idées*.",
    "p3": "Mémoire déposé 🎓",
-   "f4": "Diplômé bientôt 🥳"
+   "f4": "Diplômé bientôt 🥳",
+   "decor": "bureau",
+   "style": "pastel"
   },
   "post_text": "Un mémoire sans fautes, même pour les dys 🎓 LexyLab souligne au fur et à mesure dans Word.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "40 pages de mémoire à rendre…"
@@ -926,7 +976,9 @@
    "f2": "Il comprend *ce que tu voulais dire*.",
    "f3": "Sur *Mac et Windows*, même hors ligne.",
    "p3": "Ma recette cartonne 🥞",
-   "f4": "Miam 😋"
+   "f4": "Miam 😋",
+   "decor": "cuisine",
+   "style": "nuit"
   },
   "post_text": "Partager sa recette sans fautes 🥞 LexyLab comprend ce que tu voulais dire, même hors ligne.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je poste ma recette de crêpes sur mon blog…"
@@ -947,7 +999,9 @@
    "f2": "Il rend tes textes *clairs et pros*.",
    "f3": "Et tes données restent *sur ton ordi*.",
    "p3": "Devis accepté 🤝",
-   "f4": "L'entrepreneur dys 😎"
+   "f4": "L'entrepreneur dys 😎",
+   "decor": "bureau",
+   "style": "couleur"
   },
   "post_text": "Un devis propre qui inspire confiance 🤝 LexyLab rend tes textes clairs et pros.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Je dois envoyer un devis à un client…"
@@ -968,7 +1022,9 @@
    "f2": "Il corrige *en direct* pendant que tu écris.",
    "f3": "Tu relis tes notes *sans galérer*.",
    "p3": "Mes notes sont parfaites 😍",
-   "f4": "Prends ça, l'histoire 📜"
+   "f4": "Prends ça, l'histoire 📜",
+   "decor": "classe",
+   "style": "cahier"
   },
   "post_text": "Prendre des notes vite et sans fautes 📜 LexyLab corrige en direct pendant que tu écris.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "Le prof parle trop vite…"
@@ -989,7 +1045,9 @@
    "f2": "Il est pensé pour la dyslexie, *pas juste les fautes de frappe*.",
    "f3": "Simple, rapide, *privé*.",
    "p3": "Rendez-vous confirmé ✅",
-   "f4": "Prends soin de toi 💚"
+   "f4": "Prends soin de toi 💚",
+   "decor": "bureau",
+   "style": "papier"
   },
   "post_text": "Même les petits mails du quotidien, sans honte 💚 LexyLab est pensé pour la dyslexie.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "J'écris au cabinet médical…"
@@ -1010,7 +1068,9 @@
    "f2": "Il corrige *gentiment*, sans casser ton imagination.",
    "f3": "Tu écris, *il gère le reste*.",
    "p3": "Elle l'a adorée 🐉",
-   "f4": "Futur écrivain 📖"
+   "f4": "Futur écrivain 📖",
+   "decor": "chambre",
+   "style": "nuit"
   },
   "post_text": "Écrire des histoires sans que les fautes cassent l'imagination 🐉 LexyLab gère l'orthographe pour toi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "J'écris une histoire pour ma petite sœur…"

@@ -49,6 +49,8 @@
 </div>
 <script src="../lib/common.js"></script>
 <script>
+/* params en plus : decor = bureau | chambre | salon | cuisine | bibliotheque | classe | cafe ;
+   style = papier | cahier | pastel | nuit | tableau | couleur  (varier d'une vidéo à l'autre) */
 const U_voice=p=>U.voiceEvents(p);
 // ---------- Timeline ----------
 const TL = {
@@ -84,9 +86,9 @@ const P=(d,extra='')=>`<path d="${d}" ${extra}/>`;
 
 function hair(kind,cx,cy,r){
   switch(kind){
-    case 'curly': { let s=''; for(let i=0;i<7;i++){const a=Math.PI*(1.05+i*0.15); s+=C(cx+Math.cos(a)*r*0.95,cy+Math.sin(a)*r*0.95,r*0.26,'fill="#fff"');} return s; }
+    case 'curly': { let s=''; for(let i=0;i<7;i++){const a=Math.PI*(1.05+i*0.15); s+=C(cx+Math.cos(a)*r*0.95,cy+Math.sin(a)*r*0.95,r*0.26,`fill="${FACEC()}"`);} return s; }
     case 'short': return P(`M${cx-r*0.9},${cy-r*0.35} Q${cx-r*0.6},${cy-r*1.25} ${cx},${cy-r*1.05} Q${cx+r*0.6},${cy-r*1.25} ${cx+r*0.92},${cy-r*0.35}`)+L(cx-r*0.2,cy-r*1.02,cx-r*0.05,cy-r*0.7)+L(cx+r*0.25,cy-r*1.0,cx+r*0.3,cy-r*0.72);
-    case 'bun': return C(cx,cy-r*1.22,r*0.36,'fill="#111"');
+    case 'bun': return C(cx,cy-r*1.22,r*0.36,'fill="currentColor"');
     case 'ponytail': return P(`M${cx-r*0.95},${cy-r*0.2} Q${cx-r*0.2},${cy-r*1.3} ${cx+r*0.95},${cy-r*0.3}`,'stroke-width="9"')+P(`M${cx+r*0.85},${cy-r*0.55} q${r*0.9},${r*0.1} ${r*0.55},${r*1.2}`,'stroke-width="12"');
     case 'cap': return P(`M${cx-r*0.95},${cy-r*0.2} Q${cx},${cy-r*1.45} ${cx+r*0.95},${cy-r*0.2} Z`,'fill="#3B7BF0"')+L(cx+r*0.6,cy-r*0.22,cx+r*1.55,cy-r*0.18,'stroke-width="9"');
     case 'long': return P(`M${cx-r*0.95},${cy+r*0.9} Q${cx-r*1.25},${cy-r*1.3} ${cx},${cy-r*1.05} Q${cx+r*1.25},${cy-r*1.3} ${cx+r*0.95},${cy+r*0.9}`,'stroke-width="8"');
@@ -94,13 +96,13 @@ function hair(kind,cx,cy,r){
   }
 }
 function face(cx,cy,r,mood,talk,t,lookX=0){
-  let s=C(cx,cy,r,'fill="#fff"');
+  let s=C(cx,cy,r,`fill="${FACEC()}"`);
   const ex=cx+lookX, ey=cy-r*0.12;
-  if(mood==='surprised'){ s+=C(ex-r*0.33,ey,6,'fill="#111"')+C(ex+r*0.33,ey,6,'fill="#111"'); }
-  else { s+=C(ex-r*0.32,ey,5.5,'fill="#111" stroke-width="3"')+C(ex+r*0.32,ey,5.5,'fill="#111" stroke-width="3"'); }
+  if(mood==='surprised'){ s+=C(ex-r*0.33,ey,6,'fill="currentColor"')+C(ex+r*0.33,ey,6,'fill="currentColor"'); }
+  else { s+=C(ex-r*0.32,ey,5.5,'fill="currentColor" stroke-width="3"')+C(ex+r*0.32,ey,5.5,'fill="currentColor" stroke-width="3"'); }
   const my=cy+r*0.42, mx=cx+lookX*0.8;
   if(mood==='worried'){ s+=L(ex-r*0.52,ey-r*0.42,ex-r*0.15,ey-r*0.3,'stroke-width="5"')+L(ex+r*0.52,ey-r*0.42,ex+r*0.15,ey-r*0.3,'stroke-width="5"'); }
-  if(talk){ const o=(Math.sin(t*24)+1)/2; s+=`<ellipse cx="${mx}" cy="${my}" rx="${r*0.2}" ry="${3+o*r*0.2}" fill="#111" stroke-width="4"/>`; return s; }
+  if(talk){ const o=(Math.sin(t*24)+1)/2; s+=`<ellipse cx="${mx}" cy="${my}" rx="${r*0.2}" ry="${3+o*r*0.2}" fill="currentColor" stroke-width="4"/>`; return s; }
   switch(mood){
     case 'happy': s+=P(`M${mx-r*0.38},${my-6} Q${mx},${my+r*0.32} ${mx+r*0.38},${my-6}`,'stroke-width="6"'); break;
     case 'surprised': s+=C(mx,my+4,r*0.15,'stroke-width="5"'); break;
@@ -110,18 +112,66 @@ function face(cx,cy,r,mood,talk,t,lookX=0){
   return s;
 }
 
+
+// ---------- Styles graphiques ----------
+const STYLES = {
+  papier:  {bg:'#FAF8F3', ink:'#111', cap:'#777'},
+  cahier:  {bg:'#FDFDFB', ink:'#1F2A44', cap:'#5A6A8A', grid:true},
+  pastel:  {bg:'#FFF6EC', ink:'#2B2B2B', cap:'#8A6F5A', fill:true, wall:'#FCE3D3', floor:'#E9D5C1'},
+  nuit:    {bg:'#1B2238', ink:'#F4F1EA', cap:'#AFB8D6', night:true},
+  tableau: {bg:'#23463A', ink:'#F2F2EC', cap:'#BFD8CC', chalk:true},
+  couleur: {bg:'#F3F8FF', ink:'#111', cap:'#6B7A90', fill:true, wall:'#DDEBFF', floor:'#CFE3D6'},
+};
+function FACEC(){ const st=STYLE(); return (st.night||st.chalk)? st.bg : '#fff'; }
+function STYLE(){ return STYLES[SC.style]||STYLES.papier; }
+function applyStyle(){
+  const st=STYLE(); const stage=document.getElementById('stage');
+  stage.style.background=st.bg; document.body.style.background=st.bg;
+  document.getElementById('world').setAttribute('stroke',st.ink); document.getElementById('world').style.color=st.ink;
+  document.getElementById('cap').style.color=st.cap;
+  document.querySelector('.hdr').style.color=st.ink;
+  if(st.grid) stage.style.backgroundImage='linear-gradient(#DCE6F5 2px,transparent 2px),linear-gradient(90deg,#DCE6F5 2px,transparent 2px)', stage.style.backgroundSize='54px 54px';
+  if(st.chalk||st.night) document.getElementById('end').style.background='#FAF8F3';
+}
+// ---------- Décors ----------
+const DECORS = {
+  bureau:(fl,st)=> L(50,560,270,560)+`<rect x="70" y="470" width="34" height="90" stroke="#3B7BF0" stroke-width="6" ${fl('#CFE0FF')}/><rect x="112" y="490" width="34" height="70" stroke-width="6" ${fl('#FFF1C9')}/><rect x="154" y="455" width="30" height="105" stroke="#1DB584" stroke-width="6" ${fl('#D3F5E6')}/>`+L(200,480,240,555,'stroke-width="6"')
+     + `<rect x="820" y="640" width="150" height="680" stroke-width="7" ${fl('#E8D2B8')}/>`+C(845,990,7,'fill="currentColor" stroke-width="7"'),
+  chambre:(fl,st)=> `<rect x="520" y="470" width="230" height="260" stroke-width="7" ${fl(st.night?'#2E3A66':'#D7EEFF')}/>`+L(635,470,635,730)+L(520,600,750,600)
+     + P('M505,460 Q545,600 515,745','stroke-width="6"')+P('M765,460 Q725,600 755,745','stroke-width="6"')
+     + (st.night? C(700,520,22,'fill="#F7E7A1" stroke-width="5"'):'')
+     + `<rect x="90" y="450" width="150" height="190" stroke-width="6" ${fl('#FFD6E0')}/>`+P('M165,490 l14,30 32,4 -24,22 7,32 -29,-16 -29,16 7,-32 -24,-22 32,-4 z','stroke-width="5" fill="#F7C948"')
+     + `<rect x="790" y="1150" width="300" height="110" stroke-width="7" ${fl('#C9E4FF')}/>`+L(790,1260,790,1320)+L(1060,1260,1060,1320)+`<rect x="800" y="1110" width="110" height="45" rx="18" stroke-width="6" ${fl('#fff')}/>`+L(790,1150,790,1060,'stroke-width="8"'),
+  salon:(fl,st)=> P('M800,1320 L800,1120 Q800,1080 840,1080 L1060,1080 L1060,1320','stroke-width="7" '+fl('#F4C7A1'))+L(800,1190,1060,1190)+`<rect x="830" y="1130" width="90" height="60" rx="16" stroke-width="5" ${fl('#FFF1C9')}/>`
+     + `<rect x="560" y="480" width="200" height="150" stroke-width="6" ${fl('#E2F3EA')}/>`+P('M575,615 L630,540 L670,590 L700,555 L745,615','stroke-width="5"')+C(720,515,12,'stroke-width="4"')
+     + L(150,380,150,470,'stroke-width="4"')+P('M110,470 L190,470 L170,520 L130,520 Z','stroke-width="5" fill="#F7C948"')
+     + P('M110,1320 L120,1230 L190,1230 L200,1320','stroke-width="6" '+fl('#E8B48A'))+P('M155,1230 Q120,1150 90,1130 M155,1230 Q150,1140 160,1100 M155,1230 Q195,1160 225,1140','stroke="#1DB584" stroke-width="7"'),
+  cuisine:(fl,st)=> `<rect x="830" y="700" width="190" height="620" rx="16" stroke-width="7" ${fl('#EAF2F7')}/>`+L(830,900,1020,900)+L(850,760,850,850)+L(850,950,850,1040)
+     + `<rect x="60" y="450" width="160" height="120" stroke-width="6" ${fl('#F9E1C3')}/><rect x="230" y="450" width="160" height="120" stroke-width="6" ${fl('#F9E1C3')}/>`+C(200,510,6,'fill="currentColor"')+C(250,510,6,'fill="currentColor"')
+     + C(580,520,55,'stroke-width="6" '+fl('#fff'))+L(580,520,580,485,'stroke-width="5"')+L(580,520,605,535,'stroke-width="5"'),
+  bibliotheque:(fl,st)=> [40,840].map(x=>`<rect x="${x}" y="470" width="200" height="850" stroke-width="7" ${fl('#E9D2B4')}/>`+[640,820,1000,1180].map(y=>L(x,y,x+200,y,'stroke-width="6"')).join('')
+       + [0,1,2,3].map(r=>[0,1,2,3,4].map(k=>`<rect x="${x+12+k*36}" y="${560+r*180-((k*37+r*11)%40)}" width="26" height="${80+((k*37+r*11)%40)}" stroke-width="4" stroke="${['#3B7BF0','#1DB584','#E23B3B','#F7C948','currentColor'][(k+r)%5]}" ${fl('#fff')}/>`).join('')).join('')).join('')
+     + `<rect x="430" y="470" width="220" height="80" rx="12" stroke-width="5" ${fl('#fff')}/><text x="540" y="523" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="36" fill="currentColor" stroke="none">Chut ! 🤫</text>`,
+  classe:(fl,st)=> `<rect x="480" y="460" width="540" height="300" rx="10" stroke-width="8" fill="#2F5D4E"/><text x="750" y="560" text-anchor="middle" font-family="Poppins" font-weight="600" font-size="50" fill="#F2F2EC" stroke="none">Dictée</text>`
+     + `<text x="750" y="640" text-anchor="middle" font-family="Poppins" font-size="34" fill="#F2F2EC" stroke="none">lundi 9 novembre</text>`+L(500,760,1000,760,'stroke-width="10"')
+     + C(150,540,60,'stroke-width="6" '+fl('#fff'))+L(150,540,150,500,'stroke-width="5"')+L(150,540,180,555,'stroke-width="5"'),
+  cafe:(fl,st)=> P('M480,470 L1040,470 L1040,560 L480,560','stroke-width="6" '+fl('#FFE1E1'))+[0,1,2,3,4,5,6].map(k=>L(480+k*80,560,520+k*80,600,'stroke-width="5"')).join('')
+     + `<rect x="560" y="640" width="240" height="160" rx="10" stroke-width="6" fill="#2E3B33"/><text x="680" y="700" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="30" fill="#F2F2EC" stroke="none">Café 2€</text><text x="680" y="750" text-anchor="middle" font-family="Poppins" font-size="26" fill="#F2F2EC" stroke="none">Thé 2€50</text>`
+     + `<rect x="740" y="960" width="34" height="44" rx="6" stroke-width="5" ${fl('#fff')}/>`+P('M774,972 q16,6 0,20','stroke-width="4"')+P('M748,950 q6,-14 0,-26 M764,950 q6,-14 0,-26','stroke-width="3"'),
+};
+
 function drawWorld(t){
   const sc=SC; let s='';
-  // ground
+  // ---- décor (params.decor) et style graphique (params.style) ----
+  const deco = sc.decor||'bureau', st=STYLE();
+  const fl = c => st.fill? `fill="${c}"` : 'fill="none"';
+  if(st.wall) s+=`<rect x="-20" y="380" width="1120" height="940" fill="${st.wall}" stroke="none"/><rect x="-20" y="1320" width="1120" height="260" fill="${st.floor}" stroke="none"/>`;
   s+=L(-20,1320,1100,1320);
-  // shelf + books
-  s+=L(50,560,270,560)+`<rect x="70" y="470" width="34" height="90" stroke="#3B7BF0" stroke-width="6"/><rect x="112" y="490" width="34" height="70" stroke-width="6"/><rect x="154" y="455" width="30" height="105" stroke="#1DB584" stroke-width="6"/>`+L(200,480,240,555,'stroke-width="6"');
-  // door
-  s+=`<rect x="820" y="640" width="150" height="680" stroke-width="7"/>`+C(845,990,7,'fill="#111"');
+  s+=DECORS[deco]? DECORS[deco](fl,st) : DECORS.bureau(fl,st);
   // desk
   s+=L(410,1010,770,1010,'stroke-width="9"')+L(430,1010,430,1320)+L(750,1010,750,1320);
   // lamp
-  s+=L(730,1005,710,1005)+L(720,1005,735,905)+`<path d="M720,880 L775,905 L742,935 Z" fill="#F7C948" stroke-width="6"/>`;
+  if(['bureau','chambre','bibliotheque'].includes(deco)){     s+=L(730,1005,710,1005)+L(720,1005,735,905)+`<path d="M720,880 L775,905 L742,935 Z" fill="#F7C948" stroke-width="6"/>`; }
   // laptop (side view)
   // ordinateur vu de côté : clavier côté personnage, écran au fond tourné VERS le personnage
   s+=L(500,1003,650,1003,'stroke-width="8"')+L(650,1003,676,880,'stroke-width="8"');
@@ -221,6 +271,7 @@ function showScreen(t){
 function init(sc){
   SC=sc; segs=parseScreen(sc.screen); wrongLen=segs.reduce((a,s)=>a+(s.t!==undefined? s.t.length: s.e.length),0);
   document.getElementById('cap').textContent=sc.caption||'';
+  applyStyle();
   setupBubble('b_hero','hero'); setupBubble('b_friend','friend');
   const nfix=segs.filter(s=>s.e).length;
   // events for the soundtrack

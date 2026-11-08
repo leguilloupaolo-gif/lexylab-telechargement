@@ -21,6 +21,14 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   « Il me faut de nouvelles captures de LexyLab ».
 - `render.py` : le moteur. `python3 render.py <idee_id> <sortie.mp4>` ; `--preview <idee_id> <dossier>` donne 12 images de contrôle.
 
+## Variété visuelle (demande de Paolo)
+- **Ne jamais refaire le même décor ni le même style deux vidéos de suite.** Vérifie les 3 dernières entrées du journal.
+- Sketch : `params.decor` = bureau, chambre, salon, cuisine, bibliotheque, classe, cafe (choisis le décor qui va avec l'histoire)
+  et `params.style` = papier, cahier, pastel, nuit, tableau, couleur. Le style « nuit » va bien avec les scènes du soir.
+- Kinetic : varier `theme` (clair, sombre, vert, bleu). Tu peux aussi créer de nouveaux décors ou styles dans les formats
+  (en gardant les anciens), puis les vérifier avec `--preview`.
+- Note `decor` et `style` dans le journal, et compare-les le lundi : certains styles retiennent peut-être mieux l'attention.
+
 ## Routine quotidienne
 1. Lire `STRATEGIE.md` (sections 6, 7, 8), `journal.json` et la fin de `performance.json`.
 2. **Si on est lundi** (ou si la dernière analyse a plus de 7 jours) : faire l'analyse hebdo (voir plus bas) avant de publier.
