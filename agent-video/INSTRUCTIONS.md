@@ -44,6 +44,17 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   (en gardant les anciens), puis les vérifier avec `--preview`.
 - Note `decor` et `style` dans le journal, et compare-les le lundi : certains styles retiennent peut-être mieux l'attention.
 
+## Les statistiques guident tout (demande de Paolo)
+- **Chaque jour** (pas seulement le lundi), avant de choisir le post : relève les chiffres des posts des 14 derniers jours
+  (`getAnalyticsDataByMetrics`, mêmes métriques que l'analyse hebdo) et mets à jour `performance.json`.
+- Repère ce qui marche le mieux : format, pilier, cible (mamans, étudiants…), rendu ou style, accroche, heure, réseau.
+  Compare Instagram et TikTok séparément, car ils ne réagissent pas pareil.
+- **Fais plus de ce qui marche** : 70 % des posts reprennent les formats et sujets gagnants, avec de nouvelles idées.
+  Fais moins de ce qui ne marche pas : un format qui reste 2 semaines en bas du classement passe en « pari » (10 %).
+- Écris dans le journal, pour chaque post, **pourquoi** tu l'as choisi d'après les chiffres (`raison_stats`).
+- Les posts marqués `"republication": true` dans le journal ne comptent pas dans le quota du jour,
+  mais leurs chiffres comptent dans les stats.
+
 ## Routine quotidienne
 1. Lire `STRATEGIE.md` (sections 6, 7, 8), `journal.json` et la fin de `performance.json`.
 2. **Si on est lundi** (ou si la dernière analyse a plus de 7 jours) : faire l'analyse hebdo (voir plus bas) avant de publier.

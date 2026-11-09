@@ -56,9 +56,9 @@
  {
   "date": "2026-11-09",
   "id": "demo-maman-mot-prof",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof-v2.mp4",
-  "instagram": "18:00 (Metricool 421708307)",
-  "tiktok": "18:00 (Metricool 421708341)",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof-v3.mp4",
+  "instagram": "18:00 (Metricool 421998878)",
+  "tiktok": "18:00 (Metricool 421998956)",
   "format": "demo",
   "pilier": "mamans",
   "hypothese": "70 % : mamans + demo le soir (après les devoirs) ; la maman elle-même dys s'identifie et partage. 2e demo, à comparer à demo-mail-prof (10 h).",
@@ -67,5 +67,32 @@
   "rendu": "maquette demo",
   "voix": "Amélie (hook + s0 à s4)",
   "note": "Refaite le 9/11 à 12h50 : voix corrigées (bug « Thomas »)"
+ },
+ {
+  "date": "2026-11-09",
+  "id": "kin-fondateur",
+  "republication": true,
+  "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-kin-fondateur-v3.mp4",
+  "instagram": "20:30 (Metricool 421999047)",
+  "tiktok": "20:30 (Metricool 421999136)"
+ },
+ {
+  "date": "2026-11-10",
+  "id": "sketch-devoir-francais",
+  "republication": true,
+  "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-sketch-devoir-francais-v3.mp4",
+  "instagram": "13:00 (Metricool 421999216)",
+  "tiktok": "13:00 (Metricool 421999301)"
+ },
+ {
+  "date": "2026-11-10",
+  "id": "kin-mamans-message",
+  "republication": true,
+  "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-kin-mamans-message-v3.mp4",
+  "instagram": "20:30 (Metricool 421999390)",
+  "tiktok": "20:30 (Metricool 421999448)"
  }
 ]
