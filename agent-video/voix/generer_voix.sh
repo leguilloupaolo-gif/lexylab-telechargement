@@ -9,7 +9,7 @@ git pull -q --rebase origin main
 LISTE=$(say -v '?')
 
 meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le nom exact de la meilleure voix fr installée
-  for qual in "Premium" "Enhanced" "Améliorée" "Amélioré" ""; do
+  for qual in "Premium" "premium" "Enhanced" "de qualité" "Améliorée" "Amélioré" ""; do
     for nom in $1; do
       ligne=$(echo "$LISTE" | grep -E "^$nom" | grep -E "fr_(FR|BE|CA|CH)" | { if [ -n "$qual" ]; then grep "($qual)"; else grep -v "("; fi; } | head -1)
       if [ -n "$ligne" ]; then echo "$ligne" | sed -E 's/ +fr_.*$//' | sed -E 's/ +$//'; return; fi
