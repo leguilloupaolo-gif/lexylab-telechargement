@@ -622,7 +622,7 @@
    "to": "ecole.primaire@ecole.be",
    "subject": "Absence jeudi",
    "screen": "Bonjour Madame, mon fils sera [absan|absent] [jeudie|jeudi] pour un rendez-vous chez la [logopaide|logopède]. [Mersi|Merci] !",
-   "explain": "« logopède » : le son [è] s'écrit ici *« è »*.",
+   "explain": "« absent » : le son [an] s'écrit ici *« en »*.",
    "subs": [
     "Le mot pour l'école…",
     "LexyLab souligne les fautes",
@@ -655,7 +655,7 @@
     },
     {
      "text": "Parce que je suis *dyslexique* et *dysorthographique*.",
-     "size": "l"
+     "size": "m"
     },
     {
      "text": "Aucun correcteur ne comprenait ma façon d'écrire.",
