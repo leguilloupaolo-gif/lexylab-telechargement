@@ -7,12 +7,12 @@ Le Mac fabrique ensuite les fichiers automatiquement (12h30 et 19h45).
 
 Noms de fichiers (lus automatiquement par les formats) :
   kinetic : <id>-<n>       (n = numéro de carte, à partir de 0)
-  sketch  : <id>-p1, -p2, -f1, -f2, -f3, -p3, -f4   (une voix par bulle ; personne dys = Thomas, ami(e)/maman = Amélie)
+  sketch  : <id>-p1, -p2, -f1, -f2, -f3, -p3, -f4   (une voix par bulle ; personne dys = voix principale, ami(e)/maman = voix seconde)
   demo    : <id>-hook, -s0 … -s4   (accroche + sous-titres)
   quiz    : <id>-q, -a, -c          (question, réponse, appel à commenter)
   capture : <id>-hook, -p<plan>-s<n>
   presentation (vidéo) : <id>-<n> (n = numéro de scène) ; les carrousels n'ont pas de voix
-Format d'une ligne : voix/<fichier>.m4a|texte|voix (voix = Thomas ou Amélie ; vide = Thomas)
+Format d'une ligne : voix/<fichier>.m4a|texte|principale ou seconde (seconde = 2e personnage d'un sketch seulement)
 Tu peux ensuite retoucher les textes à la main dans a-generer.txt (prononciation, rythme).
 """
 import json, os, re, sys
@@ -36,7 +36,7 @@ def clean(t):
 
 def lines_for(idea):
     i, f, p = idea["id"], idea["format"], idea["params"]
-    narr = "Amélie" if idea.get("pilier") == "mamans" else "Thomas"
+    narr = "principale"   # choix de Paolo : la voix principale partout
     out = []
     if f == "kinetic":
         for n, s in enumerate(p["slides"]):
@@ -48,7 +48,7 @@ def lines_for(idea):
     elif f == "sketch":
         for k in ["p1", "p2", "f1", "f2", "f3", "p3", "f4"]:
             if p.get(k):
-                out.append((f"{i}-{k}", clean(p[k]), "Thomas" if k[0] == "p" else "Amélie"))
+                out.append((f"{i}-{k}", clean(p[k]), "principale" if k[0] == "p" else "seconde"))
     elif f == "demo":
         out.append((f"{i}-hook", clean(p.get("hook")), narr))
         for n, s in enumerate(p.get("subs", [])):

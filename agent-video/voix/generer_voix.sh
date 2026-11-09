@@ -16,21 +16,15 @@ meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le n
     done
   done
 }
-# Voix féminine : Audrey (la plus naturelle, haute qualité) puis Aurélie
-FEMME=$(meilleure "Audrey Aurélie Amélie Marie Céline")
-# Voix « homme » : une voix masculine améliorée si elle existe ; sinon on préfère une voix NATURELLE (Aurélie)
-# à un Thomas robotique (demande de Paolo : la voix la moins robotique possible).
-HOMME=$(echo "$LISTE" | grep -E "^(Thomas|Jacques|Daniel|Nicolas) \((Premium|Enhanced|Améliorée|Amélioré)\)" | grep fr_ | head -1 | sed -E 's/ +fr_.*$//')
-if [ -z "$HOMME" ]; then
-  for nom in "Aurélie" "Audrey"; do
-    if echo "$LISTE" | grep -E "^$nom( |\()" | grep -q fr_ && [ "$(echo "$LISTE" | grep -E "^$nom" | head -1 | sed -E 's/ +fr_.*$//')" != "$FEMME" ]; then
-      HOMME=$(echo "$LISTE" | grep -E "^$nom" | head -1 | sed -E 's/ +fr_.*$//'); break; fi
-  done
-fi
-[ -z "$HOMME" ] && HOMME=$(meilleure "Thomas")
-[ -z "$HOMME" ] && HOMME=$(echo "$LISTE" | grep -E "fr_FR" | head -1 | sed -E 's/ +fr_.*$//')
-[ -z "$FEMME" ] && FEMME="$HOMME"
-echo "Voix homme : $HOMME | Voix femme : $FEMME"
+# Choix de Paolo (9/11) : voix PRINCIPALE = Aurélie (premium), partout.
+# Voix SECONDE (seulement pour le 2e personnage des dialogues) = Audrey (premium).
+PRINCIPALE=$(meilleure "Aurélie Audrey Amélie")
+SECONDE=$(meilleure "Audrey Amélie Marie")
+[ "$SECONDE" = "$PRINCIPALE" ] && SECONDE=$(meilleure "Audrey")
+[ -z "$PRINCIPALE" ] && PRINCIPALE=$(echo "$LISTE" | grep -E "fr_FR" | head -1 | sed -E 's/ +fr_.*$//')
+[ -z "$SECONDE" ] && SECONDE="$PRINCIPALE"
+HOMME="$PRINCIPALE"; FEMME="$SECONDE"
+echo "Voix principale : $PRINCIPALE | Voix seconde : $SECONDE"
 
 MANIF="agent-video/voix/voix-utilisees.txt"; touch "$MANIF"
 n=0
@@ -38,7 +32,7 @@ while IFS='|' read -r fichier texte voixligne; do
   [ -z "$fichier" ] && continue
   case "$fichier" in \#*) continue;; esac
   texte="${texte%%|*}"   # sécurité : ne jamais lire le nom de la voix à voix haute
-  v="$HOMME"; case "$voixligne" in Am*|am*|Au*|femme|Femme) v="$FEMME";; esac
+  v="$PRINCIPALE"; case "$voixligne" in seconde|Seconde) v="$SECONDE";; esac
   cible="agent-video/$fichier"
   deja=$(grep -F "$fichier|" "$MANIF" | tail -1 | cut -d'|' -f2)
   # refaire si : fichier absent, ou fabriqué avec une autre voix, ou ancien fichier sans trace (avant le 9/11)
@@ -55,7 +49,7 @@ while IFS='|' read -r fichier texte voixligne; do
 done < agent-video/voix/a-generer.txt
 if [ $n -gt 0 ]; then
   git add agent-video/voix
-  git commit -q -m "Voix off : $n voix (Mac : $HOMME / $FEMME)"
+  git commit -q -m "Voix off : $n voix (Mac)"
   git push -q origin HEAD
   echo "$n voix envoyées à l'agent."
 else

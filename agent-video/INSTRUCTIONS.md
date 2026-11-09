@@ -81,15 +81,15 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   ponctuation qui donne le rythme (virgules, points), pas de mots en majuscules, pas de listes lues mot à mot.
   Détails : chaque texte affiché est aussi dit par une voix off.
   L'environnement de l'agent n'a pas de synthèse vocale : les voix sont fabriquées **automatiquement sur le Mac de Paolo**
-  (voix d'Apple : Thomas = voix masculine, Amélie = voix féminine) tous les jours à 12h30 et 19h45, puis poussées sur GitHub.
+  (choix de Paolo : voix principale = Aurélie premium, partout ; voix seconde = Audrey premium, seulement pour le 2e personnage des sketchs) tous les jours à 12h30 et 19h45, puis poussées sur GitHub.
   1. **Toujours 2 à 3 jours d'avance** : chaque jour, vérifie que les idées des 3 prochains jours ont leurs voix.
      Sinon, lance `python3 voix/preparer_voix.py <idee_id> …` (ou `--a-venir`). Ce script écrit les lignes dans `voix/a-generer.txt`
      à partir des textes de l'idée. Relis et retouche les textes si besoin : phrases courtes, nombres en lettres si c'est ambigu,
      pas d'anglais, pas de sigles. Puis commit et push.
   2. Les formats trouvent les voix tout seuls grâce au nom du fichier (voir l'en-tête de `voix/preparer_voix.py`) :
-     kinetic `<id>-<n>`, sketch `<id>-p1/-p2/-f1…` (personne dys = Thomas, ami(e) ou maman = Amélie), demo `<id>-hook/-s0…`,
+     kinetic `<id>-<n>`, sketch `<id>-p1/-p2/-f1…` (personne dys = voix principale, ami(e) ou maman = voix seconde), demo `<id>-hook/-s0…`,
      quiz `<id>-q/-a/-c`, capture `<id>-hook/-p<plan>-s<n>`. Les voix ne se chevauchent jamais et la vidéo s'allonge si besoin.
-  3. Pilier « mamans » : narratrice Amélie. Ailleurs : Thomas. Tu peux tester d'autres choix dans les 10 % de paris.
+  3. Narration : toujours la voix principale. Dans les fichiers, 3e champ = `principale` ou `seconde`. Ne change pas ce choix.
   4. **Le jour J, ne publie que des idées dont TOUTES les voix existent.** Si une idée n'a pas encore ses voix,
      garde-la pour plus tard et prends-en une qui les a. Si aucune vidéo n'est prête, publie un carrousel
      et écris dans le résumé : « Voix off manquantes : allume ton Mac (il fabrique les voix à 12h30 et 19h45) ».
