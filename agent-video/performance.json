@@ -1,5 +1,5 @@
 {
- "derniere_analyse": "2026-11-05",
+ "derniere_analyse": "2026-11-09",
  "posts": [
   {
    "date": "2026-10-16",
@@ -7,7 +7,8 @@
    "format": "carrousel/video",
    "pilier": "fondateur",
    "reseau": "tiktok",
-   "vues": 1864
+   "vues": 1864,
+   "score": 1864
   },
   {
    "date": "2026-10-17",
@@ -16,7 +17,8 @@
    "pilier": "emotion",
    "reseau": "tiktok",
    "vues": 862,
-   "partages": 1
+   "partages": 1,
+   "score": 872
   },
   {
    "date": "2026-10-19",
@@ -24,7 +26,11 @@
    "format": "video",
    "pilier": "emotion",
    "reseau": "tiktok",
-   "vues": 356
+   "vues": 356,
+   "partages": 0,
+   "likes": 20,
+   "commentaires": 0,
+   "score": 356
   },
   {
    "date": "2026-10-24",
@@ -32,7 +38,11 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "tiktok",
-   "vues": 276
+   "vues": 278,
+   "partages": 0,
+   "likes": 17,
+   "commentaires": 0,
+   "score": 278
   },
   {
    "date": "2026-10-26",
@@ -41,7 +51,10 @@
    "pilier": "situations",
    "reseau": "tiktok",
    "vues": 280,
-   "partages": 1
+   "partages": 1,
+   "likes": 14,
+   "commentaires": 0,
+   "score": 290
   },
   {
    "date": "2026-10-28",
@@ -49,7 +62,11 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "tiktok",
-   "vues": 280
+   "vues": 281,
+   "partages": 0,
+   "likes": 20,
+   "commentaires": 0,
+   "score": 281
   },
   {
    "date": "2026-10-30",
@@ -58,7 +75,10 @@
    "pilier": "situations",
    "reseau": "tiktok",
    "vues": 740,
-   "partages": 1
+   "partages": 1,
+   "likes": 15,
+   "commentaires": 0,
+   "score": 750
   },
   {
    "date": "2026-10-15",
@@ -66,7 +86,8 @@
    "format": "carrousel",
    "pilier": "fondateur",
    "reseau": "instagram",
-   "vues": 86
+   "vues": 86,
+   "score": 86
   },
   {
    "date": "2026-10-16",
@@ -74,7 +95,8 @@
    "format": "video",
    "pilier": "emotion",
    "reseau": "instagram",
-   "vues": 582
+   "vues": 582,
+   "score": 582
   },
   {
    "date": "2026-10-19",
@@ -82,9 +104,13 @@
    "format": "video",
    "pilier": "emotion",
    "reseau": "instagram",
-   "vues": 616,
+   "vues": 619,
    "partages": 1,
-   "commentaires": 1
+   "commentaires": 0,
+   "portee": 538,
+   "sauvegardes": 1,
+   "temps_moyen_s": 8.2,
+   "score": 639
   },
   {
    "date": "2026-10-24",
@@ -92,7 +118,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 184
+   "vues": 195,
+   "portee": 147,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 3.4,
+   "score": 195
   },
   {
    "date": "2026-10-26",
@@ -100,7 +132,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 182
+   "vues": 191,
+   "portee": 149,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 4.6,
+   "score": 191
   },
   {
    "date": "2026-10-28",
@@ -108,8 +146,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 340,
-   "commentaires": 5
+   "vues": 348,
+   "commentaires": 0,
+   "portee": 290,
+   "partages": 5,
+   "sauvegardes": 0,
+   "temps_moyen_s": 8.1,
+   "score": 398
   },
   {
    "date": "2026-10-30",
@@ -117,7 +160,118 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 258
+   "vues": 269,
+   "portee": 202,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 6.7,
+   "score": 269
+  },
+  {
+   "date": "2026-11-05",
+   "id": "cv",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 237,
+   "portee": 195,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 4.2,
+   "score": 237
+  },
+  {
+   "date": "2026-11-06",
+   "id": "demo-mail-prof",
+   "format": "demo",
+   "pilier": "demo",
+   "reseau": "instagram",
+   "vues": 176,
+   "portee": 132,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 2,
+   "temps_moyen_s": 4.3,
+   "score": 186
+  },
+  {
+   "date": "2026-11-07",
+   "id": "kin-mamans-message",
+   "format": "kinetic",
+   "pilier": "mamans",
+   "reseau": "instagram",
+   "vues": 150,
+   "portee": 117,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 3.6,
+   "score": 150
+  },
+  {
+   "date": "2026-11-08",
+   "id": "sketch-devoir-francais",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 153,
+   "portee": 124,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 5.5,
+   "score": 153
+  },
+  {
+   "date": "2026-11-05",
+   "id": "cv",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "tiktok",
+   "vues": 755,
+   "partages": 1,
+   "likes": 21,
+   "commentaires": 0,
+   "score": 765
+  },
+  {
+   "date": "2026-11-06",
+   "id": "demo-mail-prof",
+   "format": "demo",
+   "pilier": "demo",
+   "reseau": "tiktok",
+   "vues": 690,
+   "partages": 0,
+   "likes": 11,
+   "commentaires": 0,
+   "score": 690
+  },
+  {
+   "date": "2026-11-07",
+   "id": "kin-mamans-message",
+   "format": "kinetic",
+   "pilier": "mamans",
+   "reseau": "tiktok",
+   "vues": 779,
+   "partages": 0,
+   "likes": 19,
+   "commentaires": 0,
+   "score": 779
+  },
+  {
+   "date": "2026-11-08",
+   "id": "sketch-devoir-francais",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "tiktok",
+   "vues": 305,
+   "partages": 0,
+   "likes": 11,
+   "commentaires": 0,
+   "score": 305
   }
- ]
+ ],
+ "note_2026-11-09": "Relevé du 9/11 sur 21 jours. Instagram : IGRE21 = partages (groupe-classe : 5 partages, et non 5 commentaires). TikTok : 0 commentaire relevé partout ; taux vu en entier et temps moyen non renvoyés par Metricool. Posts du 7 et 8/11 trop récents (< 3 jours) pour conclure."
 }

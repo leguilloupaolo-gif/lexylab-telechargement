@@ -69,8 +69,24 @@ mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
 - Hypothèse de départ : **émotion + école + histoire vraie** > situations pro. À tester.
 - Pas encore de données sur les formats demo, quiz, kinetic : à tester dans les 2 premières semaines.
 
+**Analyse du 9/11/2026** (chiffres du 19/10 au 9/11 ; les posts du 7 et 8/11 ont moins de 3 jours, donc prudence) :
+- TikTok : la nouvelle série monte nettement. Kinetic mamans 779 vues, sketch CV 755, demo mail au prof 690, contre environ 280 pour les sketchs bâton d'octobre. Le texte animé et la demo marchent aussi bien que les sketchs sur TikTok. À confirmer sur 2 posts de chaque.
+- Instagram : tous les posts récents restent bas (150 à 237 vues), loin des posts école/émotion d'octobre (619 et 348). Le temps moyen de visionnage suit : environ 8 s pour les posts émotion, 3,5 à 5,5 s pour les nouveaux. Sur Instagram, l'émotion école garde l'avantage.
+- Partages et sauvegardes presque nuls partout (seul « groupe de classe » a 5 partages sur Instagram). Il faut des contenus « à garder » : astuces, listes, carrousels. Le carrousel n'a pas encore été testé : priorité cette semaine.
+- Heures : 10 h ou 18 h 30, pas de différence claire pour l'instant (le CV à 18 h 30 est le meilleur récent sur Instagram). Cette semaine, test des deux créneaux les jours à 2 posts.
+- Toujours aucune vraie capture de LexyLab dans `captures/` : le format `capture` reste impossible.
+
 ## 8. Mix de la semaine (mis à jour chaque lundi)
 **Rythme (décision de Paolo, 8/11) : 10 posts par semaine.** 2 posts le lundi, le mercredi et le vendredi, 1 post les autres jours. Toujours avec voix off (sauf carrousels).
 Semaine du 6/11 : phase de découverte, chaque format testé au moins 2 fois.
 Ordre conseillé : demo → kinetic mamans → sketch → quiz → kinetic émotion → sketch maman/enfant → kinetic fondateur.
 Les posts « mamans » passent de préférence le soir (après les devoirs) ou le mercredi.
+
+**Semaine du 9/11** (10 posts, toujours avec voix off sauf carrousels) :
+- Lun 9 : 10 h kinetic fondateur (70 % : meilleur sujet TikTok) ; 18 h demo maman, mot au prof (70 % mamans + demo, le soir).
+- Mar 10 : sketch maman/devoirs (rendu BD, décor chambre) : 70 % mamans.
+- Mer 11 : 10 h quiz (20 % : premier quiz, engagement) ; 18 h kinetic astuces devoirs mamans (70 %).
+- Jeu 12 : présentation produit « correcteur classique vs LexyLab » (10 % pari) si ses voix sont prêtes, sinon kinetic mythes.
+- Ven 13 : 10 h carrousel « 5 raisons » (10 % pari : sauvegardes) ; 18 h kinetic mythes dyslexie ou kinetic POV dictée (20 % émotion école, pour Instagram).
+- Sam 14 : sketch école (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
+- Répartition visée : 7 posts « ce qui marche » (mamans, fondateur, école/émotion), 2 variantes (quiz, POV), 1 pari (carrousel ou présentation).

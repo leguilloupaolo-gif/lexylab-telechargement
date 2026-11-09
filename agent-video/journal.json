@@ -38,5 +38,33 @@
   "format": "sketch",
   "pilier": "situations",
   "hypothese": "1er sketch école (sujet gagnant) : une galère de devoirs du soir vécue + humour pousse au partage et aux commentaires ; légende avec question. Créneau 10:00 un dimanche."
+ },
+ {
+  "date": "2026-11-09",
+  "id": "kin-fondateur",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-kin-fondateur.mp4",
+  "instagram": "10:00 (Metricool 421413406)",
+  "tiktok": "10:00 (Metricool 421413413)",
+  "format": "kinetic",
+  "pilier": "fondateur",
+  "hypothese": "70 % : l'histoire du fondateur a fait le meilleur score TikTok (1864 vues) ; version kinetic courte (26 s) le matin.",
+  "decor": "-",
+  "style": "theme bleu",
+  "rendu": "kinetic",
+  "voix": "Thomas (5 voix : kin-fondateur-0 à 4)"
+ },
+ {
+  "date": "2026-11-09",
+  "id": "demo-maman-mot-prof",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof.mp4",
+  "instagram": "18:00 (Metricool 421413426)",
+  "tiktok": "18:00 (Metricool 421413436)",
+  "format": "demo",
+  "pilier": "mamans",
+  "hypothese": "70 % : mamans + demo le soir (après les devoirs) ; la maman elle-même dys s'identifie et partage. 2e demo, à comparer à demo-mail-prof (10 h).",
+  "decor": "gmail",
+  "style": "clair",
+  "rendu": "maquette demo",
+  "voix": "Amélie (hook + s0 à s4)"
  }
 ]
