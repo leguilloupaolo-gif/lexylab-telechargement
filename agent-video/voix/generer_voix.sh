@@ -27,6 +27,7 @@ n=0
 while IFS='|' read -r fichier texte voixligne; do
   [ -z "$fichier" ] && continue
   case "$fichier" in \#*) continue;; esac
+  texte="${texte%%|*}"   # sécurité : ne jamais lire le nom de la voix à voix haute
   v="$HOMME"; case "$voixligne" in Am*|am*|Au*|femme|Femme) v="$FEMME";; esac
   cible="agent-video/$fichier"
   deja=$(grep -F "$fichier|" "$MANIF" | tail -1 | cut -d'|' -f2)
