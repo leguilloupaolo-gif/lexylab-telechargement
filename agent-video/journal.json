@@ -56,15 +56,16 @@
  {
   "date": "2026-11-09",
   "id": "demo-maman-mot-prof",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof.mp4",
-  "instagram": "18:00 (Metricool 421413426)",
-  "tiktok": "18:00 (Metricool 421413436)",
+  "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof-v2.mp4",
+  "instagram": "18:00 (Metricool 421708307)",
+  "tiktok": "18:00 (Metricool 421708341)",
   "format": "demo",
   "pilier": "mamans",
   "hypothese": "70 % : mamans + demo le soir (après les devoirs) ; la maman elle-même dys s'identifie et partage. 2e demo, à comparer à demo-mail-prof (10 h).",
   "decor": "gmail",
   "style": "clair",
   "rendu": "maquette demo",
-  "voix": "Amélie (hook + s0 à s4)"
+  "voix": "Amélie (hook + s0 à s4)",
+  "note": "Refaite le 9/11 à 12h50 : voix corrigées (bug « Thomas »)"
  }
 ]
