@@ -16,8 +16,18 @@ meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le n
     done
   done
 }
-HOMME=$(meilleure "Thomas Jacques Daniel Nicolas")
+# Voix féminine : Audrey (la plus naturelle, haute qualité) puis Aurélie
 FEMME=$(meilleure "Audrey Aurélie Amélie Marie Céline")
+# Voix « homme » : une voix masculine améliorée si elle existe ; sinon on préfère une voix NATURELLE (Aurélie)
+# à un Thomas robotique (demande de Paolo : la voix la moins robotique possible).
+HOMME=$(echo "$LISTE" | grep -E "^(Thomas|Jacques|Daniel|Nicolas) \((Premium|Enhanced|Améliorée|Amélioré)\)" | grep fr_ | head -1 | sed -E 's/ +fr_.*$//')
+if [ -z "$HOMME" ]; then
+  for nom in "Aurélie" "Audrey"; do
+    if echo "$LISTE" | grep -E "^$nom( |\()" | grep -q fr_ && [ "$(echo "$LISTE" | grep -E "^$nom" | head -1 | sed -E 's/ +fr_.*$//')" != "$FEMME" ]; then
+      HOMME=$(echo "$LISTE" | grep -E "^$nom" | head -1 | sed -E 's/ +fr_.*$//'); break; fi
+  done
+fi
+[ -z "$HOMME" ] && HOMME=$(meilleure "Thomas")
 [ -z "$HOMME" ] && HOMME=$(echo "$LISTE" | grep -E "fr_FR" | head -1 | sed -E 's/ +fr_.*$//')
 [ -z "$FEMME" ] && FEMME="$HOMME"
 echo "Voix homme : $HOMME | Voix femme : $FEMME"
@@ -31,7 +41,8 @@ while IFS='|' read -r fichier texte voixligne; do
   v="$HOMME"; case "$voixligne" in Am*|am*|Au*|femme|Femme) v="$FEMME";; esac
   cible="agent-video/$fichier"
   deja=$(grep -F "$fichier|" "$MANIF" | tail -1 | cut -d'|' -f2)
-  if [ ! -f "$cible" ] || { [ -n "$deja" ] && [ "$deja" != "$v" ]; } || { [ -z "$deja" ] && [ -f "$cible" ] && [[ "$v" == *"("* ]]; }; then
+  # refaire si : fichier absent, ou fabriqué avec une autre voix, ou ancien fichier sans trace (avant le 9/11)
+  if [ ! -f "$cible" ] || [ "$deja" != "$v" ]; then
     mkdir -p "$(dirname "$cible")"
     # petites pauses naturelles après les points et virgules
     t2=$(echo "$texte" | sed -E 's/([.!?…]) /\1 [[slnc 250]] /g; s/, /, [[slnc 120]] /g')
