@@ -9,11 +9,14 @@ gens à cliquer sur le lien en bio. À court terme, l'indicateur principal est l
 temps de visionnage, partages et sauvegardes. Les abonnés et les clics viendront ensuite.
 
 ## 2. Cibles (par ordre de priorité)
+**Répartition décidée par Paolo (10/11) : 25 % des posts pour les mamans** (soit 2 à 3 posts sur 10 par semaine, républications comprises),
+**75 % pour les autres cibles** : élèves et étudiants dys, adultes dys au travail, logopèdes et enseignants, et tous les dys en général
+(fondateur, mythes, astuces, quiz). Répartis ces 75 % entre ces cibles, selon les stats. Les mamans ne doivent jamais dépasser 3 posts sur 10.
 1. **Élèves et étudiants dys (15-25 ans)** : cours, examens, devoirs, mails aux profs, jobs étudiants. → TikTok surtout.
-2. **Mamans (et parents) d'enfants dys** : cible **prioritaire sur Instagram**. Devoirs du soir, dictées, mots du prof,
+2. **Mamans (et parents) d'enfants dys** : cible prioritaire, mais **pas la seule**. Devoirs du soir, dictées, mots du prof,
    rendez-vous chez le logopède, peur pour l'avenir, fierté des progrès, culpabilité (« est-ce que j'en fais assez ? »).
    Ce qu'elles veulent : se sentir comprises, des astuces concrètes, un outil qui rend leur enfant plus autonome.
-   Ton : doux, rassurant, complice (« entre mamans »), jamais culpabilisant. **Au moins 2 posts par semaine pour elles.**
+   Ton : doux, rassurant, complice (« entre mamans »), jamais culpabilisant.
 3. **Adultes dys au travail** : mails, rapports, CV.
 4. **Logopèdes et enseignants** : ils recommandent. Contenus éducatifs, sérieux, bienveillants.
 
@@ -89,5 +92,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Mer 11 : 10 h quiz (20 % : premier quiz, engagement) ; 18 h kinetic astuces devoirs mamans (70 %).
 - Jeu 12 : présentation produit « correcteur classique vs LexyLab » (10 % pari) si ses voix sont prêtes, sinon kinetic mythes.
 - Ven 13 : 10 h carrousel « 5 raisons » (10 % pari : sauvegardes) ; 18 h kinetic mythes dyslexie ou kinetic POV dictée (20 % émotion école, pour Instagram).
-- Sam 14 : sketch école (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
+- Sam 14 : sketch école ou étudiant (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
+  → Mise à jour 10/11 (règle des 25 %) : cette semaine, les mamans ont déjà 3 posts (lun 18 h demo, mar 20 h 30 republication, mer 18 h astuces).
+    Le sketch maman/devoirs est reporté à la semaine prochaine. Sam et dim : étudiants, travail ou tous les dys.
 - Répartition visée : 7 posts « ce qui marche » (mamans, fondateur, école/émotion), 2 variantes (quiz, POV), 1 pari (carrousel ou présentation).

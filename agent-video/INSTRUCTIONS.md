@@ -44,6 +44,11 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   (en gardant les anciens), puis les vérifier avec `--preview`.
 - Note `decor` et `style` dans le journal, et compare-les le lundi : certains styles retiennent peut-être mieux l'attention.
 
+## Répartition des cibles (décision de Paolo, 10/11)
+- **25 % des posts pour les mamans d'enfants dys** (2 à 3 sur 10 par semaine, republications comprises, jamais plus de 3).
+- **75 % pour les autres cibles** : élèves et étudiants dys, adultes dys au travail, logopèdes et enseignants, tous les dys.
+- Note la cible de chaque post dans le journal (`cible`) et vérifie la répartition des 7 derniers jours avant de choisir.
+
 ## Les statistiques guident tout (demande de Paolo)
 - **Chaque jour** (pas seulement le lundi), avant de choisir le post : relève les chiffres des posts des 14 derniers jours
   (`getAnalyticsDataByMetrics`, mêmes métriques que l'analyse hebdo) et mets à jour `performance.json`.
