@@ -62,11 +62,11 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "tiktok",
-   "vues": 281,
+   "vues": 282,
    "partages": 0,
    "likes": 20,
    "commentaires": 0,
-   "score": 281
+   "score": 282
   },
   {
    "date": "2026-10-30",
@@ -74,11 +74,11 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "tiktok",
-   "vues": 740,
+   "vues": 741,
    "partages": 1,
    "likes": 15,
    "commentaires": 0,
-   "score": 750
+   "score": 751
   },
   {
    "date": "2026-10-15",
@@ -146,13 +146,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 348,
+   "vues": 355,
    "commentaires": 0,
-   "portee": 290,
+   "portee": 293,
    "partages": 5,
    "sauvegardes": 0,
    "temps_moyen_s": 8.1,
-   "score": 398
+   "score": 405
   },
   {
    "date": "2026-10-30",
@@ -160,13 +160,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 269,
+   "vues": 274,
    "portee": 202,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
    "temps_moyen_s": 6.7,
-   "score": 269
+   "score": 274
   },
   {
    "date": "2026-11-05",
@@ -174,13 +174,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 237,
-   "portee": 195,
+   "vues": 245,
+   "portee": 198,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
    "temps_moyen_s": 4.2,
-   "score": 237
+   "score": 245
   },
   {
    "date": "2026-11-06",
@@ -188,13 +188,13 @@
    "format": "demo",
    "pilier": "demo",
    "reseau": "instagram",
-   "vues": 176,
-   "portee": 132,
+   "vues": 181,
+   "portee": 133,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 2,
-   "temps_moyen_s": 4.3,
-   "score": 186
+   "temps_moyen_s": 4.4,
+   "score": 191
   },
   {
    "date": "2026-11-07",
@@ -202,13 +202,13 @@
    "format": "kinetic",
    "pilier": "mamans",
    "reseau": "instagram",
-   "vues": 150,
-   "portee": 117,
+   "vues": 161,
+   "portee": 121,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
    "temps_moyen_s": 3.6,
-   "score": 150
+   "score": 161
   },
   {
    "date": "2026-11-08",
@@ -242,11 +242,11 @@
    "format": "demo",
    "pilier": "demo",
    "reseau": "tiktok",
-   "vues": 690,
+   "vues": 692,
    "partages": 0,
    "likes": 11,
    "commentaires": 0,
-   "score": 690
+   "score": 692
   },
   {
    "date": "2026-11-07",
@@ -254,11 +254,11 @@
    "format": "kinetic",
    "pilier": "mamans",
    "reseau": "tiktok",
-   "vues": 779,
+   "vues": 781,
    "partages": 0,
-   "likes": 19,
+   "likes": 20,
    "commentaires": 0,
-   "score": 779
+   "score": 781
   },
   {
    "date": "2026-11-08",
@@ -271,7 +271,33 @@
    "likes": 11,
    "commentaires": 0,
    "score": 305
+  },
+  {
+   "date": "2026-11-09",
+   "id": "kin-fondateur",
+   "reseau": "tiktok",
+   "vues": 187,
+   "partages": 0,
+   "commentaires": 0,
+   "likes": 4,
+   "score": 187,
+   "format": "kinetic",
+   "pilier": "fondateur"
+  },
+  {
+   "date": "2026-11-09",
+   "id": "demo-maman-mot-prof",
+   "reseau": "tiktok",
+   "vues": 443,
+   "partages": 0,
+   "commentaires": 0,
+   "likes": 8,
+   "score": 443,
+   "format": "demo",
+   "pilier": "mamans"
   }
  ],
- "note_2026-11-09": "Relevé du 9/11 sur 21 jours. Instagram : IGRE21 = partages (groupe-classe : 5 partages, et non 5 commentaires). TikTok : 0 commentaire relevé partout ; taux vu en entier et temps moyen non renvoyés par Metricool. Posts du 7 et 8/11 trop récents (< 3 jours) pour conclure."
+ "note_2026-11-09": "Relevé du 9/11 sur 21 jours. Instagram : IGRE21 = partages (groupe-classe : 5 partages, et non 5 commentaires). TikTok : 0 commentaire relevé partout ; taux vu en entier et temps moyen non renvoyés par Metricool. Posts du 7 et 8/11 trop récents (< 3 jours) pour conclure.",
+ "derniere_maj_quotidienne": "2026-11-10",
+ "note_2026-11-10": "Relevé quotidien du 10/11 (14 jours). Les posts du 9/11 n'apparaissent pas encore dans les Reels Instagram. TikTok du 9/11 : moins de 24 h, à revoir (kin-fondateur v3 publié à 20h30, demo maman à 18h)."
 }
