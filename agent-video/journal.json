@@ -94,5 +94,22 @@
   "fichier": "reseaux-sociaux/auto/2026-11-09-kin-mamans-message-v3.mp4",
   "instagram": "20:30 (Metricool 421999390)",
   "tiktok": "20:30 (Metricool 421999448)"
+ },
+ {
+  "date": "2026-11-10",
+  "id": "kin-pov-dictee",
+  "fichier": "reseaux-sociaux/auto/2026-11-10-kin-pov-dictee.mp4",
+  "instagram": "10:00 (Metricool 422774028)",
+  "tiktok": "10:00 (Metricool 422774041)",
+  "heures": "10:00",
+  "format": "kinetic",
+  "pilier": "emotion",
+  "hypothese": "70 % : l'émotion école (dictée, « fais plus attention ») reste la meilleure sur Instagram ; un POV kinetic sombre retient-il mieux que les sketchs récents (temps moyen > 6 s) ?",
+  "raison_stats": "Instagram : groupe de classe (école/émotion) 355 vues et 8,1 s de temps moyen, loin devant les posts récents (150-245 vues, 3,6-5,5 s). Historique : dictée 582 IG / 862 TikTok, « faire attention » 619 IG. TikTok : kinetic mamans 781 = format kinetic gagnant. 10 h = meilleure heure du mardi sur les deux réseaux. Sketch maman/devoirs reporté : aujourd'hui il y a déjà une republication sketch devoirs (13 h) et une kinetic mamans (20 h 30).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "kinetic",
+  "voix": "voix principale (kin-pov-dictee-0 à 4)",
+  "note": "Texte « plus attention » passé en vert : le surlignage jaune s'affichait mal sur fond sombre."
  }
 ]

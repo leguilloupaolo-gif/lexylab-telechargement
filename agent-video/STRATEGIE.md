@@ -85,6 +85,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 **Semaine du 9/11** (10 posts, toujours avec voix off sauf carrousels) :
 - Lun 9 : 10 h kinetic fondateur (70 % : meilleur sujet TikTok) ; 18 h demo maman, mot au prof (70 % mamans + demo, le soir).
 - Mar 10 : sketch maman/devoirs (rendu BD, décor chambre) : 70 % mamans.
+  → Fait le 10/11 : kinetic POV dictée à 10 h à la place (déjà une republication sketch devoirs et une kinetic mamans ce jour-là). Sketch maman/devoirs reporté à sam 14 ou dim 15.
 - Mer 11 : 10 h quiz (20 % : premier quiz, engagement) ; 18 h kinetic astuces devoirs mamans (70 %).
 - Jeu 12 : présentation produit « correcteur classique vs LexyLab » (10 % pari) si ses voix sont prêtes, sinon kinetic mythes.
 - Ven 13 : 10 h carrousel « 5 raisons » (10 % pari : sauvegardes) ; 18 h kinetic mythes dyslexie ou kinetic POV dictée (20 % émotion école, pour Instagram).
