@@ -111,5 +111,39 @@
   "rendu": "kinetic",
   "voix": "voix principale (kin-pov-dictee-0 à 4)",
   "note": "Texte « plus attention » passé en vert : le surlignage jaune s'affichait mal sur fond sombre."
+ },
+ {
+  "date": "2026-11-11",
+  "id": "quiz-courses",
+  "fichier": "reseaux-sociaux/auto/2026-11-11-quiz-courses.mp4",
+  "instagram": "10:00 (Metricool 424055015)",
+  "tiktok": "10:00 (Metricool 424055023)",
+  "heures": "10:00",
+  "format": "quiz",
+  "pilier": "engagement",
+  "cible": "tous les dys",
+  "hypothese": "20 % variante : un premier quiz « trouve les 4 fautes » fait commenter (commentaires = 0 sur presque tous les posts jusqu'ici).",
+  "raison_stats": "Commentaires quasi nuls partout (IG : 1 seul sur demo maman, 2 sur mail prof ; TikTok : 0). Le quiz vise directement les commentaires. 10 h = meilleure heure du mercredi sur Instagram (6506) et TikTok (1432).",
+  "decor": "-",
+  "style": "quiz clair",
+  "rendu": "quiz",
+  "voix": "voix principale (quiz-courses-0 et 1)"
+ },
+ {
+  "date": "2026-11-11",
+  "id": "kin-astuces-relire",
+  "fichier": "reseaux-sociaux/auto/2026-11-11-kin-astuces-relire.mp4",
+  "instagram": "18:00 (Metricool 424055031)",
+  "tiktok": "18:00 (Metricool 424055037)",
+  "heures": "18:00",
+  "format": "kinetic",
+  "pilier": "education",
+  "cible": "etudiants",
+  "hypothese": "70 % format gagnant (kinetic) + contenu « à garder » : une liste d'astuces génère des sauvegardes (0 sauvegarde jusqu'ici).",
+  "raison_stats": "Kinetic = format en tête sur TikTok (mamans 781 vues). Sauvegardes à 0 partout : il faut des contenus utiles. Cible étudiants (CV 755 et mail prof 692 sur TikTok) au lieu des astuces devoirs mamans prévues : les mamans ont déjà 3 posts sur les 7 derniers jours (7/11, 9/11, republication 10/11), plafond atteint. 18 h = meilleure heure du soir sur les deux réseaux (TikTok 1386, IG 4869).",
+  "decor": "-",
+  "style": "theme vert",
+  "rendu": "kinetic",
+  "voix": "voix principale (kin-astuces-relire-0 à 4)"
  }
 ]

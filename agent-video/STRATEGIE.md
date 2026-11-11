@@ -95,4 +95,5 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Sam 14 : sketch école ou étudiant (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
   → Mise à jour 10/11 (règle des 25 %) : cette semaine, les mamans ont déjà 3 posts (lun 18 h demo, mar 20 h 30 republication, mer 18 h astuces).
     Le sketch maman/devoirs est reporté à la semaine prochaine. Sam et dim : étudiants, travail ou tous les dys.
+  → Fait le 11/11 : 10 h quiz-courses ; 18 h kinetic astuces relire (étudiants) à la place des astuces devoirs mamans (plafond de 3 posts mamans sur 7 jours atteint). Astuces devoirs mamans reportées à la semaine prochaine.
 - Répartition visée : 7 posts « ce qui marche » (mamans, fondateur, école/émotion), 2 variantes (quiz, POV), 1 pari (carrousel ou présentation).
