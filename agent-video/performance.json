@@ -295,9 +295,68 @@
    "score": 443,
    "format": "demo",
    "pilier": "mamans"
+  },
+  {
+   "date": "2026-11-10",
+   "id": "sketch-devoir-francais",
+   "format": "sketch",
+   "pilier": "situations",
+   "reseau": "instagram",
+   "vues": 70,
+   "portee": 51,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 4.3,
+   "republication": true,
+   "score": 70
+  },
+  {
+   "date": "2026-11-10",
+   "id": "kin-pov-dictee",
+   "format": "kinetic",
+   "pilier": "emotion",
+   "reseau": "instagram",
+   "vues": 133,
+   "portee": 91,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 5.4,
+   "score": 133
+  },
+  {
+   "date": "2026-11-09",
+   "id": "kin-fondateur",
+   "format": "kinetic",
+   "pilier": "fondateur",
+   "reseau": "instagram",
+   "vues": 155,
+   "portee": 125,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 0,
+   "temps_moyen_s": 3.9,
+   "republication": true,
+   "score": 155
+  },
+  {
+   "date": "2026-11-09",
+   "id": "demo-maman-mot-prof",
+   "format": "demo",
+   "pilier": "mamans",
+   "reseau": "instagram",
+   "vues": 193,
+   "portee": 155,
+   "partages": 0,
+   "sauvegardes": 0,
+   "commentaires": 1,
+   "temps_moyen_s": 6.1,
+   "score": 198
   }
  ],
  "note_2026-11-09": "Relevé du 9/11 sur 21 jours. Instagram : IGRE21 = partages (groupe-classe : 5 partages, et non 5 commentaires). TikTok : 0 commentaire relevé partout ; taux vu en entier et temps moyen non renvoyés par Metricool. Posts du 7 et 8/11 trop récents (< 3 jours) pour conclure.",
- "derniere_maj_quotidienne": "2026-11-10",
- "note_2026-11-10": "Relevé quotidien du 10/11 (14 jours). Les posts du 9/11 n'apparaissent pas encore dans les Reels Instagram. TikTok du 9/11 : moins de 24 h, à revoir (kin-fondateur v3 publié à 20h30, demo maman à 18h)."
+ "derniere_maj_quotidienne": "2026-11-11",
+ "note_2026-11-10": "Relevé quotidien du 10/11 (14 jours). Les posts du 9/11 n'apparaissent pas encore dans les Reels Instagram. TikTok du 9/11 : moins de 24 h, à revoir (kin-fondateur v3 publié à 20h30, demo maman à 18h).",
+ "note_2026-11-11": "Relevé quotidien du 11/11 (14 jours). Les heures Instagram renvoyées par Metricool sont en UTC. TikTok : les posts du 10/11 n'apparaissent pas encore. IG : demo maman mot au prof = meilleur récent (193 vues, 6,1 s, 1 commentaire) ; POV dictée 133 vues en moins de 24 h (5,4 s). TikTok : kin mamans 781, CV 755, mail prof 692 restent en tête ; demo maman 443 ; kin fondateur v3 (20h30) seulement 187."
 }
