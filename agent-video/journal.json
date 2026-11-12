@@ -145,5 +145,24 @@
   "style": "theme vert",
   "rendu": "kinetic",
   "voix": "voix principale (kin-astuces-relire-0 à 4)"
+ },
+ {
+  "date": "2026-11-12",
+  "id": "pres-classique-vs-lexylab",
+  "format": "presentation",
+  "pilier": "demo",
+  "cible": "tous les dys",
+  "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence et donne envie d'essayer",
+  "raison_stats": "10 % pari prévu au mix : 1re présentation produit. Les posts qui montrent le produit (CV 755, mail prof 692 sur TikTok ; demo maman 199 vues et 6,1 s sur IG) sont parmi les meilleurs récents. Pas de maman aujourd'hui : plafond de 3 posts mamans sur 7 jours atteint.",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design",
+  "heures": "10:00",
+  "voix": "5/5 prêtes",
+  "fichier": "reseaux-sociaux/auto/2026-11-12-pres-classique-vs-lexylab.mp4",
+  "metricool": {
+   "instagram": 425312799,
+   "tiktok": 425312807
+  }
  }
 ]

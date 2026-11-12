@@ -91,6 +91,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
   → Fait le 10/11 : kinetic POV dictée à 10 h à la place (déjà une republication sketch devoirs et une kinetic mamans ce jour-là). Sketch maman/devoirs reporté à sam 14 ou dim 15.
 - Mer 11 : 10 h quiz (20 % : premier quiz, engagement) ; 18 h kinetic astuces devoirs mamans (70 %).
 - Jeu 12 : présentation produit « correcteur classique vs LexyLab » (10 % pari) si ses voix sont prêtes, sinon kinetic mythes.
+  → Fait le 12/11 : présentation classique vs LexyLab à 10 h (voix prêtes), IG + TikTok.
 - Ven 13 : 10 h carrousel « 5 raisons » (10 % pari : sauvegardes) ; 18 h kinetic mythes dyslexie ou kinetic POV dictée (20 % émotion école, pour Instagram).
 - Sam 14 : sketch école ou étudiant (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
   → Mise à jour 10/11 (règle des 25 %) : cette semaine, les mamans ont déjà 3 posts (lun 18 h demo, mar 20 h 30 republication, mer 18 h astuces).
