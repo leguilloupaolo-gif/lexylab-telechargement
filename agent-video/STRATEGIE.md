@@ -101,6 +101,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
     dim 15 voir ci-dessous. Pas de sketch ce week-end.
   → **Précision de Paolo (13/11) : style de la 1re vidéo du compte** (format `presentation` sombre, voir INSTRUCTIONS « Ligne visuelle »).
     Dim 15 : `pres-examen-fiches` (étudiants) si ses voix sont prêtes, sinon une demo. Nouvelles idées dans ce style : `pres-mail-travail`, `pres-examen-fiches`, `pres-mamans-autonomie`.
+  → **Période de test : du 13/11 au 27/11** (2 semaines). Bilan chiffré avant/après envoyé au fondateur le 27/11. Tenir le cap sur toute la période pour que la comparaison soit juste.
   → Semaine du 16/11 : au moins 6 posts sur 10 dans le style de la 1re vidéo (présentation sombre ou carrousel sombre) ; en présentation, carrousel, kinetic sobre ou demo ; 1 sketch maximum (rendu flat ou cartoon, pas bâton).
   → Mise à jour 10/11 (règle des 25 %) : cette semaine, les mamans ont déjà 3 posts (lun 18 h demo, mar 20 h 30 republication, mer 18 h astuces).
     Le sketch maman/devoirs est reporté à la semaine prochaine. Sam et dim : étudiants, travail ou tous les dys.
