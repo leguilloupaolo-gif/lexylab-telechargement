@@ -98,8 +98,10 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
   → Fait le 13/11 : 10 h carrousel « 5 raisons » ; 18 h kinetic mythes dyslexie (thème clair), IG + TikTok.
 - Sam 14 : sketch école ou étudiant (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
   → **Changé le 13/11 (demande de Paolo : plus qualitatif, plus corporate, moins de bâton)** : sam 14 présentation produit « pourquoi LexyLab » (fondateur, thème sombre, voix prêtes) ;
-    dim 15 demo propre (« devoir dans Word » ou « notes de cours »), voix prêtes. Pas de sketch ce week-end.
-  → Semaine du 16/11 : au moins 6 posts sur 10 en présentation, carrousel, kinetic sobre ou demo ; 1 sketch maximum (rendu flat ou cartoon, pas bâton).
+    dim 15 voir ci-dessous. Pas de sketch ce week-end.
+  → **Précision de Paolo (13/11) : style de la 1re vidéo du compte** (format `presentation` sombre, voir INSTRUCTIONS « Ligne visuelle »).
+    Dim 15 : `pres-examen-fiches` (étudiants) si ses voix sont prêtes, sinon une demo. Nouvelles idées dans ce style : `pres-mail-travail`, `pres-examen-fiches`, `pres-mamans-autonomie`.
+  → Semaine du 16/11 : au moins 6 posts sur 10 dans le style de la 1re vidéo (présentation sombre ou carrousel sombre) ; en présentation, carrousel, kinetic sobre ou demo ; 1 sketch maximum (rendu flat ou cartoon, pas bâton).
   → Mise à jour 10/11 (règle des 25 %) : cette semaine, les mamans ont déjà 3 posts (lun 18 h demo, mar 20 h 30 republication, mer 18 h astuces).
     Le sketch maman/devoirs est reporté à la semaine prochaine. Sam et dim : étudiants, travail ou tous les dys.
   → Fait le 11/11 : 10 h quiz-courses ; 18 h kinetic astuces relire (étudiants) à la place des astuces devoirs mamans (plafond de 3 posts mamans sur 7 jours atteint). Astuces devoirs mamans reportées à la semaine prochaine.

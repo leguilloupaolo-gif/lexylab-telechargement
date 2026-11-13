@@ -1360,5 +1360,184 @@
   },
   "post_text": "Écrire des histoires sans que les fautes cassent l'imagination 🐉 LexyLab gère l'orthographe pour toi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
   "tiktok_title": "J'écris une histoire pour ma petite sœur…"
+ },
+ {
+  "id": "pres-mail-travail",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "adultes au travail",
+  "hypothese": "Le style de la 1re vidéo (sombre, histoire courte, éditeur faute→correction) relève Instagram sur les sujets travail",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Un mail important,",
+      "relu ~dix fois~",
+      "avant d'oser l'envoyer ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Les idées sont claires.",
+      "C'est l'orthographe",
+      "qui *bloque*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris les mots comme tu les entends.",
+     "ecran": "Je vous [envoi|envoie] le [dossié|dossier] [ojourdui|aujourd'hui]."
+    },
+    {
+     "type": "logo",
+     "avant": "Pour ça, il y a"
+    },
+    {
+     "type": "liste",
+     "titre": "Un correcteur *pensé pour la dyslexie*",
+     "items": [
+      "Souligne les fautes *en direct*",
+      "Dans *Gmail, Outlook et Word*",
+      "*Hors ligne* : tes textes restent privés"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Envoie tes mails",
+      "*sans stress*."
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Un mail important, relu dix fois avant d'oser l'envoyer ? Tu n'es pas seul.\n\nLexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Gmail, Outlook et Word, sans internet.\n\nEt toi, c'est quel message qui te stresse le plus au travail ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #travail #lexylab #orthographe #emploi",
+  "tiktok_title": "Le mail relu dix fois",
+  "tiktok_text": "Un mail relu dix fois avant de l'envoyer ? 👇 #dyslexie #dys #travail #lexylab #orthographe"
+ },
+ {
+  "id": "pres-examen-fiches",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "etudiants",
+  "hypothese": "Le style de la 1re vidéo appliqué aux étudiants (cible n°1 TikTok) retient l'attention",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "La veille d'un examen,",
+      "tes fiches sont pleines",
+      "de ~fautes~ ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Tu connais ton cours.",
+      "C'est l'orthographe",
+      "qui te *ralentit*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris comme tu l'entends…",
+     "ecran": "La [révolussion|révolution] [fransèse|française] commence en 1789."
+    },
+    {
+     "type": "logo",
+     "avant": "Et si ton correcteur te comprenait ?"
+    },
+    {
+     "type": "liste",
+     "titre": "*Pensé pour les dys*",
+     "items": [
+      "Comprend les mots écrits *comme on les entend*",
+      "Souligne les fautes *en direct*",
+      "Marche *sans internet*, même en amphi"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Révise",
+      "l'esprit *tranquille*."
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "La veille d'un examen, tes fiches sont pleines de fautes ? Tu connais ton cours, c'est l'orthographe qui te ralentit.\n\nLexyLab comprend les mots écrits comme on les entend, et il marche sans internet, même en amphi.\n\nTu as un examen bientôt ? Dis-nous lequel 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #examens #revisions #lexylab",
+  "tiktok_title": "Tes fiches pleines de fautes la veille de l'exam",
+  "tiktok_text": "Fiches pleines de fautes la veille de l'exam ? 👇 #dyslexie #dys #etudiant #examens #lexylab"
+ },
+ {
+  "id": "pres-mamans-autonomie",
+  "format": "presentation",
+  "pilier": "mamans",
+  "cible": "mamans",
+  "hypothese": "Le style de la 1re vidéo, version mamans, donne une image sérieuse et rassurante",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Chaque soir,",
+      "tu relis ses devoirs",
+      "~mot par mot~ ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Et s'il pouvait",
+      "écrire *tout seul* ?"
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Il écrit les mots comme il les entend…",
+     "ecran": "[Ojourdui|Aujourd'hui], la [métresse|maîtresse] nous a lu une [istoire|histoire]."
+    },
+    {
+     "type": "logo",
+     "avant": "LexyLab l'accompagne."
+    },
+    {
+     "type": "liste",
+     "titre": "Un correcteur *pensé pour la dyslexie*",
+     "items": [
+      "Souligne les fautes *pendant qu'il écrit*",
+      "Explique *certaines fautes*",
+      "*Hors ligne* : ses textes restent privés"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Plus d'autonomie,",
+      "*moins de stress* le soir."
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Chaque soir, tu relis ses devoirs mot par mot ? Et s'il pouvait écrire tout seul ?\n\nLexyLab souligne les fautes pendant qu'il écrit, et explique certaines erreurs. Hors ligne : ses textes restent privés.\n\nEt chez vous, les devoirs durent combien de temps le soir ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "tiktok_title": "Et s'il pouvait écrire tout seul ?",
+  "tiktok_text": "Et s'il pouvait écrire ses devoirs tout seul ? 👇 #dyslexie #mamandys #parentsdys #dys #lexylab"
  }
 ]

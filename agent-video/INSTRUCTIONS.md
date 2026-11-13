@@ -36,7 +36,13 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
 ## Ligne visuelle : plus qualitatif, plus corporate (demande de Paolo, 13/11)
 - **Moins de bonshommes bâton.** Le rendu `baton` passe à **1 post maximum toutes les 2 semaines** (pari seulement, jamais en série).
 - **Sketchs : 1 par semaine maximum**, et de préférence en rendu `flat` ou `cartoon` (propre, aplats, couleurs de la marque), décor sobre (bureau, bibliotheque, cafe).
-- **Formats à privilégier** (au moins 6 posts sur 10) : `presentation` (motion design premium, thèmes sombre et clair),
+- **Style de référence = la 1re vidéo du compte** (demande de Paolo, 13/11) : `../reseaux-sociaux/post1/LexyLab-video-tiktok.mp4`
+  (planche d'images : `reference-style/video-1-fondateur.png`). C'est le format `presentation`, thème `sombre` :
+  fond bleu nuit avec lueur verte, gros texte blanc, mots-clés en dégradé bleu-vert, mot négatif en rouge, phrases courtes qui arrivent une par une,
+  fenêtre d'éditeur où l'on tape une faute « comme on l'entend » puis la correction en vert, apparition du logo, liste à puces, bouton « Lien en bio ».
+  Histoire en 6 scènes : problème → ressenti → éditeur faute/correction → logo → ce que fait LexyLab → appel à l'action. Pas d'emoji à l'écran.
+  **C'est le style par défaut : au moins 6 posts sur 10** (vidéos `presentation` et carrousels sombres). Les autres formats deviennent l'exception.
+- **Autres formats possibles** (4 posts sur 10 au plus) : `presentation` (motion design premium, thèmes sombre et clair),
   carrousels sobres, `kinetic` en thèmes sombre, bleu ou clair (pas de fond chargé), `demo` propre, et `capture` dès qu'il y a de vraies captures.
 - Ton : professionnel et chaleureux, comme une marque sérieuse. Moins d'emojis dans les visuels (1 maximum par écran), légendes plus nettes.
 - Le côté humain reste (fondateur, émotion, mamans), mais en version soignée : texte animé élégant plutôt que dessin.

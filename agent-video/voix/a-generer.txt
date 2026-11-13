@@ -279,3 +279,21 @@ voix/pres-classique-vs-lexylab-1.m4a|Parce qu'on écrit souvent les mots comme o
 voix/pres-classique-vs-lexylab-2.m4a|Tu tapes ojourdui. Un correcteur classique ne propose rien, ou un mot qui n'a rien à voir. LexyLab, lui, propose aujourd'hui, en un clic.|principale
 voix/pres-classique-vs-lexylab-3.m4a|Exemple : aujourd'hui j'ai eu un bon bulletin !|principale
 voix/pres-classique-vs-lexylab-4.m4a|Un correcteur qui te comprend. Mac et Windows, hors ligne.|principale
+voix/pres-mail-travail-0.m4a|Un mail important, relu dix fois avant d'oser l'envoyer ?|principale
+voix/pres-mail-travail-1.m4a|Les idées sont claires. C'est l'orthographe qui bloque.|principale
+voix/pres-mail-travail-2.m4a|Tu écris les mots comme tu les entends. Je vous envoie le dossier aujourd'hui.|principale
+voix/pres-mail-travail-3.m4a|Pour ça, il y a LexyLab.|principale
+voix/pres-mail-travail-4.m4a|Un correcteur pensé pour la dyslexie. Il souligne les fautes en direct, dans Gmail, Outlook et Word. Et il marche hors ligne, tes textes restent privés.|principale
+voix/pres-mail-travail-5.m4a|Envoie tes mails sans stress. Sur Mac et Windows.|principale
+voix/pres-examen-fiches-0.m4a|La veille d'un examen, tes fiches sont pleines de fautes ?|principale
+voix/pres-examen-fiches-1.m4a|Tu connais ton cours. C'est l'orthographe qui te ralentit.|principale
+voix/pres-examen-fiches-2.m4a|Tu écris comme tu l'entends. La révolution française commence en dix-sept cent quatre-vingt-neuf.|principale
+voix/pres-examen-fiches-3.m4a|Et si ton correcteur te comprenait ? LexyLab.|principale
+voix/pres-examen-fiches-4.m4a|Il est pensé pour les dys. Il comprend les mots écrits comme on les entend, il souligne les fautes en direct, et il marche sans internet, même en amphi.|principale
+voix/pres-examen-fiches-5.m4a|Révise l'esprit tranquille. Sur Mac et Windows.|principale
+voix/pres-mamans-autonomie-0.m4a|Chaque soir, tu relis ses devoirs mot par mot ?|principale
+voix/pres-mamans-autonomie-1.m4a|Et s'il pouvait écrire tout seul ?|principale
+voix/pres-mamans-autonomie-2.m4a|Il écrit les mots comme il les entend. Aujourd'hui, la maîtresse nous a lu une histoire.|principale
+voix/pres-mamans-autonomie-3.m4a|LexyLab l'accompagne.|principale
+voix/pres-mamans-autonomie-4.m4a|Un correcteur pensé pour la dyslexie. Il souligne les fautes pendant qu'il écrit, et il explique certaines fautes. Hors ligne, ses textes restent privés.|principale
+voix/pres-mamans-autonomie-5.m4a|Plus d'autonomie, et moins de stress le soir. Sur Mac et Windows.|principale
