@@ -164,5 +164,43 @@
    "instagram": 425312799,
    "tiktok": 425312807
   }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "car-5-raisons",
+  "format": "carrousel",
+  "pilier": "demo",
+  "cible": "tous les dys",
+  "hypothese": "Un carrousel « à garder » est plus sauvegardé et partagé qu'une vidéo",
+  "raison_stats": "10 % pari prévu au mix : 1er carrousel. Partages et sauvegardes à 0 sur tous les posts récents (IG et TikTok) ; il faut tester un contenu à enregistrer. TikTok tient un plateau de 650-790 vues quel que soit le format, donc test sans risque.",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "carrousel motion design (7 images)",
+  "heures": "10:00",
+  "voix": "sans objet (carrousel)",
+  "fichier": "reseaux-sociaux/auto/2026-11-13-car-5-raisons/",
+  "metricool": {
+   "instagram": 426585313,
+   "tiktok": 426585325
+  }
+ },
+ {
+  "date": "2026-11-13",
+  "id": "kin-mythes-dyslexie",
+  "format": "kinetic",
+  "pilier": "education",
+  "cible": "tous les dys",
+  "hypothese": "Le format mythe/réalité est partagé (et intéresse aussi logopèdes et enseignants)",
+  "raison_stats": "70/20 : le kinetic reste dans le haut sur TikTok (mamans 784, fondateur 758, POV dictée 707) ; sur IG le POV dictée (177 vues, 5,3 s) est le 2e meilleur récent, l'école/éducation garde l'avantage. Pas de maman : plafond de 3 posts mamans sur 7 jours atteint.",
+  "decor": "-",
+  "style": "theme clair",
+  "rendu": "kinetic mythe/réalité",
+  "heures": "18:00",
+  "voix": "5/5 prêtes",
+  "fichier": "reseaux-sociaux/auto/2026-11-13-kin-mythes-dyslexie.mp4",
+  "metricool": {
+   "instagram": 426585345,
+   "tiktok": 426585353
+  }
  }
 ]
