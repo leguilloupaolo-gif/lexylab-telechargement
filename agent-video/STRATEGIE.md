@@ -26,6 +26,8 @@ temps de visionnage, partages et sauvegardes. Les abonnés et les clics viendron
   comprend les mots écrits comme on les entend ; explique certaines fautes ; hors ligne, textes privés ;
   Word, Gmail, Google Docs, Outlook, navigateur ; Mac et Windows.
 - Ton : chaleureux, drôle, jamais moqueur, jamais culpabilisant. On parle aux dys **comme un pote dys**.
+- **Image de marque (Paolo, 13/11) : plus qualitative et plus corporate.** Visuels soignés (motion design, carrousels sobres, texte animé élégant),
+  moins de bonshommes bâton (1 toutes les 2 semaines maximum), 1 sketch par semaine maximum (rendu flat ou cartoon).
 
 ## 4. Piliers de contenu
 | Pilier | Formats possibles | Rôle |
@@ -46,7 +48,7 @@ Les visuels dessinés (sketch, kinetic, quiz) restent possibles pour l'humour, l
 mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
 - `presentation` : présentation produit premium (motion design sombre ou clair) ; existe aussi en **carrousel** (images à faire glisser).
 - `capture` : montage de **vraies** captures ou vidéos d'écran de LexyLab, avec zoom, cadres rouges, sous-titres, musique et fin. Le badge « ● Vraie capture » s'affiche.
-- `sketch` : sketch bâton (~39 s), 2 personnages, bulles, écran avec fautes puis correction.
+- `sketch` : sketch (~39 s) ; **limité à 1 par semaine depuis le 13/11, bâton 1 toutes les 2 semaines max**, 2 personnages, bulles, écran avec fautes puis correction.
 - `demo` : fenêtre Word, Gmail, Docs ou Notes, frappe, soulignement, bulle LexyLab, clic, correction, sous-titres façon voix off (~20 s). Peut finir sur une **vraie capture** de `captures/`.
 - `kinetic` : texte animé mot par mot, cartes « mythe / réalité », listes numérotées, POV (~15-30 s).
 - `quiz` : « trouve les fautes » avec compte à rebours, puis révélation (~20 s).
@@ -95,6 +97,9 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Ven 13 : 10 h carrousel « 5 raisons » (10 % pari : sauvegardes) ; 18 h kinetic mythes dyslexie ou kinetic POV dictée (20 % émotion école, pour Instagram).
   → Fait le 13/11 : 10 h carrousel « 5 raisons » ; 18 h kinetic mythes dyslexie (thème clair), IG + TikTok.
 - Sam 14 : sketch école ou étudiant (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
+  → **Changé le 13/11 (demande de Paolo : plus qualitatif, plus corporate, moins de bâton)** : sam 14 présentation produit « pourquoi LexyLab » (fondateur, thème sombre, voix prêtes) ;
+    dim 15 demo propre (« devoir dans Word » ou « notes de cours »), voix prêtes. Pas de sketch ce week-end.
+  → Semaine du 16/11 : au moins 6 posts sur 10 en présentation, carrousel, kinetic sobre ou demo ; 1 sketch maximum (rendu flat ou cartoon, pas bâton).
   → Mise à jour 10/11 (règle des 25 %) : cette semaine, les mamans ont déjà 3 posts (lun 18 h demo, mar 20 h 30 republication, mer 18 h astuces).
     Le sketch maman/devoirs est reporté à la semaine prochaine. Sam et dim : étudiants, travail ou tous les dys.
   → Fait le 11/11 : 10 h quiz-courses ; 18 h kinetic astuces relire (étudiants) à la place des astuces devoirs mamans (plafond de 3 posts mamans sur 7 jours atteint). Astuces devoirs mamans reportées à la semaine prochaine.

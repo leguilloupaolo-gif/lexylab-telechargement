@@ -33,10 +33,18 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   Les carrousels n'ont pas de voix off.
 - Mix conseillé : environ 1 carrousel et 1 présentation produit par semaine, à ajuster selon les chiffres.
 
+## Ligne visuelle : plus qualitatif, plus corporate (demande de Paolo, 13/11)
+- **Moins de bonshommes bâton.** Le rendu `baton` passe à **1 post maximum toutes les 2 semaines** (pari seulement, jamais en série).
+- **Sketchs : 1 par semaine maximum**, et de préférence en rendu `flat` ou `cartoon` (propre, aplats, couleurs de la marque), décor sobre (bureau, bibliotheque, cafe).
+- **Formats à privilégier** (au moins 6 posts sur 10) : `presentation` (motion design premium, thèmes sombre et clair),
+  carrousels sobres, `kinetic` en thèmes sombre, bleu ou clair (pas de fond chargé), `demo` propre, et `capture` dès qu'il y a de vraies captures.
+- Ton : professionnel et chaleureux, comme une marque sérieuse. Moins d'emojis dans les visuels (1 maximum par écran), légendes plus nettes.
+- Le côté humain reste (fondateur, émotion, mamans), mais en version soignée : texte animé élégant plutôt que dessin.
+
 ## Variété visuelle (demande de Paolo)
 - **Ne jamais refaire le même décor ni le même style deux vidéos de suite.** Vérifie les 3 dernières entrées du journal.
 - Sketch : `params.decor` = bureau, chambre, salon, cuisine, bibliotheque, classe, cafe (choisis le décor qui va avec l'histoire)
-  et `params.style` = papier, cahier, pastel, nuit, tableau, couleur. Le style « nuit » va bien avec les scènes du soir.
+  (rappel 13/11 : sketchs limités, voir « Ligne visuelle » ci-dessus) et `params.style` = papier, cahier, pastel, nuit, tableau, couleur. Le style « nuit » va bien avec les scènes du soir.
   Et `params.rendu` = apparence des personnages : baton (bonhommes bâton), cartoon (personnages en couleur, gros yeux),
   bd (bande dessinée : cadre, trame de points, cartouche jaune, « ?! »), flat (aplats sans contour).
   Varie aussi le rendu : jamais le même deux sketchs de suite. Tu peux inventer d'autres rendus, mais vérifie-les toujours avec `--preview`.
