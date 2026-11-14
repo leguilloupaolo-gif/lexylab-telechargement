@@ -174,13 +174,13 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 246,
+   "vues": 247,
    "portee": 198,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
    "temps_moyen_s": 4.2,
-   "score": 246
+   "score": 247
   },
   {
    "date": "2026-11-06",
@@ -188,13 +188,13 @@
    "format": "demo",
    "pilier": "demo",
    "reseau": "instagram",
-   "vues": 182,
+   "vues": 185,
    "portee": 134,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 2,
    "temps_moyen_s": 4.5,
-   "score": 192
+   "score": 195
   },
   {
    "date": "2026-11-07",
@@ -202,13 +202,13 @@
    "format": "kinetic",
    "pilier": "mamans",
    "reseau": "instagram",
-   "vues": 162,
+   "vues": 163,
    "portee": 122,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
    "temps_moyen_s": 3.6,
-   "score": 162
+   "score": 163
   },
   {
    "date": "2026-11-08",
@@ -302,14 +302,14 @@
    "format": "sketch",
    "pilier": "situations",
    "reseau": "instagram",
-   "vues": 140,
-   "portee": 118,
+   "vues": 143,
+   "portee": 120,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
-   "temps_moyen_s": 4.9,
+   "temps_moyen_s": 4.8,
    "republication": true,
-   "score": 140
+   "score": 143
   },
   {
    "date": "2026-11-10",
@@ -317,13 +317,13 @@
    "format": "kinetic",
    "pilier": "emotion",
    "reseau": "instagram",
-   "vues": 177,
-   "portee": 130,
+   "vues": 179,
+   "portee": 131,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
-   "temps_moyen_s": 5.3,
-   "score": 177
+   "temps_moyen_s": 5.2,
+   "score": 179
   },
   {
    "date": "2026-11-09",
@@ -331,14 +331,14 @@
    "format": "kinetic",
    "pilier": "fondateur",
    "reseau": "instagram",
-   "vues": 158,
-   "portee": 128,
+   "vues": 160,
+   "portee": 129,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
-   "temps_moyen_s": 3.9,
+   "temps_moyen_s": 3.8,
    "republication": true,
-   "score": 158
+   "score": 160
   },
   {
    "date": "2026-11-09",
@@ -346,13 +346,13 @@
    "format": "demo",
    "pilier": "mamans",
    "reseau": "instagram",
-   "vues": 200,
-   "portee": 161,
+   "vues": 202,
+   "portee": 162,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 1,
-   "temps_moyen_s": 6.1,
-   "score": 205
+   "temps_moyen_s": 6.0,
+   "score": 207
   },
   {
    "date": "2026-11-10",
@@ -361,13 +361,13 @@
    "republication": true,
    "format": "kinetic",
    "pilier": "mamans",
-   "vues": 145,
-   "portee": 118,
+   "vues": 147,
+   "portee": 119,
    "partages": 0,
    "sauvegardes": 0,
    "commentaires": 0,
-   "temps_moyen_s": 3.8,
-   "score": 145
+   "temps_moyen_s": 3.9,
+   "score": 147
   },
   {
    "date": "2026-11-10",
@@ -409,9 +409,10 @@
   }
  ],
  "note_2026-11-09": "Relevé du 9/11 sur 21 jours. Instagram : IGRE21 = partages (groupe-classe : 5 partages, et non 5 commentaires). TikTok : 0 commentaire relevé partout ; taux vu en entier et temps moyen non renvoyés par Metricool. Posts du 7 et 8/11 trop récents (< 3 jours) pour conclure.",
- "derniere_maj_quotidienne": "2026-11-13",
+ "derniere_maj_quotidienne": "2026-11-14",
  "note_2026-11-10": "Relevé quotidien du 10/11 (14 jours). Les posts du 9/11 n'apparaissent pas encore dans les Reels Instagram. TikTok du 9/11 : moins de 24 h, à revoir (kin-fondateur v3 publié à 20h30, demo maman à 18h).",
  "note_2026-11-11": "Relevé quotidien du 11/11 (14 jours). Les heures Instagram renvoyées par Metricool sont en UTC. TikTok : les posts du 10/11 n'apparaissent pas encore. IG : demo maman mot au prof = meilleur récent (193 vues, 6,1 s, 1 commentaire) ; POV dictée 133 vues en moins de 24 h (5,4 s). TikTok : kin mamans 781, CV 755, mail prof 692 restent en tête ; demo maman 443 ; kin fondateur v3 (20h30) seulement 187.",
  "note_2026-11-12": "Relevé quotidien du 12/11 (14 jours). Posts du 11/11 pas encore remontés (IG et TikTok) ; TikTok du 10/11 toujours absents. IG : demo maman mot au prof reste en tête des récents (199 vues, 6,1 s) ; POV dictée monte à 177 (5,3 s) ; republications du 10/11 entre 127 et 134. TikTok : kin mamans 781, CV 755, mail prof 692 en tête ; TikTok renvoie des likes (TKPO08) : CV 21, kin mamans 20.",
- "note_2026-11-13": "Relevé quotidien du 13/11 (14 jours). Posts du 11 et 12/11 pas encore remontés (IG et TikTok). TikTok : les posts du 9 et 10/11 sont arrivés et rejoignent le plateau 650-790 vues (kin mamans 784, demo maman 773, CV 762, kin fondateur 758, POV dictée 707) ; seul sketch devoir du 8/11 reste à 305. IG : demo maman mot au prof reste en tête (200 vues, 6,1 s), puis POV dictée (177, 5,3 s) ; republications entre 140 et 158. Partages et sauvegardes toujours à 0."
+ "note_2026-11-13": "Relevé quotidien du 13/11 (14 jours). Posts du 11 et 12/11 pas encore remontés (IG et TikTok). TikTok : les posts du 9 et 10/11 sont arrivés et rejoignent le plateau 650-790 vues (kin mamans 784, demo maman 773, CV 762, kin fondateur 758, POV dictée 707) ; seul sketch devoir du 8/11 reste à 305. IG : demo maman mot au prof reste en tête (200 vues, 6,1 s), puis POV dictée (177, 5,3 s) ; republications entre 140 et 158. Partages et sauvegardes toujours à 0.",
+ "note_2026-11-14": "Relevé quotidien du 14/11 (14 jours). Toujours aucun chiffre pour les posts du 11, 12 et 13/11 (quiz, astuces relire, présentation classique vs LexyLab, carrousel 5 raisons, kinetic mythes) : délai de remontée Metricool. Chiffres stables : TikTok plateau 650-790 vues (kin mamans 784, demo maman 773, CV 762, kin fondateur 758) ; IG : CV 247, demo maman 202 (6,0 s), mail prof 185, POV dictée 179 (5,3 s). Partages et sauvegardes toujours à 0."
 }
