@@ -99,6 +99,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Sam 14 : sketch école ou étudiant (70 %). Dim 15 : kinetic émotion (POV dictée) ou sketch, selon les voix prêtes.
   → **Changé le 13/11 (demande de Paolo : plus qualitatif, plus corporate, moins de bâton)** : sam 14 présentation produit « pourquoi LexyLab » (fondateur, thème sombre, voix prêtes) ;
     dim 15 voir ci-dessous. Pas de sketch ce week-end.
+  → Fait le 14/11 : 10 h présentation « pourquoi LexyLab » (sombre, fondateur), IG + TikTok.
   → **Précision de Paolo (13/11) : style de la 1re vidéo du compte** (format `presentation` sombre, voir INSTRUCTIONS « Ligne visuelle »).
     Dim 15 : `pres-examen-fiches` (étudiants) si ses voix sont prêtes, sinon une demo. Nouvelles idées dans ce style : `pres-mail-travail`, `pres-examen-fiches`, `pres-mamans-autonomie`.
   → **Période de test : du 13/11 au 27/11** (2 semaines). Bilan chiffré avant/après envoyé au fondateur le 27/11. Tenir le cap sur toute la période pour que la comparaison soit juste.

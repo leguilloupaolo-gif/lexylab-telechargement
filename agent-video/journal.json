@@ -202,5 +202,22 @@
    "instagram": 426585345,
    "tiktok": 426585353
   }
+ },
+ {
+  "date": "2026-11-14",
+  "id": "pres-pourquoi-lexylab",
+  "format": "presentation",
+  "pilier": "fondateur",
+  "cible": "tous les dys",
+  "hypothese": "Le style de la 1re vidéo (présentation sombre) appliqué à l'histoire du fondateur retient mieux que le kinetic fondateur (IG 160 vues, 3,8 s)",
+  "raison_stats": "70 % : fondateur = sujet historique n°1 sur TikTok (1 864 vues en octobre, kinetic fondateur 758 le 9/11, dans le plateau haut 650-790). Sur IG, l'émotion école reste en tête (demo maman 202 vues/6,0 s, POV dictée 179/5,3 s) : accroche « copies pleines de rouge ». Style de référence demandé pour la période de test 13-27/11. Pas de maman : 25 % respecté.",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design (style 1re vidéo)",
+  "heures": "10:00",
+  "voix": "6/6",
+  "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
+  "instagram": "10:00 (Metricool 427769563)",
+  "tiktok": "10:00 (Metricool 427769571)"
  }
 ]
