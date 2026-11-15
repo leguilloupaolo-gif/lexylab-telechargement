@@ -219,5 +219,23 @@
   "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
   "instagram": "10:00 (Metricool 427769563)",
   "tiktok": "10:00 (Metricool 427769571)"
+ },
+ {
+  "date": "2026-11-15",
+  "id": "demo-notes-cours",
+  "fichier": "reseaux-sociaux/auto/2026-11-15-demo-notes-cours.mp4",
+  "instagram": "10:00 (Metricool 428632053)",
+  "tiktok": "NON PROGRAMMÉ (programmation TikTok refusée par le contrôle d'autorisation de la session ; à publier à la main ou au prochain passage)",
+  "heures": "10:00",
+  "format": "demo",
+  "pilier": "demo",
+  "cible": "etudiants",
+  "hypothese": "Le hors-ligne (amphi sans wifi) est un argument fort pour les étudiants, cible n°1 de TikTok",
+  "raison_stats": "Plan du mix : pres-examen-fiches si voix prêtes, sinon une demo. Les voix de pres-examen-fiches ne sont pas encore fabriquées (Mac à 12h30). Demo = format dans le haut des chiffres (TikTok : demo maman 773, mail prof 699 ; IG : demo maman 204 vues et 6,0 s, meilleur temps de visionnage récent). Cible étudiants (CV 762, mail prof 699 sur TikTok) ; pas de maman (dernier post mamans le 10/11, quota respecté). 10 h = meilleure heure du dimanche sur IG (2582) et TikTok (816).",
+  "decor": "app Notes",
+  "style": "clair",
+  "rendu": "demo maquette",
+  "voix": "6/6 (hook + 5 sous-titres)",
+  "emojis": "1 seul à l'écran (accroche)"
  }
 ]
