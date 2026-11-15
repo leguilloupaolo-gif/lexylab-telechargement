@@ -742,7 +742,7 @@
   "id": "demo-notes-cours",
   "format": "demo",
   "pilier": "demo",
-  "hypothese": "Le hors-ligne est un argument fort pour les étudiants",
+  "hypothese": "Le hors-ligne (amphi sans wifi) est un argument fort pour les étudiants, cible n°1 de TikTok",
   "params": {
    "hook": "Même *sans internet*,\nen plein cours 📚",
    "app": "notes",
@@ -750,16 +750,18 @@
    "screen": "La [sélule|cellule] est [luniter|l'unité] de base du [vivan|vivant], elle [contien|contient] un noyau.",
    "explain": "« cellule » : ici le son [s] s'écrit avec un *c*.",
    "subs": [
-    "Pas de wifi en amphi ? 😅",
+    "Pas de wifi en amphi ?",
     "LexyLab marche *hors ligne*",
     "Il te propose le bon mot",
     "Et tes notes restent *sur ton ordi*",
-    "Révisions sans galère 💪"
+    "Révisions sans galère"
    ],
    "badge": "✓ Notes lisibles"
   },
-  "post_text": "Pas de wifi en amphi ? LexyLab marche hors ligne 📚 Tes notes sont corrigées en direct et restent sur ton ordi.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
-  "tiktok_title": "Prendre des notes sans fautes, même hors ligne"
+  "post_text": "Pas de wifi en amphi ? LexyLab marche hors ligne. Tes notes sont corrigées en direct, et elles restent sur ton ordi.\n\nEt toi, tu prends tes notes sur ordi ou à la main ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #prisedenotes #lexylab #orthographe",
+  "tiktok_title": "Prendre des notes sans fautes, même hors ligne",
+  "cible": "etudiants",
+  "tiktok_text": "Pas de wifi en amphi ? LexyLab marche hors ligne 📚 Ordi ou à la main pour tes notes ? 👇 #dyslexie #dys #etudiant #lexylab #orthographe"
  },
  {
   "id": "sketch-rapport-stage",
@@ -1539,5 +1541,65 @@
   "post_text": "Chaque soir, tu relis ses devoirs mot par mot ? Et s'il pouvait écrire tout seul ?\n\nLexyLab souligne les fautes pendant qu'il écrit, et explique certaines erreurs. Hors ligne : ses textes restent privés.\n\nEt chez vous, les devoirs durent combien de temps le soir ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
   "tiktok_title": "Et s'il pouvait écrire tout seul ?",
   "tiktok_text": "Et s'il pouvait écrire ses devoirs tout seul ? 👇 #dyslexie #mamandys #parentsdys #dys #lexylab"
+ },
+ {
+  "id": "pres-enseignants-logopedes",
+  "format": "presentation",
+  "pilier": "education",
+  "cible": "logopedes et enseignants",
+  "hypothese": "Le style de la 1re vidéo adressé aux logopèdes et enseignants (cible pas encore touchée) génère des partages et des sauvegardes",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Logopède ou enseignant ?",
+      "Vos élèves dys écrivent",
+      "les mots *comme ils les entendent*."
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Ce n'est pas",
+      "de la ~négligence~.",
+      "C'est *la dyslexie*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Un élève écrit comme il entend…",
+     "ecran": "Hier, on a [fé|fait] une [ballade|balade] dans la [foré|forêt]."
+    },
+    {
+     "type": "logo",
+     "avant": "Un outil à leur conseiller :"
+    },
+    {
+     "type": "liste",
+     "titre": "*Pensé pour la dyslexie*",
+     "items": [
+      "Comprend les mots écrits *comme on les entend*",
+      "*Explique* certaines fautes",
+      "*Hors ligne* : les textes restent privés"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Aidez-les à écrire",
+      "*en confiance*."
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Logopède ou enseignant ? Vos élèves dys écrivent souvent les mots comme ils les entendent. Ce n'est pas de la négligence, c'est la dyslexie.\n\nLexyLab est un correcteur pensé pour la dyslexie : il comprend ces fautes, en explique certaines, et marche hors ligne.\n\nQuel outil conseillez-vous à vos élèves dys ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #logopedie #enseignant #ecoleinclusive #lexylab",
+  "tiktok_title": "Pour les logopèdes et les enseignants",
+  "tiktok_text": "Logopède ou enseignant ? Ce n'est pas de la négligence, c'est la dyslexie 👇 #dyslexie #dys #logopedie #enseignant #lexylab"
  }
 ]

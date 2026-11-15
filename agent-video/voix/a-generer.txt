@@ -297,3 +297,9 @@ voix/pres-mamans-autonomie-2.m4a|Il écrit les mots comme il les entend. Aujourd
 voix/pres-mamans-autonomie-3.m4a|LexyLab l'accompagne.|principale
 voix/pres-mamans-autonomie-4.m4a|Un correcteur pensé pour la dyslexie. Il souligne les fautes pendant qu'il écrit, et il explique certaines fautes. Hors ligne, ses textes restent privés.|principale
 voix/pres-mamans-autonomie-5.m4a|Plus d'autonomie, et moins de stress le soir. Sur Mac et Windows.|principale
+voix/pres-enseignants-logopedes-0.m4a|Logopède ou enseignant ? Vos élèves dys écrivent les mots comme ils les entendent.|principale
+voix/pres-enseignants-logopedes-1.m4a|Ce n'est pas de la négligence. C'est la dyslexie.|principale
+voix/pres-enseignants-logopedes-2.m4a|Un élève écrit comme il entend. Hier, on a fait une balade dans la forêt.|principale
+voix/pres-enseignants-logopedes-3.m4a|Un outil à leur conseiller. LexyLab.|principale
+voix/pres-enseignants-logopedes-4.m4a|Il est pensé pour la dyslexie. Il comprend les mots écrits comme on les entend, il explique certaines fautes, et il marche hors ligne : les textes restent privés.|principale
+voix/pres-enseignants-logopedes-5.m4a|Aidez-les à écrire en confiance. Sur Mac et Windows.|principale
