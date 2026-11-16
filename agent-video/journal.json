@@ -244,5 +244,45 @@
   "voix": "6/6 (hook + 5 sous-titres)",
   "emojis": "1 seul à l'écran (accroche)",
   "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+ },
+ {
+  "date": "2026-11-16",
+  "id": "pres-pourquoi-lexylab",
+  "reprogrammation": true,
+  "note": "Reprogrammée : la version du 14/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vue).",
+  "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
+  "format": "presentation",
+  "pilier": "fondateur",
+  "cible": "tous les dys",
+  "hypothese": "Le style de la 1re vidéo (présentation sombre) appliqué à l'histoire du fondateur retient mieux que le kinetic fondateur (IG 162 vues, 3,8 s)",
+  "raison_stats": "Fondateur = sujet n°1 sur TikTok (1 864 vues en octobre, kinetic fondateur 763 le 9/11). Style de référence de la période de test. 10 h = meilleure heure du lundi sur IG (5528) et TikTok (1089).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design (style 1re vidéo)",
+  "heures": "10:00",
+  "voix": "6/6",
+  "metricool": {
+   "instagram": 429639131,
+   "tiktok": 429639141
+  }
+ },
+ {
+  "date": "2026-11-16",
+  "id": "kin-mamans-astuces-devoirs",
+  "fichier": "reseaux-sociaux/auto/2026-11-16-kin-mamans-astuces-devoirs.mp4",
+  "format": "kinetic",
+  "pilier": "mamans",
+  "cible": "mamans",
+  "hypothese": "Des astuces concrètes pour les devoirs, en thème sombre sobre, sont sauvegardées et partagées par les mamans",
+  "raison_stats": "TikTok : kinetic mamans = meilleur post récent (785 vues), demo maman 777. Sauvegardes ~0 partout : test d'un contenu « à garder ». Mamans le soir (après les devoirs). Seulement 1 post mamans sur les 7 derniers jours (republication du 10/11). 18 h = meilleure heure du soir lundi sur IG (4206) et TikTok (1096).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "kinetic liste numérotée",
+  "heures": "18:00",
+  "voix": "6/6",
+  "metricool": {
+   "instagram": 429639154,
+   "tiktok": 429639159
+  }
  }
 ]
