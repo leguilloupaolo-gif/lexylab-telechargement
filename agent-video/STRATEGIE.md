@@ -81,6 +81,13 @@ mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
 - Heures : 10 h ou 18 h 30, pas de différence claire pour l'instant (le CV à 18 h 30 est le meilleur récent sur Instagram). Cette semaine, test des deux créneaux les jours à 2 posts.
 - Toujours aucune vraie capture de LexyLab dans `captures/` : le format `capture` reste impossible.
 
+**Analyse du 16/11/2026** (chiffres du 26/10 au 16/11) :
+- **Alerte : rien n'a été publié du 11 au 15/11.** Les 13 posts programmés (quiz, astuces relire, présentation classique vs LexyLab, carrousel 5 raisons, mythes, présentation pourquoi LexyLab, demo notes) sont tous en erreur dans Metricool : « You have reached your Metricool account limit ». Ce n'était pas un délai de remontée des chiffres. Les tests de la semaine dernière n'ont donc jamais été vus : aucune conclusion possible sur la présentation sombre, le carrousel, le quiz ni le mythe/réalité.
+- TikTok (posts jusqu'au 10/11) : plateau stable de 650 à 790 vues quel que soit le format (kinetic mamans 785, demo maman 777, CV 764, kinetic fondateur 763, POV dictée 708, mail prof 699). Seul le sketch devoir du samedi 8/11 (305) décroche. Le sujet compte plus que le format.
+- Instagram : toujours bas (145 à 247 vues). Meilleur temps de visionnage : demo maman (6,0 s) et sketch devoir (5,5 s) ; le texte animé mamans et fondateur retient moins (3,6 à 3,9 s). Montrer le produit en action retient mieux que du texte seul.
+- Partages et sauvegardes : toujours presque nuls. Le carrousel et les astuces « à garder » restent à tester pour de vrai.
+- Les voix off ne sont plus fabriquées depuis le 9/11 : les 4 présentations sombres du 13/11 n'ont pas leurs voix.
+
 ## 8. Mix de la semaine (mis à jour chaque lundi)
 **Rythme (décision de Paolo, 8/11) : 10 posts par semaine.** 2 posts le lundi, le mercredi et le vendredi, 1 post les autres jours. Toujours avec voix off (sauf carrousels).
 Semaine du 6/11 : phase de découverte, chaque format testé au moins 2 fois.
@@ -108,3 +115,15 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
     Le sketch maman/devoirs est reporté à la semaine prochaine. Sam et dim : étudiants, travail ou tous les dys.
   → Fait le 11/11 : 10 h quiz-courses ; 18 h kinetic astuces relire (étudiants) à la place des astuces devoirs mamans (plafond de 3 posts mamans sur 7 jours atteint). Astuces devoirs mamans reportées à la semaine prochaine.
 - Répartition visée : 7 posts « ce qui marche » (mamans, fondateur, école/émotion), 2 variantes (quiz, POV), 1 pari (carrousel ou présentation).
+
+**Semaine du 16/11** (10 posts ; la période de test du style 1re vidéo commence vraiment cette semaine, puisque rien n'est sorti du 11 au 15/11) :
+- Priorité : **reprogrammer les posts jamais publiés** (ils comptent dans le quota, ce ne sont pas des republications), dès que la limite Metricool est levée.
+- Lun 16 : 10 h présentation « pourquoi LexyLab » (sombre, fondateur, 70 %) ; 18 h kinetic astuces devoirs mamans (thème sombre, 70 % mamans le soir, « à garder »).
+- Mar 17 : présentation classique vs LexyLab (sombre, jamais vue).
+- Mer 18 : 10 h carrousel 5 raisons (sombre, 10 % pari sauvegardes) ; 18 h `pres-examen-fiches` si ses voix sont prêtes, sinon kinetic mythes dyslexie.
+- Jeu 19 : `pres-mail-travail` si voix, sinon demo notes de cours (étudiants).
+- Ven 20 : 10 h quiz courses (20 % engagement) ; 18 h `pres-mamans-autonomie` si voix, sinon kinetic astuces relire.
+- Sam 21 : `pres-enseignants-logopedes` si voix, sinon un carrousel sombre (étudiants ou logopèdes).
+- Dim 22 : 1 sketch maximum (rendu flat ou cartoon) ou demo Word devoir.
+- Mamans : 2 posts (lun 18 h, ven 18 h), plafond de 3 respecté. Au moins 6 posts sur 10 en présentation ou carrousel sombre.
+- Répartition : 7 « ce qui marche » (fondateur, mamans, école, produit en action), 2 variantes (quiz, mythes), 1 pari (carrousel).

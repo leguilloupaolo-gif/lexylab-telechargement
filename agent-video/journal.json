@@ -127,7 +127,8 @@
   "decor": "-",
   "style": "quiz clair",
   "rendu": "quiz",
-  "voix": "voix principale (quiz-courses-0 et 1)"
+  "voix": "voix principale (quiz-courses-0 et 1)",
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  },
  {
   "date": "2026-11-11",
@@ -144,7 +145,8 @@
   "decor": "-",
   "style": "theme vert",
   "rendu": "kinetic",
-  "voix": "voix principale (kin-astuces-relire-0 à 4)"
+  "voix": "voix principale (kin-astuces-relire-0 à 4)",
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  },
  {
   "date": "2026-11-12",
@@ -163,7 +165,8 @@
   "metricool": {
    "instagram": 425312799,
    "tiktok": 425312807
-  }
+  },
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  },
  {
   "date": "2026-11-13",
@@ -182,7 +185,8 @@
   "metricool": {
    "instagram": 426585313,
    "tiktok": 426585325
-  }
+  },
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  },
  {
   "date": "2026-11-13",
@@ -201,7 +205,8 @@
   "metricool": {
    "instagram": 426585345,
    "tiktok": 426585353
-  }
+  },
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  },
  {
   "date": "2026-11-14",
@@ -218,7 +223,8 @@
   "voix": "6/6",
   "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
   "instagram": "10:00 (Metricool 427769563)",
-  "tiktok": "10:00 (Metricool 427769571)"
+  "tiktok": "10:00 (Metricool 427769571)",
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  },
  {
   "date": "2026-11-15",
@@ -236,6 +242,7 @@
   "style": "clair",
   "rendu": "demo maquette",
   "voix": "6/6 (hook + 5 sous-titres)",
-  "emojis": "1 seul à l'écran (accroche)"
+  "emojis": "1 seul à l'écran (accroche)",
+  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
  }
 ]

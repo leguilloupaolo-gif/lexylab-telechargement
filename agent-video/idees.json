@@ -490,7 +490,7 @@
   "pilier": "mamans",
   "hypothese": "Les astuces concrètes pour les devoirs sont sauvegardées par les mamans",
   "params": {
-   "theme": "clair",
+   "theme": "sombre",
    "music": "joyeux",
    "slides": [
     {
@@ -528,8 +528,10 @@
     }
    ]
   },
-  "post_text": "Devoirs + dyslexie : 4 astuces de maman 📚 Enregistre pour ce soir 📌 Et toi, c'est quoi ton astuce ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
-  "tiktok_title": "Devoirs + dyslexie : 4 astuces de maman"
+  "post_text": "Devoirs + dyslexie : 4 astuces de maman 📚 Enregistre pour ce soir 📌\n\nEt toi, c'est quoi ton astuce pour les soirs de devoirs ? Dis-le en commentaire 👇\nPartage à une maman qui en a besoin 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "tiktok_title": "Devoirs + dyslexie : 4 astuces de maman",
+  "cible": "mamans",
+  "tiktok_text": "Devoirs + dyslexie : 4 astuces de maman 📚 Et toi, ton astuce ? 👇 Enregistre pour ce soir 📌 #dyslexie #mamandys #parentsdys #enfantdys #dys #lexylab"
  },
  {
   "id": "sketch-examen-blanc",
