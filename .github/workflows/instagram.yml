@@ -1,0 +1,54 @@
+name: Instagram (publication directe, sans Metricool)
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"      # toutes les 15 minutes : publie ce qui est dû
+    - cron: "17 3 * * 1"        # chaque lundi : prolonge le jeton Instagram
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "publier | test | renouveler"
+        default: "test"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  instagram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: agent-video/instagram
+      - name: Choisir le mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "m=${{ inputs.mode }}" >> $GITHUB_OUTPUT;
+          elif [ "${{ github.event.schedule }}" = "17 3 * * 1" ]; then echo "m=renouveler" >> $GITHUB_OUTPUT;
+          else echo "m=publier" >> $GITHUB_OUTPUT; fi
+      - name: Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_PAT }}
+          TOKEN_OUT: ${{ runner.temp }}/ig_token
+        run: |
+          python3 agent-video/instagram/publier.py ${{ steps.mode.outputs.m }}
+          if [ "${{ steps.mode.outputs.m }}" = "renouveler" ] && [ -s "$TOKEN_OUT" ]; then
+            if [ -z "$GH_TOKEN" ]; then echo "GH_SECRETS_PAT absent : jeton prolongé côté Instagram, mais pas enregistré dans GitHub."; else
+              gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}" < "$TOKEN_OUT" && echo "Nouveau jeton enregistré."; fi
+            rm -f "$TOKEN_OUT"
+          fi
+      - name: Sauvegarder la file d'attente
+        if: steps.mode.outputs.m == 'publier'
+        run: |
+          git config user.name "LexyLab publication"; git config user.email "lexylab.contact@gmail.com"
+          if ! git diff --quiet agent-video/instagram/file.json; then
+            git add agent-video/instagram/file.json
+            git commit -m "Instagram : résultat des publications"
+            for i in 1 2 3; do git pull --rebase -q origin main && git push -q && break; sleep 5; done
+          fi
