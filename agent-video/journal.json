@@ -284,5 +284,26 @@
    "instagram": 429639154,
    "tiktok": 429639159
   }
+ },
+ {
+  "date": "2026-11-17",
+  "id": "pres-classique-vs-lexylab",
+  "reprogrammation": true,
+  "note": "Reprogrammée : la version du 12/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vue). Les posts du 16/11 sont aussi en erreur « account limit » : risque fort que celui-ci échoue aussi.",
+  "fichier": "reseaux-sociaux/auto/2026-11-12-pres-classique-vs-lexylab.mp4",
+  "format": "presentation",
+  "pilier": "demo",
+  "cible": "tous les dys",
+  "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence et donne envie d'essayer",
+  "raison_stats": "Plan du mix (mar 17). Aucun nouveau chiffre depuis le 10/11 (rien publié). Les posts qui montrent le produit en action retiennent le mieux sur IG (demo maman 205 vues, 5,9 s) et restent dans le plateau haut TikTok (demo maman 777). Style 1re vidéo (période de test). Pas de maman : 25 % respecté. 10 h = meilleure heure du mardi sur IG (4942) et TikTok (1136).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design",
+  "heures": "10:00",
+  "voix": "5/5",
+  "metricool": {
+   "instagram": 431046791,
+   "tiktok": 431046799
+  }
  }
 ]
