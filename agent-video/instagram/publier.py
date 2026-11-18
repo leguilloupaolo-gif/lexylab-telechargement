@@ -22,8 +22,9 @@ from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FILE = os.path.join(HERE, "file.json")
-API = "https://graph.instagram.com"
-TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
+TOKEN = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+# Jeton « connexion Instagram » (commence par IG) -> graph.instagram.com ; jeton « Facebook / connexion unifiée » (EAA…) -> graph.facebook.com
+API = "https://graph.instagram.com" if TOKEN.startswith("IG") else "https://graph.facebook.com/v23.0"
 USER = os.environ.get("IG_USER_ID", "")
 
 
@@ -85,12 +86,14 @@ def main():
         print("Secrets IG_ACCESS_TOKEN / IG_USER_ID pas encore ajoutés dans GitHub : rien à faire.")
         sys.exit(1 if mode == "test" else 0)
     if mode == "test":
-        me = call("GET", "me", fields="user_id,username,account_type")
-        print(f"OK : connecté au compte @{me.get('username')} ({me.get('account_type')})")
+        me = call("GET", USER, fields="username")
+        print(f"OK : connecté au compte @{me.get('username')} (API {API.split('//')[1].split('/')[0]})")
         lim = call("GET", f"{USER}/content_publishing_limit", fields="quota_usage,config")
         print("Quota de publication :", json.dumps(lim.get("data", lim)))
         return
     if mode == "renouveler":
+        if not TOKEN.startswith("IG"):
+            print("Jeton de type Facebook (connexion unifiée) : pas de renouvellement nécessaire."); return
         new = refresh_token()
         if new:
             print(f"::add-mask::{new}")
