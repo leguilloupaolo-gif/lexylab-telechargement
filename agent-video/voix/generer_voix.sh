@@ -12,7 +12,7 @@ meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le n
   for qual in "Premium" "premium" "Enhanced" "de qualité" "Améliorée" "Amélioré" ""; do
     for nom in $1; do
       ligne=$(echo "$LISTE" | grep -E "^$nom" | grep -E "${LANGRE:-fr_(FR|BE|CA|CH)}" | { if [ -n "$qual" ]; then grep "($qual)"; else grep -v "("; fi; } | head -1)
-      if [ -n "$ligne" ]; then echo "$ligne" | sed -E 's/ +fr_.*$//' | sed -E 's/ +$//'; return; fi
+      if [ -n "$ligne" ]; then echo "$ligne" | sed -E 's/ +[a-z]{2}_[A-Z]{2}.*$//' | sed -E 's/ +$//'; return; fi
     done
   done
 }
@@ -20,11 +20,11 @@ meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le n
 # Voix SECONDE (seulement pour le 2e personnage des dialogues) = Audrey (premium).
 # Voix anglaise (posts en anglais, ex. Irlande) : la plus naturelle installée (Moira = accent irlandais)
 ANGLAIS=$(LANGRE="en_(IE|GB|US|AU)" meilleure "Moira Serena Kate Daniel Ava Zoe Samantha Karen")
-[ -z "$ANGLAIS" ] && ANGLAIS=$(echo "$LISTE" | grep -E "en_(GB|US|IE)" | head -1 | sed -E 's/ +en_.*$//')
+[ -z "$ANGLAIS" ] && ANGLAIS=$(echo "$LISTE" | grep -E "en_(GB|US|IE)" | head -1 | sed -E 's/ +[a-z]{2}_[A-Z]{2}.*$//')
 PRINCIPALE=$(meilleure "Aurélie Audrey Amélie")
 SECONDE=$(meilleure "Audrey Amélie Marie")
 [ "$SECONDE" = "$PRINCIPALE" ] && SECONDE=$(meilleure "Audrey")
-[ -z "$PRINCIPALE" ] && PRINCIPALE=$(echo "$LISTE" | grep -E "fr_FR" | head -1 | sed -E 's/ +fr_.*$//')
+[ -z "$PRINCIPALE" ] && PRINCIPALE=$(echo "$LISTE" | grep -E "fr_FR" | head -1 | sed -E 's/ +[a-z]{2}_[A-Z]{2}.*$//')
 [ -z "$SECONDE" ] && SECONDE="$PRINCIPALE"
 HOMME="$PRINCIPALE"; FEMME="$SECONDE"
 echo "Voix principale : $PRINCIPALE | Voix seconde : $SECONDE"
