@@ -305,5 +305,45 @@
    "instagram": 431046791,
    "tiktok": 431046799
   }
+ },
+ {
+  "date": "2026-11-18",
+  "id": "car-5-raisons",
+  "reprogrammation": true,
+  "note": "Reprogrammé : la version du 13/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vu). Risque fort d'échec : tous les posts depuis le 11/11 sont en erreur « You have reached your Metricool account limit » (vérifié le 18/11 sur les posts du 16 et 17/11). Publication Instagram directe pas encore active (secrets GitHub absents).",
+  "fichier": "reseaux-sociaux/auto/2026-11-13-car-5-raisons/",
+  "format": "carrousel",
+  "pilier": "demo",
+  "cible": "tous les dys",
+  "hypothese": "Un carrousel « à garder » est plus sauvegardé et partagé qu'une vidéo",
+  "raison_stats": "Plan du mix (mer 18, 10 h, 10 % pari). Partages et sauvegardes toujours ~0 sur tous les posts (IG et TikTok, chiffres jusqu'au 10/11) : test d'un contenu à enregistrer. Carrousel sombre = style 1re vidéo (période de test). 10 h = meilleure heure du mercredi sur IG (6506) et TikTok (1432).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "carrousel motion design (7 images)",
+  "heures": "10:00",
+  "voix": "sans objet (carrousel)",
+  "metricool": {
+   "instagram": 432430766,
+   "tiktok": 432430776
+  }
+ },
+ {
+  "date": "2026-11-18",
+  "id": "pres-examen-fiches",
+  "fichier": "reseaux-sociaux/auto/2026-11-18-pres-examen-fiches.mp4",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "etudiants",
+  "hypothese": "Le style de la 1re vidéo appliqué aux étudiants (cible n°1 TikTok, période d'examens) retient l'attention",
+  "raison_stats": "70 % : sujets étudiants dans le plateau haut TikTok (CV 764, mail prof 699) ; sur IG, le CV reste le meilleur (247 vues) et montrer le produit en action retient le mieux (demo maman 5,9 s) : scène éditeur faute/correction. Style 1re vidéo (période de test). Pas de maman : 1 seul post mamans sur 7 jours, 25 % respecté. 18 h = meilleure heure du soir mercredi sur IG (4869) et TikTok (1386). Risque fort d'échec : tous les posts depuis le 11/11 sont en erreur « You have reached your Metricool account limit » (vérifié le 18/11 sur les posts du 16 et 17/11). Publication Instagram directe pas encore active (secrets GitHub absents).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design (style 1re vidéo)",
+  "heures": "18:00",
+  "voix": "6/6",
+  "metricool": {
+   "instagram": 432430850,
+   "tiktok": 432430858
+  }
  }
 ]
