@@ -303,3 +303,9 @@ voix/pres-enseignants-logopedes-2.m4a|Un élève écrit comme il entend. Hier, o
 voix/pres-enseignants-logopedes-3.m4a|Un outil à leur conseiller. LexyLab.|principale
 voix/pres-enseignants-logopedes-4.m4a|Il est pensé pour la dyslexie. Il comprend les mots écrits comme on les entend, il explique certaines fautes, et il marche hors ligne : les textes restent privés.|principale
 voix/pres-enseignants-logopedes-5.m4a|Aidez-les à écrire en confiance. Sur Mac et Windows.|principale
+voix/pres-en-testers-ireland-0.m4a|Dyslexic? Then you know the red underlines.|en
+voix/pres-en-testers-ireland-1.m4a|Most spell checkers are built for typos. Not for dyslexia.|en
+voix/pres-en-testers-ireland-2.m4a|LexyLab understands words written the way they sound. I would like to write a letter to my teacher.|en
+voix/pres-en-testers-ireland-3.m4a|Built by a dyslexic student. LexyLab.|en
+voix/pres-en-testers-ireland-4.m4a|We're looking for testers. Dyslexic people who write in English. Teachers and speech therapists, for honest feedback. It is free, with no commitment.|en
+voix/pres-en-testers-ireland-5.m4a|Want to test it? Comment TEST or send us a DM. It works offline, on Windows and Mac.|en

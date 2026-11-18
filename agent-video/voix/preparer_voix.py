@@ -12,7 +12,7 @@ Noms de fichiers (lus automatiquement par les formats) :
   quiz    : <id>-q, -a, -c          (question, réponse, appel à commenter)
   capture : <id>-hook, -p<plan>-s<n>
   presentation (vidéo) : <id>-<n> (n = numéro de scène) ; les carrousels n'ont pas de voix
-Format d'une ligne : voix/<fichier>.m4a|texte|principale ou seconde (seconde = 2e personnage d'un sketch seulement)
+Format d'une ligne : voix/<fichier>.m4a|texte|principale, seconde (2e personnage d'un sketch) ou en (post en anglais)
 Tu peux ensuite retoucher les textes à la main dans a-generer.txt (prononciation, rythme).
 """
 import json, os, re, sys
@@ -34,9 +34,13 @@ def clean(t):
     return t.replace("?.", "?").replace("!.", "!").strip()
 
 
+def p_lang(idea):
+    return (idea.get("params") or {}).get("lang", "fr")
+
+
 def lines_for(idea):
     i, f, p = idea["id"], idea["format"], idea["params"]
-    narr = "principale"   # choix de Paolo : la voix principale partout
+    narr = "en" if p_lang(idea) == "en" else "principale"   # choix de Paolo : la voix principale partout (anglais : voix anglaise)
     out = []
     if f == "kinetic":
         for n, s in enumerate(p["slides"]):

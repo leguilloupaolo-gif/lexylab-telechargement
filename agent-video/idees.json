@@ -67,6 +67,67 @@
   "post_text": "Dyslexic? Help us build the spell checker that gets you 🙌\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, works offline, on Windows and Mac (Mac in beta).\n\nWe're looking for:\n• dyslexic people who write in English, to test it in their daily writing\n• teachers, speech and language therapists and learning-support specialists, for honest feedback\n\nIt's free and there's no commitment. Comment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for helping us spread the word 💚\n\n#dyslexia #dyslexiaawareness #dyslexic #neurodiversity #ireland #dyslexiaireland #assistivetechnology #edtech #lexylab"
  },
  {
+  "id": "pres-en-testers-ireland",
+  "format": "presentation",
+  "pilier": "recrutement testeurs",
+  "cible": "dys anglophones (Irlande)",
+  "hypothese": "Vidéo en anglais d'appel à testeurs, relayée par Dyslexia Ireland",
+  "params": {
+   "theme": "sombre",
+   "lang": "en",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Dyslexic?",
+      "Then you know",
+      "the *red underlines*."
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Most spell checkers",
+      "are built for *typos*.",
+      "Not for *dyslexia*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "LexyLab understands words written *the way they sound*.",
+     "ecran": "I [wud|would] like to [rite|write] a [leter|letter] to my [techer|teacher]."
+    },
+    {
+     "type": "logo",
+     "avant": "Built by a dyslexic student:"
+    },
+    {
+     "type": "liste",
+     "titre": "We're looking for *testers*",
+     "items": [
+      "Dyslexic people who *write in English*",
+      "Teachers & SLTs for *honest feedback*",
+      "*Free*, no commitment"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Want to test it?",
+      "Comment *TEST*",
+      "or send us a DM."
+     ],
+     "sub": "Windows & Mac · works offline",
+     "bouton": "Link in bio 👆"
+    }
+   ]
+  },
+  "post_text": "Dyslexic? Then you know the red underlines 😅\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, and works offline on Windows and Mac (Mac in beta).\n\nWe're looking for testers: dyslexic people who write in English, and teachers, speech and language therapists and learning-support specialists for honest feedback. Free, no commitment.\n\nComment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for your support 💚\n\n#dyslexia #dyslexic #dyslexiaawareness #neurodiversity #ireland #assistivetechnology #edtech #lexylab",
+  "tiktok_title": "Dyslexic? We're looking for testers"
+ },
+ {
   "id": "demo-mail-prof",
   "format": "demo",
   "pilier": "demo",

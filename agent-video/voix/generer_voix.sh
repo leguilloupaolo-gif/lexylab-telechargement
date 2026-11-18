@@ -11,13 +11,16 @@ LISTE=$(say -v '?')
 meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le nom exact de la meilleure voix fr installée
   for qual in "Premium" "premium" "Enhanced" "de qualité" "Améliorée" "Amélioré" ""; do
     for nom in $1; do
-      ligne=$(echo "$LISTE" | grep -E "^$nom" | grep -E "fr_(FR|BE|CA|CH)" | { if [ -n "$qual" ]; then grep "($qual)"; else grep -v "("; fi; } | head -1)
+      ligne=$(echo "$LISTE" | grep -E "^$nom" | grep -E "${LANGRE:-fr_(FR|BE|CA|CH)}" | { if [ -n "$qual" ]; then grep "($qual)"; else grep -v "("; fi; } | head -1)
       if [ -n "$ligne" ]; then echo "$ligne" | sed -E 's/ +fr_.*$//' | sed -E 's/ +$//'; return; fi
     done
   done
 }
 # Choix de Paolo (9/11) : voix PRINCIPALE = Aurélie (premium), partout.
 # Voix SECONDE (seulement pour le 2e personnage des dialogues) = Audrey (premium).
+# Voix anglaise (posts en anglais, ex. Irlande) : la plus naturelle installée (Moira = accent irlandais)
+ANGLAIS=$(LANGRE="en_(IE|GB|US|AU)" meilleure "Moira Serena Kate Daniel Ava Zoe Samantha Karen")
+[ -z "$ANGLAIS" ] && ANGLAIS=$(echo "$LISTE" | grep -E "en_(GB|US|IE)" | head -1 | sed -E 's/ +en_.*$//')
 PRINCIPALE=$(meilleure "Aurélie Audrey Amélie")
 SECONDE=$(meilleure "Audrey Amélie Marie")
 [ "$SECONDE" = "$PRINCIPALE" ] && SECONDE=$(meilleure "Audrey")
@@ -32,7 +35,7 @@ while IFS='|' read -r fichier texte voixligne; do
   [ -z "$fichier" ] && continue
   case "$fichier" in \#*) continue;; esac
   texte="${texte%%|*}"   # sécurité : ne jamais lire le nom de la voix à voix haute
-  v="$PRINCIPALE"; case "$voixligne" in seconde|Seconde) v="$SECONDE";; esac
+  v="$PRINCIPALE"; case "$voixligne" in seconde|Seconde) v="$SECONDE";; en|anglais) v="$ANGLAIS";; esac
   cible="agent-video/$fichier"
   deja=$(grep -F "$fichier|" "$MANIF" | tail -1 | cut -d'|' -f2)
   # refaire si : fichier absent, ou fabriqué avec une autre voix, ou ancien fichier sans trace (avant le 9/11)
