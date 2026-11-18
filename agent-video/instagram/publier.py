@@ -14,7 +14,8 @@ Secrets GitHub nécessaires (jamais dans le dépôt, jamais dans un chat) :
 Une entrée de file.json :
   {"id": "2026-11-18-quiz-courses", "quand": "2026-11-18T18:00:00+01:00", "type": "REEL" | "CARROUSEL",
    "media": ["https://raw.githubusercontent.com/.../video.mp4"]  (ou plusieurs images pour un carrousel),
-   "legende": "texte du post", "statut": "a_publier"}
+   "legende": "texte du post (mettre aussi @compte dans le texte)", "identifier": ["compte_instagram"] (facultatif),
+   "statut": "a_publier"}
 Le script ajoute : statut = "publie" | "erreur", media_id, publie_le, erreur.
 """
 import json, os, sys, time, urllib.parse, urllib.request
@@ -57,15 +58,20 @@ def wait_ready(container, minutes=8):
 
 def publish(entry):
     caption = entry.get("legende", "")
+    tags = entry.get("identifier", [])  # comptes Instagram à identifier sur le média (ex. ["dyslexia_ireland"])
     if entry["type"] == "REEL":
-        c = call("POST", f"{USER}/media", media_type="REELS", video_url=entry["media"][0], caption=caption, share_to_feed="true")["id"]
+        extra = {"user_tags": json.dumps([{"username": u} for u in tags])} if tags else {}
+        c = call("POST", f"{USER}/media", media_type="REELS", video_url=entry["media"][0], caption=caption, share_to_feed="true", **extra)["id"]
     elif entry["type"] == "CARROUSEL":
         kids = []
         for url in entry["media"][:10]:
             if url.lower().endswith((".mp4", ".mov")):
                 k = call("POST", f"{USER}/media", media_type="VIDEO", video_url=url, is_carousel_item="true")["id"]
             else:
-                k = call("POST", f"{USER}/media", image_url=url, is_carousel_item="true")["id"]
+                extra = {}
+                if tags and not kids:  # identification sur la 1re image du carrousel
+                    extra = {"user_tags": json.dumps([{"username": u, "x": 0.5, "y": 0.85 - 0.08 * i} for i, u in enumerate(tags)])}
+                k = call("POST", f"{USER}/media", image_url=url, is_carousel_item="true", **extra)["id"]
             wait_ready(k); kids.append(k)
         c = call("POST", f"{USER}/media", media_type="CAROUSEL", children=",".join(kids), caption=caption)["id"]
     else:

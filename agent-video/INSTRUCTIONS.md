@@ -134,6 +134,7 @@ Metricool a atteint la limite de son compte gratuit : il ne sert plus que pour *
     "media":[URL raw.githubusercontent.com de la vidéo, ou des images JPEG dans l'ordre],"legende":"…","statut":"a_publier"}`
   puis commit et push. Le robot GitHub (toutes les 15 min) publie à l'heure prévue (à 15-30 min près) et note le résultat
   (`statut` = publie / erreur, `media_id`, `erreur`).
+- Pour identifier un compte (partenaire, association) : mets `@compte` dans la légende ET `"identifier": ["compte"]` dans l'entrée.
 - Carrousels : images **JPEG** uniquement (`render.py --carrousel` produit déjà des .jpg), 10 images maximum.
 - Chaque jour, relis `file.json` : si une entrée est en `erreur`, lis le message, corrige (URL, format, légende) et
   recrée une entrée avec un nouvel `id`. Signale-le dans le résumé.
