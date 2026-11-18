@@ -19,7 +19,7 @@ meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le n
 # Choix de Paolo (9/11) : voix PRINCIPALE = Aurélie (premium), partout.
 # Voix SECONDE (seulement pour le 2e personnage des dialogues) = Audrey (premium).
 # Voix anglaise (posts en anglais, ex. Irlande) : la plus naturelle installée (Moira = accent irlandais)
-ANGLAIS=$(LANGRE="en_(IE|GB|US|AU)" meilleure "Moira Serena Kate Daniel Ava Zoe Samantha Karen")
+ANGLAIS=$(LANGRE="en_(IE|GB|US|AU)" meilleure "Ava Zoe Jamie Evan Nathan Serena Moira Kate Daniel Samantha Karen")
 [ -z "$ANGLAIS" ] && ANGLAIS=$(echo "$LISTE" | grep -E "en_(GB|US|IE)" | head -1 | sed -E 's/ +[a-z]{2}_[A-Z]{2}.*$//')
 # Choix de Paolo, prioritaire : agent-video/voix/config-voix.txt (lignes « anglais=Nom exact de la voix »)
 CONF="agent-video/voix/config-voix.txt"
