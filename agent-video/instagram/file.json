@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "id": "2026-11-18-car-5-raisons",
+  "quand": "2026-11-18T12:00:00+01:00",
+  "type": "CARROUSEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-1.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-2.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-3.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-4.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-5.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-6.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-13-car-5-raisons/car-5-raisons-7.jpg"
+  ],
+  "legende": "5 raisons d'essayer LexyLab quand on est dys 👉 Glisse pour tout voir, et enregistre pour plus tard 📌\n\nLaquelle compte le plus pour toi : 1, 2, 3, 4 ou 5 ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe #etudiant",
+  "statut": "a_publier"
+ },
+ {
+  "id": "2026-11-18-pres-examen-fiches",
+  "quand": "2026-11-18T18:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-18-pres-examen-fiches.mp4"
+  ],
+  "legende": "La veille d'un examen, tes fiches sont pleines de fautes ? Tu connais ton cours, c'est l'orthographe qui te ralentit.\n\nLexyLab comprend les mots écrits comme on les entend, et il marche sans internet, même en amphi.\n\nTu as un examen bientôt ? Dis-nous lequel 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #examens #revisions #lexylab",
+  "statut": "a_publier"
+ }
+]

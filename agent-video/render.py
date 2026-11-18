@@ -226,7 +226,7 @@ def carrousel(ref, outdir):
         info = page.evaluate("p => init(p)", idea["params"]); page.evaluate("document.fonts.ready")
         for i in range(info["count"]):
             page.evaluate(f"renderSlide({i})"); page.wait_for_timeout(150)
-            f = os.path.join(outdir, f"{idea['id']}-{i+1}.png"); page.screenshot(path=f); files.append(f)
+            f = os.path.join(outdir, f"{idea['id']}-{i+1}.jpg"); page.screenshot(path=f, type="jpeg", quality=92); files.append(f)  # JPEG : exigé par l'API Instagram
         b.close()
     print("OK ->", " ".join(files))
 
