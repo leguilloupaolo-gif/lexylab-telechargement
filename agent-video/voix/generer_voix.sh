@@ -21,6 +21,12 @@ meilleure() {  # $1 = liste de prénoms par ordre de préférence ; renvoie le n
 # Voix anglaise (posts en anglais, ex. Irlande) : la plus naturelle installée (Moira = accent irlandais)
 ANGLAIS=$(LANGRE="en_(IE|GB|US|AU)" meilleure "Moira Serena Kate Daniel Ava Zoe Samantha Karen")
 [ -z "$ANGLAIS" ] && ANGLAIS=$(echo "$LISTE" | grep -E "en_(GB|US|IE)" | head -1 | sed -E 's/ +[a-z]{2}_[A-Z]{2}.*$//')
+# Choix de Paolo, prioritaire : agent-video/voix/config-voix.txt (lignes « anglais=Nom exact de la voix »)
+CONF="agent-video/voix/config-voix.txt"
+if [ -f "$CONF" ]; then
+  c=$(grep -E "^anglais=" "$CONF" | head -1 | cut -d= -f2-)
+  if [ -n "$c" ] && echo "$LISTE" | grep -qF "$c "; then ANGLAIS="$c"; fi
+fi
 PRINCIPALE=$(meilleure "Aurélie Audrey Amélie")
 SECONDE=$(meilleure "Audrey Amélie Marie")
 [ "$SECONDE" = "$PRINCIPALE" ] && SECONDE=$(meilleure "Audrey")
