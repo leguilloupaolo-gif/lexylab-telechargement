@@ -345,5 +345,26 @@
    "instagram": 432430850,
    "tiktok": 432430858
   }
+ },
+ {
+  "date": "2026-11-19",
+  "id": "pres-en-testers-ireland",
+  "format": "presentation",
+  "cible": "dys anglophones (Irlande)",
+  "pilier": "recrutement testeurs",
+  "note": "Demandé par Paolo : vidéo en anglais pour Dyslexia Ireland (@dyslexia_ireland), voix anglaise. Hors quota.",
+  "republication": true,
+  "instagram": "19/11 18:00 (publication directe, file.json)",
+  "fichier": "reseaux-sociaux/auto/2026-11-19-pres-en-testers-ireland.mp4"
+ },
+ {
+  "date": "2026-11-18",
+  "id": "car-en-testers-ireland",
+  "format": "carrousel",
+  "cible": "dys anglophones (Irlande)",
+  "pilier": "recrutement testeurs",
+  "note": "Demandé par Paolo : carrousel en anglais pour Dyslexia Ireland. Hors quota.",
+  "republication": true,
+  "instagram": "18/11 20:00 (publication directe, file.json)"
  }
 ]
