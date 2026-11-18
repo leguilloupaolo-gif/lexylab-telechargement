@@ -127,7 +127,19 @@ Tu es créatif, mais toujours au service d'un seul but : **faire connaître et d
   La musique baisse automatiquement pendant la voix. Garde aussi les textes à l'écran : beaucoup regardent sans le son.
 - Musique : uniquement celle générée par `render.py`. Pas de musique protégée.
 
-## Publication Metricool
+## Publication INSTAGRAM : en direct, SANS Metricool (depuis le 18/11)
+Metricool a atteint la limite de son compte gratuit : il ne sert plus que pour **TikTok**.
+- Pour Instagram, ajoute une entrée dans `agent-video/instagram/file.json` (voir l'en-tête de `agent-video/instagram/publier.py`) :
+  `{"id":"<AAAA-MM-JJ>-<idee>","quand":"<date ISO avec fuseau, ex. 2026-11-19T18:00:00+01:00>","type":"REEL" ou "CARROUSEL",
+    "media":[URL raw.githubusercontent.com de la vidéo, ou des images JPEG dans l'ordre],"legende":"…","statut":"a_publier"}`
+  puis commit et push. Le robot GitHub (toutes les 15 min) publie à l'heure prévue (à 15-30 min près) et note le résultat
+  (`statut` = publie / erreur, `media_id`, `erreur`).
+- Carrousels : images **JPEG** uniquement (`render.py --carrousel` produit déjà des .jpg), 10 images maximum.
+- Chaque jour, relis `file.json` : si une entrée est en `erreur`, lis le message, corrige (URL, format, légende) et
+  recrée une entrée avec un nouvel `id`. Signale-le dans le résumé.
+- Ne programme plus aucun post Instagram dans Metricool.
+
+## Publication Metricool (TikTok seulement)
 - blogId `7384289`, fuseau `Europe/Brussels`, `autoPublish: true`.
 - Média : `https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/<fichier>.mp4`.
   Attendre environ 1 minute après le push. Le shell ne peut pas vérifier l'URL : si Metricool renvoie une URL static.metricool.com dans `media`, c'est bon.
