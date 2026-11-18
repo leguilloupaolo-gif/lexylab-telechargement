@@ -1,5 +1,72 @@
 [
  {
+  "id": "car-en-testers-ireland",
+  "format": "presentation",
+  "type": "carrousel",
+  "pilier": "recrutement testeurs",
+  "cible": "dys anglophones (Irlande)",
+  "hypothese": "Appel à testeurs en anglais, relayé par Dyslexia Ireland",
+  "params": {
+   "theme": "sombre",
+   "lang": "en",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Dyslexic?",
+      "Help us build",
+      "the spell checker",
+      "that *gets you*."
+     ],
+     "sub": "We're looking for testers 🙌"
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Most spell checkers",
+      "are built for *typos*.",
+      "Not for *dyslexia*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "LexyLab understands words written *the way they sound*.",
+     "ecran": "I [wud|would] like to [rite|write] a [leter|letter] to my [techer|teacher]."
+    },
+    {
+     "type": "liste",
+     "titre": "We're looking for:",
+     "items": [
+      "Dyslexic people who *write in English*",
+      "Teachers & SLTs for *honest feedback*",
+      "*Free*, no commitment",
+      "*Windows & Mac* (Mac in beta)"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Built by a *dyslexic student*",
+      "for people who think",
+      "*differently*."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Want to test it?",
+      "Comment *TEST*",
+      "or send us a DM."
+     ],
+     "bouton": "Link in bio 👆"
+    }
+   ]
+  },
+  "post_text": "Dyslexic? Help us build the spell checker that gets you 🙌\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, works offline, on Windows and Mac (Mac in beta).\n\nWe're looking for:\n• dyslexic people who write in English, to test it in their daily writing\n• teachers, speech and language therapists and learning-support specialists, for honest feedback\n\nIt's free and there's no commitment. Comment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for helping us spread the word 💚\n\n#dyslexia #dyslexiaawareness #dyslexic #neurodiversity #ireland #dyslexiaireland #assistivetechnology #edtech #lexylab"
+ },
+ {
   "id": "demo-mail-prof",
   "format": "demo",
   "pilier": "demo",
