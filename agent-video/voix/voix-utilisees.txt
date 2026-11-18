@@ -301,9 +301,9 @@ voix/pres-enseignants-logopedes-2.m4a|Aurélie (Enhanced)
 voix/pres-enseignants-logopedes-3.m4a|Aurélie (Enhanced)
 voix/pres-enseignants-logopedes-4.m4a|Aurélie (Enhanced)
 voix/pres-enseignants-logopedes-5.m4a|Aurélie (Enhanced)
-voix/pres-en-testers-ireland-0.m4a|Moira (Enhanced)    en_IE    # Hello! My name is Moira.
-voix/pres-en-testers-ireland-1.m4a|Moira (Enhanced)    en_IE    # Hello! My name is Moira.
-voix/pres-en-testers-ireland-2.m4a|Moira (Enhanced)    en_IE    # Hello! My name is Moira.
-voix/pres-en-testers-ireland-3.m4a|Moira (Enhanced)    en_IE    # Hello! My name is Moira.
-voix/pres-en-testers-ireland-4.m4a|Moira (Enhanced)    en_IE    # Hello! My name is Moira.
-voix/pres-en-testers-ireland-5.m4a|Moira (Enhanced)    en_IE    # Hello! My name is Moira.
+voix/pres-en-testers-ireland-0.m4a|Moira (Enhanced)
+voix/pres-en-testers-ireland-1.m4a|Moira (Enhanced)
+voix/pres-en-testers-ireland-2.m4a|Moira (Enhanced)
+voix/pres-en-testers-ireland-3.m4a|Moira (Enhanced)
+voix/pres-en-testers-ireland-4.m4a|Moira (Enhanced)
+voix/pres-en-testers-ireland-5.m4a|Moira (Enhanced)
