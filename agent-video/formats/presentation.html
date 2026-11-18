@@ -33,6 +33,13 @@
   #count{position:absolute;right:60px;top:70px;font-weight:700;font-size:34px;opacity:.6;display:none}
   #swipe{position:absolute;right:70px;bottom:70px;font-weight:700;font-size:38px;opacity:.7;display:none}
   .sub.sub2{display:block}
+  /* Carrousel (1080x1350) : tout centré, verticalement et horizontalement */
+  body.car #stage{height:1350px}
+  body.car #sc{align-items:center;text-align:center;left:70px;right:70px}
+  body.car .sub{text-align:center}
+  body.car .ed{text-align:left;width:100%;box-sizing:border-box}
+  body.car .item{text-align:left}
+  body.car #sc > div[style*="margin-top:40px"]{display:inline-block;text-align:left}
 </style></head>
 <body>
 <div id="stage">
@@ -73,7 +80,7 @@ function init(p){
     S.push({...s,i,t0:t,t1:t+d}); ev.push({t:t,type:i===0?'boom':'swoosh-up'});
     if(s.type==='editeur'){ ev.push({t:t+d*0.62,type:'ding'}); }
     t+=d; });
-  if(MODE==='carrousel'){ document.getElementById('count').style.display='block'; return {count:S.length}; }
+  if(MODE==='carrousel'){ document.body.classList.add('car'); document.getElementById('count').style.display='block'; return {count:S.length}; }
   const ty=S.filter(s=>s.type==='editeur').map(s=>[s.t0+1.0,s.t0+1.0+(s.t1-s.t0)*0.35]);
   return {duration:t+0.3, events:ev, typing:ty, music:p.music||'calme'};
 }
