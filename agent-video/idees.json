@@ -18,7 +18,7 @@
       "the spell checker",
       "that *gets you*."
      ],
-     "sub": "We're looking for testers 🙌"
+     "sub": "We're looking for testers. *Free for testers* 🙌"
     },
     {
      "type": "texte",
@@ -40,7 +40,7 @@
      "items": [
       "Dyslexic people who *write in English*",
       "Teachers & SLTs for *honest feedback*",
-      "*Free*, no commitment",
+      "*100% free for testers*, no commitment",
       "*Windows & Mac* (Mac in beta)"
      ]
     },
@@ -56,7 +56,7 @@
     {
      "type": "cta",
      "lignes": [
-      "Want to test it?",
+      "Want to test it *for free*?",
       "Comment *TEST*",
       "or send us a DM."
      ],
@@ -64,7 +64,7 @@
     }
    ]
   },
-  "post_text": "Dyslexic? Help us build the spell checker that gets you 🙌\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, works offline, on Windows and Mac (Mac in beta).\n\nWe're looking for:\n• dyslexic people who write in English, to test it in their daily writing\n• teachers, speech and language therapists and learning-support specialists, for honest feedback\n\nIt's free and there's no commitment. Comment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for helping us spread the word 💚\n\n#dyslexia #dyslexiaawareness #dyslexic #neurodiversity #ireland #dyslexiaireland #assistivetechnology #edtech #lexylab"
+  "post_text": "Dyslexic? Help us build the spell checker that gets you 🙌 Free for testers!\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, works offline, on Windows and Mac (Mac in beta).\n\nWe're looking for:\n• dyslexic people who write in English, to test it in their daily writing\n• teachers, speech and language therapists and learning-support specialists, for honest feedback\n\nTesting is 100% FREE for testers, with no commitment. Comment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for helping us spread the word 💚\n\n#dyslexia #dyslexiaawareness #dyslexic #neurodiversity #ireland #dyslexiaireland #assistivetechnology #edtech #lexylab"
  },
  {
   "id": "pres-en-testers-ireland",
@@ -109,22 +109,22 @@
      "items": [
       "Dyslexic people who *write in English*",
       "Teachers & SLTs for *honest feedback*",
-      "*Free*, no commitment"
+      "*100% free for testers*"
      ]
     },
     {
      "type": "cta",
      "lignes": [
-      "Want to test it?",
+      "Want to test it *for free*?",
       "Comment *TEST*",
       "or send us a DM."
      ],
-     "sub": "Windows & Mac · works offline",
+     "sub": "Free for testers · Windows & Mac",
      "bouton": "Link in bio 👆"
     }
    ]
   },
-  "post_text": "Dyslexic? Then you know the red underlines 😅\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, and works offline on Windows and Mac (Mac in beta).\n\nWe're looking for testers: dyslexic people who write in English, and teachers, speech and language therapists and learning-support specialists for honest feedback. Free, no commitment.\n\nComment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for your support 💚\n\n#dyslexia #dyslexic #dyslexiaawareness #neurodiversity #ireland #assistivetechnology #edtech #lexylab",
+  "post_text": "Dyslexic? Then you know the red underlines 😅\n\nLexyLab is a spell checker designed for dyslexia, built by a dyslexic student. It understands words written the way they sound, and works offline on Windows and Mac (Mac in beta).\n\nWe're looking for testers: dyslexic people who write in English, and teachers, speech and language therapists and learning-support specialists for honest feedback. Testing is 100% FREE for testers, with no commitment.\n\nComment TEST or send us a DM 👇\n\nThank you @dyslexia_ireland for your support 💚\n\n#dyslexia #dyslexic #dyslexiaawareness #neurodiversity #ireland #assistivetechnology #edtech #lexylab",
   "tiktok_title": "Dyslexic? We're looking for testers"
  },
  {
