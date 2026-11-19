@@ -122,6 +122,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Mar 17 : présentation classique vs LexyLab (sombre, jamais vue).
 - Mer 18 : 10 h carrousel 5 raisons (sombre, 10 % pari sauvegardes) ; 18 h `pres-examen-fiches` si ses voix sont prêtes, sinon kinetic mythes dyslexie.
 - Jeu 19 : `pres-mail-travail` si voix, sinon demo notes de cours (étudiants).
+  → Fait le 19/11 : 10 h `pres-mail-travail` (voix 6/6). Instagram en direct (file.json) ; TikTok via Metricool, toujours bloqué par la limite du compte.
 - Ven 20 : 10 h quiz courses (20 % engagement) ; 18 h `pres-mamans-autonomie` si voix, sinon kinetic astuces relire.
 - Sam 21 : `pres-enseignants-logopedes` si voix, sinon un carrousel sombre (étudiants ou logopèdes).
 - Dim 22 : 1 sketch maximum (rendu flat ou cartoon) ou demo Word devoir.

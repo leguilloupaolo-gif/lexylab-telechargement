@@ -366,5 +366,25 @@
   "note": "Demandé par Paolo : carrousel en anglais pour Dyslexia Ireland. Hors quota.",
   "republication": true,
   "instagram": "18/11 20:00 (publication directe, file.json)"
+ },
+ {
+  "date": "2026-11-19",
+  "id": "pres-mail-travail",
+  "fichier": "reseaux-sociaux/auto/2026-11-19-pres-mail-travail.mp4",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "adultes au travail",
+  "hypothese": "Le style de la 1re vidéo (sombre, histoire courte, éditeur faute→correction) relève Instagram sur les sujets travail",
+  "raison_stats": "Plan du mix (jeu 19). Pas de nouveau chiffre depuis le 10/11. Sujets mail/CV dans le plateau haut TikTok (CV 764, mail prof 699) et en tête sur IG (CV 247 vues, mail prof 185 avec 2 commentaires). Scène éditeur faute→correction : montrer le produit retient le mieux sur IG (demo maman 5,9 s). Cible adultes au travail, pas encore servie cette semaine ; mamans 1 post sur 7 jours. Style 1re vidéo (période de test 13-27/11). 10 h = meilleure heure du jeudi sur IG (6275) et TikTok (1471).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design (style 1re vidéo)",
+  "heures": "10:00",
+  "voix": "6/6",
+  "instagram": "19/11 10:00 (publication directe, file.json, id 2026-11-19-pres-mail-travail)",
+  "metricool": {
+   "tiktok": 433814506
+  },
+  "note": "TikTok programmé sur Metricool mais risque fort d'erreur « account limit » comme tous les posts TikTok depuis le 11/11."
  }
 ]
