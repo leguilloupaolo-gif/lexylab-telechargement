@@ -124,6 +124,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Jeu 19 : `pres-mail-travail` si voix, sinon demo notes de cours (étudiants).
   → Fait le 19/11 : 10 h `pres-mail-travail` (voix 6/6). Instagram en direct (file.json) ; TikTok via Metricool, toujours bloqué par la limite du compte.
 - Ven 20 : 10 h quiz courses (20 % engagement) ; 18 h `pres-mamans-autonomie` si voix, sinon kinetic astuces relire.
+  → Fait le 20/11 : 10 h quiz courses ; 18 h `pres-mamans-autonomie` (voix 6/6). Instagram en direct, TikTok via Metricool. Nouvelles idées style 1re vidéo pour la semaine prochaine (voix demandées) : `pres-memoire-etudiant`, `pres-messages-quotidien`.
 - Sam 21 : `pres-enseignants-logopedes` si voix, sinon un carrousel sombre (étudiants ou logopèdes).
 - Dim 22 : 1 sketch maximum (rendu flat ou cartoon) ou demo Word devoir.
 - Mamans : 2 posts (lun 18 h, ven 18 h), plafond de 3 respecté. Au moins 6 posts sur 10 en présentation ou carrousel sombre.

@@ -386,5 +386,43 @@
    "tiktok": 433814506
   },
   "note": "TikTok programmé sur Metricool mais risque fort d'erreur « account limit » comme tous les posts TikTok depuis le 11/11."
+ },
+ {
+  "date": "2026-11-20",
+  "id": "quiz-courses",
+  "format": "quiz",
+  "pilier": "engagement",
+  "cible": "tous les dys",
+  "hypothese": "Un quiz « trouve les fautes » pousse à commenter (jamais vu : le post du 11/11 était bloqué par Metricool)",
+  "raison_stats": "Commentaires quasi nuls partout (IG max 2, TikTok 0) : test du format le plus fait pour commenter. Variante 20 % prévue au mix. TikTok : plateau 650-790 vues quel que soit le format, donc on peut tester. 10 h = meilleure heure du vendredi sur IG (6734) et TikTok (1379).",
+  "decor": "-",
+  "style": "clair (bleu pâle)",
+  "rendu": "quiz compte à rebours",
+  "heures": "10:00",
+  "voix": "2/2",
+  "fichier": "reseaux-sociaux/auto/2026-11-20-quiz-courses.mp4",
+  "metricool": {
+   "tiktok": 435170991
+  },
+  "instagram": "20/11 10:00 (publication directe, file.json, id 2026-11-20-quiz-courses)"
+ },
+ {
+  "date": "2026-11-20",
+  "id": "pres-mamans-autonomie",
+  "format": "presentation",
+  "pilier": "mamans",
+  "cible": "mamans",
+  "hypothese": "Le style de la 1re vidéo, version mamans, donne une image sérieuse et rassurante et retient mieux sur Instagram",
+  "raison_stats": "Mamans = meilleur sujet récent : TikTok kinetic mamans 785 et demo maman 777 (haut du plateau), IG demo maman 206 vues et 5,9 s (meilleur temps moyen). Scène éditeur faute→correction comme la demo maman. Le soir après les devoirs. Mamans : 1 post sur 7 jours (16/11), plafond 3 respecté. 18 h = bon créneau soir IG (4418) et TikTok (1222).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design (style 1re vidéo)",
+  "heures": "18:00",
+  "voix": "6/6",
+  "fichier": "reseaux-sociaux/auto/2026-11-20-pres-mamans-autonomie.mp4",
+  "metricool": {
+   "tiktok": 435171008
+  },
+  "instagram": "20/11 18:00 (publication directe, file.json, id 2026-11-20-pres-mamans-autonomie)"
  }
 ]
