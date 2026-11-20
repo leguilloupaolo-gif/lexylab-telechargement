@@ -75,5 +75,25 @@
   "statut": "publie",
   "media_id": "18103922954426768",
   "publie_le": "2026-11-19T17:17:55+00:00"
+ },
+ {
+  "id": "2026-11-20-quiz-courses",
+  "quand": "2026-11-20T10:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-20-quiz-courses.mp4"
+  ],
+  "legende": "Trouve les 4 fautes en 5 secondes 👀 T'en as trouvé combien ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #quiz #orthographe #defi",
+  "statut": "a_publier"
+ },
+ {
+  "id": "2026-11-20-pres-mamans-autonomie",
+  "quand": "2026-11-20T18:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-20-pres-mamans-autonomie.mp4"
+  ],
+  "legende": "Chaque soir, tu relis ses devoirs mot par mot ? Et s'il pouvait écrire tout seul ?\n\nLexyLab souligne les fautes pendant qu'il écrit, et explique certaines erreurs. Hors ligne : ses textes restent privés.\n\nEt chez vous, les devoirs durent combien de temps le soir ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "statut": "a_publier"
  }
 ]
