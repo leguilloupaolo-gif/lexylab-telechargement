@@ -1731,5 +1731,125 @@
   "post_text": "Logopède ou enseignant ? Vos élèves dys écrivent souvent les mots comme ils les entendent. Ce n'est pas de la négligence, c'est la dyslexie.\n\nLexyLab est un correcteur pensé pour la dyslexie : il comprend ces fautes, en explique certaines, et marche hors ligne.\n\nQuel outil conseillez-vous à vos élèves dys ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #logopedie #enseignant #ecoleinclusive #lexylab",
   "tiktok_title": "Pour les logopèdes et les enseignants",
   "tiktok_text": "Logopède ou enseignant ? Ce n'est pas de la négligence, c'est la dyslexie 👇 #dyslexie #dys #logopedie #enseignant #lexylab"
+ },
+ {
+  "id": "pres-memoire-etudiant",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "etudiants",
+  "hypothese": "Le style 1re vidéo sur un sujet étudiant à fort enjeu (mémoire, travail de fin d'études) attire les étudiants sur TikTok",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Ton mémoire est fini.",
+      "Mais tu n'oses pas",
+      "le ~rendre~."
+     ]
+    },
+    {
+     "type": "texte",
+     "taille": "m",
+     "lignes": [
+      "Tu connais ton sujet.",
+      "C'est l'*orthographe*",
+      "qui te freine."
+     ]
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris les mots comme tu les entends…",
+     "ecran": "Cette [étud|étude] montre [clèrement|clairement] que les [résulta|résultats] sont [fiable|fiables]."
+    },
+    {
+     "type": "logo",
+     "avant": "LexyLab t'aide à te relire."
+    },
+    {
+     "type": "liste",
+     "titre": "Un correcteur *pensé pour la dyslexie*",
+     "items": [
+      "Souligne les fautes *en direct*",
+      "Comprend les mots *écrits comme on les entend*",
+      "Marche dans *Word et Google Docs*"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Concentre-toi sur tes idées,",
+      "*pas sur les fautes*."
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Ton mémoire est fini, mais tu n'oses pas le rendre à cause des fautes ? Tu connais ton sujet, c'est l'orthographe qui te freine.\n\nLexyLab souligne les fautes en direct et comprend les mots écrits comme on les entend. Dans Word et Google Docs, sur Mac et Windows.\n\nTu rends quoi bientôt ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #memoire #universite #lexylab",
+  "tiktok_text": "Ton mémoire est fini mais tu n'oses pas le rendre ? 👇 #dyslexie #dys #etudiant #memoire #lexylab",
+  "tiktok_title": "Le mémoire qu'on n'ose pas rendre"
+ },
+ {
+  "id": "pres-messages-quotidien",
+  "format": "presentation",
+  "pilier": "demo",
+  "cible": "tous les dys",
+  "hypothese": "Montrer que LexyLab marche partout (Gmail, Word, Outlook, navigateur) parle à tous les dys, pas qu'à l'école",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Un mail.",
+      "Un message.",
+      "Un formulaire."
+     ]
+    },
+    {
+     "type": "texte",
+     "taille": "m",
+     "lignes": [
+      "Et à chaque fois,",
+      "la même ~peur~",
+      "des fautes."
+     ]
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris comme tu penses…",
+     "ecran": "Bonjour, je vous [envoi|envoie] le document [demander|demandé] [hièr|hier]."
+    },
+    {
+     "type": "logo",
+     "avant": "LexyLab te suit partout."
+    },
+    {
+     "type": "liste",
+     "titre": "Là où *tu écris*",
+     "items": [
+      "*Word, Gmail, Google Docs, Outlook*",
+      "Dans ton *navigateur*",
+      "*Hors ligne* : tes textes restent privés"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Écris comme tu penses.",
+      "*LexyLab* s'occupe de l'orthographe."
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Un mail, un message, un formulaire… et à chaque fois la même peur des fautes ?\n\nLexyLab marche dans Word, Gmail, Google Docs, Outlook et ton navigateur. Hors ligne : tes textes restent privés.\n\nEt toi, c'est où que tu écris le plus ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #orthographe #correcteur #lexylab",
+  "tiktok_text": "Écris comme tu penses, LexyLab s'occupe de l'orthographe 👇 #dyslexie #dys #orthographe #lexylab",
+  "tiktok_title": "La peur des fautes, partout"
  }
 ]
