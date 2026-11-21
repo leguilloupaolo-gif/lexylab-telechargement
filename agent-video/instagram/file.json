@@ -99,5 +99,15 @@
   "statut": "publie",
   "media_id": "18116324479870470",
   "publie_le": "2026-11-20T21:26:38+00:00"
+ },
+ {
+  "id": "2026-11-21-pres-enseignants-logopedes",
+  "quand": "2026-11-21T10:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-21-pres-enseignants-logopedes.mp4"
+  ],
+  "legende": "Logopède ou enseignant ? Vos élèves dys écrivent souvent les mots comme ils les entendent. Ce n'est pas de la négligence, c'est la dyslexie.\n\nLexyLab est un correcteur pensé pour la dyslexie : il comprend ces fautes, en explique certaines, et marche hors ligne.\n\nQuel outil conseillez-vous à vos élèves dys ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #logopedie #enseignant #ecoleinclusive #lexylab",
+  "statut": "a_publier"
  }
 ]
