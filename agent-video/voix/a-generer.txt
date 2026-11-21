@@ -321,3 +321,9 @@ voix/pres-messages-quotidien-2.m4a|Tu écris comme tu penses. Bonjour, je vous e
 voix/pres-messages-quotidien-3.m4a|LexyLab te suit partout.|principale
 voix/pres-messages-quotidien-4.m4a|Il marche là où tu écris : Word, Gmail, Google Docs, Outlook, et ton navigateur. Hors ligne : tes textes restent privés.|principale
 voix/pres-messages-quotidien-5.m4a|Écris comme tu penses. LexyLab s'occupe de l'orthographe. Mac et Windows.|principale
+voix/pres-dictee-rouge-0.m4a|Tu te souviens des dictées rendues en classe ?|principale
+voix/pres-dictee-rouge-1.m4a|La copie toute rouge. Et toujours la même phrase : fais plus attention.|principale
+voix/pres-dictee-rouge-2.m4a|Tu écris les mots comme tu les entends. Le chat dort sous la table.|principale
+voix/pres-dictee-rouge-3.m4a|Aujourd'hui, il y a LexyLab.|principale
+voix/pres-dictee-rouge-4.m4a|Un correcteur pensé pour la dyslexie. Il souligne les fautes en direct, il comprend les mots écrits comme on les entend, et il marche hors ligne.|principale
+voix/pres-dictee-rouge-5.m4a|Écris comme tu penses. On s'occupe du reste. Sur Mac et Windows.|principale

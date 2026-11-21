@@ -1851,5 +1851,65 @@
   "post_text": "Un mail, un message, un formulaire… et à chaque fois la même peur des fautes ?\n\nLexyLab marche dans Word, Gmail, Google Docs, Outlook et ton navigateur. Hors ligne : tes textes restent privés.\n\nEt toi, c'est où que tu écris le plus ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #orthographe #correcteur #lexylab",
   "tiktok_text": "Écris comme tu penses, LexyLab s'occupe de l'orthographe 👇 #dyslexie #dys #orthographe #lexylab",
   "tiktok_title": "La peur des fautes, partout"
+ },
+ {
+  "id": "pres-dictee-rouge",
+  "format": "presentation",
+  "pilier": "emotion",
+  "cible": "tous les dys",
+  "hypothese": "Le souvenir de la dictée (meilleur sujet émotion école sur Instagram) dans le style de la 1re vidéo retient mieux que les sujets travail",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Tu te souviens",
+      "des dictées",
+      "*rendues en classe* ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "La copie ~toute rouge~.",
+      "Et toujours la même phrase :",
+      "« fais plus attention »."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris comme tu entends…",
+     "ecran": "Le [chas|chat] [dor|dort] [sou|sous] la [tabble|table]."
+    },
+    {
+     "type": "logo",
+     "avant": "Aujourd'hui, il y a :"
+    },
+    {
+     "type": "liste",
+     "titre": "*Pensé pour la dyslexie*",
+     "items": [
+      "Souligne les fautes *en direct*",
+      "Comprend les mots écrits *comme on les entend*",
+      "Marche *hors ligne*"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Écris comme tu penses.",
+      "*On s'occupe du reste.*"
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Tu te souviens des dictées rendues en classe ? La copie toute rouge, et toujours la même phrase : « fais plus attention ». Alors que tu faisais déjà attention.\n\nAujourd'hui, LexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Et il marche hors ligne.\n\nC'était quoi, la remarque qui t'a le plus marqué ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #dictee #ecole #souvenirsdecole #lexylab",
+  "tiktok_title": "Les dictées rendues en classe",
+  "tiktok_text": "La copie toute rouge et « fais plus attention » 😶 Ça te parle ? 👇 #dyslexie #dys #dictee #ecole #lexylab"
  }
 ]
