@@ -424,5 +424,27 @@
    "tiktok": 435171008
   },
   "instagram": "20/11 18:00 (publication directe, file.json, id 2026-11-20-pres-mamans-autonomie)"
+ },
+ {
+  "date": "2026-11-21",
+  "id": "pres-enseignants-logopedes",
+  "fichier": "reseaux-sociaux/auto/2026-11-21-pres-enseignants-logopedes.mp4",
+  "format": "presentation",
+  "pilier": "education",
+  "cible": "logopedes et enseignants",
+  "hypothese": "Le style de la 1re vidéo adressé aux logopèdes et enseignants (cible pas encore touchée) génère des partages et des sauvegardes",
+  "raison_stats": "Plan du mix (sam 21), voix 6/6. IG : présentations sombres stables (examen 134 vues/4,9 s, mail 147/4,2 s), au niveau des kinetic ; partages et sauvegardes toujours à 0 → on teste la cible prescripteurs, la plus susceptible de partager. Mamans : 2 posts sur 7 jours, on varie la cible. TikTok : aucun chiffre depuis le 10/11 (limite Metricool). 10 h = meilleure heure du samedi sur IG (3409) et TikTok (852).",
+  "decor": "-",
+  "style": "sombre (bleu nuit, lueur verte)",
+  "rendu": "motion design style 1re vidéo",
+  "heures": {
+   "instagram": "2026-11-21 10:00",
+   "tiktok": "2026-11-21 10:00"
+  },
+  "instagram": "publication directe (file.json, id 2026-11-21-pres-enseignants-logopedes)",
+  "metricool": {
+   "tiktok": 436418840
+  },
+  "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit », celui-ci risque d'échouer aussi."
  }
 ]

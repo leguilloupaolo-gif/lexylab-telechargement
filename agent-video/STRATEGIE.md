@@ -126,6 +126,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Ven 20 : 10 h quiz courses (20 % engagement) ; 18 h `pres-mamans-autonomie` si voix, sinon kinetic astuces relire.
   → Fait le 20/11 : 10 h quiz courses ; 18 h `pres-mamans-autonomie` (voix 6/6). Instagram en direct, TikTok via Metricool. Nouvelles idées style 1re vidéo pour la semaine prochaine (voix demandées) : `pres-memoire-etudiant`, `pres-messages-quotidien`.
 - Sam 21 : `pres-enseignants-logopedes` si voix, sinon un carrousel sombre (étudiants ou logopèdes).
+  → Fait le 21/11 : 10 h `pres-enseignants-logopedes` (voix 6/6). Instagram en direct, TikTok via Metricool (toujours bloqué par la limite du compte). Nouvelle idée style 1re vidéo : `pres-dictee-rouge` (émotion école, voix demandées).
 - Dim 22 : 1 sketch maximum (rendu flat ou cartoon) ou demo Word devoir.
 - Mamans : 2 posts (lun 18 h, ven 18 h), plafond de 3 respecté. Au moins 6 posts sur 10 en présentation ou carrousel sombre.
 - Répartition : 7 « ce qui marche » (fondateur, mamans, école, produit en action), 2 variantes (quiz, mythes), 1 pari (carrousel).
