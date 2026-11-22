@@ -446,5 +446,28 @@
    "tiktok": 436418840
   },
   "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit », celui-ci risque d'échouer aussi."
+ },
+ {
+  "date": "2026-11-22",
+  "id": "demo-word-devoir",
+  "fichier": "reseaux-sociaux/auto/2026-11-22-demo-word-devoir.mp4",
+  "format": "demo",
+  "pilier": "demo",
+  "cible": "etudiants",
+  "hypothese": "Montrer le produit en action (faute soulignée, règle expliquée, clic) retient mieux sur Instagram qu'une 4e présentation sombre de suite",
+  "raison_stats": "IG (relevé 22/11) : le meilleur temps de visionnage reste la demo maman (208 vues, 6,0 s), devant le POV dictée (187, 5,4 s) ; les présentations sombres récentes plafonnent (mail travail 172/4,0 s, examen 135/4,9 s, mamans autonomie 139/3,6 s, logopèdes 61/2,9 s à 1 jour). Le quiz (171, 4,7 s) confirme qu'un écran qui bouge retient. 3 présentations sombres de suite : on change de format et de thème (variété). Plan du mix (dim 22 : demo Word devoir). Cible élèves (devoir), mamans à 1 post sur 7 jours. TikTok : aucun chiffre depuis le 10/11. 10 h = meilleure heure du dimanche sur IG (2582) et TikTok (816).",
+  "decor": "-",
+  "style": "clair (fenêtre Word)",
+  "rendu": "maquette demo",
+  "heures": {
+   "instagram": "2026-11-22 10:00",
+   "tiktok": "2026-11-22 10:00"
+  },
+  "voix": "6/6",
+  "instagram": "publication directe (file.json, id 2026-11-22-demo-word-devoir)",
+  "metricool": {
+   "tiktok": 437306752
+  },
+  "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit » (encore vérifié le 22/11 sur les posts du 20 et 21/11)."
  }
 ]

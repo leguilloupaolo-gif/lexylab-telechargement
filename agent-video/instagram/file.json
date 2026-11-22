@@ -111,5 +111,15 @@
   "statut": "publie",
   "media_id": "18123052690750534",
   "publie_le": "2026-11-21T10:15:41+00:00"
+ },
+ {
+  "id": "2026-11-22-demo-word-devoir",
+  "quand": "2026-11-22T10:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-22-demo-word-devoir.mp4"
+  ],
+  "legende": "Ton devoir dans Word, sans une seule faute 😮 LexyLab souligne les fautes en direct, explique certaines règles, et propose le bon mot : un clic suffit.\n\nEt toi, c'est quelle matière qui te donne le plus de fautes ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #devoirs #ecole #etudiant #lexylab",
+  "statut": "a_publier"
  }
 ]
