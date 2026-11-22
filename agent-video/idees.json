@@ -543,8 +543,10 @@
    ],
    "badge": "✓ Devoir sans fautes"
   },
-  "post_text": "Ton devoir dans Word, sans une seule faute 😮 LexyLab souligne, explique la règle, et corrige en un clic.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
-  "tiktok_title": "Un devoir sans fautes dans Word"
+  "post_text": "Ton devoir dans Word, sans une seule faute 😮 LexyLab souligne les fautes en direct, explique certaines règles, et propose le bon mot : un clic suffit.\n\nEt toi, c'est quelle matière qui te donne le plus de fautes ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #devoirs #ecole #etudiant #lexylab",
+  "tiktok_title": "Un devoir sans fautes dans Word",
+  "cible": "etudiants",
+  "tiktok_text": "Ton devoir dans Word, sans une seule faute 😮 Quelle matière te donne le plus de fautes ? 👇 #dyslexie #dys #devoirs #ecole #lexylab"
  },
  {
   "id": "car-mamans-signes",
@@ -1911,5 +1913,65 @@
   "post_text": "Tu te souviens des dictées rendues en classe ? La copie toute rouge, et toujours la même phrase : « fais plus attention ». Alors que tu faisais déjà attention.\n\nAujourd'hui, LexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Et il marche hors ligne.\n\nC'était quoi, la remarque qui t'a le plus marqué ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #dictee #ecole #souvenirsdecole #lexylab",
   "tiktok_title": "Les dictées rendues en classe",
   "tiktok_text": "La copie toute rouge et « fais plus attention » 😶 Ça te parle ? 👇 #dyslexie #dys #dictee #ecole #lexylab"
+ },
+ {
+  "id": "pres-job-etudiant",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "etudiants",
+  "hypothese": "Le style 1re vidéo en thème clair (variété visuelle) sur un sujet étudiant/travail (CV = meilleur sujet IG) retient autant que le thème sombre",
+  "params": {
+   "theme": "clair",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Ta candidature",
+      "pour un *job étudiant*",
+      "est prête ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Mais tu as ~peur~",
+      "qu'on ne retienne",
+      "que tes fautes."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris comme tu entends…",
+     "ecran": "Je suis [disponnible|disponible] tous les [wikend|week-ends] et [pandan|pendant] les [vacanses|vacances]."
+    },
+    {
+     "type": "logo",
+     "avant": "Avant d'envoyer :"
+    },
+    {
+     "type": "liste",
+     "titre": "*Pensé pour la dyslexie*",
+     "items": [
+      "Souligne les fautes *en direct*",
+      "Comprend les mots écrits *comme on les entend*",
+      "Marche dans *Gmail et Word*"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Montre ce que tu vaux.",
+      "*Pas tes fautes.*"
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Ta candidature pour un job étudiant est prête, mais tu as peur qu'on ne retienne que tes fautes ?\n\nLexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Gmail et Word, sans internet.\n\nTu cherches quel job en ce moment ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #jobetudiant #candidature #lexylab",
+  "tiktok_title": "Ta candidature pour un job étudiant",
+  "tiktok_text": "Peur qu'on ne retienne que tes fautes ? 👇 #dyslexie #dys #etudiant #jobetudiant #lexylab"
  }
 ]
