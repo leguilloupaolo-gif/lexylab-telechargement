@@ -128,5 +128,6 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Sam 21 : `pres-enseignants-logopedes` si voix, sinon un carrousel sombre (étudiants ou logopèdes).
   → Fait le 21/11 : 10 h `pres-enseignants-logopedes` (voix 6/6). Instagram en direct, TikTok via Metricool (toujours bloqué par la limite du compte). Nouvelle idée style 1re vidéo : `pres-dictee-rouge` (émotion école, voix demandées).
 - Dim 22 : 1 sketch maximum (rendu flat ou cartoon) ou demo Word devoir.
+  → Fait le 22/11 : 10 h demo Word devoir (voix 6/6), pour casser la série de 3 présentations sombres et parce que la demo garde le meilleur temps de visionnage sur IG. Nouvelle idée en thème clair pour la semaine prochaine : `pres-job-etudiant` (voix demandées).
 - Mamans : 2 posts (lun 18 h, ven 18 h), plafond de 3 respecté. Au moins 6 posts sur 10 en présentation ou carrousel sombre.
 - Répartition : 7 « ce qui marche » (fondateur, mamans, école, produit en action), 2 variantes (quiz, mythes), 1 pari (carrousel).
