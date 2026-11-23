@@ -469,5 +469,50 @@
    "tiktok": 437306752
   },
   "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit » (encore vérifié le 22/11 sur les posts du 20 et 21/11)."
+ },
+ {
+  "date": "2026-11-23",
+  "id": "pres-dictee-rouge",
+  "fichier": "reseaux-sociaux/auto/2026-11-23-pres-dictee-rouge.mp4",
+  "format": "presentation",
+  "pilier": "emotion",
+  "cible": "tous les dys",
+  "hypothese": "Le souvenir de la dictée (meilleur sujet émotion école sur Instagram) dans le style de la 1re vidéo retient mieux que les sujets travail",
+  "raison_stats": "Analyse hebdo 23/11 : sur IG, l'émotion école reste en tête du temps de visionnage (POV dictée 188 vues, 5,3 s) alors que les présentations sur le travail ou les logopèdes plafonnent (120-172 vues, 2,3-4,9 s). Sur TikTok, l'émotion école et le fondateur étaient dans le haut du plateau (715-766) avant le blocage. 70 % : sujet gagnant dans le style 1re vidéo (période de test jusqu'au 27/11). 10 h = meilleure heure du lundi sur IG (5528) et TikTok (1089).",
+  "decor": "-",
+  "style": "theme sombre",
+  "rendu": "motion design (style 1re vidéo)",
+  "heures": {
+   "instagram": "2026-11-23 10:00",
+   "tiktok": "2026-11-23 10:00"
+  },
+  "voix": "6/6",
+  "instagram": "publication directe (file.json, id 2026-11-23-pres-dictee-rouge)",
+  "metricool": {
+   "tiktok": 438339533
+  }
+ },
+ {
+  "date": "2026-11-23",
+  "id": "pres-job-etudiant",
+  "fichier": "reseaux-sociaux/auto/2026-11-23-pres-job-etudiant.mp4",
+  "format": "presentation",
+  "pilier": "situations",
+  "cible": "etudiants",
+  "hypothese": "Le style 1re vidéo en thème clair (variété visuelle) sur un sujet étudiant/travail (CV = meilleur sujet IG) retient autant que le thème sombre",
+  "raison_stats": "20 % variante : le CV reste le meilleur post IG de la période (248 vues) ; on teste le même univers (candidature) chez les étudiants, et le thème clair pour casser la série de présentations sombres qui plafonnent (~151 vues). Cible étudiants (75 %), mamans à 1 post sur 7 jours. 18 h = meilleure heure du soir sur TikTok (1096) et 2e créneau IG (4206).",
+  "decor": "-",
+  "style": "theme clair",
+  "rendu": "motion design (style 1re vidéo, clair)",
+  "heures": {
+   "instagram": "2026-11-23 18:00",
+   "tiktok": "2026-11-23 18:00"
+  },
+  "voix": "6/6",
+  "instagram": "publication directe (file.json, id 2026-11-23-pres-job-etudiant)",
+  "metricool": {
+   "tiktok": 438339545
+  },
+  "note": "TikTok Metricool : posts acceptés en PENDING ; les précédents passaient en erreur « account limit » à l'heure de publication."
  }
 ]
