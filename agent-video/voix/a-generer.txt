@@ -333,3 +333,9 @@ voix/pres-job-etudiant-2.m4a|Tu écris les mots comme tu les entends. Je suis di
 voix/pres-job-etudiant-3.m4a|Avant d'envoyer, il y a LexyLab.|principale
 voix/pres-job-etudiant-4.m4a|Un correcteur pensé pour la dyslexie. Il souligne les fautes en direct, il comprend les mots écrits comme on les entend, et il marche dans Gmail et Word.|principale
 voix/pres-job-etudiant-5.m4a|Montre ce que tu vaux, pas tes fautes. Sur Mac et Windows.|principale
+voix/pres-mamans-mot-prof-0.m4a|Un mot à écrire à la maîtresse ?|principale
+voix/pres-mamans-mot-prof-1.m4a|Et toi aussi, tu as peur des fautes.|principale
+voix/pres-mamans-mot-prof-2.m4a|Tu écris comme tu entends. Mon fils sera absent demain pour un rendez-vous.|principale
+voix/pres-mamans-mot-prof-3.m4a|Pour écrire sans stress. LexyLab.|principale
+voix/pres-mamans-mot-prof-4.m4a|Pensé pour la dyslexie. Souligne les fautes en direct. Comprend les mots écrits comme on les entend. Marche dans Gmail et Word.|principale
+voix/pres-mamans-mot-prof-5.m4a|Écris comme tu penses. Envoie sans stress. Sur Mac et Windows.|principale

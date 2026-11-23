@@ -1973,5 +1973,65 @@
   "post_text": "Ta candidature pour un job étudiant est prête, mais tu as peur qu'on ne retienne que tes fautes ?\n\nLexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Gmail et Word, sans internet.\n\nTu cherches quel job en ce moment ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #jobetudiant #candidature #lexylab",
   "tiktok_title": "Ta candidature pour un job étudiant",
   "tiktok_text": "Peur qu'on ne retienne que tes fautes ? 👇 #dyslexie #dys #etudiant #jobetudiant #lexylab"
+ },
+ {
+  "id": "pres-mamans-mot-prof",
+  "format": "presentation",
+  "pilier": "mamans",
+  "cible": "mamans",
+  "hypothese": "Le sujet « mot au prof » (meilleur temps de visionnage IG en demo, 6 s) dans le style 1re vidéo retient mieux que les autres présentations sombres (135-172 vues)",
+  "params": {
+   "theme": "sombre",
+   "music": "calme",
+   "scenes": [
+    {
+     "type": "texte",
+     "lignes": [
+      "Un mot",
+      "à écrire",
+      "*à la maîtresse* ?"
+     ]
+    },
+    {
+     "type": "texte",
+     "lignes": [
+      "Et toi aussi,",
+      "tu as ~peur~",
+      "des fautes."
+     ],
+     "taille": "m"
+    },
+    {
+     "type": "editeur",
+     "titre": "Tu écris comme tu entends…",
+     "ecran": "Mon fils sera [absan|absent] [demin|demain] pour un [rendé-vous|rendez-vous]."
+    },
+    {
+     "type": "logo",
+     "avant": "Pour écrire sans stress :"
+    },
+    {
+     "type": "liste",
+     "titre": "*Pensé pour la dyslexie*",
+     "items": [
+      "Souligne les fautes *en direct*",
+      "Comprend les mots écrits *comme on les entend*",
+      "Marche dans *Gmail et Word*"
+     ]
+    },
+    {
+     "type": "cta",
+     "lignes": [
+      "Écris comme tu penses.",
+      "*Envoie sans stress.*"
+     ],
+     "sub": "Mac et Windows",
+     "bouton": "Lien en bio"
+    }
+   ]
+  },
+  "post_text": "Un mot à écrire à la maîtresse, et toi aussi tu as peur des fautes ? Tu n'es pas la seule.\n\nLexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Gmail et Word, sans internet.\n\nEt toi, c'est quel message à l'école qui te stresse le plus ? 👇\nPartage à une maman qui comprendra 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #ecole #lexylab",
+  "tiktok_title": "Le mot à la maîtresse, sans stress",
+  "tiktok_text": "Un mot à la maîtresse et peur des fautes ? 👇 #dyslexie #mamandys #parentsdys #dys #lexylab"
  }
 ]
