@@ -861,14 +861,16 @@
   "id": "quiz-message",
   "format": "quiz",
   "pilier": "engagement",
-  "hypothese": "Un quiz pousse les gens à commenter",
+  "hypothese": "Un quiz sur un message du quotidien, avec l'appel à commenter écrit à l'écran (et dit par la voix), obtient enfin des commentaires",
   "params": {
    "question": "Ce message a *5 fautes*.\nTu les vois ? 🔍",
    "sentence": "[Ojourdui|Aujourd'hui] [jé|j'ai] [rater|raté] mon bus, je [sérai|serai] en [retare|retard].",
-   "seconds": 6
+   "seconds": 6,
+   "cta": "Tu en as trouvé combien ?\nDis-le en commentaire 👇",
+   "answer": "LexyLab les a *toutes* trouvées."
   },
-  "post_text": "Ce message a 5 fautes. Tu les vois ? 🔍 Commente ton score 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #correcteur #orthographe",
-  "tiktok_title": "5 fautes cachées, tu les vois ? 🔍"
+  "post_text": "Ce message a 5 fautes. Tu les vois ? 🔍\n\nÉcris ton score en commentaire : 1, 2, 3, 4 ou 5 👇\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #quiz #orthographe #defi",
+  "tiktok_title": "5 fautes cachées, tu les vois ?"
  },
  {
   "id": "demo-notes-cours",
@@ -2033,5 +2035,30 @@
   "post_text": "Un mot à écrire à la maîtresse, et toi aussi tu as peur des fautes ? Tu n'es pas la seule.\n\nLexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Gmail et Word, sans internet.\n\nEt toi, c'est quel message à l'école qui te stresse le plus ? 👇\nPartage à une maman qui comprendra 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #ecole #lexylab",
   "tiktok_title": "Le mot à la maîtresse, sans stress",
   "tiktok_text": "Un mot à la maîtresse et peur des fautes ? 👇 #dyslexie #mamandys #parentsdys #dys #lexylab"
+ },
+ {
+  "id": "demo-gmail-stage",
+  "format": "demo",
+  "pilier": "demo",
+  "cible": "etudiants",
+  "hypothese": "Une demo sur un mail à enjeu (demande de stage) retient autant sur Instagram que la demo maman (meilleur temps moyen)",
+  "params": {
+   "hook": "Ta demande de stage,\ntu l'as relue *dix fois* ?",
+   "app": "gmail",
+   "title": "Demande de stage",
+   "screen": "Bonjour Madame, je [voudré|voudrais] faire mon [stache|stage] dans votre [antreprise|entreprise]. Je suis très [motiver|motivé] !",
+   "explain": "« motivé » : après « je suis », on écrit *« é »*, pas « er ».",
+   "subs": [
+    "Tu écris ton mail…",
+    "Les fautes sont *soulignées*",
+    "LexyLab t'explique la règle",
+    "Un clic, c'est corrigé",
+    "Tu peux envoyer, serein"
+   ],
+   "badge": "✓ Mail prêt à partir"
+  },
+  "post_text": "Ta demande de stage, tu l'as relue dix fois avant d'oser l'envoyer ? 😅\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends. Il explique certaines règles, et marche dans Gmail, Outlook et Word.\n\nEt toi, c'est quel mail qui te stresse le plus ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #stage #lexylab #orthographe",
+  "tiktok_title": "Ta demande de stage sans fautes",
+  "tiktok_text": "Ta demande de stage, relue dix fois ? 😅 Quel mail te stresse le plus ? 👇 #dyslexie #dys #etudiant #stage #lexylab"
  }
 ]

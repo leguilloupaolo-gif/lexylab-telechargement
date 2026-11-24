@@ -339,3 +339,9 @@ voix/pres-mamans-mot-prof-2.m4a|Tu écris comme tu entends. Mon fils sera absent
 voix/pres-mamans-mot-prof-3.m4a|Pour écrire sans stress. LexyLab.|principale
 voix/pres-mamans-mot-prof-4.m4a|Pensé pour la dyslexie. Souligne les fautes en direct. Comprend les mots écrits comme on les entend. Marche dans Gmail et Word.|principale
 voix/pres-mamans-mot-prof-5.m4a|Écris comme tu penses. Envoie sans stress. Sur Mac et Windows.|principale
+voix/demo-gmail-stage-hook.m4a|Ta demande de stage, tu l'as relue dix fois ?|principale
+voix/demo-gmail-stage-s0.m4a|Tu écris ton mail…|principale
+voix/demo-gmail-stage-s1.m4a|Les fautes sont soulignées.|principale
+voix/demo-gmail-stage-s2.m4a|LexyLab t'explique la règle.|principale
+voix/demo-gmail-stage-s3.m4a|Un clic, c'est corrigé.|principale
+voix/demo-gmail-stage-s4.m4a|Tu peux envoyer, serein.|principale
