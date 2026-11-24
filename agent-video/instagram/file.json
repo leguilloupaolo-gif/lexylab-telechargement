@@ -147,5 +147,15 @@
   "statut": "publie",
   "media_id": "17885263734629031",
   "publie_le": "2026-11-24T01:41:43+00:00"
+ },
+ {
+  "id": "2026-11-24-quiz-message",
+  "quand": "2026-11-24T10:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-24-quiz-message.mp4"
+  ],
+  "legende": "Ce message a 5 fautes. Tu les vois ? 🔍\n\nÉcris ton score en commentaire : 1, 2, 3, 4 ou 5 👇\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #lexylab #quiz #orthographe #defi",
+  "statut": "a_publier"
  }
 ]

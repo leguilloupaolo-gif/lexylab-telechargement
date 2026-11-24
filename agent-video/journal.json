@@ -514,5 +514,28 @@
    "tiktok": 438339545
   },
   "note": "TikTok Metricool : posts acceptés en PENDING ; les précédents passaient en erreur « account limit » à l'heure de publication."
+ },
+ {
+  "date": "2026-11-24",
+  "id": "quiz-message",
+  "fichier": "reseaux-sociaux/auto/2026-11-24-quiz-message.mp4",
+  "format": "quiz",
+  "pilier": "engagement",
+  "cible": "tous les dys",
+  "hypothese": "Un quiz sur un message du quotidien, avec l'appel à commenter écrit à l'écran (et dit par la voix), obtient enfin des commentaires",
+  "raison_stats": "Plan du mix (mar 24). IG (relevé 24/11) : le quiz courses reste parmi les meilleurs récents (173 vues, 4,7 s), au niveau du mail travail (172) et devant les présentations mamans/logopèdes (124-159, 2,3-3,6 s). Commentaires toujours à 0 : le quiz est le format le plus fait pour commenter, avec cette fois l'appel à commenter écrit à l'écran et un choix de score simple en légende. Format différent des 2 présentations d'hier (variété). 10 h = meilleure heure du mardi sur IG (4942) et TikTok (1136).",
+  "decor": "-",
+  "style": "clair (bleu pâle)",
+  "rendu": "quiz compte à rebours, appel à commenter à l'écran",
+  "heures": {
+   "instagram": "2026-11-24 10:00",
+   "tiktok": "2026-11-24 10:00"
+  },
+  "voix": "3/3",
+  "instagram": "publication directe (file.json, id 2026-11-24-quiz-message)",
+  "metricool": {
+   "tiktok": 439853099
+  },
+  "note": "TikTok Metricool accepté en PENDING ; les 2 TikTok du 23/11 sont passés en ERREUR « account limit »."
  }
 ]
