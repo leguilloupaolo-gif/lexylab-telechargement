@@ -422,13 +422,14 @@
       "format": "presentation",
       "pilier": "situations",
       "reseau": "instagram",
-      "vues": 135,
-      "portee": 98,
+      "vues": 136,
+      "portee": 99,
       "partages": 0,
       "sauvegardes": 0,
       "commentaires": 0,
-      "temps_moyen": 4.87,
-      "score": 135
+      "temps_moyen": 4.94,
+      "score": 136,
+      "note": "7 jours"
     },
     {
       "date": "2026-11-19",
@@ -442,7 +443,8 @@
       "sauvegardes": 0,
       "commentaires": 0,
       "temps_moyen": 4.04,
-      "score": 172
+      "score": 172,
+      "note": "6 jours"
     },
     {
       "date": "2026-11-19",
@@ -451,13 +453,14 @@
       "pilier": "recrutement testeurs",
       "reseau": "instagram",
       "republication": true,
-      "vues": 182,
-      "portee": 127,
+      "vues": 183,
+      "portee": 128,
       "partages": 0,
       "sauvegardes": 0,
       "commentaires": 0,
-      "temps_moyen": 4.5,
-      "score": 182
+      "temps_moyen": 4.48,
+      "score": 183,
+      "note": "6 jours"
     },
     {
       "date": "2026-11-20",
@@ -465,14 +468,14 @@
       "format": "quiz",
       "pilier": "engagement",
       "reseau": "instagram",
-      "vues": 173,
-      "portee": 138,
+      "vues": 178,
+      "portee": 141,
       "partages": 0,
       "sauvegardes": 0,
       "commentaires": 0,
-      "temps_moyen": 4.74,
-      "score": 173,
-      "note": "4 jours"
+      "temps_moyen": 4.82,
+      "score": 178,
+      "note": "5 jours"
     },
     {
       "date": "2026-11-20",
@@ -480,14 +483,14 @@
       "format": "presentation",
       "pilier": "mamans",
       "reseau": "instagram",
-      "vues": 159,
-      "portee": 122,
+      "vues": 164,
+      "portee": 124,
       "partages": 0,
       "sauvegardes": 0,
       "commentaires": 0,
-      "temps_moyen": 3.61,
-      "score": 159,
-      "note": "4 jours"
+      "temps_moyen": 3.89,
+      "score": 164,
+      "note": "5 jours"
     },
     {
       "date": "2026-11-21",
@@ -495,14 +498,14 @@
       "format": "presentation",
       "pilier": "education",
       "reseau": "instagram",
-      "vues": 124,
-      "portee": 93,
+      "vues": 127,
+      "portee": 96,
       "partages": 0,
       "sauvegardes": 0,
       "commentaires": 0,
-      "temps_moyen": 2.27,
-      "score": 124,
-      "note": "3 jours"
+      "temps_moyen": 2.25,
+      "score": 127,
+      "note": "4 jours"
     },
     {
       "date": "2026-11-22",
@@ -510,18 +513,48 @@
       "format": "demo",
       "pilier": "demo",
       "reseau": "instagram",
-      "vues": 154,
-      "portee": 118,
+      "vues": 155,
+      "portee": 119,
       "partages": 0,
       "sauvegardes": 0,
       "commentaires": 0,
-      "temps_moyen": 4.97,
-      "score": 154,
+      "temps_moyen": 4.96,
+      "score": 155,
+      "note": "3 jours"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "pres-dictee-rouge",
+      "format": "presentation",
+      "pilier": "emotion",
+      "reseau": "instagram",
+      "partages": 0,
+      "sauvegardes": 0,
+      "commentaires": 0,
+      "vues": 157,
+      "portee": 137,
+      "temps_moyen": 5.27,
+      "score": 157,
+      "note": "2 jours"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "pres-job-etudiant",
+      "format": "presentation",
+      "pilier": "situations",
+      "reseau": "instagram",
+      "partages": 0,
+      "sauvegardes": 0,
+      "commentaires": 0,
+      "vues": 100,
+      "portee": 70,
+      "temps_moyen": 4.41,
+      "score": 100,
       "note": "2 jours"
     }
   ],
   "note_2026-11-09": "Relevé du 9/11 sur 21 jours. Instagram : IGRE21 = partages (groupe-classe : 5 partages, et non 5 commentaires). TikTok : 0 commentaire relevé partout ; taux vu en entier et temps moyen non renvoyés par Metricool. Posts du 7 et 8/11 trop récents (< 3 jours) pour conclure.",
-  "derniere_maj_quotidienne": "2026-11-24",
+  "derniere_maj_quotidienne": "2026-11-25",
   "note_2026-11-10": "Relevé quotidien du 10/11 (14 jours). Les posts du 9/11 n'apparaissent pas encore dans les Reels Instagram. TikTok du 9/11 : moins de 24 h, à revoir (kin-fondateur v3 publié à 20h30, demo maman à 18h).",
   "note_2026-11-11": "Relevé quotidien du 11/11 (14 jours). Les heures Instagram renvoyées par Metricool sont en UTC. TikTok : les posts du 10/11 n'apparaissent pas encore. IG : demo maman mot au prof = meilleur récent (193 vues, 6,1 s, 1 commentaire) ; POV dictée 133 vues en moins de 24 h (5,4 s). TikTok : kin mamans 781, CV 755, mail prof 692 restent en tête ; demo maman 443 ; kin fondateur v3 (20h30) seulement 187.",
   "note_2026-11-12": "Relevé quotidien du 12/11 (14 jours). Posts du 11/11 pas encore remontés (IG et TikTok) ; TikTok du 10/11 toujours absents. IG : demo maman mot au prof reste en tête des récents (199 vues, 6,1 s) ; POV dictée monte à 177 (5,3 s) ; republications du 10/11 entre 127 et 134. TikTok : kin mamans 781, CV 755, mail prof 692 en tête ; TikTok renvoie des likes (TKPO08) : CV 21, kin mamans 20.",
@@ -536,5 +569,6 @@
   "note_2026-11-21": "Relevé quotidien (7/11-21/11). IG : présentations sombres stables à 134-147 vues (examen fiches 134 et 4,9 s à 3 jours ; mail travail 147 et 4,2 s). Même niveau que les kinetic (149-167) mais sous la demo maman (206, 5,9 s) et le POV dictée (186, 5,4 s). Quiz courses et pres-mamans-autonomie (20/11) pas encore remontés. TikTok : aucun chiffre depuis le 10/11, tous les posts TikTok depuis le 11/11 sont en erreur « account limit » Metricool. Partages et sauvegardes toujours à 0.",
   "note_2026-11-22": "Relevé quotidien (8/11-22/11). IG : mail travail 172 vues/4,0 s, quiz courses 171/4,7 s, texte anglais 182/4,5 s, mamans autonomie 139/3,6 s, examen fiches 135/4,9 s, logopèdes 61/2,9 s (1 jour). Les présentations sombres plafonnent à 135-172 vues ; le meilleur temps reste la demo maman (208, 6,0 s) puis le POV dictée (187, 5,4 s). Le quiz fait autant de vues que la meilleure présentation avec plus de temps moyen. Partages, sauvegardes et commentaires à 0 sur tous les posts récents. TikTok : aucun chiffre depuis le 10/11 (tous les posts Metricool en erreur « account limit », encore le 20 et 21/11).",
   "note_2026-11-23": "Analyse hebdo (2/11-23/11). IG, période test style 1re vidéo (posts du 18 au 21/11) : présentations à 120-182 vues (moy. ~151) et 2,3-4,9 s, contre ~174 vues et 3,6-6,0 s pour les kinetic/demo/sketch du 5 au 10/11. Pas de gain d'attention pour l'instant. Meilleurs temps : demo maman 6,0 s, sketch devoir 5,5 s, POV dictée 5,3 s ; quiz courses 173 vues/4,8 s. Logopèdes le plus bas (120, 2,3 s). Partages et sauvegardes à 0 partout, 3 commentaires au total (demo mail prof 2, demo maman 1). Carrousel 5 raisons (18/11) : pas remonté dans les métriques Reels. TikTok : aucune donnée depuis le 10/11 (limite Metricool) ; plateau 658-785 vues avant blocage.",
-  "note_2026-11-24": "Relevé quotidien (10/11-24/11). IG : demo Word devoir monte à 154 vues et 5,0 s de temps moyen en 2 jours, meilleur temps des posts récents (derrière seulement POV dictée 189/5,3 s et demo maman 208/6,0 s, plus anciens) ; quiz courses 173/4,7 s ; mail travail 172/4,0 s ; mamans autonomie 159/3,6 s ; examen fiches 135/4,9 s ; logopèdes 124/2,3 s (le plus bas). Partages, sauvegardes, commentaires : toujours 0. Les présentations du 23/11 (dictée rouge, job étudiant) ne remontent pas encore. TikTok : seuls les 3 posts du 10/11 remontent (POV dictée 720, devoir 692, kin mamans 658 vues ; 18, 10 et 5 likes). Les 2 TikTok du 23/11 sont en ERREUR « account limit » : TikTok toujours bloqué par la limite du compte Metricool. Tendance : produit en action (demo) et quiz retiennent mieux que le texte seul sur IG."
+  "note_2026-11-24": "Relevé quotidien (10/11-24/11). IG : demo Word devoir monte à 154 vues et 5,0 s de temps moyen en 2 jours, meilleur temps des posts récents (derrière seulement POV dictée 189/5,3 s et demo maman 208/6,0 s, plus anciens) ; quiz courses 173/4,7 s ; mail travail 172/4,0 s ; mamans autonomie 159/3,6 s ; examen fiches 135/4,9 s ; logopèdes 124/2,3 s (le plus bas). Partages, sauvegardes, commentaires : toujours 0. Les présentations du 23/11 (dictée rouge, job étudiant) ne remontent pas encore. TikTok : seuls les 3 posts du 10/11 remontent (POV dictée 720, devoir 692, kin mamans 658 vues ; 18, 10 et 5 likes). Les 2 TikTok du 23/11 sont en ERREUR « account limit » : TikTok toujours bloqué par la limite du compte Metricool. Tendance : produit en action (demo) et quiz retiennent mieux que le texte seul sur IG.",
+  "note_2026-11-25": "Relevé quotidien (11/11-25/11). IG : pres-dictee-rouge 157 vues et 5,3 s de temps moyen en 2 jours, meilleur temps des présentations sombres (sujet émotion école confirmé) ; demo Word devoir 155/5,0 s ; quiz courses 178/4,8 s (meilleures vues récentes) ; mail travail 172/4,0 s ; mamans autonomie 164/3,9 s ; examen fiches 136/4,9 s ; logopèdes 127/2,2 s (le plus bas) ; job étudiant (thème clair) 100/4,4 s à 1 jour. Quiz message (24/11) pas encore remonté. Partages, sauvegardes, commentaires : toujours 0. TikTok : aucune donnée ; les 3 posts TikTok du 23 et 24/11 sont en ERREUR « account limit » Metricool. Tendance IG : émotion école, produit en action et quiz retiennent mieux que les sujets travail ou prescripteurs."
 }

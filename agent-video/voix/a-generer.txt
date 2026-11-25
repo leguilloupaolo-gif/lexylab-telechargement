@@ -345,3 +345,9 @@ voix/demo-gmail-stage-s1.m4a|Les fautes sont soulignées.|principale
 voix/demo-gmail-stage-s2.m4a|LexyLab t'explique la règle.|principale
 voix/demo-gmail-stage-s3.m4a|Un clic, c'est corrigé.|principale
 voix/demo-gmail-stage-s4.m4a|Tu peux envoyer, serein.|principale
+voix/kin-pov-lire-voix-haute-0.m4a|Point de vue : t'es dys, et le prof te dit : lis la suite à voix haute.|principale
+voix/kin-pov-lire-voix-haute-1.m4a|Ton cœur s'emballe.|principale
+voix/kin-pov-lire-voix-haute-2.m4a|Les lettres se mélangent, toute la classe attend.|principale
+voix/kin-pov-lire-voix-haute-3.m4a|Et pourtant, tu avais tout compris.|principale
+voix/kin-pov-lire-voix-haute-4.m4a|Aujourd'hui, un correcteur pensé pour la dyslexie existe. Il souligne les fautes en direct, sur l'ordi.|principale
+voix/kin-pov-lire-voix-haute-5.m4a|Toi aussi, tu as vécu ça ? Écris, moi aussi, en commentaire.|principale

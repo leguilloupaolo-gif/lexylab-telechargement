@@ -2060,5 +2060,46 @@
   "post_text": "Ta demande de stage, tu l'as relue dix fois avant d'oser l'envoyer ? 😅\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends. Il explique certaines règles, et marche dans Gmail, Outlook et Word.\n\nEt toi, c'est quel mail qui te stresse le plus ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #stage #lexylab #orthographe",
   "tiktok_title": "Ta demande de stage sans fautes",
   "tiktok_text": "Ta demande de stage, relue dix fois ? 😅 Quel mail te stresse le plus ? 👇 #dyslexie #dys #etudiant #stage #lexylab"
+ },
+ {
+  "id": "kin-pov-lire-voix-haute",
+  "format": "kinetic",
+  "pilier": "emotion",
+  "cible": "tous les dys",
+  "hypothese": "Un 2e souvenir d'école (lire à voix haute devant la classe), avec l'appel à commenter écrit à l'écran, retient comme la dictée et obtient des commentaires",
+  "params": {
+   "theme": "bleu",
+   "music": "tension",
+   "slides": [
+    {
+     "text": "POV : t'es dys et le prof dit « Lis la suite à voix haute »",
+     "size": "l"
+    },
+    {
+     "text": "Ton cœur *s'emballe*.",
+     "size": "l"
+    },
+    {
+     "text": "Les lettres se mélangent, toute la classe *attend*.",
+     "size": "l"
+    },
+    {
+     "text": "Et pourtant, tu avais *tout compris*.",
+     "size": "l"
+    },
+    {
+     "text": "Aujourd'hui, un correcteur pensé *pour la dyslexie* existe.",
+     "sub": "Il souligne les fautes en direct, sur l'ordi.",
+     "size": "m"
+    },
+    {
+     "text": "Toi aussi, tu as vécu ça ? Écris *moi aussi* en commentaire.",
+     "size": "m"
+    }
+   ]
+  },
+  "post_text": "POV : t'es dys et le prof te demande de lire la suite à voix haute.\n\nLe cœur qui s'emballe, les lettres qui se mélangent, la classe qui attend. Alors que tu avais tout compris.\n\nAujourd'hui, LexyLab souligne les fautes en direct quand tu écris, même quand tu écris les mots comme tu les entends.\n\nToi aussi, tu as vécu ça ? Écris « moi aussi » en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dys #dysorthographie #ecole #souvenirsdecole #lecture #lexylab",
+  "tiktok_title": "POV : lire à voix haute en classe",
+  "tiktok_text": "POV : le prof te demande de lire à voix haute 😶 Écris « moi aussi » si tu as vécu ça 👇 #dyslexie #dys #ecole #lexylab"
  }
 ]
