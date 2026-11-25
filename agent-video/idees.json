@@ -1750,8 +1750,8 @@
      "type": "texte",
      "lignes": [
       "Ton mémoire est fini.",
-      "Mais tu n'oses pas",
-      "le ~rendre~."
+      "Mais tu n'oses",
+      "pas le ~rendre~."
      ]
     },
     {
@@ -1983,7 +1983,7 @@
   "cible": "mamans",
   "hypothese": "Le sujet « mot au prof » (meilleur temps de visionnage IG en demo, 6 s) dans le style 1re vidéo retient mieux que les autres présentations sombres (135-172 vues)",
   "params": {
-   "theme": "sombre",
+   "theme": "clair",
    "music": "calme",
    "scenes": [
     {
@@ -2010,7 +2010,7 @@
     },
     {
      "type": "logo",
-     "avant": "Pour écrire sans stress :"
+     "avant": "Pour écrire sans stress"
     },
     {
      "type": "liste",
