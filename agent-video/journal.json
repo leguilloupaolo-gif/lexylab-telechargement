@@ -1,541 +1,585 @@
 [
- {
-  "date": "2026-11-05",
-  "id": "cv",
-  "fichier": "reseaux-sociaux/auto/2026-11-05-cv.mp4",
-  "instagram": "18:30 (Metricool 417979712)",
-  "tiktok": "18:30 (Metricool 417979781)",
-  "format": "sketch",
-  "pilier": "situations",
-  "hypothese": "Le sujet job étudiant/CV a bien marché sur TikTok (lettre de motivation 740 vues)"
- },
- {
-  "date": "2026-11-06",
-  "id": "demo-mail-prof",
-  "fichier": "reseaux-sociaux/auto/2026-11-06-demo-mail-prof.mp4",
-  "instagram": "10:00 (Metricool 418572193)",
-  "tiktok": "10:00 (Metricool 418572198)",
-  "format": "demo",
-  "pilier": "demo",
-  "hypothese": "Première demo : montrer le produit en action sur un sujet école (gagnant) convertit mieux que raconter ; accroche-question en 1re seconde. Créneau 10:00 (meilleur Metricool du vendredi) au lieu de 18:30"
- },
- {
-  "date": "2026-11-07",
-  "id": "kin-mamans-message",
-  "fichier": "reseaux-sociaux/auto/2026-11-07-kin-mamans-message.mp4",
-  "instagram": "10:00 (Metricool 419711686)",
-  "tiktok": "10:00 (Metricool 419711690)",
-  "format": "kinetic",
-  "pilier": "mamans",
-  "hypothese": "Émotion + parents gagne sur Instagram : un message direct et doux aux mamans crée identification et partages. 1er kinetic. Créneau 10:00 un samedi (meilleur Metricool) au lieu du soir conseillé pour les mamans. Voix off Thomas (fichiers existants) au lieu d'Amélie"
- },
- {
-  "date": "2026-11-08",
-  "id": "sketch-devoir-francais",
-  "fichier": "reseaux-sociaux/auto/2026-11-08-sketch-devoir-francais.mp4",
-  "instagram": "10:00 (Metricool 420510587)",
-  "tiktok": "10:00 (Metricool 420510596)",
-  "format": "sketch",
-  "pilier": "situations",
-  "hypothese": "1er sketch école (sujet gagnant) : une galère de devoirs du soir vécue + humour pousse au partage et aux commentaires ; légende avec question. Créneau 10:00 un dimanche."
- },
- {
-  "date": "2026-11-09",
-  "id": "kin-fondateur",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-kin-fondateur.mp4",
-  "instagram": "10:00 (Metricool 421413406)",
-  "tiktok": "10:00 (Metricool 421413413)",
-  "format": "kinetic",
-  "pilier": "fondateur",
-  "hypothese": "70 % : l'histoire du fondateur a fait le meilleur score TikTok (1864 vues) ; version kinetic courte (26 s) le matin.",
-  "decor": "-",
-  "style": "theme bleu",
-  "rendu": "kinetic",
-  "voix": "Thomas (5 voix : kin-fondateur-0 à 4)"
- },
- {
-  "date": "2026-11-09",
-  "id": "demo-maman-mot-prof",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof-v3.mp4",
-  "instagram": "18:00 (Metricool 421998878)",
-  "tiktok": "18:00 (Metricool 421998956)",
-  "format": "demo",
-  "pilier": "mamans",
-  "hypothese": "70 % : mamans + demo le soir (après les devoirs) ; la maman elle-même dys s'identifie et partage. 2e demo, à comparer à demo-mail-prof (10 h).",
-  "decor": "gmail",
-  "style": "clair",
-  "rendu": "maquette demo",
-  "voix": "Amélie (hook + s0 à s4)",
-  "note": "Refaite le 9/11 à 12h50 : voix corrigées (bug « Thomas »)"
- },
- {
-  "date": "2026-11-09",
-  "id": "kin-fondateur",
-  "republication": true,
-  "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-kin-fondateur-v3.mp4",
-  "instagram": "20:30 (Metricool 421999047)",
-  "tiktok": "20:30 (Metricool 421999136)"
- },
- {
-  "date": "2026-11-10",
-  "id": "sketch-devoir-francais",
-  "republication": true,
-  "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-sketch-devoir-francais-v3.mp4",
-  "instagram": "13:00 (Metricool 421999216)",
-  "tiktok": "13:00 (Metricool 421999301)"
- },
- {
-  "date": "2026-11-10",
-  "id": "kin-mamans-message",
-  "republication": true,
-  "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
-  "fichier": "reseaux-sociaux/auto/2026-11-09-kin-mamans-message-v3.mp4",
-  "instagram": "20:30 (Metricool 421999390)",
-  "tiktok": "20:30 (Metricool 421999448)"
- },
- {
-  "date": "2026-11-10",
-  "id": "kin-pov-dictee",
-  "fichier": "reseaux-sociaux/auto/2026-11-10-kin-pov-dictee.mp4",
-  "instagram": "10:00 (Metricool 422774028)",
-  "tiktok": "10:00 (Metricool 422774041)",
-  "heures": "10:00",
-  "format": "kinetic",
-  "pilier": "emotion",
-  "hypothese": "70 % : l'émotion école (dictée, « fais plus attention ») reste la meilleure sur Instagram ; un POV kinetic sombre retient-il mieux que les sketchs récents (temps moyen > 6 s) ?",
-  "raison_stats": "Instagram : groupe de classe (école/émotion) 355 vues et 8,1 s de temps moyen, loin devant les posts récents (150-245 vues, 3,6-5,5 s). Historique : dictée 582 IG / 862 TikTok, « faire attention » 619 IG. TikTok : kinetic mamans 781 = format kinetic gagnant. 10 h = meilleure heure du mardi sur les deux réseaux. Sketch maman/devoirs reporté : aujourd'hui il y a déjà une republication sketch devoirs (13 h) et une kinetic mamans (20 h 30).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "kinetic",
-  "voix": "voix principale (kin-pov-dictee-0 à 4)",
-  "note": "Texte « plus attention » passé en vert : le surlignage jaune s'affichait mal sur fond sombre."
- },
- {
-  "date": "2026-11-11",
-  "id": "quiz-courses",
-  "fichier": "reseaux-sociaux/auto/2026-11-11-quiz-courses.mp4",
-  "instagram": "10:00 (Metricool 424055015)",
-  "tiktok": "10:00 (Metricool 424055023)",
-  "heures": "10:00",
-  "format": "quiz",
-  "pilier": "engagement",
-  "cible": "tous les dys",
-  "hypothese": "20 % variante : un premier quiz « trouve les 4 fautes » fait commenter (commentaires = 0 sur presque tous les posts jusqu'ici).",
-  "raison_stats": "Commentaires quasi nuls partout (IG : 1 seul sur demo maman, 2 sur mail prof ; TikTok : 0). Le quiz vise directement les commentaires. 10 h = meilleure heure du mercredi sur Instagram (6506) et TikTok (1432).",
-  "decor": "-",
-  "style": "quiz clair",
-  "rendu": "quiz",
-  "voix": "voix principale (quiz-courses-0 et 1)",
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-11",
-  "id": "kin-astuces-relire",
-  "fichier": "reseaux-sociaux/auto/2026-11-11-kin-astuces-relire.mp4",
-  "instagram": "18:00 (Metricool 424055031)",
-  "tiktok": "18:00 (Metricool 424055037)",
-  "heures": "18:00",
-  "format": "kinetic",
-  "pilier": "education",
-  "cible": "etudiants",
-  "hypothese": "70 % format gagnant (kinetic) + contenu « à garder » : une liste d'astuces génère des sauvegardes (0 sauvegarde jusqu'ici).",
-  "raison_stats": "Kinetic = format en tête sur TikTok (mamans 781 vues). Sauvegardes à 0 partout : il faut des contenus utiles. Cible étudiants (CV 755 et mail prof 692 sur TikTok) au lieu des astuces devoirs mamans prévues : les mamans ont déjà 3 posts sur les 7 derniers jours (7/11, 9/11, republication 10/11), plafond atteint. 18 h = meilleure heure du soir sur les deux réseaux (TikTok 1386, IG 4869).",
-  "decor": "-",
-  "style": "theme vert",
-  "rendu": "kinetic",
-  "voix": "voix principale (kin-astuces-relire-0 à 4)",
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-12",
-  "id": "pres-classique-vs-lexylab",
-  "format": "presentation",
-  "pilier": "demo",
-  "cible": "tous les dys",
-  "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence et donne envie d'essayer",
-  "raison_stats": "10 % pari prévu au mix : 1re présentation produit. Les posts qui montrent le produit (CV 755, mail prof 692 sur TikTok ; demo maman 199 vues et 6,1 s sur IG) sont parmi les meilleurs récents. Pas de maman aujourd'hui : plafond de 3 posts mamans sur 7 jours atteint.",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design",
-  "heures": "10:00",
-  "voix": "5/5 prêtes",
-  "fichier": "reseaux-sociaux/auto/2026-11-12-pres-classique-vs-lexylab.mp4",
-  "metricool": {
-   "instagram": 425312799,
-   "tiktok": 425312807
+  {
+    "date": "2026-11-05",
+    "id": "cv",
+    "fichier": "reseaux-sociaux/auto/2026-11-05-cv.mp4",
+    "instagram": "18:30 (Metricool 417979712)",
+    "tiktok": "18:30 (Metricool 417979781)",
+    "format": "sketch",
+    "pilier": "situations",
+    "hypothese": "Le sujet job étudiant/CV a bien marché sur TikTok (lettre de motivation 740 vues)"
   },
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-13",
-  "id": "car-5-raisons",
-  "format": "carrousel",
-  "pilier": "demo",
-  "cible": "tous les dys",
-  "hypothese": "Un carrousel « à garder » est plus sauvegardé et partagé qu'une vidéo",
-  "raison_stats": "10 % pari prévu au mix : 1er carrousel. Partages et sauvegardes à 0 sur tous les posts récents (IG et TikTok) ; il faut tester un contenu à enregistrer. TikTok tient un plateau de 650-790 vues quel que soit le format, donc test sans risque.",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "carrousel motion design (7 images)",
-  "heures": "10:00",
-  "voix": "sans objet (carrousel)",
-  "fichier": "reseaux-sociaux/auto/2026-11-13-car-5-raisons/",
-  "metricool": {
-   "instagram": 426585313,
-   "tiktok": 426585325
+  {
+    "date": "2026-11-06",
+    "id": "demo-mail-prof",
+    "fichier": "reseaux-sociaux/auto/2026-11-06-demo-mail-prof.mp4",
+    "instagram": "10:00 (Metricool 418572193)",
+    "tiktok": "10:00 (Metricool 418572198)",
+    "format": "demo",
+    "pilier": "demo",
+    "hypothese": "Première demo : montrer le produit en action sur un sujet école (gagnant) convertit mieux que raconter ; accroche-question en 1re seconde. Créneau 10:00 (meilleur Metricool du vendredi) au lieu de 18:30"
   },
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-13",
-  "id": "kin-mythes-dyslexie",
-  "format": "kinetic",
-  "pilier": "education",
-  "cible": "tous les dys",
-  "hypothese": "Le format mythe/réalité est partagé (et intéresse aussi logopèdes et enseignants)",
-  "raison_stats": "70/20 : le kinetic reste dans le haut sur TikTok (mamans 784, fondateur 758, POV dictée 707) ; sur IG le POV dictée (177 vues, 5,3 s) est le 2e meilleur récent, l'école/éducation garde l'avantage. Pas de maman : plafond de 3 posts mamans sur 7 jours atteint.",
-  "decor": "-",
-  "style": "theme clair",
-  "rendu": "kinetic mythe/réalité",
-  "heures": "18:00",
-  "voix": "5/5 prêtes",
-  "fichier": "reseaux-sociaux/auto/2026-11-13-kin-mythes-dyslexie.mp4",
-  "metricool": {
-   "instagram": 426585345,
-   "tiktok": 426585353
+  {
+    "date": "2026-11-07",
+    "id": "kin-mamans-message",
+    "fichier": "reseaux-sociaux/auto/2026-11-07-kin-mamans-message.mp4",
+    "instagram": "10:00 (Metricool 419711686)",
+    "tiktok": "10:00 (Metricool 419711690)",
+    "format": "kinetic",
+    "pilier": "mamans",
+    "hypothese": "Émotion + parents gagne sur Instagram : un message direct et doux aux mamans crée identification et partages. 1er kinetic. Créneau 10:00 un samedi (meilleur Metricool) au lieu du soir conseillé pour les mamans. Voix off Thomas (fichiers existants) au lieu d'Amélie"
   },
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-14",
-  "id": "pres-pourquoi-lexylab",
-  "format": "presentation",
-  "pilier": "fondateur",
-  "cible": "tous les dys",
-  "hypothese": "Le style de la 1re vidéo (présentation sombre) appliqué à l'histoire du fondateur retient mieux que le kinetic fondateur (IG 160 vues, 3,8 s)",
-  "raison_stats": "70 % : fondateur = sujet historique n°1 sur TikTok (1 864 vues en octobre, kinetic fondateur 758 le 9/11, dans le plateau haut 650-790). Sur IG, l'émotion école reste en tête (demo maman 202 vues/6,0 s, POV dictée 179/5,3 s) : accroche « copies pleines de rouge ». Style de référence demandé pour la période de test 13-27/11. Pas de maman : 25 % respecté.",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design (style 1re vidéo)",
-  "heures": "10:00",
-  "voix": "6/6",
-  "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
-  "instagram": "10:00 (Metricool 427769563)",
-  "tiktok": "10:00 (Metricool 427769571)",
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-15",
-  "id": "demo-notes-cours",
-  "fichier": "reseaux-sociaux/auto/2026-11-15-demo-notes-cours.mp4",
-  "instagram": "10:00 (Metricool 428632053)",
-  "tiktok": "NON PROGRAMMÉ (programmation TikTok refusée par le contrôle d'autorisation de la session ; à publier à la main ou au prochain passage)",
-  "heures": "10:00",
-  "format": "demo",
-  "pilier": "demo",
-  "cible": "etudiants",
-  "hypothese": "Le hors-ligne (amphi sans wifi) est un argument fort pour les étudiants, cible n°1 de TikTok",
-  "raison_stats": "Plan du mix : pres-examen-fiches si voix prêtes, sinon une demo. Les voix de pres-examen-fiches ne sont pas encore fabriquées (Mac à 12h30). Demo = format dans le haut des chiffres (TikTok : demo maman 773, mail prof 699 ; IG : demo maman 204 vues et 6,0 s, meilleur temps de visionnage récent). Cible étudiants (CV 762, mail prof 699 sur TikTok) ; pas de maman (dernier post mamans le 10/11, quota respecté). 10 h = meilleure heure du dimanche sur IG (2582) et TikTok (816).",
-  "decor": "app Notes",
-  "style": "clair",
-  "rendu": "demo maquette",
-  "voix": "6/6 (hook + 5 sous-titres)",
-  "emojis": "1 seul à l'écran (accroche)",
-  "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
- },
- {
-  "date": "2026-11-16",
-  "id": "pres-pourquoi-lexylab",
-  "reprogrammation": true,
-  "note": "Reprogrammée : la version du 14/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vue).",
-  "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
-  "format": "presentation",
-  "pilier": "fondateur",
-  "cible": "tous les dys",
-  "hypothese": "Le style de la 1re vidéo (présentation sombre) appliqué à l'histoire du fondateur retient mieux que le kinetic fondateur (IG 162 vues, 3,8 s)",
-  "raison_stats": "Fondateur = sujet n°1 sur TikTok (1 864 vues en octobre, kinetic fondateur 763 le 9/11). Style de référence de la période de test. 10 h = meilleure heure du lundi sur IG (5528) et TikTok (1089).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design (style 1re vidéo)",
-  "heures": "10:00",
-  "voix": "6/6",
-  "metricool": {
-   "instagram": 429639131,
-   "tiktok": 429639141
+  {
+    "date": "2026-11-08",
+    "id": "sketch-devoir-francais",
+    "fichier": "reseaux-sociaux/auto/2026-11-08-sketch-devoir-francais.mp4",
+    "instagram": "10:00 (Metricool 420510587)",
+    "tiktok": "10:00 (Metricool 420510596)",
+    "format": "sketch",
+    "pilier": "situations",
+    "hypothese": "1er sketch école (sujet gagnant) : une galère de devoirs du soir vécue + humour pousse au partage et aux commentaires ; légende avec question. Créneau 10:00 un dimanche."
+  },
+  {
+    "date": "2026-11-09",
+    "id": "kin-fondateur",
+    "fichier": "reseaux-sociaux/auto/2026-11-09-kin-fondateur.mp4",
+    "instagram": "10:00 (Metricool 421413406)",
+    "tiktok": "10:00 (Metricool 421413413)",
+    "format": "kinetic",
+    "pilier": "fondateur",
+    "hypothese": "70 % : l'histoire du fondateur a fait le meilleur score TikTok (1864 vues) ; version kinetic courte (26 s) le matin.",
+    "decor": "-",
+    "style": "theme bleu",
+    "rendu": "kinetic",
+    "voix": "Thomas (5 voix : kin-fondateur-0 à 4)"
+  },
+  {
+    "date": "2026-11-09",
+    "id": "demo-maman-mot-prof",
+    "fichier": "reseaux-sociaux/auto/2026-11-09-demo-maman-mot-prof-v3.mp4",
+    "instagram": "18:00 (Metricool 421998878)",
+    "tiktok": "18:00 (Metricool 421998956)",
+    "format": "demo",
+    "pilier": "mamans",
+    "hypothese": "70 % : mamans + demo le soir (après les devoirs) ; la maman elle-même dys s'identifie et partage. 2e demo, à comparer à demo-mail-prof (10 h).",
+    "decor": "gmail",
+    "style": "clair",
+    "rendu": "maquette demo",
+    "voix": "Amélie (hook + s0 à s4)",
+    "note": "Refaite le 9/11 à 12h50 : voix corrigées (bug « Thomas »)"
+  },
+  {
+    "date": "2026-11-09",
+    "id": "kin-fondateur",
+    "republication": true,
+    "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
+    "fichier": "reseaux-sociaux/auto/2026-11-09-kin-fondateur-v3.mp4",
+    "instagram": "20:30 (Metricool 421999047)",
+    "tiktok": "20:30 (Metricool 421999136)"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "sketch-devoir-francais",
+    "republication": true,
+    "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
+    "fichier": "reseaux-sociaux/auto/2026-11-09-sketch-devoir-francais-v3.mp4",
+    "instagram": "13:00 (Metricool 421999216)",
+    "tiktok": "13:00 (Metricool 421999301)"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "kin-mamans-message",
+    "republication": true,
+    "note": "Republiée avec la nouvelle voix off (l'originale avait le bug « Thomas » et a été supprimée par Paolo). Ne compte pas dans le quota du jour.",
+    "fichier": "reseaux-sociaux/auto/2026-11-09-kin-mamans-message-v3.mp4",
+    "instagram": "20:30 (Metricool 421999390)",
+    "tiktok": "20:30 (Metricool 421999448)"
+  },
+  {
+    "date": "2026-11-10",
+    "id": "kin-pov-dictee",
+    "fichier": "reseaux-sociaux/auto/2026-11-10-kin-pov-dictee.mp4",
+    "instagram": "10:00 (Metricool 422774028)",
+    "tiktok": "10:00 (Metricool 422774041)",
+    "heures": "10:00",
+    "format": "kinetic",
+    "pilier": "emotion",
+    "hypothese": "70 % : l'émotion école (dictée, « fais plus attention ») reste la meilleure sur Instagram ; un POV kinetic sombre retient-il mieux que les sketchs récents (temps moyen > 6 s) ?",
+    "raison_stats": "Instagram : groupe de classe (école/émotion) 355 vues et 8,1 s de temps moyen, loin devant les posts récents (150-245 vues, 3,6-5,5 s). Historique : dictée 582 IG / 862 TikTok, « faire attention » 619 IG. TikTok : kinetic mamans 781 = format kinetic gagnant. 10 h = meilleure heure du mardi sur les deux réseaux. Sketch maman/devoirs reporté : aujourd'hui il y a déjà une republication sketch devoirs (13 h) et une kinetic mamans (20 h 30).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "kinetic",
+    "voix": "voix principale (kin-pov-dictee-0 à 4)",
+    "note": "Texte « plus attention » passé en vert : le surlignage jaune s'affichait mal sur fond sombre."
+  },
+  {
+    "date": "2026-11-11",
+    "id": "quiz-courses",
+    "fichier": "reseaux-sociaux/auto/2026-11-11-quiz-courses.mp4",
+    "instagram": "10:00 (Metricool 424055015)",
+    "tiktok": "10:00 (Metricool 424055023)",
+    "heures": "10:00",
+    "format": "quiz",
+    "pilier": "engagement",
+    "cible": "tous les dys",
+    "hypothese": "20 % variante : un premier quiz « trouve les 4 fautes » fait commenter (commentaires = 0 sur presque tous les posts jusqu'ici).",
+    "raison_stats": "Commentaires quasi nuls partout (IG : 1 seul sur demo maman, 2 sur mail prof ; TikTok : 0). Le quiz vise directement les commentaires. 10 h = meilleure heure du mercredi sur Instagram (6506) et TikTok (1432).",
+    "decor": "-",
+    "style": "quiz clair",
+    "rendu": "quiz",
+    "voix": "voix principale (quiz-courses-0 et 1)",
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "kin-astuces-relire",
+    "fichier": "reseaux-sociaux/auto/2026-11-11-kin-astuces-relire.mp4",
+    "instagram": "18:00 (Metricool 424055031)",
+    "tiktok": "18:00 (Metricool 424055037)",
+    "heures": "18:00",
+    "format": "kinetic",
+    "pilier": "education",
+    "cible": "etudiants",
+    "hypothese": "70 % format gagnant (kinetic) + contenu « à garder » : une liste d'astuces génère des sauvegardes (0 sauvegarde jusqu'ici).",
+    "raison_stats": "Kinetic = format en tête sur TikTok (mamans 781 vues). Sauvegardes à 0 partout : il faut des contenus utiles. Cible étudiants (CV 755 et mail prof 692 sur TikTok) au lieu des astuces devoirs mamans prévues : les mamans ont déjà 3 posts sur les 7 derniers jours (7/11, 9/11, republication 10/11), plafond atteint. 18 h = meilleure heure du soir sur les deux réseaux (TikTok 1386, IG 4869).",
+    "decor": "-",
+    "style": "theme vert",
+    "rendu": "kinetic",
+    "voix": "voix principale (kin-astuces-relire-0 à 4)",
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "pres-classique-vs-lexylab",
+    "format": "presentation",
+    "pilier": "demo",
+    "cible": "tous les dys",
+    "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence et donne envie d'essayer",
+    "raison_stats": "10 % pari prévu au mix : 1re présentation produit. Les posts qui montrent le produit (CV 755, mail prof 692 sur TikTok ; demo maman 199 vues et 6,1 s sur IG) sont parmi les meilleurs récents. Pas de maman aujourd'hui : plafond de 3 posts mamans sur 7 jours atteint.",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design",
+    "heures": "10:00",
+    "voix": "5/5 prêtes",
+    "fichier": "reseaux-sociaux/auto/2026-11-12-pres-classique-vs-lexylab.mp4",
+    "metricool": {
+      "instagram": 425312799,
+      "tiktok": 425312807
+    },
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "car-5-raisons",
+    "format": "carrousel",
+    "pilier": "demo",
+    "cible": "tous les dys",
+    "hypothese": "Un carrousel « à garder » est plus sauvegardé et partagé qu'une vidéo",
+    "raison_stats": "10 % pari prévu au mix : 1er carrousel. Partages et sauvegardes à 0 sur tous les posts récents (IG et TikTok) ; il faut tester un contenu à enregistrer. TikTok tient un plateau de 650-790 vues quel que soit le format, donc test sans risque.",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "carrousel motion design (7 images)",
+    "heures": "10:00",
+    "voix": "sans objet (carrousel)",
+    "fichier": "reseaux-sociaux/auto/2026-11-13-car-5-raisons/",
+    "metricool": {
+      "instagram": 426585313,
+      "tiktok": 426585325
+    },
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "kin-mythes-dyslexie",
+    "format": "kinetic",
+    "pilier": "education",
+    "cible": "tous les dys",
+    "hypothese": "Le format mythe/réalité est partagé (et intéresse aussi logopèdes et enseignants)",
+    "raison_stats": "70/20 : le kinetic reste dans le haut sur TikTok (mamans 784, fondateur 758, POV dictée 707) ; sur IG le POV dictée (177 vues, 5,3 s) est le 2e meilleur récent, l'école/éducation garde l'avantage. Pas de maman : plafond de 3 posts mamans sur 7 jours atteint.",
+    "decor": "-",
+    "style": "theme clair",
+    "rendu": "kinetic mythe/réalité",
+    "heures": "18:00",
+    "voix": "5/5 prêtes",
+    "fichier": "reseaux-sociaux/auto/2026-11-13-kin-mythes-dyslexie.mp4",
+    "metricool": {
+      "instagram": 426585345,
+      "tiktok": 426585353
+    },
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-14",
+    "id": "pres-pourquoi-lexylab",
+    "format": "presentation",
+    "pilier": "fondateur",
+    "cible": "tous les dys",
+    "hypothese": "Le style de la 1re vidéo (présentation sombre) appliqué à l'histoire du fondateur retient mieux que le kinetic fondateur (IG 160 vues, 3,8 s)",
+    "raison_stats": "70 % : fondateur = sujet historique n°1 sur TikTok (1 864 vues en octobre, kinetic fondateur 758 le 9/11, dans le plateau haut 650-790). Sur IG, l'émotion école reste en tête (demo maman 202 vues/6,0 s, POV dictée 179/5,3 s) : accroche « copies pleines de rouge ». Style de référence demandé pour la période de test 13-27/11. Pas de maman : 25 % respecté.",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": "10:00",
+    "voix": "6/6",
+    "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
+    "instagram": "10:00 (Metricool 427769563)",
+    "tiktok": "10:00 (Metricool 427769571)",
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-15",
+    "id": "demo-notes-cours",
+    "fichier": "reseaux-sociaux/auto/2026-11-15-demo-notes-cours.mp4",
+    "instagram": "10:00 (Metricool 428632053)",
+    "tiktok": "NON PROGRAMMÉ (programmation TikTok refusée par le contrôle d'autorisation de la session ; à publier à la main ou au prochain passage)",
+    "heures": "10:00",
+    "format": "demo",
+    "pilier": "demo",
+    "cible": "etudiants",
+    "hypothese": "Le hors-ligne (amphi sans wifi) est un argument fort pour les étudiants, cible n°1 de TikTok",
+    "raison_stats": "Plan du mix : pres-examen-fiches si voix prêtes, sinon une demo. Les voix de pres-examen-fiches ne sont pas encore fabriquées (Mac à 12h30). Demo = format dans le haut des chiffres (TikTok : demo maman 773, mail prof 699 ; IG : demo maman 204 vues et 6,0 s, meilleur temps de visionnage récent). Cible étudiants (CV 762, mail prof 699 sur TikTok) ; pas de maman (dernier post mamans le 10/11, quota respecté). 10 h = meilleure heure du dimanche sur IG (2582) et TikTok (816).",
+    "decor": "app Notes",
+    "style": "clair",
+    "rendu": "demo maquette",
+    "voix": "6/6 (hook + 5 sous-titres)",
+    "emojis": "1 seul à l'écran (accroche)",
+    "statut_metricool": "ERREUR : jamais publié (« You have reached your Metricool account limit »), constaté le 16/11"
+  },
+  {
+    "date": "2026-11-16",
+    "id": "pres-pourquoi-lexylab",
+    "reprogrammation": true,
+    "note": "Reprogrammée : la version du 14/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vue).",
+    "fichier": "reseaux-sociaux/auto/2026-11-14-pres-pourquoi-lexylab.mp4",
+    "format": "presentation",
+    "pilier": "fondateur",
+    "cible": "tous les dys",
+    "hypothese": "Le style de la 1re vidéo (présentation sombre) appliqué à l'histoire du fondateur retient mieux que le kinetic fondateur (IG 162 vues, 3,8 s)",
+    "raison_stats": "Fondateur = sujet n°1 sur TikTok (1 864 vues en octobre, kinetic fondateur 763 le 9/11). Style de référence de la période de test. 10 h = meilleure heure du lundi sur IG (5528) et TikTok (1089).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": "10:00",
+    "voix": "6/6",
+    "metricool": {
+      "instagram": 429639131,
+      "tiktok": 429639141
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "id": "kin-mamans-astuces-devoirs",
+    "fichier": "reseaux-sociaux/auto/2026-11-16-kin-mamans-astuces-devoirs.mp4",
+    "format": "kinetic",
+    "pilier": "mamans",
+    "cible": "mamans",
+    "hypothese": "Des astuces concrètes pour les devoirs, en thème sombre sobre, sont sauvegardées et partagées par les mamans",
+    "raison_stats": "TikTok : kinetic mamans = meilleur post récent (785 vues), demo maman 777. Sauvegardes ~0 partout : test d'un contenu « à garder ». Mamans le soir (après les devoirs). Seulement 1 post mamans sur les 7 derniers jours (republication du 10/11). 18 h = meilleure heure du soir lundi sur IG (4206) et TikTok (1096).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "kinetic liste numérotée",
+    "heures": "18:00",
+    "voix": "6/6",
+    "metricool": {
+      "instagram": 429639154,
+      "tiktok": 429639159
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "id": "pres-classique-vs-lexylab",
+    "reprogrammation": true,
+    "note": "Reprogrammée : la version du 12/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vue). Les posts du 16/11 sont aussi en erreur « account limit » : risque fort que celui-ci échoue aussi.",
+    "fichier": "reseaux-sociaux/auto/2026-11-12-pres-classique-vs-lexylab.mp4",
+    "format": "presentation",
+    "pilier": "demo",
+    "cible": "tous les dys",
+    "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence et donne envie d'essayer",
+    "raison_stats": "Plan du mix (mar 17). Aucun nouveau chiffre depuis le 10/11 (rien publié). Les posts qui montrent le produit en action retiennent le mieux sur IG (demo maman 205 vues, 5,9 s) et restent dans le plateau haut TikTok (demo maman 777). Style 1re vidéo (période de test). Pas de maman : 25 % respecté. 10 h = meilleure heure du mardi sur IG (4942) et TikTok (1136).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design",
+    "heures": "10:00",
+    "voix": "5/5",
+    "metricool": {
+      "instagram": 431046791,
+      "tiktok": 431046799
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "id": "car-5-raisons",
+    "reprogrammation": true,
+    "note": "Reprogrammé : la version du 13/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vu). Risque fort d'échec : tous les posts depuis le 11/11 sont en erreur « You have reached your Metricool account limit » (vérifié le 18/11 sur les posts du 16 et 17/11). Publication Instagram directe pas encore active (secrets GitHub absents).",
+    "fichier": "reseaux-sociaux/auto/2026-11-13-car-5-raisons/",
+    "format": "carrousel",
+    "pilier": "demo",
+    "cible": "tous les dys",
+    "hypothese": "Un carrousel « à garder » est plus sauvegardé et partagé qu'une vidéo",
+    "raison_stats": "Plan du mix (mer 18, 10 h, 10 % pari). Partages et sauvegardes toujours ~0 sur tous les posts (IG et TikTok, chiffres jusqu'au 10/11) : test d'un contenu à enregistrer. Carrousel sombre = style 1re vidéo (période de test). 10 h = meilleure heure du mercredi sur IG (6506) et TikTok (1432).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "carrousel motion design (7 images)",
+    "heures": "10:00",
+    "voix": "sans objet (carrousel)",
+    "metricool": {
+      "instagram": 432430766,
+      "tiktok": 432430776
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "id": "pres-examen-fiches",
+    "fichier": "reseaux-sociaux/auto/2026-11-18-pres-examen-fiches.mp4",
+    "format": "presentation",
+    "pilier": "situations",
+    "cible": "etudiants",
+    "hypothese": "Le style de la 1re vidéo appliqué aux étudiants (cible n°1 TikTok, période d'examens) retient l'attention",
+    "raison_stats": "70 % : sujets étudiants dans le plateau haut TikTok (CV 764, mail prof 699) ; sur IG, le CV reste le meilleur (247 vues) et montrer le produit en action retient le mieux (demo maman 5,9 s) : scène éditeur faute/correction. Style 1re vidéo (période de test). Pas de maman : 1 seul post mamans sur 7 jours, 25 % respecté. 18 h = meilleure heure du soir mercredi sur IG (4869) et TikTok (1386). Risque fort d'échec : tous les posts depuis le 11/11 sont en erreur « You have reached your Metricool account limit » (vérifié le 18/11 sur les posts du 16 et 17/11). Publication Instagram directe pas encore active (secrets GitHub absents).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": "18:00",
+    "voix": "6/6",
+    "metricool": {
+      "instagram": 432430850,
+      "tiktok": 432430858
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "id": "pres-en-testers-ireland",
+    "format": "presentation",
+    "cible": "dys anglophones (Irlande)",
+    "pilier": "recrutement testeurs",
+    "note": "Demandé par Paolo : vidéo en anglais pour Dyslexia Ireland (@dyslexia_ireland), voix anglaise. Hors quota.",
+    "republication": true,
+    "instagram": "19/11 18:00 (publication directe, file.json)",
+    "fichier": "reseaux-sociaux/auto/2026-11-19-pres-en-testers-ireland.mp4"
+  },
+  {
+    "date": "2026-11-18",
+    "id": "car-en-testers-ireland",
+    "format": "carrousel",
+    "cible": "dys anglophones (Irlande)",
+    "pilier": "recrutement testeurs",
+    "note": "Demandé par Paolo : carrousel en anglais pour Dyslexia Ireland. Hors quota.",
+    "republication": true,
+    "instagram": "18/11 20:00 (publication directe, file.json)"
+  },
+  {
+    "date": "2026-11-19",
+    "id": "pres-mail-travail",
+    "fichier": "reseaux-sociaux/auto/2026-11-19-pres-mail-travail.mp4",
+    "format": "presentation",
+    "pilier": "situations",
+    "cible": "adultes au travail",
+    "hypothese": "Le style de la 1re vidéo (sombre, histoire courte, éditeur faute→correction) relève Instagram sur les sujets travail",
+    "raison_stats": "Plan du mix (jeu 19). Pas de nouveau chiffre depuis le 10/11. Sujets mail/CV dans le plateau haut TikTok (CV 764, mail prof 699) et en tête sur IG (CV 247 vues, mail prof 185 avec 2 commentaires). Scène éditeur faute→correction : montrer le produit retient le mieux sur IG (demo maman 5,9 s). Cible adultes au travail, pas encore servie cette semaine ; mamans 1 post sur 7 jours. Style 1re vidéo (période de test 13-27/11). 10 h = meilleure heure du jeudi sur IG (6275) et TikTok (1471).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": "10:00",
+    "voix": "6/6",
+    "instagram": "19/11 10:00 (publication directe, file.json, id 2026-11-19-pres-mail-travail)",
+    "metricool": {
+      "tiktok": 433814506
+    },
+    "note": "TikTok programmé sur Metricool mais risque fort d'erreur « account limit » comme tous les posts TikTok depuis le 11/11."
+  },
+  {
+    "date": "2026-11-20",
+    "id": "quiz-courses",
+    "format": "quiz",
+    "pilier": "engagement",
+    "cible": "tous les dys",
+    "hypothese": "Un quiz « trouve les fautes » pousse à commenter (jamais vu : le post du 11/11 était bloqué par Metricool)",
+    "raison_stats": "Commentaires quasi nuls partout (IG max 2, TikTok 0) : test du format le plus fait pour commenter. Variante 20 % prévue au mix. TikTok : plateau 650-790 vues quel que soit le format, donc on peut tester. 10 h = meilleure heure du vendredi sur IG (6734) et TikTok (1379).",
+    "decor": "-",
+    "style": "clair (bleu pâle)",
+    "rendu": "quiz compte à rebours",
+    "heures": "10:00",
+    "voix": "2/2",
+    "fichier": "reseaux-sociaux/auto/2026-11-20-quiz-courses.mp4",
+    "metricool": {
+      "tiktok": 435170991
+    },
+    "instagram": "20/11 10:00 (publication directe, file.json, id 2026-11-20-quiz-courses)"
+  },
+  {
+    "date": "2026-11-20",
+    "id": "pres-mamans-autonomie",
+    "format": "presentation",
+    "pilier": "mamans",
+    "cible": "mamans",
+    "hypothese": "Le style de la 1re vidéo, version mamans, donne une image sérieuse et rassurante et retient mieux sur Instagram",
+    "raison_stats": "Mamans = meilleur sujet récent : TikTok kinetic mamans 785 et demo maman 777 (haut du plateau), IG demo maman 206 vues et 5,9 s (meilleur temps moyen). Scène éditeur faute→correction comme la demo maman. Le soir après les devoirs. Mamans : 1 post sur 7 jours (16/11), plafond 3 respecté. 18 h = bon créneau soir IG (4418) et TikTok (1222).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": "18:00",
+    "voix": "6/6",
+    "fichier": "reseaux-sociaux/auto/2026-11-20-pres-mamans-autonomie.mp4",
+    "metricool": {
+      "tiktok": 435171008
+    },
+    "instagram": "20/11 18:00 (publication directe, file.json, id 2026-11-20-pres-mamans-autonomie)"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "pres-enseignants-logopedes",
+    "fichier": "reseaux-sociaux/auto/2026-11-21-pres-enseignants-logopedes.mp4",
+    "format": "presentation",
+    "pilier": "education",
+    "cible": "logopedes et enseignants",
+    "hypothese": "Le style de la 1re vidéo adressé aux logopèdes et enseignants (cible pas encore touchée) génère des partages et des sauvegardes",
+    "raison_stats": "Plan du mix (sam 21), voix 6/6. IG : présentations sombres stables (examen 134 vues/4,9 s, mail 147/4,2 s), au niveau des kinetic ; partages et sauvegardes toujours à 0 → on teste la cible prescripteurs, la plus susceptible de partager. Mamans : 2 posts sur 7 jours, on varie la cible. TikTok : aucun chiffre depuis le 10/11 (limite Metricool). 10 h = meilleure heure du samedi sur IG (3409) et TikTok (852).",
+    "decor": "-",
+    "style": "sombre (bleu nuit, lueur verte)",
+    "rendu": "motion design style 1re vidéo",
+    "heures": {
+      "instagram": "2026-11-21 10:00",
+      "tiktok": "2026-11-21 10:00"
+    },
+    "instagram": "publication directe (file.json, id 2026-11-21-pres-enseignants-logopedes)",
+    "metricool": {
+      "tiktok": 436418840
+    },
+    "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit », celui-ci risque d'échouer aussi."
+  },
+  {
+    "date": "2026-11-22",
+    "id": "demo-word-devoir",
+    "fichier": "reseaux-sociaux/auto/2026-11-22-demo-word-devoir.mp4",
+    "format": "demo",
+    "pilier": "demo",
+    "cible": "etudiants",
+    "hypothese": "Montrer le produit en action (faute soulignée, règle expliquée, clic) retient mieux sur Instagram qu'une 4e présentation sombre de suite",
+    "raison_stats": "IG (relevé 22/11) : le meilleur temps de visionnage reste la demo maman (208 vues, 6,0 s), devant le POV dictée (187, 5,4 s) ; les présentations sombres récentes plafonnent (mail travail 172/4,0 s, examen 135/4,9 s, mamans autonomie 139/3,6 s, logopèdes 61/2,9 s à 1 jour). Le quiz (171, 4,7 s) confirme qu'un écran qui bouge retient. 3 présentations sombres de suite : on change de format et de thème (variété). Plan du mix (dim 22 : demo Word devoir). Cible élèves (devoir), mamans à 1 post sur 7 jours. TikTok : aucun chiffre depuis le 10/11. 10 h = meilleure heure du dimanche sur IG (2582) et TikTok (816).",
+    "decor": "-",
+    "style": "clair (fenêtre Word)",
+    "rendu": "maquette demo",
+    "heures": {
+      "instagram": "2026-11-22 10:00",
+      "tiktok": "2026-11-22 10:00"
+    },
+    "voix": "6/6",
+    "instagram": "publication directe (file.json, id 2026-11-22-demo-word-devoir)",
+    "metricool": {
+      "tiktok": 437306752
+    },
+    "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit » (encore vérifié le 22/11 sur les posts du 20 et 21/11)."
+  },
+  {
+    "date": "2026-11-23",
+    "id": "pres-dictee-rouge",
+    "fichier": "reseaux-sociaux/auto/2026-11-23-pres-dictee-rouge.mp4",
+    "format": "presentation",
+    "pilier": "emotion",
+    "cible": "tous les dys",
+    "hypothese": "Le souvenir de la dictée (meilleur sujet émotion école sur Instagram) dans le style de la 1re vidéo retient mieux que les sujets travail",
+    "raison_stats": "Analyse hebdo 23/11 : sur IG, l'émotion école reste en tête du temps de visionnage (POV dictée 188 vues, 5,3 s) alors que les présentations sur le travail ou les logopèdes plafonnent (120-172 vues, 2,3-4,9 s). Sur TikTok, l'émotion école et le fondateur étaient dans le haut du plateau (715-766) avant le blocage. 70 % : sujet gagnant dans le style 1re vidéo (période de test jusqu'au 27/11). 10 h = meilleure heure du lundi sur IG (5528) et TikTok (1089).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": {
+      "instagram": "2026-11-23 10:00",
+      "tiktok": "2026-11-23 10:00"
+    },
+    "voix": "6/6",
+    "instagram": "publication directe (file.json, id 2026-11-23-pres-dictee-rouge)",
+    "metricool": {
+      "tiktok": 438339533
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "id": "pres-job-etudiant",
+    "fichier": "reseaux-sociaux/auto/2026-11-23-pres-job-etudiant.mp4",
+    "format": "presentation",
+    "pilier": "situations",
+    "cible": "etudiants",
+    "hypothese": "Le style 1re vidéo en thème clair (variété visuelle) sur un sujet étudiant/travail (CV = meilleur sujet IG) retient autant que le thème sombre",
+    "raison_stats": "20 % variante : le CV reste le meilleur post IG de la période (248 vues) ; on teste le même univers (candidature) chez les étudiants, et le thème clair pour casser la série de présentations sombres qui plafonnent (~151 vues). Cible étudiants (75 %), mamans à 1 post sur 7 jours. 18 h = meilleure heure du soir sur TikTok (1096) et 2e créneau IG (4206).",
+    "decor": "-",
+    "style": "theme clair",
+    "rendu": "motion design (style 1re vidéo, clair)",
+    "heures": {
+      "instagram": "2026-11-23 18:00",
+      "tiktok": "2026-11-23 18:00"
+    },
+    "voix": "6/6",
+    "instagram": "publication directe (file.json, id 2026-11-23-pres-job-etudiant)",
+    "metricool": {
+      "tiktok": 438339545
+    },
+    "note": "TikTok Metricool : posts acceptés en PENDING ; les précédents passaient en erreur « account limit » à l'heure de publication."
+  },
+  {
+    "date": "2026-11-24",
+    "id": "quiz-message",
+    "fichier": "reseaux-sociaux/auto/2026-11-24-quiz-message.mp4",
+    "format": "quiz",
+    "pilier": "engagement",
+    "cible": "tous les dys",
+    "hypothese": "Un quiz sur un message du quotidien, avec l'appel à commenter écrit à l'écran (et dit par la voix), obtient enfin des commentaires",
+    "raison_stats": "Plan du mix (mar 24). IG (relevé 24/11) : le quiz courses reste parmi les meilleurs récents (173 vues, 4,7 s), au niveau du mail travail (172) et devant les présentations mamans/logopèdes (124-159, 2,3-3,6 s). Commentaires toujours à 0 : le quiz est le format le plus fait pour commenter, avec cette fois l'appel à commenter écrit à l'écran et un choix de score simple en légende. Format différent des 2 présentations d'hier (variété). 10 h = meilleure heure du mardi sur IG (4942) et TikTok (1136).",
+    "decor": "-",
+    "style": "clair (bleu pâle)",
+    "rendu": "quiz compte à rebours, appel à commenter à l'écran",
+    "heures": {
+      "instagram": "2026-11-24 10:00",
+      "tiktok": "2026-11-24 10:00"
+    },
+    "voix": "3/3",
+    "instagram": "publication directe (file.json, id 2026-11-24-quiz-message)",
+    "metricool": {
+      "tiktok": 439853099
+    },
+    "note": "TikTok Metricool accepté en PENDING ; les 2 TikTok du 23/11 sont passés en ERREUR « account limit »."
+  },
+  {
+    "date": "2026-11-25",
+    "id": "pres-memoire-etudiant",
+    "fichier": "reseaux-sociaux/auto/2026-11-25-pres-memoire-etudiant.mp4",
+    "format": "presentation",
+    "pilier": "situations",
+    "cible": "etudiants",
+    "hypothese": "Le style 1re vidéo sur un enjeu étudiant fort (le mémoire) retient autant que l'émotion école",
+    "raison_stats": "Plan du mix (mer 25). IG (relevé 25/11) : pres-dictee-rouge 157 vues/5,3 s = meilleur temps des présentations sombres ; sujets école/études devant (examen fiches 4,9 s, demo Word devoir 5,0 s) alors que travail et prescripteurs plafonnent (logopèdes 2,2 s). Cible étudiants (75 %). Thème sombre après un quiz clair (variété). 10 h = meilleure heure du mercredi sur IG (6506) et TikTok (1432).",
+    "decor": "-",
+    "style": "theme sombre",
+    "rendu": "motion design (style 1re vidéo)",
+    "heures": {
+      "instagram": "2026-11-25 10:00",
+      "tiktok": "2026-11-25 10:00"
+    },
+    "voix": "6/6",
+    "metricool": {
+      "tiktok": 441309015
+    },
+    "instagram": "25/11 10:00 (publication directe, file.json, id 2026-11-25-pres-memoire-etudiant)"
+  },
+  {
+    "date": "2026-11-25",
+    "id": "pres-mamans-mot-prof",
+    "fichier": "reseaux-sociaux/auto/2026-11-25-pres-mamans-mot-prof.mp4",
+    "format": "presentation",
+    "pilier": "mamans",
+    "cible": "mamans",
+    "hypothese": "Le sujet « mot au prof » (meilleur temps IG en demo, 6,0 s) en présentation thème clair retient mieux que la présentation mamans sombre (3,9 s)",
+    "raison_stats": "Plan du mix (mer 25, 18 h). Sujet du meilleur temps de visionnage IG (demo maman mot au prof 208 vues/6,0 s) ; pres-mamans-autonomie sombre plus bas (164/3,9 s), d'où le test en thème clair (et pour ne pas enchaîner 2 sombres le même jour). Mamans : 1 post sur les 7 derniers jours (20/11), plafond respecté. Le soir après les devoirs ; 18 h = meilleure heure du soir sur TikTok (1386) et IG (4869).",
+    "decor": "-",
+    "style": "theme clair",
+    "rendu": "motion design (style 1re vidéo, clair)",
+    "heures": {
+      "instagram": "2026-11-25 18:00",
+      "tiktok": "2026-11-25 18:00"
+    },
+    "voix": "6/6",
+    "metricool": {
+      "tiktok": 441309025
+    },
+    "instagram": "25/11 18:00 (publication directe, file.json, id 2026-11-25-pres-mamans-mot-prof)"
   }
- },
- {
-  "date": "2026-11-16",
-  "id": "kin-mamans-astuces-devoirs",
-  "fichier": "reseaux-sociaux/auto/2026-11-16-kin-mamans-astuces-devoirs.mp4",
-  "format": "kinetic",
-  "pilier": "mamans",
-  "cible": "mamans",
-  "hypothese": "Des astuces concrètes pour les devoirs, en thème sombre sobre, sont sauvegardées et partagées par les mamans",
-  "raison_stats": "TikTok : kinetic mamans = meilleur post récent (785 vues), demo maman 777. Sauvegardes ~0 partout : test d'un contenu « à garder ». Mamans le soir (après les devoirs). Seulement 1 post mamans sur les 7 derniers jours (republication du 10/11). 18 h = meilleure heure du soir lundi sur IG (4206) et TikTok (1096).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "kinetic liste numérotée",
-  "heures": "18:00",
-  "voix": "6/6",
-  "metricool": {
-   "instagram": 429639154,
-   "tiktok": 429639159
-  }
- },
- {
-  "date": "2026-11-17",
-  "id": "pres-classique-vs-lexylab",
-  "reprogrammation": true,
-  "note": "Reprogrammée : la version du 12/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vue). Les posts du 16/11 sont aussi en erreur « account limit » : risque fort que celui-ci échoue aussi.",
-  "fichier": "reseaux-sociaux/auto/2026-11-12-pres-classique-vs-lexylab.mp4",
-  "format": "presentation",
-  "pilier": "demo",
-  "cible": "tous les dys",
-  "hypothese": "La comparaison avec un correcteur classique (sans nom) montre la différence et donne envie d'essayer",
-  "raison_stats": "Plan du mix (mar 17). Aucun nouveau chiffre depuis le 10/11 (rien publié). Les posts qui montrent le produit en action retiennent le mieux sur IG (demo maman 205 vues, 5,9 s) et restent dans le plateau haut TikTok (demo maman 777). Style 1re vidéo (période de test). Pas de maman : 25 % respecté. 10 h = meilleure heure du mardi sur IG (4942) et TikTok (1136).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design",
-  "heures": "10:00",
-  "voix": "5/5",
-  "metricool": {
-   "instagram": 431046791,
-   "tiktok": 431046799
-  }
- },
- {
-  "date": "2026-11-18",
-  "id": "car-5-raisons",
-  "reprogrammation": true,
-  "note": "Reprogrammé : la version du 13/11 n'a jamais été publiée (limite Metricool). Compte dans le quota (jamais vu). Risque fort d'échec : tous les posts depuis le 11/11 sont en erreur « You have reached your Metricool account limit » (vérifié le 18/11 sur les posts du 16 et 17/11). Publication Instagram directe pas encore active (secrets GitHub absents).",
-  "fichier": "reseaux-sociaux/auto/2026-11-13-car-5-raisons/",
-  "format": "carrousel",
-  "pilier": "demo",
-  "cible": "tous les dys",
-  "hypothese": "Un carrousel « à garder » est plus sauvegardé et partagé qu'une vidéo",
-  "raison_stats": "Plan du mix (mer 18, 10 h, 10 % pari). Partages et sauvegardes toujours ~0 sur tous les posts (IG et TikTok, chiffres jusqu'au 10/11) : test d'un contenu à enregistrer. Carrousel sombre = style 1re vidéo (période de test). 10 h = meilleure heure du mercredi sur IG (6506) et TikTok (1432).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "carrousel motion design (7 images)",
-  "heures": "10:00",
-  "voix": "sans objet (carrousel)",
-  "metricool": {
-   "instagram": 432430766,
-   "tiktok": 432430776
-  }
- },
- {
-  "date": "2026-11-18",
-  "id": "pres-examen-fiches",
-  "fichier": "reseaux-sociaux/auto/2026-11-18-pres-examen-fiches.mp4",
-  "format": "presentation",
-  "pilier": "situations",
-  "cible": "etudiants",
-  "hypothese": "Le style de la 1re vidéo appliqué aux étudiants (cible n°1 TikTok, période d'examens) retient l'attention",
-  "raison_stats": "70 % : sujets étudiants dans le plateau haut TikTok (CV 764, mail prof 699) ; sur IG, le CV reste le meilleur (247 vues) et montrer le produit en action retient le mieux (demo maman 5,9 s) : scène éditeur faute/correction. Style 1re vidéo (période de test). Pas de maman : 1 seul post mamans sur 7 jours, 25 % respecté. 18 h = meilleure heure du soir mercredi sur IG (4869) et TikTok (1386). Risque fort d'échec : tous les posts depuis le 11/11 sont en erreur « You have reached your Metricool account limit » (vérifié le 18/11 sur les posts du 16 et 17/11). Publication Instagram directe pas encore active (secrets GitHub absents).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design (style 1re vidéo)",
-  "heures": "18:00",
-  "voix": "6/6",
-  "metricool": {
-   "instagram": 432430850,
-   "tiktok": 432430858
-  }
- },
- {
-  "date": "2026-11-19",
-  "id": "pres-en-testers-ireland",
-  "format": "presentation",
-  "cible": "dys anglophones (Irlande)",
-  "pilier": "recrutement testeurs",
-  "note": "Demandé par Paolo : vidéo en anglais pour Dyslexia Ireland (@dyslexia_ireland), voix anglaise. Hors quota.",
-  "republication": true,
-  "instagram": "19/11 18:00 (publication directe, file.json)",
-  "fichier": "reseaux-sociaux/auto/2026-11-19-pres-en-testers-ireland.mp4"
- },
- {
-  "date": "2026-11-18",
-  "id": "car-en-testers-ireland",
-  "format": "carrousel",
-  "cible": "dys anglophones (Irlande)",
-  "pilier": "recrutement testeurs",
-  "note": "Demandé par Paolo : carrousel en anglais pour Dyslexia Ireland. Hors quota.",
-  "republication": true,
-  "instagram": "18/11 20:00 (publication directe, file.json)"
- },
- {
-  "date": "2026-11-19",
-  "id": "pres-mail-travail",
-  "fichier": "reseaux-sociaux/auto/2026-11-19-pres-mail-travail.mp4",
-  "format": "presentation",
-  "pilier": "situations",
-  "cible": "adultes au travail",
-  "hypothese": "Le style de la 1re vidéo (sombre, histoire courte, éditeur faute→correction) relève Instagram sur les sujets travail",
-  "raison_stats": "Plan du mix (jeu 19). Pas de nouveau chiffre depuis le 10/11. Sujets mail/CV dans le plateau haut TikTok (CV 764, mail prof 699) et en tête sur IG (CV 247 vues, mail prof 185 avec 2 commentaires). Scène éditeur faute→correction : montrer le produit retient le mieux sur IG (demo maman 5,9 s). Cible adultes au travail, pas encore servie cette semaine ; mamans 1 post sur 7 jours. Style 1re vidéo (période de test 13-27/11). 10 h = meilleure heure du jeudi sur IG (6275) et TikTok (1471).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design (style 1re vidéo)",
-  "heures": "10:00",
-  "voix": "6/6",
-  "instagram": "19/11 10:00 (publication directe, file.json, id 2026-11-19-pres-mail-travail)",
-  "metricool": {
-   "tiktok": 433814506
-  },
-  "note": "TikTok programmé sur Metricool mais risque fort d'erreur « account limit » comme tous les posts TikTok depuis le 11/11."
- },
- {
-  "date": "2026-11-20",
-  "id": "quiz-courses",
-  "format": "quiz",
-  "pilier": "engagement",
-  "cible": "tous les dys",
-  "hypothese": "Un quiz « trouve les fautes » pousse à commenter (jamais vu : le post du 11/11 était bloqué par Metricool)",
-  "raison_stats": "Commentaires quasi nuls partout (IG max 2, TikTok 0) : test du format le plus fait pour commenter. Variante 20 % prévue au mix. TikTok : plateau 650-790 vues quel que soit le format, donc on peut tester. 10 h = meilleure heure du vendredi sur IG (6734) et TikTok (1379).",
-  "decor": "-",
-  "style": "clair (bleu pâle)",
-  "rendu": "quiz compte à rebours",
-  "heures": "10:00",
-  "voix": "2/2",
-  "fichier": "reseaux-sociaux/auto/2026-11-20-quiz-courses.mp4",
-  "metricool": {
-   "tiktok": 435170991
-  },
-  "instagram": "20/11 10:00 (publication directe, file.json, id 2026-11-20-quiz-courses)"
- },
- {
-  "date": "2026-11-20",
-  "id": "pres-mamans-autonomie",
-  "format": "presentation",
-  "pilier": "mamans",
-  "cible": "mamans",
-  "hypothese": "Le style de la 1re vidéo, version mamans, donne une image sérieuse et rassurante et retient mieux sur Instagram",
-  "raison_stats": "Mamans = meilleur sujet récent : TikTok kinetic mamans 785 et demo maman 777 (haut du plateau), IG demo maman 206 vues et 5,9 s (meilleur temps moyen). Scène éditeur faute→correction comme la demo maman. Le soir après les devoirs. Mamans : 1 post sur 7 jours (16/11), plafond 3 respecté. 18 h = bon créneau soir IG (4418) et TikTok (1222).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design (style 1re vidéo)",
-  "heures": "18:00",
-  "voix": "6/6",
-  "fichier": "reseaux-sociaux/auto/2026-11-20-pres-mamans-autonomie.mp4",
-  "metricool": {
-   "tiktok": 435171008
-  },
-  "instagram": "20/11 18:00 (publication directe, file.json, id 2026-11-20-pres-mamans-autonomie)"
- },
- {
-  "date": "2026-11-21",
-  "id": "pres-enseignants-logopedes",
-  "fichier": "reseaux-sociaux/auto/2026-11-21-pres-enseignants-logopedes.mp4",
-  "format": "presentation",
-  "pilier": "education",
-  "cible": "logopedes et enseignants",
-  "hypothese": "Le style de la 1re vidéo adressé aux logopèdes et enseignants (cible pas encore touchée) génère des partages et des sauvegardes",
-  "raison_stats": "Plan du mix (sam 21), voix 6/6. IG : présentations sombres stables (examen 134 vues/4,9 s, mail 147/4,2 s), au niveau des kinetic ; partages et sauvegardes toujours à 0 → on teste la cible prescripteurs, la plus susceptible de partager. Mamans : 2 posts sur 7 jours, on varie la cible. TikTok : aucun chiffre depuis le 10/11 (limite Metricool). 10 h = meilleure heure du samedi sur IG (3409) et TikTok (852).",
-  "decor": "-",
-  "style": "sombre (bleu nuit, lueur verte)",
-  "rendu": "motion design style 1re vidéo",
-  "heures": {
-   "instagram": "2026-11-21 10:00",
-   "tiktok": "2026-11-21 10:00"
-  },
-  "instagram": "publication directe (file.json, id 2026-11-21-pres-enseignants-logopedes)",
-  "metricool": {
-   "tiktok": 436418840
-  },
-  "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit », celui-ci risque d'échouer aussi."
- },
- {
-  "date": "2026-11-22",
-  "id": "demo-word-devoir",
-  "fichier": "reseaux-sociaux/auto/2026-11-22-demo-word-devoir.mp4",
-  "format": "demo",
-  "pilier": "demo",
-  "cible": "etudiants",
-  "hypothese": "Montrer le produit en action (faute soulignée, règle expliquée, clic) retient mieux sur Instagram qu'une 4e présentation sombre de suite",
-  "raison_stats": "IG (relevé 22/11) : le meilleur temps de visionnage reste la demo maman (208 vues, 6,0 s), devant le POV dictée (187, 5,4 s) ; les présentations sombres récentes plafonnent (mail travail 172/4,0 s, examen 135/4,9 s, mamans autonomie 139/3,6 s, logopèdes 61/2,9 s à 1 jour). Le quiz (171, 4,7 s) confirme qu'un écran qui bouge retient. 3 présentations sombres de suite : on change de format et de thème (variété). Plan du mix (dim 22 : demo Word devoir). Cible élèves (devoir), mamans à 1 post sur 7 jours. TikTok : aucun chiffre depuis le 10/11. 10 h = meilleure heure du dimanche sur IG (2582) et TikTok (816).",
-  "decor": "-",
-  "style": "clair (fenêtre Word)",
-  "rendu": "maquette demo",
-  "heures": {
-   "instagram": "2026-11-22 10:00",
-   "tiktok": "2026-11-22 10:00"
-  },
-  "voix": "6/6",
-  "instagram": "publication directe (file.json, id 2026-11-22-demo-word-devoir)",
-  "metricool": {
-   "tiktok": 437306752
-  },
-  "note": "TikTok via Metricool : tous les posts TikTok depuis le 11/11 sont en erreur « account limit » (encore vérifié le 22/11 sur les posts du 20 et 21/11)."
- },
- {
-  "date": "2026-11-23",
-  "id": "pres-dictee-rouge",
-  "fichier": "reseaux-sociaux/auto/2026-11-23-pres-dictee-rouge.mp4",
-  "format": "presentation",
-  "pilier": "emotion",
-  "cible": "tous les dys",
-  "hypothese": "Le souvenir de la dictée (meilleur sujet émotion école sur Instagram) dans le style de la 1re vidéo retient mieux que les sujets travail",
-  "raison_stats": "Analyse hebdo 23/11 : sur IG, l'émotion école reste en tête du temps de visionnage (POV dictée 188 vues, 5,3 s) alors que les présentations sur le travail ou les logopèdes plafonnent (120-172 vues, 2,3-4,9 s). Sur TikTok, l'émotion école et le fondateur étaient dans le haut du plateau (715-766) avant le blocage. 70 % : sujet gagnant dans le style 1re vidéo (période de test jusqu'au 27/11). 10 h = meilleure heure du lundi sur IG (5528) et TikTok (1089).",
-  "decor": "-",
-  "style": "theme sombre",
-  "rendu": "motion design (style 1re vidéo)",
-  "heures": {
-   "instagram": "2026-11-23 10:00",
-   "tiktok": "2026-11-23 10:00"
-  },
-  "voix": "6/6",
-  "instagram": "publication directe (file.json, id 2026-11-23-pres-dictee-rouge)",
-  "metricool": {
-   "tiktok": 438339533
-  }
- },
- {
-  "date": "2026-11-23",
-  "id": "pres-job-etudiant",
-  "fichier": "reseaux-sociaux/auto/2026-11-23-pres-job-etudiant.mp4",
-  "format": "presentation",
-  "pilier": "situations",
-  "cible": "etudiants",
-  "hypothese": "Le style 1re vidéo en thème clair (variété visuelle) sur un sujet étudiant/travail (CV = meilleur sujet IG) retient autant que le thème sombre",
-  "raison_stats": "20 % variante : le CV reste le meilleur post IG de la période (248 vues) ; on teste le même univers (candidature) chez les étudiants, et le thème clair pour casser la série de présentations sombres qui plafonnent (~151 vues). Cible étudiants (75 %), mamans à 1 post sur 7 jours. 18 h = meilleure heure du soir sur TikTok (1096) et 2e créneau IG (4206).",
-  "decor": "-",
-  "style": "theme clair",
-  "rendu": "motion design (style 1re vidéo, clair)",
-  "heures": {
-   "instagram": "2026-11-23 18:00",
-   "tiktok": "2026-11-23 18:00"
-  },
-  "voix": "6/6",
-  "instagram": "publication directe (file.json, id 2026-11-23-pres-job-etudiant)",
-  "metricool": {
-   "tiktok": 438339545
-  },
-  "note": "TikTok Metricool : posts acceptés en PENDING ; les précédents passaient en erreur « account limit » à l'heure de publication."
- },
- {
-  "date": "2026-11-24",
-  "id": "quiz-message",
-  "fichier": "reseaux-sociaux/auto/2026-11-24-quiz-message.mp4",
-  "format": "quiz",
-  "pilier": "engagement",
-  "cible": "tous les dys",
-  "hypothese": "Un quiz sur un message du quotidien, avec l'appel à commenter écrit à l'écran (et dit par la voix), obtient enfin des commentaires",
-  "raison_stats": "Plan du mix (mar 24). IG (relevé 24/11) : le quiz courses reste parmi les meilleurs récents (173 vues, 4,7 s), au niveau du mail travail (172) et devant les présentations mamans/logopèdes (124-159, 2,3-3,6 s). Commentaires toujours à 0 : le quiz est le format le plus fait pour commenter, avec cette fois l'appel à commenter écrit à l'écran et un choix de score simple en légende. Format différent des 2 présentations d'hier (variété). 10 h = meilleure heure du mardi sur IG (4942) et TikTok (1136).",
-  "decor": "-",
-  "style": "clair (bleu pâle)",
-  "rendu": "quiz compte à rebours, appel à commenter à l'écran",
-  "heures": {
-   "instagram": "2026-11-24 10:00",
-   "tiktok": "2026-11-24 10:00"
-  },
-  "voix": "3/3",
-  "instagram": "publication directe (file.json, id 2026-11-24-quiz-message)",
-  "metricool": {
-   "tiktok": 439853099
-  },
-  "note": "TikTok Metricool accepté en PENDING ; les 2 TikTok du 23/11 sont passés en ERREUR « account limit »."
- }
 ]
