@@ -159,5 +159,25 @@
   "statut": "publie",
   "media_id": "18131748085876124",
   "publie_le": "2026-11-24T11:39:59+00:00"
+ },
+ {
+  "id": "2026-11-25-pres-memoire-etudiant",
+  "quand": "2026-11-25T10:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-25-pres-memoire-etudiant.mp4"
+  ],
+  "legende": "Ton mémoire est fini, mais tu n'oses pas le rendre à cause des fautes ? Tu connais ton sujet, c'est l'orthographe qui te freine.\n\nLexyLab souligne les fautes en direct et comprend les mots écrits comme on les entend. Dans Word et Google Docs, sur Mac et Windows.\n\nTu rends quoi bientôt ? Dis-le en commentaire 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #memoire #universite #lexylab",
+  "statut": "a_publier"
+ },
+ {
+  "id": "2026-11-25-pres-mamans-mot-prof",
+  "quand": "2026-11-25T18:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-25-pres-mamans-mot-prof.mp4"
+  ],
+  "legende": "Un mot à écrire à la maîtresse, et toi aussi tu as peur des fautes ? Tu n'es pas la seule.\n\nLexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Gmail et Word, sans internet.\n\nEt toi, c'est quel message à l'école qui te stresse le plus ? 👇\nPartage à une maman qui comprendra 💚\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #ecole #lexylab",
+  "statut": "a_publier"
  }
 ]
