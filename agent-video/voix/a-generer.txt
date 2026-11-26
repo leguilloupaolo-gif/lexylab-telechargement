@@ -351,3 +351,12 @@ voix/kin-pov-lire-voix-haute-2.m4a|Les lettres se mélangent, toute la classe at
 voix/kin-pov-lire-voix-haute-3.m4a|Et pourtant, tu avais tout compris.|principale
 voix/kin-pov-lire-voix-haute-4.m4a|Aujourd'hui, un correcteur pensé pour la dyslexie existe. Il souligne les fautes en direct, sur l'ordi.|principale
 voix/kin-pov-lire-voix-haute-5.m4a|Toi aussi, tu as vécu ça ? Écris, moi aussi, en commentaire.|principale
+voix/quiz-invitation-q.m4a|Ce message a cinq fautes. Tu les vois ?|principale
+voix/quiz-invitation-a.m4a|LexyLab les a toutes trouvées.|principale
+voix/quiz-invitation-c.m4a|Tu en as trouvé combien ? Dis-le en commentaire.|principale
+voix/pres-heures-devoirs-0.m4a|On t'a déjà dit que tu ne travaillais pas assez ?|principale
+voix/pres-heures-devoirs-1.m4a|Alors que tu passais des heures sur tes devoirs.|principale
+voix/pres-heures-devoirs-2.m4a|Tu écris comme tu entends. Je vais faire mes devoirs tout seul.|principale
+voix/pres-heures-devoirs-3.m4a|Aujourd'hui, il y a LexyLab.|principale
+voix/pres-heures-devoirs-4.m4a|Pensé pour la dyslexie. Souligne les fautes en direct. Comprend les mots écrits comme on les entend. Marche dans Word et Google Docs.|principale
+voix/pres-heures-devoirs-5.m4a|Ton effort mérite d'être vu. Mac et Windows.|principale
