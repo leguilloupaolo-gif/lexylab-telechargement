@@ -581,5 +581,27 @@
       "tiktok": 441309025
     },
     "instagram": "25/11 18:00 (publication directe, file.json, id 2026-11-25-pres-mamans-mot-prof)"
+  },
+  {
+    "date": "2026-11-26",
+    "id": "pres-messages-quotidien",
+    "fichier": "reseaux-sociaux/auto/2026-11-26-pres-messages-quotidien.mp4",
+    "format": "presentation",
+    "pilier": "demo",
+    "cible": "tous les dys",
+    "hypothese": "Montrer que LexyLab marche partout (Gmail, Word, Outlook, navigateur) parle à tous les dys, pas qu'à l'école",
+    "raison_stats": "Plan du mix (jeu 26), voix 6/6. IG (relevé 26/11) : ce qui retient le mieux = produit en action et scène vécue (quiz-message 5,9 s, dictée rouge 5,2 s, demo Word 5,0 s) ; les sujets travail plafonnent (mail travail 4,0 s). Cette présentation montre l'éditeur faute→correction et élargit au quotidien (tous les dys). Thème sombre après le clair d'hier (variété). Cible tous les dys : mamans 2 posts sur 7 jours, plafond respecté. 10 h = meilleure heure IG (6275) et TikTok (1471) du jeudi.",
+    "decor": "",
+    "style": "sombre",
+    "rendu": "motion design",
+    "heures": {
+      "instagram": "10:00",
+      "tiktok": "10:00"
+    },
+    "voix": "6/6",
+    "metricool": {
+      "tiktok": 442703975
+    },
+    "instagram_file_id": "2026-11-26-pres-messages-quotidien"
   }
 ]

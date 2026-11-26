@@ -145,6 +145,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Mer 25 : 10 h `pres-memoire-etudiant` (sombre) ; 18 h `pres-mamans-mot-prof` (mamans, sujet du meilleur temps IG) si ses voix sont prêtes, sinon `sketch-maman-devoirs`.
   → Fait le 25/11 : 10 h `pres-memoire-etudiant` (sombre) ; 18 h `pres-mamans-mot-prof` en thème clair (variété, test clair vs sombre chez les mamans). Voix 6/6. IG en direct, TikTok via Metricool (toujours bloqué par la limite du compte). Nouvelle idée pour sam/dim : `kin-pov-lire-voix-haute` (thème bleu, appel à commenter à l'écran, voix demandées).
 - Jeu 26 : `pres-messages-quotidien` (sombre, produit en action).
+  → Fait le 26/11 : 10 h `pres-messages-quotidien` (sombre, voix 6/6). IG en direct, TikTok via Metricool (en attente). Relevé IG : quiz-message 5,9 s = meilleur temps de la période. Pour lun 30 (voix demandées) : `quiz-invitation` (quiz, 70 %) et `pres-heures-devoirs` (émotion école, sombre, 70 %).
 - Ven 27 : 10 h carrousel sombre « à garder » (astuces relire ou repères pour enseignants, 10 % pari sauvegardes) ; 18 h `sketch-maman-devoirs` (1 sketch max, rendu flat ou cartoon, pas bâton).
 - Sam 28 / Dim 29 : une demo (Gmail ou Word) et un kinetic POV école (nouvelles idées, voix à demander mercredi).
 - Mamans : 2 posts (mer 18 h, ven 18 h). Répartition : 7 « ce qui marche » (émotion école, produit en action, quiz, mamans), 2 variantes (thème clair, carrousel), 1 pari (appel à commenter à l'écran).
