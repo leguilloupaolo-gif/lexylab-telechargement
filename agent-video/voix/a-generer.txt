@@ -360,3 +360,9 @@ voix/pres-heures-devoirs-2.m4a|Tu écris comme tu entends. Je vais faire mes dev
 voix/pres-heures-devoirs-3.m4a|Aujourd'hui, il y a LexyLab.|principale
 voix/pres-heures-devoirs-4.m4a|Pensé pour la dyslexie. Souligne les fautes en direct. Comprend les mots écrits comme on les entend. Marche dans Word et Google Docs.|principale
 voix/pres-heures-devoirs-5.m4a|Ton effort mérite d'être vu. Mac et Windows.|principale
+voix/demo-docs-expose-hook.m4a|Ton exposé est pour demain, et il est plein de fautes ?|principale
+voix/demo-docs-expose-s0.m4a|Tu écris ton exposé…|principale
+voix/demo-docs-expose-s1.m4a|Les fautes sont soulignées.|principale
+voix/demo-docs-expose-s2.m4a|LexyLab t'explique la règle.|principale
+voix/demo-docs-expose-s3.m4a|Un clic, c'est corrigé.|principale
+voix/demo-docs-expose-s4.m4a|Ton exposé est prêt.|principale
