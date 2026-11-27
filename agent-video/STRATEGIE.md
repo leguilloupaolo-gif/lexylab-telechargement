@@ -103,6 +103,12 @@ mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
 - Partages et sauvegardes : 0 sur tous les Reels ; 1er carrousel « à garder » publié le 27/11 pour tester.
 - TikTok : aucune donnée depuis le 10/11 (compte Metricool bloqué par sa limite), donc aucune conclusion possible.
 
+**Bilan chiffré envoyé au fondateur, 27/11/2026** (Metricool du 30/10 au 27/11 ; posts de moins de 3 jours mis à part) :
+- Instagram Reels FR : avant 190 vues et 4,8 s en moyenne (10 posts) ; après 158 vues et 4,4 s (10 posts, −17 %). Style 1re vidéo (présentations et carrousel sombres) 153 vues/4,1 s, contre 166 vues/4,9 s pour quiz, demo et présentation claire. Partages, sauvegardes, commentaires : 0 sur tous les posts FR de la période.
+- Exception : le carrousel anglais testeurs relayé par @dyslexia_ireland (18/11) fait 1 493 vues, 12 commentaires, 2 partages, 3 sauvegardes. Un relais partenaire pèse plus que le format.
+- TikTok : rien publié depuis le 10/11 (limite Metricool), donc pas de comparaison (avant : 691 vues de moyenne, 4 fois Instagram).
+- Décision proposée : ajuster. Garder le rendu soigné (sans bâton), mais plus de quiz, demos produit et émotion école, et des carrousels « à garder » avec partenaires. Débloquer TikTok en priorité.
+
 ## 8. Mix de la semaine (mis à jour chaque lundi)
 **Rythme (décision de Paolo, 8/11) : 10 posts par semaine.** 2 posts le lundi, le mercredi et le vendredi, 1 post les autres jours. Toujours avec voix off (sauf carrousels).
 Semaine du 6/11 : phase de découverte, chaque format testé au moins 2 fois.
