@@ -195,5 +195,31 @@
   "statut": "publie",
   "media_id": "17964976632000453",
   "publie_le": "2026-11-26T15:41:29+00:00"
+ },
+ {
+  "id": "2026-11-27-car-astuces-relire",
+  "quand": "2026-11-27T10:00:00+01:00",
+  "type": "CARROUSEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-1.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-2.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-3.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-4.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-5.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-6.jpg",
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-car-astuces-relire/car-astuces-relire-7.jpg"
+  ],
+  "legende": "5 astuces pour relire ton texte quand tu es dys 📌 Enregistre ce post pour ton prochain devoir.\n\nEt la 5e : LexyLab souligne les fautes en direct, même quand tu écris les mots comme tu les entends. Dans Word, Google Docs et Gmail, sur Mac et Windows.\n\nTon astuce à toi pour relire, c'est quoi ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #astuces #etudiant #devoirs #lexylab",
+  "statut": "a_publier"
+ },
+ {
+  "id": "2026-11-27-sketch-maman-devoirs",
+  "quand": "2026-11-27T18:00:00+01:00",
+  "type": "REEL",
+  "media": [
+   "https://raw.githubusercontent.com/leguilloupaolo-gif/lexylab-telechargement/main/reseaux-sociaux/auto/2026-11-27-sketch-maman-devoirs.mp4"
+  ],
+  "legende": "Le soir où il a fini son exposé tout seul 🥹 Maman d'un enfant dys, tu connais ces soirées de devoirs ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #enfantdys #dys #devoirs #lexylab",
+  "statut": "a_publier"
  }
 ]
