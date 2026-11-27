@@ -95,6 +95,14 @@ mais on ne fait jamais passer un dessin ou une maquette pour l'appli réelle.
 - Partages et sauvegardes : toujours 0 sur tous les Reels ; seulement 3 commentaires en 3 semaines (demos mail prof et maman). Les questions en légende ne suffisent pas : tester un appel à commenter à l'écran (mot-clé, choix A/B).
 - TikTok : toujours aucune publication depuis le 11/11 (limite du compte Metricool). Le 23/11, les deux posts sont acceptés en attente ; à vérifier demain.
 
+**Bilan de la période de test « style 1re vidéo », 27/11/2026** (Instagram seulement ; posts d'au moins 3 jours) :
+- Avant (kinetic, demos, sketchs du 5 au 10/11, 9 posts) : ~179 vues et ~4,6 s de temps moyen.
+- Présentations sombres/claires du 18 au 23/11 (6 posts) : ~155 vues et ~4,1 s. Les présentations des 25-26/11, encore jeunes, sont plus bas (58 à 106 vues, 2,7-3,6 s).
+- Quiz et demo pendant la même période (3 posts) : ~168 vues et ~5,2 s, les meilleurs temps de la période (quiz-message 5,8 s).
+- Conclusion prudente : le style 1re vidéo donne une image plus soignée, mais **ne fait pas mieux en attention** sur Instagram (−13 % de vues, −0,5 s). Ce qui retient : quiz, produit en action (demo), émotion école (dictée rouge 5,2 s). Le texte seul sur le travail, les mamans ou les logopèdes retient le moins.
+- Partages et sauvegardes : 0 sur tous les Reels ; 1er carrousel « à garder » publié le 27/11 pour tester.
+- TikTok : aucune donnée depuis le 10/11 (compte Metricool bloqué par sa limite), donc aucune conclusion possible.
+
 ## 8. Mix de la semaine (mis à jour chaque lundi)
 **Rythme (décision de Paolo, 8/11) : 10 posts par semaine.** 2 posts le lundi, le mercredi et le vendredi, 1 post les autres jours. Toujours avec voix off (sauf carrousels).
 Semaine du 6/11 : phase de découverte, chaque format testé au moins 2 fois.
@@ -147,5 +155,7 @@ Les posts « mamans » passent de préférence le soir (après les devoirs) ou l
 - Jeu 26 : `pres-messages-quotidien` (sombre, produit en action).
   → Fait le 26/11 : 10 h `pres-messages-quotidien` (sombre, voix 6/6). IG en direct, TikTok via Metricool (en attente). Relevé IG : quiz-message 5,9 s = meilleur temps de la période. Pour lun 30 (voix demandées) : `quiz-invitation` (quiz, 70 %) et `pres-heures-devoirs` (émotion école, sombre, 70 %).
 - Ven 27 : 10 h carrousel sombre « à garder » (astuces relire ou repères pour enseignants, 10 % pari sauvegardes) ; 18 h `sketch-maman-devoirs` (1 sketch max, rendu flat ou cartoon, pas bâton).
+  → Fait le 27/11 : 10 h carrousel `car-astuces-relire` (sombre, étudiants, pari sauvegardes) ; 18 h `sketch-maman-devoirs` (rendu cartoon, décor bureau, style pastel, voix 7/7). IG en direct, TikTok via Metricool (en attente, compte toujours limité). Bilan de la période de test écrit en section 7.
 - Sam 28 / Dim 29 : une demo (Gmail ou Word) et un kinetic POV école (nouvelles idées, voix à demander mercredi).
+  → Prévu : sam 28 `demo-gmail-stage` (voix 6/6) ; dim 29 `kin-pov-lire-voix-haute` (thème bleu, voix 6/6). Lun 30 : `quiz-invitation` et `pres-heures-devoirs` (voix demandées). Mar 1/12 : `demo-docs-expose` (nouvelle idée, voix demandées le 27/11).
 - Mamans : 2 posts (mer 18 h, ven 18 h). Répartition : 7 « ce qui marche » (émotion école, produit en action, quiz, mamans), 2 variantes (thème clair, carrousel), 1 pari (appel à commenter à l'écran).

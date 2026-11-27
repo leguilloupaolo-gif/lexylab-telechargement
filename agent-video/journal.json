@@ -603,5 +603,50 @@
       "tiktok": 442703975
     },
     "instagram_file_id": "2026-11-26-pres-messages-quotidien"
+  },
+  {
+    "date": "2026-11-27",
+    "id": "car-astuces-relire",
+    "fichier": "reseaux-sociaux/auto/2026-11-27-car-astuces-relire/",
+    "format": "carrousel",
+    "type": "carrousel",
+    "pilier": "education",
+    "cible": "eleves et etudiants",
+    "hypothese": "Un carrousel d'astuces concrètes « à garder » obtient enfin des sauvegardes (0 sur tous les Reels depuis 3 semaines)",
+    "raison_stats": "Plan du mix (ven 27, 10 h, pari 10 % sauvegardes). IG (relevé 27/11) : partages et sauvegardes toujours à 0 sur 13 Reels ; le texte seul retient peu en vidéo (présentations 2,2-4,9 s) alors qu'un carrousel se lit à son rythme. Carrousel sombre = style 1re vidéo. Cible étudiants (pas de mamans le matin, la soirée est mamans). 10 h = meilleure heure du vendredi IG (6734) et TikTok (1379).",
+    "decor": "",
+    "style": "sombre",
+    "rendu": "carrousel 7 images",
+    "heures": {
+      "instagram": "10:00",
+      "tiktok": "10:00"
+    },
+    "voix": "sans objet (carrousel)",
+    "metricool": {
+      "tiktok": 443974300
+    },
+    "instagram_file_id": "2026-11-27-car-astuces-relire"
+  },
+  {
+    "date": "2026-11-27",
+    "id": "sketch-maman-devoirs",
+    "fichier": "reseaux-sociaux/auto/2026-11-27-sketch-maman-devoirs.mp4",
+    "format": "sketch",
+    "pilier": "mamans",
+    "cible": "mamans",
+    "hypothese": "Une scène vécue maman/enfant en rendu cartoon retient mieux sur IG que les présentations mamans en texte animé (3,6-3,9 s)",
+    "raison_stats": "IG (relevé 27/11) : les scènes vécues et le produit en action retiennent le mieux (quiz-message 5,8 s, dictée rouge 5,2 s, demo Word 5,0 s ; sketch devoir du 8/11 5,5 s) ; les présentations mamans restent basses (autonomie 168 vues/3,9 s, mot au prof 86/3,6 s). Seul sketch de la semaine, rendu cartoon (pas bâton), décor bureau, style pastel. Mamans : 2 posts sur 7 jours (25/11 et celui-ci), plafond respecté. 18 h = créneau soir IG (4418) et TikTok (1222), après les devoirs.",
+    "decor": "bureau",
+    "style": "pastel",
+    "rendu": "cartoon",
+    "heures": {
+      "instagram": "18:00",
+      "tiktok": "18:00"
+    },
+    "voix": "7/7",
+    "metricool": {
+      "tiktok": 443974314
+    },
+    "instagram_file_id": "2026-11-27-sketch-maman-devoirs"
   }
 ]
