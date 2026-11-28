@@ -2048,7 +2048,7 @@
    "app": "gmail",
    "title": "Demande de stage",
    "screen": "Bonjour Madame, je [voudré|voudrais] faire mon [stache|stage] dans votre [antreprise|entreprise]. Je suis très [motiver|motivé] !",
-   "explain": "« motivé » : après « je suis », on écrit *« é »*, pas « er ».",
+   "explain": "« je voudrais » : avec « je », on écrit *« -ais »*.",
    "subs": [
     "Tu écris ton mail…",
     "Les fautes sont *soulignées*",
@@ -2056,7 +2056,8 @@
     "Un clic, c'est corrigé",
     "Tu peux envoyer, serein"
    ],
-   "badge": "✓ Mail prêt à partir"
+   "badge": "✓ Mail prêt à partir",
+   "subject": "Demande de stage"
   },
   "post_text": "Ta demande de stage, tu l'as relue dix fois avant d'oser l'envoyer ? 😅\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends. Il explique certaines règles, et marche dans Gmail, Outlook et Word.\n\nEt toi, c'est quel mail qui te stresse le plus ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #etudiant #stage #lexylab #orthographe",
   "tiktok_title": "Ta demande de stage sans fautes",
