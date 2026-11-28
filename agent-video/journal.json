@@ -648,5 +648,27 @@
       "tiktok": 443974314
     },
     "instagram_file_id": "2026-11-27-sketch-maman-devoirs"
+  },
+  {
+    "date": "2026-11-28",
+    "id": "demo-gmail-stage",
+    "fichier": "reseaux-sociaux/auto/2026-11-28-demo-gmail-stage.mp4",
+    "format": "demo",
+    "pilier": "demo",
+    "cible": "etudiants",
+    "hypothese": "Une demo sur un mail à enjeu (demande de stage) retient autant sur Instagram que la demo maman (meilleur temps moyen)",
+    "raison_stats": "Plan du mix (sam 28), voix 6/6. IG (relevé 28/11) : produit en action et quiz retiennent le mieux (quiz-message 5,8 s, dictée rouge 5,2 s, demo Word devoir 5,0 s) ; les présentations texte récentes sont basses (messages quotidien 73 vues/3,3 s, mémoire 106/3,3 s). Sujet candidature = meilleur sujet adulte (CV, job étudiant 161 vues). Format différent du carrousel et du sketch d'hier ; cible étudiants (mamans déjà 2 posts sur 7 jours). Explication de la bulle corrigée pour correspondre à la 1re faute. 10 h = meilleure heure du samedi IG (3409) et TikTok (852).",
+    "decor": "-",
+    "style": "clair (fenêtre Gmail)",
+    "rendu": "demo maquette",
+    "heures": {
+      "instagram": "10:00",
+      "tiktok": "10:00"
+    },
+    "voix": "6/6",
+    "metricool": {
+      "tiktok": 445181631
+    },
+    "instagram_file_id": "2026-11-28-demo-gmail-stage"
   }
 ]
