@@ -2279,5 +2279,48 @@
   "post_text": "Ton exposé est pour demain, et il est plein de fautes ? 😅\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends. Il explique certaines règles, et marche dans Google Docs et Word.\n\nC'était sur quoi, ton dernier exposé ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #ecole #expose #devoirs #lexylab",
   "tiktok_title": "Ton exposé sans fautes",
   "tiktok_text": "Ton exposé est pour demain, et il est plein de fautes ? 😅 C'était sur quoi, ton dernier ? 👇 #dyslexie #dys #ecole #lexylab"
+ },
+ {
+  "id": "demo-word-lettre-motivation",
+  "format": "demo",
+  "pilier": "demo",
+  "cible": "etudiants et adultes au travail",
+  "hypothese": "Une demo produit sur un sujet candidature (le sujet adulte qui marche le mieux : CV, job étudiant) retient mieux que les présentations travail en texte seul (4,0 s)",
+  "params": {
+   "hook": "Ta lettre de motivation\nest prête… mais *les fautes* ?",
+   "app": "word",
+   "title": "Lettre de motivation",
+   "screen": "Madame, Monsieur, je souhaite [postulé|postuler] pour le poste de [vandeur|vendeur]. Je suis [disponnible|disponible] dès [lundit|lundi].",
+   "explain": "« postuler » : après « je souhaite », on écrit *« -er »*.",
+   "subs": [
+    "Tu écris ta lettre…",
+    "Les fautes sont *soulignées*",
+    "LexyLab t'explique la règle",
+    "Un clic, c'est corrigé",
+    "Ta lettre est prête"
+   ],
+   "badge": "✓ Lettre prête",
+   "music": "calme"
+  },
+  "post_text": "Ta lettre de motivation est prête… mais tu as peur qu'on ne voie que les fautes ? 😅\n\nLexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends. Il explique certaines règles, et marche dans Word, Google Docs et Gmail, sur Mac et Windows.\n\nTu postules pour quoi en ce moment ? 👇\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #dysorthographie #dys #candidature #lettredemotivation #emploi #lexylab",
+  "tiktok_title": "Ta lettre de motivation sans fautes",
+  "tiktok_text": "Ta lettre de motivation est prête… mais les fautes ? 😅 Tu postules pour quoi ? 👇 #dyslexie #dys #candidature #lexylab"
+ },
+ {
+  "id": "quiz-mot-carnet",
+  "format": "quiz",
+  "pilier": "mamans",
+  "cible": "mamans",
+  "hypothese": "Le quiz (meilleur temps IG : 5,8 s) sur un mot d'excuse à l'école retient mieux les mamans que les présentations mamans en texte (3,5-3,9 s)",
+  "params": {
+   "question": "Ce mot pour l'école a *5 fautes*.\nTu les vois ? 🔍",
+   "sentence": "Mon fils [étè|était] [malad|malade] [hièr|hier]. [Merçi|Merci] de votre [compréansion|compréhension].",
+   "seconds": 6,
+   "cta": "Tu en as trouvé combien ?\nDis-le en commentaire 👇",
+   "answer": "LexyLab les a *toutes* trouvées."
+  },
+  "post_text": "Ce mot pour l'école a 5 fautes. Tu les vois ? 🔍\n\nÉcris ton score en commentaire : 1, 2, 3, 4 ou 5 👇\n\nUn mot à la maîtresse, un message aux autres parents… LexyLab souligne les fautes pendant que tu écris, même quand tu écris les mots comme tu les entends.\n\nLexyLab, le correcteur pensé pour la dyslexie. Lien en bio 👆\n\n#dyslexie #mamandys #parentsdys #dys #quiz #orthographe #lexylab",
+  "tiktok_title": "5 fautes dans un mot pour l'école",
+  "tiktok_text": "Ce mot pour l'école a 5 fautes 🔍 Ton score en commentaire 👇 #dyslexie #mamandys #dys #quiz #lexylab"
  }
 ]
